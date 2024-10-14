@@ -89,6 +89,8 @@ sudo nano /usr/local/vufind/local/import/import.properties
 # Khởi động solr bằng lệnh 
 ./solr.sh start
 --------------------------------------------------------------------------------
+# Sửa địa chỉ ip cho marc
+sudo nano /usr/local/vufind/config/vufind/config.ini
 
 ################################################################################
 --------------------------------------------------------------------------------
