@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd"
+    xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>01984nam  2200011#a 4500</leader>
+  <controlfield tag="001">ngocphung-testmarcxml1</controlfield>
+  <controlfield tag="005">23/2/2012</controlfield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">DHSPKT</subfield>
+  </datafield>
+  <datafield tag="041" ind1=" " ind2=" ">
+    <subfield code="a">Vie</subfield>
+  </datafield>
+  <datafield tag="082" ind1=" " ind2=" ">
+    <subfield code="2">22</subfield>
+    <subfield code="a">302.2</subfield>
+  </datafield>
+  <datafield tag="090" ind1=" " ind2=" ">
+    <subfield code="a">302.2</subfield>
+    <subfield code="b">G434</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="d">Hoàng Duy Tân</subfield>
+  </datafield>
+  <datafield tag="110" ind1=" " ind2=" ">
+    <subfield code="a">Trường Đại học Công nghiệp Thực phẩm Tp.Hồ Chí Minh</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Tổng hợp Đồng Nai</subfield>
+    <subfield code="c">Trường Đai học Công nghiệp Thực phẩm Tp.Hồ Chí Minh</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="a">Tp.HCM.:</subfield>
+    <subfield code="b">Trường Đại học Công nghiệp Thực phẩm Tp.Hồ Chí Minh</subfield>
+    <subfield code="c">2011</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">166tr.;</subfield>
+    <subfield code="c">24cm</subfield>
+  </datafield>
+  <datafield tag="490" ind1=" " ind2=" ">
+    <subfield code="a">Lưu hành nội bộ</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2=" ">
+    <subfield code="a">Kỹ năng giao tiếp xã hội</subfield>
+  </datafield>
+</record>
