@@ -1,0 +1,74 @@
+﻿Id,Dan_toc,Mapping Mã,CSV Mã,CSV Tên,CSV Tên khác
+1,Kinh,1.0,1.0,Kinh,việt
+2,Mường,3.0,2.0,Tày,"thổ, ngạn, phén, thù lao, pa dí, tày khao"
+3,Tày,2.0,3.0,Thái,"tày đăm, tày mười, tày thanh, mán thanh, hàng bông, tày mường, pa thay, thổ đà bắc"
+4,Thái,3.0,4.0,Hoa,"hán, triều châu, phúc kiến, quảng đông, hải nam, hạ, xạ phạng"
+5,Hoa,4.0,5.0,Khơ-me,"cur, cul, cu, thổ, việt gốc miên, krôm"
+6,Khmer,56,6.0,Mường,"mol, mual, mọi, mọi bi, ao tá, ậu tá"
+7,Chàm,17.0,7.0,Nùng,"xuồng, giang, nùng an, phàn sinh, nùng cháo, nùng lòi, quý rim, khèn lài"
+8,Dao,9.0,8.0,HMông,"mèo, hoa, mèo xanh, mèo đỏ, mèo đen, ná mẻo, mán trắng"
+9,Nùng,7.0,9.0,Dao,"mán, động, trại, xá, dìu, miên, kiềm, miền, quần trắng, dao đỏ, quần chẹt, lô giang, dao tiền, thanh y, lan tẻn, đại bản, tiểu bản, cóc ngáng, cóc mùn, sơn đầu"
+10,H'Mông,56,10.0,Gia-rai,"giơ-rai, tơ-buăn, chơ-rai, hơ-bau, hđrung, chor"
+11,Sán dìu,18.0,11.0,Ngái,"xín, lê, đản, khách gia"
+12,Pa cô,56,12.0,Ê-đê,"ra-đê, đê, kpạ, a-đham, krung, ktul, đliê ruê, blô, epan, mđhur, bih"
+13,Mơ nông,56,13.0,Ba na,"giơ-lar. tơ-lô, giơ-lâng, y-lăng, rơ-ngao, krem, roh, conkđe, a-la công, kpăng công, bơ-nâm"
+14,Ba na,13.0,14.0,Xơ-Đăng,"xơ-teng, hđang, tơ-đra, mơ-nâm, ha-lăng, ca-dong, kmrâng, conlan, bri-la, tang"
+15,Ê đê,12.0,15.0,Sán Chay,"cao lan, sán chỉ, mán cao lan, hờn bạn, sơn tử"
+16,Gia rai,10.0,16.0,Cơ-ho,"xrê, nốp, tu-lốp, cơ-don, chil, lat, lach, trinh"
+17,Xê đăng,56,17.0,Chăm,"chàm, chiêm thành, hroi"
+18,Vân kiều,23.0,18.0,Sán Dìu,"sán dẻo, trại, trại đất, mán, quần cộc"
+19,Cơ ho,16.0,19.0,Hrê,"chăm rê, chom, krẹ luỹ"
+20,Mạ,28.0,20.0,Mnông,"pnông, nông, pré, bu-đâng, đipri, biat, gar, rơ-lam, chil"
+21,Sán chảy,56,21.0,Ra-glai,"ra-clây, rai, noang, la-oang"
+22,Lự,42.0,22.0,Xtiêng,xa-điêng
+24,Xá,9.0,23.0,Bru-Vân Kiều,"bru, vân kiều, măng coong, tri khùa"
+25,Lô lô,43.0,24.0,Thổ,"kẹo, mọn, cuối, họ, đan lai, ly hà, tày pọng, con kha, xá lá vàng"
+26,Mảng,45.0,25.0,Giáy,"nhắng, dẩng, pầu thìn nu nà, cùi chu, xa"
+27,Hrê,19.0,26.0,Cơ-tu,"ca-tu, cao, hạ, phương, ca-tang"
+28,Lào,37.0,27.0,Gié Triêng,"đgiéh, tareb, giang rẫy pin, triêng, treng, ta-riêng, ve, veh, la-ve, ca-tang"
+29,Phù lá,40.0,28.0,Mạ,"châu mạ, mạ ngăn, mạ xóp, mạ tô, mạ krung"
+30,La hủ,41.0,29.0,Khơ-mú,"xá cẩu, mứn xen, pu thênh, tềnh, tày hay"
+31,Pa dí,2.0,30.0,Co,"cor, col, cùa, trầu"
+32,Rục,44.0,31.0,Tà-ôi,"tôi-ôi, pa-co, pa-hi, ba-hi"
+33,Hà nhì,35.0,32.0,Chơ-ro,"dơ-ro, châu-ro"
+34,Xtiêng,22.0,33.0,Kháng,"xá khao, xá súa, xá dón, xá dẩng, xá hốc, xá ái, xá bung, quảng lâm"
+35,Xinh mun,34.0,34.0,Xinh-mun,"puộc, pụa"
+36,Cờ tu,56,35.0,Hà Nhì,"u ni, xá u ni"
+37,Bố Y,49.0,36.0,Chu ru,"chơ-ru, chu"
+38,Brâu,52.0,37.0,Lào,"là bốc, lào nọi"
+39,Chơ ro,32.0,38.0,La Chí,"cù tê, la quả"
+40,Chu ru,36.0,39.0,La Ha,"xá khao, khlá phlạo"
+41,Chứt,44.0,40.0,Phù Lá,"bồ khô pạ, mu di pạ xá, phó, phổ, va xơ"
+42,Co,13.0,41.0,La Hủ,"lao, pu đang, khù xung, cò xung, khả quy"
+43,Cống,48.0,42.0,Lự,"lừ, nhuồn, duôn"
+44,Cờ Lao,56,43.0,Lô Lô,mun di
+46,Giáy,25.0,44.0,Chứt,"sách, máy, rục, mã-liêng, a-rem, tu vang, pa-leng, xơ-lang, tơ-hung, chà-củi, tắc-củi, u-mo, xá lá vàng"
+47,Giẻ Triêng,56,45.0,Mảng,"mảng ư, xá lá vàng"
+48,Kháng,33.0,46.0,Pà Thẻn,"pà hưng, tống"
+49,Khơ mú,29.0,47.0,Co Lao,
+50,La Chí,38.0,48.0,Cống,"xắm khống, mấng nhé, xá xeng"
+51,La Ha,39.0,49.0,Bố Y,"chủng chá, trọng gia, tu di, tu din"
+52,Ngái,11.0,50.0,Si La,"cù dề xừ, khả pẻ"
+53,Ơ Đu,53.0,51.0,Pu Péo,"ka pèo, pen ti lô lô"
+54,Pà Thẻn,46.0,52.0,Brâu,brao
+55,Pu Péo,51.0,53.0,Ơ Đu,tày hạt
+56,Raglai,56,54.0,Rơ măm,
+57,Rơ Măm,54.0,55.0,Người nước ngoài,
+58,Si La,50.0,56.0,Không rõ,
+59,Tà Ôi,31.0,,,
+60,Nùng,7.0,,,
+61,k. HO,56,,,
+62,Không biết,56,,,
+63,Khơ Me,5.0,,,
+64,Chăm,17.0,,,
+65,Người nước ngoài,55.0,,,
+66,Stiêng,56,,,
+67,Khác,11.0,,,
+68,Chau Ro,56,,,
+69,Hán,4.0,,,
+70,Sán Chay,15.0,,,
+71,Ê Đê,12.0,,,
+72,Thổ,2.0,,,
+73,Kờ Ho,56,,,
+74,Jrai,56,,,
+75,Châu mạ,28.0,,,
