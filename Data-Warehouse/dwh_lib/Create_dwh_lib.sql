@@ -60,7 +60,7 @@ CREATE TABLE DIM_Nhom_ban_doc (
 ------N Bảng DIM_Nhom_nghanh_nghe------
 CREATE TABLE DIM_Nhom_nghanh_nghe ( 
 	ID_nhom_nghanh_nghe int NOT NULL,
-	Nhom_ban_doc nvarchar(50),
+	Nhom_nghanh_nghe nvarchar(50),
 	CONSTRAINT [PK_Nhom_nghanh_nghe] PRIMARY KEY CLUSTERED (ID_nhom_nghanh_nghe)
 );
 
