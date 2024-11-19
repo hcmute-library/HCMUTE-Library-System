@@ -195,7 +195,7 @@ CREATE TABLE FACT_Phieu_muon_sach (
     ID_phieu_muon int, -- Mã phiếu mượn, khóa chính
     ID_tai_lieu int NOT NULL, -- FK đến bảng tài liệu
     ID_xep_gia int NOT NULL, -- FK đến bảng mã xếp giá
-    ID_ban_doc int NOT NULL, -- FK đến bảng bạn đọc
+    ID_ban_doc nvarchar(50) NOT NULL, -- FK đến bảng bạn đọc
     Ngay_muon int NOT NULL, -- Ngày mượn, FK đến bảng ngày
     Ngay_tra int, -- Ngày trả, FK đến bảng ngày
     So_luot_gia_han smallint, -- Số lượt gia hạn
@@ -204,7 +204,7 @@ CREATE TABLE FACT_Phieu_muon_sach (
     Ghi_chu nvarchar(max), -- Ghi chú cho phiếu mượn
     CONSTRAINT [PK_Phieu_muon_sach] PRIMARY KEY CLUSTERED (ID_phieu_muon), -- Khóa chính clustered
     CONSTRAINT [FK_Phieu_muon_sach_Tai_lieu] FOREIGN KEY (ID_tai_lieu) REFERENCES DIM_Tai_lieu(ID_tai_lieu), -- FK đến bảng tài liệu
-    CONSTRAINT [FK_Phieu_muon_sach_Xep_gia] FOREIGN KEY (ID_xep_gia) REFERENCES DIM_Ma_xep_gia(ID_xep_gia), -- FK đến bảng mã xếp giá
+    CONSTRAINT [FK_Phieu_muon_sach_Xep_gia] FOREIGN KEY (ID_xep_gia) REFERENCES DIM_Xep_gia(ID_xep_gia), -- FK đến bảng mã xếp giá
     CONSTRAINT [FK_Phieu_muon_sach_Ban_doc] FOREIGN KEY (ID_ban_doc) REFERENCES DIM_Ban_doc(ID_ban_doc), -- FK đến bảng bạn đọc
     CONSTRAINT [FK_Phieu_muon_sach_Ngay_muon] FOREIGN KEY (Ngay_muon) REFERENCES DIM_Date(Date_key), -- FK đến ngày mượn
     CONSTRAINT [FK_Phieu_muon_sach_Ngay_tra] FOREIGN KEY (Ngay_tra) REFERENCES DIM_Date(Date_key) -- FK đến ngày trả
