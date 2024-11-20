@@ -195,7 +195,7 @@ with DAG(
     default_args=default_args,
     description='DAG xử lý và tải dữ liệu phiếu mượn sách',
     schedule_interval='@once', 
-    start_date=datetime(2024, 11, 20, 11, 30),
+    start_date=datetime(2024, 11, 20, 23, 30),
     catchup=False,
     tags=['example'],
 ) as dag:
