@@ -194,7 +194,7 @@ with DAG(
     'process_fact_2004_12',
     default_args=default_args,
     description='DAG xử lý và tải dữ liệu phiếu mượn sách',
-    schedule_interval='once',  # Chạy thủ công
+    schedule_interval='@once',  # Chạy thủ công
     start_date=datetime(2024, 11, 20, 4, 30),
     catchup=False,
     tags=['example'],
