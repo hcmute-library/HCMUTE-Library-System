@@ -191,7 +191,7 @@ default_args = {
 }
 
 with DAG(
-    'fact_2004_7',
+    'fact_2005_7',
     default_args=default_args,
     description='DAG xử lý và tải dữ liệu phiếu mượn sách',
     schedule_interval='@once',  # Chạy thủ công
