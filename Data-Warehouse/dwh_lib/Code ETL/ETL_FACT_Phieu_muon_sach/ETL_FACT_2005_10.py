@@ -56,7 +56,7 @@ def fetch_data_and_process():
                                 So_luot_gia_han,
                                 Note
                             FROM An_pham_cho_muon
-                            WHERE YEAR(Ngay_muon) = 2005 AND MONTH(Ngay_muon) = 10S
+                            WHERE YEAR(Ngay_muon) = 2005 AND MONTH(Ngay_muon) = 10
                             """
     df_apcm = fetch_data_in_batches(query_Anphamchomuon, conn_libol, batch_size=100) # Gọi hàm để lấy dữ liệu
 
