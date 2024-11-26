@@ -192,8 +192,8 @@ with DAG(
     'process_dim_phms_2006',
     default_args=default_args,
     description='DAG xử lý và tải dữ liệu phiếu mượn sách',
-    schedule_interval=None,  # Chạy thủ công
-    start_date=datetime(2024, 11, 20, 21, 0),
+    schedule_interval='@once',  # Chạy thủ công
+    start_date=datetime(2024, 11, 26, 40, 0),
     catchup=False,
     tags=['example'],
 ) as dag:
