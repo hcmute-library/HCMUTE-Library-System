@@ -56,11 +56,9 @@ def fetch_data_and_process():
                                 So_luot_gia_han,
                                 Note
                             FROM An_pham_cho_muon
-                            WHERE YEAR(Ngay_muon) = 2004 AND MONTH(Ngay_muon) = 3
+                            WHERE YEAR(Ngay_muon) = 2006
                             """
     df_apcm = fetch_data_in_batches(query_Anphamchomuon, conn_libol, batch_size=100) # Gọi hàm để lấy dữ liệu
-
-
 
     ## Đọc bảng Lich_su_muon_sach
     query_Lichsumuonsach = """
@@ -72,7 +70,7 @@ def fetch_data_and_process():
                                 So_ngay_qua_han,
                                 Tien_phat
                             FROM Lich_su_muon_sach
-                            WHERE YEAR(Ngay_muon) = 2004 AND MONTH(Ngay_muon) = 3
+                            WHERE YEAR(Ngay_muon) = 2006
                             """
     df_lscm = fetch_data_in_batches(query_Lichsumuonsach, conn_libol, batch_size=100) # Gọi hàm để lấy dữ liệu
 
@@ -87,7 +85,7 @@ def fetch_data_and_process():
     ## Gộp 2 bảng lại
     df_phieumuon = pd.concat([df_lscm, df_apcm], ignore_index=True)
     df_phieumuon = df_phieumuon.sort_values(by='Ngay_muon', ascending=True).reset_index(drop=True) # sắp xếp lại cho dễ nhìn
-    query_MaxID = "SELECT MAX(ID_phieu_muon) AS MaxID FROM FACT_Phieu_muon_sach" # Lấy giá trị MaxID từ bảng FACT_Phieu_muon_sach
+    query_MaxID = "SELECT MAX(ID_phieu_muon) AS MaxID FROM DIM_Phieu_muon_sach" # Lấy giá trị MaxID từ bảng FACT_Phieu_muon_sach
     df_MaxID = pd.read_sql(query_MaxID, conn_dwh_lib)
     max_id = int(df_MaxID['MaxID'].iloc[0]) if not df_MaxID.empty else 0 # Giá trị khởi tạo ID mới, bắt đầu từ MaxID + 1
     start_id = max_id + 1
@@ -155,7 +153,7 @@ def fetch_data_and_process():
     # Load data
     cursor_dwh = conn_dwh_lib.cursor()
     insert_query = """
-                    INSERT INTO FACT_Phieu_muon_sach (
+                    INSERT INTO DIM_Phieu_muon_sach (
                         ID_phieu_muon, 
                         ID_tai_lieu, ID_xep_gia,
                         ID_ban_doc,
@@ -191,11 +189,11 @@ default_args = {
 }
 
 with DAG(
-    'process_fact_2004_3',
+    'process_dim_phms_2006',
     default_args=default_args,
     description='DAG xử lý và tải dữ liệu phiếu mượn sách',
-    schedule_interval='@once', 
-    start_date=datetime(2024, 11, 20, 23, 30),
+    schedule_interval=None,  # Chạy thủ công
+    start_date=datetime(2024, 11, 20, 21, 0),
     catchup=False,
     tags=['example'],
 ) as dag:
