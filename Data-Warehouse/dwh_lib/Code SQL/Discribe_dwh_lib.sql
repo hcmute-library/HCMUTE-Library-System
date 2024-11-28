@@ -14,7 +14,7 @@ CREATE TABLE DIM_Date (
 );
 ------N Bảng [Khoa] ------
 CREATE TABLE DIM_Khoa (
-    ID_khoa varchar(20) NOT NULL, -- Mã khoa, khóa chính
+    ID_khoa INT NOT NULL, -- Mã khoa, khóa chính
     Ten_khoa nvarchar(50) NOT NULL, -- Tên khoa
     CONSTRAINT [PK_Khoa] PRIMARY KEY CLUSTERED (ID_khoa) -- Khóa chính dạng clustered
 );
@@ -34,7 +34,7 @@ CREATE TABLE DIM_Trinh_do (
 ------N Bảng [Lop]------
 CREATE TABLE DIM_Lop (
     ID_lop varchar(20) NOT NULL, -- Mã lớp, khóa chính
-    ID_khoa varchar(20) NOT NULL, -- Mã khoa (liên kết đến bảng Khoa)
+    ID_khoa INT NOT NULL, -- Mã khoa (liên kết đến bảng Khoa)
     CONSTRAINT [PK_Lop] PRIMARY KEY CLUSTERED (ID_lop), -- Khóa chính dạng clustered
     CONSTRAINT [FK_Lop_Khoa] FOREIGN KEY (ID_khoa) REFERENCES DIM_Khoa(ID_Khoa) -- Khóa ngoại liên kết với DIM_Khoa
 );
@@ -49,6 +49,35 @@ CREATE TABLE DIM_Nhom_nghanh_nghe (
     ID_nhom_nghanh_nghe int NOT NULL, -- Mã nhóm ngành nghề, khóa chính
     Nhom_nghanh_nghe nvarchar(50), -- Tên nhóm ngành nghề
     CONSTRAINT [PK_Nhom_nghanh_nghe] PRIMARY KEY CLUSTERED (ID_nhom_nghanh_nghe) -- Khóa chính dạng clustered
+);
+------N Bảng DIM_Nien_khoa-----
+CREATE TABLE DIM_Nien_khoa ( 
+    ID_nien_khoa int NOT NULL, -- Mã nhóm ngành nghề, khóa chính
+    Ten_nien_khoa nvarchar(50), -- Tên nhóm ngành nghề
+    CONSTRAINT [PK_NienKhoa] PRIMARY KEY CLUSTERED (ID_nien_khoa) -- Khóa chính dạng clustered
+);
+------N Bảng DIM_Mon------
+CREATE TABLE DIM_Mon (
+    ID_mon varchar(128), -- Khóa chính, mã định danh môn học
+    Ten_mon nvarchar(60) NOT NULL -- Tên môn học
+    CONSTRAINT [PK_Mon] PRIMARY KEY CLUSTERED (ID_mon) -- Khóa chính dạng clustered
+);
+------N Bảng DIM_CTDT------
+CREATE TABLE DIM_CTDT (
+    ID_ctdt VARCHAR(20), -- Khóa chính, mã định danh chương trình đào tạo
+    Ten_chuong_trinh_dao_tao NVARCHAR(128) NOT NULL, -- Tên chương trình đào tạo
+    NamBH INT, -- Năm ban hành chương trình đào tạo
+    ID_khoa INT -- Mã khoa chịu trách nhiệm
+    CONSTRAINT [PK_CTDT] PRIMARY KEY CLUSTERED (ID_ctdt) -- Khóa chính dạng clustered
+    CONSTRAINT [FK_CTDT_Khoa] FOREIGN KEY (ID_khoa) REFERENCES DIM_Khoa(ID_khoa), -- FK đến DIM_Date
+);
+------N Bảng DIM_Mon_CTDT------
+CREATE TABLE DIM_Mon_CTDT (
+    ID_mon INT, -- Khóa chính, mã định danh môn học
+    ID_ctdt VARCHAR(20), -- Khóa chính, mã định danh chương trình đào tạo
+    CONSTRAINT [PK_Mon_CTDT] PRIMARY KEY CLUSTERED (ID_mon, ID_ctdt) -- Khóa chính dạng clustered
+    CONSTRAINT [FK_CTDT_Mon] FOREIGN KEY (ID_mon) REFERENCES DIM_Mon(ID_mon), -- FK đến DIM_Date
+    CONSTRAINT [FK_CTDT_CTDT] FOREIGN KEY (ID_ctdt) REFERENCES DIM_CTDT(ID_ctdt), -- FK đến DIM_Date
 );
 ------N Bảng DIM_Quoc_gia------
 CREATE TABLE DIM_Quoc_gia ( 
@@ -102,7 +131,7 @@ CREATE TABLE DIM_Thu_vien (
 CREATE TABLE DIM_Kho ( 
     ID_kho int NOT NULL, -- Mã kho, khóa chính
     Kho varchar(80), -- Tên kho
-    ID_thu_vien varchar(32), -- FK đến thư viện
+    ID_thu_vien nvarchar(32), -- FK đến thư viện
     MaxID INT, -- ID lớn nhất
     Mo bit, -- Kho mở
     CONSTRAINT [PK_Kho] PRIMARY KEY CLUSTERED (ID_kho), -- Khóa chính clustered
@@ -115,6 +144,7 @@ CREATE TABLE DIM_Ban_doc (
     Ngay_sinh int NULL, -- Ngày sinh (FK đến DIM_Date)
     ID_dan_toc int, -- FK đến dân tộc
     ID_trinh_do int, -- FK đến trình độ
+    ID_nien_khoa int, 
     So_dien_thoai nvarchar(14), -- Số điện thoại
     Nghe_nghiep nvarchar(140), -- Nghề nghiệp
     Co_quan nvarchar(140), -- Cơ quan
@@ -137,6 +167,7 @@ CREATE TABLE DIM_Ban_doc (
     CONSTRAINT [FK_Ban_doc_Ngay_sinh] FOREIGN KEY (Ngay_sinh) REFERENCES DIM_Date(Date_key),
     CONSTRAINT [FK_Ban_doc_Dan_toc] FOREIGN KEY (ID_dan_toc) REFERENCES DIM_Dan_toc(ID_dan_toc),
     CONSTRAINT [FK_Ban_doc_Trinh_do] FOREIGN KEY (ID_trinh_do) REFERENCES DIM_Trinh_do(ID_trinh_do),
+    CONSTRAINT FK_Ban_doc_Nien_khoa FOREIGN KEY (ID_nien_khoa) REFERENCES DIM_Nien_khoa(ID_nien_khoa);
     CONSTRAINT [FK_Ban_doc_Lop] FOREIGN KEY (ID_lop) REFERENCES DIM_Lop(ID_lop),
     CONSTRAINT [FK_Ban_doc_Ngay_cap] FOREIGN KEY (Ngay_cap) REFERENCES DIM_Date(Date_key),
     CONSTRAINT [FK_Ban_doc_Ngay_het_han] FOREIGN KEY (Ngay_het_han) REFERENCES DIM_Date(Date_key),
@@ -151,6 +182,7 @@ CREATE TABLE DIM_Tai_lieu (
     Nguoi_kiem_tra nvarchar(40), -- Người kiểm tra
     ID_quoc_gia int, -- FK đến quốc gia
     ID_co_quan_cung_cap int, -- FK đến cơ quan cung cấp
+    ID_mon INT NOT NULL,
     Ngay_giao_dich int NOT NULL, -- Ngày giao dịch (FK đến DIM_Date)
     Cap_mo_ta_thu_muc varchar(1) NOT NULL, -- Cấp mô tả thư mục
     Muc_do_mat varchar(1) NOT NULL, -- Mức độ mật
@@ -190,12 +222,12 @@ CREATE TABLE DIM_Xep_gia(
     CONSTRAINT [FK_Ma_xep_gia_Kho] FOREIGN KEY (ID_kho) REFERENCES DIM_Kho(ID_kho), -- FK kho
     CONSTRAINT [FK_Ma_xep_Ngay_bo_sung] FOREIGN KEY (Ngay_bo_sung) REFERENCES DIM_Date(Date_key) -- FK ngày bổ sung
 );
-------N Bảng FACT_Phieu_muon_sach------
-CREATE TABLE FACT_Phieu_muon_sach (
+------N Bảng DIM_Phieu_muon_sach------
+CREATE TABLE DIM_Phieu_muon_sach (
     ID_phieu_muon int, -- Mã phiếu mượn, khóa chính
     ID_tai_lieu int NOT NULL, -- FK đến bảng tài liệu
     ID_xep_gia int NOT NULL, -- FK đến bảng mã xếp giá
-    ID_ban_doc nvarchar(50) NOT NULL, -- FK đến bảng bạn đọc
+    ID_ban_doc int NOT NULL, -- FK đến bảng bạn đọc
     Ngay_muon int NOT NULL, -- Ngày mượn, FK đến bảng ngày
     Ngay_tra int, -- Ngày trả, FK đến bảng ngày
     So_luot_gia_han smallint, -- Số lượt gia hạn
@@ -204,8 +236,69 @@ CREATE TABLE FACT_Phieu_muon_sach (
     Ghi_chu nvarchar(max), -- Ghi chú cho phiếu mượn
     CONSTRAINT [PK_Phieu_muon_sach] PRIMARY KEY CLUSTERED (ID_phieu_muon), -- Khóa chính clustered
     CONSTRAINT [FK_Phieu_muon_sach_Tai_lieu] FOREIGN KEY (ID_tai_lieu) REFERENCES DIM_Tai_lieu(ID_tai_lieu), -- FK đến bảng tài liệu
-    CONSTRAINT [FK_Phieu_muon_sach_Xep_gia] FOREIGN KEY (ID_xep_gia) REFERENCES DIM_Xep_gia(ID_xep_gia), -- FK đến bảng mã xếp giá
+    CONSTRAINT [FK_Phieu_muon_sach_Xep_gia] FOREIGN KEY (ID_xep_gia) REFERENCES DIM_Ma_xep_gia(ID_xep_gia), -- FK đến bảng mã xếp giá
     CONSTRAINT [FK_Phieu_muon_sach_Ban_doc] FOREIGN KEY (ID_ban_doc) REFERENCES DIM_Ban_doc(ID_ban_doc), -- FK đến bảng bạn đọc
     CONSTRAINT [FK_Phieu_muon_sach_Ngay_muon] FOREIGN KEY (Ngay_muon) REFERENCES DIM_Date(Date_key), -- FK đến ngày mượn
     CONSTRAINT [FK_Phieu_muon_sach_Ngay_tra] FOREIGN KEY (Ngay_tra) REFERENCES DIM_Date(Date_key) -- FK đến ngày trả
+);
+------N Bảng FACT_Sinh_vien------
+CREATE TABLE FACT_Thong_ke_sinh_vien (
+    ID_lop VARCHAR(20) NOT NULL, -- Mã lớp, khóa chính
+    ID_khoa INT NOT NULL, -- FK đến bảng DIM_Khoa
+    ID_nhom_nghanh_nghe INT NOT NULL, -- FK đến bảng DIM_Nhom_nghanh_nghe
+    ID_nien_khoa INT NOT NULL, -- FK đến bảng DIM_Nien_khoa
+    ID_date INT NOT NULL, -- FK đến bảng DIM_Date
+    So_luong_sinh_vien_lop INT, -- Số lượng sinh viên trong lớp
+    So_luong_sinh_vien_khoa INT, -- Số lượng sinh viên trong khoa
+    So_luong_sinh_vien_nghanh INT, -- Số lượng sinh viên trong ngành
+    CONSTRAINT PK_Thong_ke_sinh_vien PRIMARY KEY CLUSTERED (ID_lop, ID_khoa, ID_nhom_nghanh_nghe, ID_nien_khoa), -- Khóa chính clustered
+    CONSTRAINT FK_TKSV_Lop FOREIGN KEY (ID_lop) REFERENCES DIM_Lop(ID_lop), -- FK đến bảng DIM_Lop
+    CONSTRAINT FK_TKSV_Khoa FOREIGN KEY (ID_khoa) REFERENCES DIM_Khoa(ID_khoa), -- FK đến bảng DIM_Khoa
+    CONSTRAINT FK_TKSV_NhomNghanhNghe FOREIGN KEY (ID_nhom_nghanh_nghe) REFERENCES DIM_Nhom_nghanh_nghe(ID_nhom_nghanh_nghe), -- FK đến bảng DIM_Nhom_nghanh_nghe
+    CONSTRAINT FK_TKSV_NienKhoa FOREIGN KEY (ID_nien_khoa) REFERENCES DIM_Nien_khoa(ID_nien_khoa), -- FK đến bảng DIM_Nien_khoa
+    CONSTRAINT FK_TKSV_Date FOREIGN KEY (ID_date) REFERENCES DIM_Date(Date_key) -- FK đến bảng DIM_Date
+);
+------N Bảng FACT_Thu_vien------
+CREATE TABLE FACT_Thu_vien (
+    ID_thu_vien nvarchar(32) NOT NULL, -- Mã thư viện (khóa chính)
+    ID_nhom_ban_doc INT NOT NULL, -- Mã nhóm bạn đọc (khóa chính)
+    ID_date INT NOT NULL, -- Ngày (khóa ngoại liên kết đến bảng ngày)
+    So_nguoi_dung INT, -- Số người sử dụng thư viện
+    CONSTRAINT PK_FACT_Thu_vien PRIMARY KEY (ID_thu_vien, ID_nhom_ban_doc, ID_date),
+    CONSTRAINT FK_Thu_vien_Date FOREIGN KEY (ID_date) REFERENCES DIM_Date(Date_key),
+    CONSTRAINT FK_Thu_vien_Thu_vien FOREIGN KEY (ID_thu_vien) REFERENCES DIM_Thu_vien(ID_thu_vien),
+    CONSTRAINT FK_Thu_vien_Nhom_Ban_Doc FOREIGN KEY (ID_nhom_ban_doc) REFERENCES DIM_Nhom_Ban_Doc(ID_nhom_ban_doc)
+);
+------N Bảng FACT_Thong_ke_muon------
+CREATE TABLE FACT_Thong_ke_muon (
+    ID_ban_doc NVARCHAR(50) NOT NULL, -- Mã bạn đọc (khóa chính)
+    ID_phieu_muon INT NOT NULL, -- Mã phiếu mượn (khóa chính)
+    ID_nhom_nghanh_nghe INT NOT NULL, -- Mã ngành nghề (khóa chính)
+    ID_date INT NOT NULL, -- Mã ngày (khóa ngoại đến DIM_Date)
+    So_luot_muon INT, -- Tổng số lượt mượn
+    So_dau_sach_muon INT, -- Tổng số đầu sách được mượn
+    So_ban_sach_muon INT, -- Tổng số bản sách được mượn
+    Sach_muon_nhieu_nhat INT, -- Mã sách được mượn nhiều nhất
+    Sach_muon_it_nhat INT, -- Mã sách được mượn ít nhất
+    CONSTRAINT PK_FACT_Thong_ke_muon PRIMARY KEY (ID_ban_doc, ID_phieu_muon, ID_nhom_nghanh_nghe),
+    CONSTRAINT FK_TKMuon_Date FOREIGN KEY (ID_date) REFERENCES DIM_Date(Date_key),
+    CONSTRAINT FK_TKMuon_Nganh_Nghe FOREIGN KEY (ID_nhom_nghanh_nghe) REFERENCES DIM_Nhom_nghanh_nghe(ID_nhom_nghanh_nghe)
+);
+------N Bảng FACT_Thong_ke_tai_lieu------
+CREATE TABLE FACT_Thong_ke_tai_lieu (
+    ID_tai_lieu INT NOT NULL, -- Mã tài liệu (khóa chính)
+    ID_xep_gia INT NOT NULL, -- Mã xếp giá (khóa chính)
+    ID_nhom_nghanh_nghe VARCHAR(20) NOT NULL, -- Mã ngành nghề (khóa chính)
+    ID_trinh_do INT NOT NULL, -- Mã trình độ đào tạo (khóa chính)
+    ID_mon INT NOT NULL, -- Mã môn học (khóa chính)
+    ID_ctdt VARCHAR(20) NOT NULL, -- Mã chương trình đào tạo (khóa chính)
+    ID_date INT NOT NULL, -- Mã ngày (khóa ngoại đến DIM_Date)
+    So_dau_sach INT, -- Số đầu sách
+    Binh_quan_sach_tren_nganh INT, -- Bình quân số sách trên mỗi ngành đào tạo
+    Binh_quan_sach_tren_nguoi INT, -- Bình quân số sách trên mỗi người học
+    CONSTRAINT PK_FACT_Thong_ke_tai_lieu PRIMARY KEY (ID_tai_lieu, ID_xep_gia, ID_nghanh_nghe, ID_trinh_do, ID_mon, ID_ctdt),
+    CONSTRAINT FK_TKTaiLieu_Date FOREIGN KEY (ID_date) REFERENCES DIM_Date(Date_key),
+    CONSTRAINT FK_TKTaiLieu_Mon FOREIGN KEY (ID_mon) REFERENCES DIM_Mon(ID_mon),
+    CONSTRAINT FK_TKTaiLieu_CTDT FOREIGN KEY (ID_ctdt) REFERENCES DIM_CTDT(ID_ctdt),
+    CONSTRAINT FK_TKTaiLieu_Nganh FOREIGN KEY (ID_nhom_nghanh_nghe) REFERENCES DIM_Nhom_nghanh_nghe(ID_nhom_nghanh_nghe)
 );
