@@ -16,11 +16,11 @@ def fetch_data_and_process():
         'UID=itc;'                # Tên đăng nhập
         'PWD=spkt@2024;'
     )
-    conn_dwh_lib = pyodbc.connect(
+    conn_dwh_library = pyodbc.connect(
         'DRIVER={ODBC Driver 17 for SQL Server};'
-        'SERVER=192.168.150.6;'  # Địa chỉ IP của SQL Server
-        'DATABASE=dwh_lib;'         # Tên cơ sở dữ liệu
-        'UID=itc;'                # Tên đăng nhập
+        'SERVER=192.168.150.6;' # Địa chỉ IP của SQL Server
+        'DATABASE=dwh_library;' # Tên cơ sở dữ liệu
+        'UID=itc;'              # Tên đăng nhập
         'PWD=spkt@2024;'
     )
     # Đọc data
@@ -56,7 +56,7 @@ def fetch_data_and_process():
                                 So_luot_gia_han,
                                 Note
                             FROM An_pham_cho_muon
-                            WHERE YEAR(Ngay_muon) = 2006
+                            WHERE YEAR(Ngay_muon) = 2002
                             """
     df_apcm = fetch_data_in_batches(query_Anphamchomuon, conn_libol, batch_size=100) # Gọi hàm để lấy dữ liệu
 
@@ -70,7 +70,7 @@ def fetch_data_and_process():
                                 So_ngay_qua_han,
                                 Tien_phat
                             FROM Lich_su_muon_sach
-                            WHERE YEAR(Ngay_muon) = 2006
+                            WHERE YEAR(Ngay_muon) = 2002
                             """
     df_lscm = fetch_data_in_batches(query_Lichsumuonsach, conn_libol, batch_size=100) # Gọi hàm để lấy dữ liệu
 
@@ -86,7 +86,7 @@ def fetch_data_and_process():
     df_phieumuon = pd.concat([df_lscm, df_apcm], ignore_index=True)
     df_phieumuon = df_phieumuon.sort_values(by='Ngay_muon', ascending=True).reset_index(drop=True) # sắp xếp lại cho dễ nhìn
     query_MaxID = "SELECT MAX(ID_phieu_muon) AS MaxID FROM DIM_Phieu_muon_sach" # Lấy giá trị MaxID từ bảng FACT_Phieu_muon_sach
-    df_MaxID = pd.read_sql(query_MaxID, conn_dwh_lib)
+    df_MaxID = pd.read_sql(query_MaxID, conn_dwh_library)
     max_id = int(df_MaxID['MaxID'].iloc[0]) if not df_MaxID.empty else 0 # Giá trị khởi tạo ID mới, bắt đầu từ MaxID + 1
     start_id = max_id + 1
     df_phieumuon.insert(0, 'ID', range(start_id, start_id + len(df_phieumuon))) # Thêm cột ID mới đếm từ MaxID + 1
@@ -98,7 +98,7 @@ def fetch_data_and_process():
 
     ## Xử lý kiểu Date
     query_date = "SELECT Date_key FROM DIM_Date"
-    df_date = pd.read_sql(query_date, conn_dwh_lib)
+    df_date = pd.read_sql(query_date, conn_dwh_library)
     date_ids = set(df_date['Date_key'])
     # chuyển date về dang int 
     # kiểm tra nhưng ngày đó có tồn tại trong date_key của bảng DIM_date hay không ?
@@ -109,7 +109,7 @@ def fetch_data_and_process():
 
     ## Xử lý ID_tai_lieu
     query_Tailieu = "SELECT ID_tai_lieu FROM DIM_Tai_lieu"
-    df_tailieu = pd.read_sql(query_Tailieu, conn_dwh_lib)
+    df_tailieu = pd.read_sql(query_Tailieu, conn_dwh_library)
     tailieu_ids = set(df_tailieu['ID_tai_lieu'])
     # chuyển date về dang int 
     # kiểm tra nhưng ngày đó có tồn tại trong ID_tai_lieu của bảng DIM_Tai_lieu hay không ?
@@ -117,7 +117,7 @@ def fetch_data_and_process():
 
     ## Xử lý ID_xep_gia
     query_Xepgia = "SELECT ID_xep_gia, ID_tai_lieu, Ma_xep_gia FROM DIM_Xep_gia"
-    df_xepgia = pd.read_sql(query_Xepgia, conn_dwh_lib)
+    df_xepgia = pd.read_sql(query_Xepgia, conn_dwh_library)
     # Gán ID_xep_gia từ df_xep_gia vào df_phieu_muon_sach
     df_phieumuon['ID_xep_gia'] = None
     df_phieumuon['ID_xep_gia'] = df_phieumuon.apply(lambda row: df_xepgia.loc[
@@ -143,7 +143,7 @@ def fetch_data_and_process():
 
     ### Kiểm tra lại so db dwh_lib
     query_Bandoc = "SELECT ID_ban_doc FROM DIM_Ban_doc"
-    df_bandoc = pd.read_sql(query_Bandoc, conn_dwh_lib)
+    df_bandoc = pd.read_sql(query_Bandoc, conn_dwh_library)
     bandoc_ids = set(df_bandoc['ID_ban_doc'])
     # chuyển date về dang int 
     # kiểm tra nhưng ngày đó có tồn tại trong ID_tai_lieu của bảng DIM_Tai_lieu hay không ?
@@ -151,7 +151,7 @@ def fetch_data_and_process():
 
 
     # Load data
-    cursor_dwh = conn_dwh_lib.cursor()
+    cursor_dwh = conn_dwh_library.cursor()
     insert_query = """
                     INSERT INTO DIM_Phieu_muon_sach (
                         ID_phieu_muon, 
@@ -174,9 +174,9 @@ def fetch_data_and_process():
         for index, row in df_phieumuon.iterrows()
     ]
     cursor_dwh.executemany(insert_query, data_to_insert)    # Sử dụng executemany để chèn dữ liệu cùng lúc
-    conn_dwh_lib.commit() # Commit thay đổi
+    conn_dwh_library.commit() # Commit thay đổi
     cursor_dwh.close() # Đóng cursor và kết nối
-    conn_dwh_lib.close()
+    conn_dwh_library.close()
 
 
 # Định nghĩa DAG
@@ -189,13 +189,13 @@ default_args = {
 }
 
 with DAG(
-    'process_dim_phms_2006',
+    'etl_dim_pms_2002',
     default_args=default_args,
-    description='DAG xử lý và tải dữ liệu phiếu mượn sách',
-    schedule_interval='@once',  # Chạy thủ công
-    start_date=datetime(2024, 11, 26, 40, 0),
+    description='etl dữ liệu phiếu mượn sách',
+    schedule_interval='@once',
+    start_date=datetime(2024, 11, 28, 10, 30),
     catchup=False,
-    tags=['example'],
+    tags=['etl'],
 ) as dag:
 
     # Task thực thi

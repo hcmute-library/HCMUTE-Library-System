@@ -56,7 +56,7 @@ def fetch_data_and_process():
                                 So_luot_gia_han,
                                 Note
                             FROM An_pham_cho_muon
-                            WHERE YEAR(Ngay_muon) = 2001
+                            WHERE YEAR(Ngay_muon) = 2003
                             """
     df_apcm = fetch_data_in_batches(query_Anphamchomuon, conn_libol, batch_size=100) # Gọi hàm để lấy dữ liệu
 
@@ -70,7 +70,7 @@ def fetch_data_and_process():
                                 So_ngay_qua_han,
                                 Tien_phat
                             FROM Lich_su_muon_sach
-                            WHERE YEAR(Ngay_muon) = 2001
+                            WHERE YEAR(Ngay_muon) = 2003
                             """
     df_lscm = fetch_data_in_batches(query_Lichsumuonsach, conn_libol, batch_size=100) # Gọi hàm để lấy dữ liệu
 
@@ -85,9 +85,9 @@ def fetch_data_and_process():
     ## Gộp 2 bảng lại
     df_phieumuon = pd.concat([df_lscm, df_apcm], ignore_index=True)
     df_phieumuon = df_phieumuon.sort_values(by='Ngay_muon', ascending=True).reset_index(drop=True) # sắp xếp lại cho dễ nhìn
-    
-    
-    max_id = 0 # Giá trị khởi tạo ID mới, bắt đầu từ MaxID + 1
+    query_MaxID = "SELECT MAX(ID_phieu_muon) AS MaxID FROM DIM_Phieu_muon_sach" # Lấy giá trị MaxID từ bảng FACT_Phieu_muon_sach
+    df_MaxID = pd.read_sql(query_MaxID, conn_dwh_library)
+    max_id = int(df_MaxID['MaxID'].iloc[0]) if not df_MaxID.empty else 0 # Giá trị khởi tạo ID mới, bắt đầu từ MaxID + 1
     start_id = max_id + 1
     df_phieumuon.insert(0, 'ID', range(start_id, start_id + len(df_phieumuon))) # Thêm cột ID mới đếm từ MaxID + 1
     df_phieumuon.rename(columns={'Tai_lieu_ID': 'ID_tai_lieu'}, inplace=True)
@@ -189,9 +189,9 @@ default_args = {
 }
 
 with DAG(
-    'etl_dim_pms_2001',
+    'etl_dim_pms_2002',
     default_args=default_args,
-    description='ETL tải dữ liệu phiếu mượn sách',
+    description='etl dữ liệu phiếu mượn sách',
     schedule_interval='@once',
     start_date=datetime(2024, 11, 28, 10, 15),
     catchup=False,
