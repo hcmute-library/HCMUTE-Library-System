@@ -269,9 +269,9 @@ CREATE TABLE FACT_Thu_vien (
     So_nguoi_dung_nhom INT,
     So_nguoi_dung_ngay INT,
     CONSTRAINT PK_FACT_Thu_vien PRIMARY KEY (ID_thu_vien, ID_nhom_ban_doc, ID_date),
-    CONSTRAINT FK_Thu_vien_Date FOREIGN KEY (ID_date) REFERENCES DIM_Date(Date_key),
     CONSTRAINT FK_Thu_vien_Thu_vien FOREIGN KEY (ID_thu_vien) REFERENCES DIM_Thu_vien(ID_thu_vien),
-    CONSTRAINT FK_Thu_vien_Nhom_Ban_Doc FOREIGN KEY (ID_nhom_ban_doc) REFERENCES DIM_Nhom_Ban_Doc(ID_nhom_ban_doc)
+    CONSTRAINT FK_Thu_vien_Nhom_Ban_Doc FOREIGN KEY (ID_nhom_ban_doc) REFERENCES DIM_Nhom_Ban_Doc(ID_nhom_ban_doc),
+    CONSTRAINT FK_Thu_vien_Date FOREIGN KEY (ID_date) REFERENCES DIM_Date(Date_key)
 );
 ------N Bảng FACT_Thong_ke_muon------
 CREATE TABLE FACT_Thong_ke_muon (
@@ -292,15 +292,13 @@ CREATE TABLE FACT_Thong_ke_muon (
 CREATE TABLE FACT_Thong_ke_tai_lieu (
     ID_tai_lieu INT NOT NULL, -- Mã tài liệu (khóa chính)
     ID_xep_gia INT NOT NULL, -- Mã xếp giá (khóa chính)
-    ID_nhom_nghanh_nghe VARCHAR(20) NOT NULL, -- Mã ngành nghề (khóa chính)
-    ID_trinh_do INT NOT NULL, -- Mã trình độ đào tạo (khóa chính)
     ID_mon INT NOT NULL, -- Mã môn học (khóa chính)
-    ID_ctdt VARCHAR(20) NOT NULL, -- Mã chương trình đào tạo (khóa chính)
+    ID_ctdt INT NOT NULL, -- Mã chương trình đào tạo (khóa chính)
     ID_date INT NOT NULL, -- Mã ngày (khóa ngoại đến DIM_Date)
     So_dau_sach INT, -- Số đầu sách
     Binh_quan_sach_tren_nganh INT, -- Bình quân số sách trên mỗi ngành đào tạo
     Binh_quan_sach_tren_nguoi INT, -- Bình quân số sách trên mỗi người học
-    CONSTRAINT PK_FACT_Thong_ke_tai_lieu PRIMARY KEY (ID_tai_lieu, ID_xep_gia, ID_nghanh_nghe, ID_trinh_do, ID_mon, ID_ctdt),
+    CONSTRAINT PK_FACT_Thong_ke_tai_lieu PRIMARY KEY (ID_tai_lieu, ID_xep_gia, ID_mon, ID_ctdt, ID_date),
     CONSTRAINT FK_TKTaiLieu_Date FOREIGN KEY (ID_date) REFERENCES DIM_Date(Date_key),
     CONSTRAINT FK_TKTaiLieu_Mon FOREIGN KEY (ID_mon) REFERENCES DIM_Mon(ID_mon),
     CONSTRAINT FK_TKTaiLieu_CTDT FOREIGN KEY (ID_ctdt) REFERENCES DIM_CTDT(ID_ctdt),
