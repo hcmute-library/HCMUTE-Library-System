@@ -251,7 +251,8 @@ CREATE TABLE FACT_Thong_ke_sinh_vien (
     So_luong_sinh_vien_lop INT, -- Số lượng sinh viên trong lớp
     So_luong_sinh_vien_khoa INT, -- Số lượng sinh viên trong khoa
     So_luong_sinh_vien_nghanh INT, -- Số lượng sinh viên trong ngành
-    CONSTRAINT PK_Thong_ke_sinh_vien PRIMARY KEY CLUSTERED (ID_lop, ID_khoa, ID_nhom_nghanh_nghe, ID_nien_khoa), -- Khóa chính clustered
+    So_luong_sinh_vien_nien_ngay INT,
+    CONSTRAINT PK_Thong_ke_sinh_vien PRIMARY KEY CLUSTERED (ID_lop, ID_khoa, ID_nhom_nghanh_nghe, ID_nien_khoa, ID_date), -- Khóa chính clustered
     CONSTRAINT FK_TKSV_Lop FOREIGN KEY (ID_lop) REFERENCES DIM_Lop(ID_lop), -- FK đến bảng DIM_Lop
     CONSTRAINT FK_TKSV_Khoa FOREIGN KEY (ID_khoa) REFERENCES DIM_Khoa(ID_khoa), -- FK đến bảng DIM_Khoa
     CONSTRAINT FK_TKSV_NhomNghanhNghe FOREIGN KEY (ID_nhom_nghanh_nghe) REFERENCES DIM_Nhom_nghanh_nghe(ID_nhom_nghanh_nghe), -- FK đến bảng DIM_Nhom_nghanh_nghe
@@ -264,6 +265,9 @@ CREATE TABLE FACT_Thu_vien (
     ID_nhom_ban_doc INT NOT NULL, -- Mã nhóm bạn đọc (khóa chính)
     ID_date INT NOT NULL, -- Ngày (khóa ngoại liên kết đến bảng ngày)
     So_nguoi_dung INT, -- Số người sử dụng thư viện
+    So_nguoi_dung_thu_vien INT, -- Số người sử dụng thư viện
+    So_nguoi_dung_nhom INT,
+    So_nguoi_dung_ngay INT,
     CONSTRAINT PK_FACT_Thu_vien PRIMARY KEY (ID_thu_vien, ID_nhom_ban_doc, ID_date),
     CONSTRAINT FK_Thu_vien_Date FOREIGN KEY (ID_date) REFERENCES DIM_Date(Date_key),
     CONSTRAINT FK_Thu_vien_Thu_vien FOREIGN KEY (ID_thu_vien) REFERENCES DIM_Thu_vien(ID_thu_vien),
