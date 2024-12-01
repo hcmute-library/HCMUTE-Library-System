@@ -18,43 +18,38 @@ def fetch_data_and_process():
 
 
 
-    query_phieumuon = """SELECT PMS.ID_phieu_muon, PMS.ID_ban_doc, BD.ID_lop, ID_khoa, BD.ID_nhom_nghanh_nghe, BD.ID_nien_khoa, PMS.Ngay_muon
+    query_phieumuon = """SELECT PMS.ID_phieu_muon, PMS.ID_ban_doc, ID_thu_vien, ID_nhom_ban_doc, Ngay_muon 
                         FROM DIM_Phieu_muon_sach PMS
                                 JOIN DIM_Ban_doc BD ON PMS.ID_ban_doc = BD.ID_ban_doc
-                                JOIN DIM_Lop L ON BD.ID_Lop = L.ID_lop 
+                                JOIN DIM_Xep_gia XG ON PMS.ID_xep_gia =  XG.ID_xep_gia
                         WHERE Ngay_muon < 20110101"""
-    df_phieumuon = pd.read_sql(query_phieumuon, conn_dwh_library)    
+    df_phieumuon = pd.read_sql(query_phieumuon, conn_dwh_library)   
     
 
 
     # Tính số lượng mượn sách
-    So_luong_sinh_vien = df_phieumuon.groupby(['ID_lop', 'ID_khoa', 'ID_nhom_nghanh_nghe', 'ID_nien_khoa', 'Ngay_muon'])['ID_ban_doc'].count().reset_index()
-    So_luong_sinh_vien = So_luong_sinh_vien.rename(columns={'ID_ban_doc': 'So_luong_sinh_vien'})
+    So_nguoi_dung = df_phieumuon.groupby(['ID_thu_vien', 'ID_nhom_ban_doc', 'Ngay_muon'])['ID_ban_doc'].count().reset_index()
+    So_nguoi_dung = So_nguoi_dung.rename(columns={'ID_ban_doc': 'So_nguoi_dung'})
 
 
 
     #LOAD
     cursor_dwh = conn_dwh_library.cursor()
     insert_query = """
-                    INSERT INTO FACT_Thong_ke_sinh_vien (ID_lop, 
-                                                        ID_khoa, 
-                                                        ID_nhom_nghanh_nghe, 
-                                                        ID_nien_khoa, 
-                                                        ID_date, 
-                                                        So_luong_sinh_vien)
-                    VALUES (?, ?, ?, ?, ?, ?)
+                    INSERT INTO FACT_Thu_vien (ID_thu_vien, 
+                                                ID_nhom_ban_doc,  
+                                                ID_date, 
+                                                So_nguoi_dung)
+                    VALUES (?, ?, ?, ?)
                     """
-    for index, row in So_luong_sinh_vien.iterrows():
+    for index, row in So_nguoi_dung.iterrows():
     # Trích xuất giá trị từ các cột
-        values = (row['ID_lop'],
-                row['ID_khoa'],
-                row['ID_nhom_nghanh_nghe'],
-                row['ID_nien_khoa'],
+        values = (row['ID_thu_vien'],
+                row['ID_nhom_ban_doc'],
                 row['Ngay_muon'],
-                row['So_luong_sinh_vien'])  # Nếu cột này có tên đúng
+                row['So_nguoi_dung'])  # Nếu cột này có tên đúng
         cursor_dwh.execute(insert_query, values)
     conn_dwh_library.commit()
-
 
 # Định nghĩa DAG
 default_args = {
@@ -66,11 +61,11 @@ default_args = {
 }
 
 with DAG(
-    'etl_fact_tksv_2010',
+    'etl_fact_tktv_2010',
     default_args=default_args,
-    description='Load data vào bảng Thống Kê Sinh Viên',
+    description='Load data vào bảng Thống Kê Thư Viện',
     schedule_interval='@once',
-    start_date=datetime(2024, 12, 1, 16, 20),
+    start_date=datetime(2024, 12, 1, 16, 25),
     catchup=False,
     tags=['etl'],
 ) as dag:
