@@ -1,0 +1,238 @@
+﻿ID_quoc_gia,Ma_ISO,Ten_nuoc_ISO
+0,NO,(Không xác định)
+1,AF,Afghanistan
+2,AL,Albania
+3,DZ,Algeria
+4,AS,American Samoa
+5,AD,Andorra
+6,AO,Angola
+7,AI,Anguilla
+8,AQ,Antarctica
+9,AG,Antigua and Barbuda
+10,AR,Argentina
+11,AW,Arul
+12,AU,Australia
+13,AT,Austria
+14,BS,Baharmas
+15,BH,Bahrain
+16,BD,Bangladesh
+17,BB,Barbados
+18,BE,Belgium
+19,BZ,Belixe
+20,BJ,Benin
+21,BM,Bermuda
+22,BT,Bhutan
+23,BO,Bolivia
+24,BW,Botswana
+25,BV,Bouvet Island
+26,BR,Brazil
+27,IO,British Indian Ocean Territory
+28,BN,Brunei Darussalam
+29,BG,Bulgaria
+30,BF,Burkina Faso
+31,BI,Burundi
+32,BW,Byelorussia
+33,CM,Cameroon
+34,CA,Canada
+35,CV,Cape Verde
+36,KY,Cayman Island
+37,CF,Central Africa Republic
+38,TD,Chad
+39,CL,Chile
+40,CN,China
+41,CX,Christmas Island
+42,CC,Coros (Keeling) Islands
+43,CO,Colombia
+44,KM,Comoros
+45,CG,Congo
+46,CK,Cook Islands
+47,CR,Costa Rica
+48,CI,Cote d'Ivoire
+49,CU,Cuba
+50,CY,Cyprus
+51,XR,Czech Republic
+52,DK,Denmark
+53,DJ,Djibouti
+54,DM,Dominica
+55,DO,Dominican Republic
+56,TP,Fast Limor
+57,EC,Ecuador
+58,EG,Egypt
+59,SV,El Salvador
+60,GQ,Equatorial Guinea
+61,ET,Ethiopia
+62,FK,Falkland Islands (Malvinas)
+63,FO,Faroe Islands
+64,FJ,Fiji
+65,FI,Findland
+66,FR,France
+67,GF,French Guiana
+68,PF,French Polynesia
+69,TF,French Southern Territories
+70,GA,Gabon
+71,GM,Gambia
+72,DE,Germany
+73,GH,Ghana
+74,GI,Giblantar
+75,GI,Greece
+76,GL,Greenland
+77,GD,Grenada
+78,GP,Guadeloupe
+79,GU,Guam
+80,GT,Guatemala
+81,GN,Guinea
+82,GW,Gunea-Bissau
+83,GY,Gyana
+84,HT,Haiti
+85,HM,Heard and McDonald Islands
+86,HN,Honduras
+87,HU,Hungary
+88,IS,Iceland
+89,IN,India
+90,ID,Indonesia
+91,IR,Iran
+92,IQ,Iraq
+93,IE,Ireland
+94,IL,Israel
+95,IT,Italy
+96,JT,Jamaica
+97,JP,Japan
+98,JO,Jordan
+99,KH,Kampuchea
+100,KE,Kenya
+101,KI,Kiribati
+102,KP,Korea Democratic Republic
+103,KR,Korea Republic of
+104,KW,Kuwait
+105,LA,Laos
+106,LB,Lebanon
+107,LS,Lesotho
+108,LR,Liberia
+109,LY,Libya
+110,LI,Liechtenstein
+111,LU,Luxembourg
+112,MO,Macau
+113,MG,Madagascar
+114,MW,Malawi
+115,MY,Malaysia
+116,MV,Maldives
+117,ML,Mali
+118,MT,Malta
+119,MH,Marshall Islands
+120,MQ,Martinique
+121,MR,Mauritania
+122,MU,Mauritius
+123,MX,Mexico
+124,FM,Micronesia
+125,MC,Monaco
+126,MN,Mongolia
+127,MS,Montserrat
+128,MA,Morocco
+129,MZ,Mozambique
+130,MM,Myanmar
+131,NA,Namibia
+132,NR,Nauru
+133,NP,Nepal
+134,NL,Netherlands
+135,AN,Netherlands Antilles
+136,NT,Neural zone
+137,NC,New Calidonia
+138,NZ,New Zealand
+139,NI,Nicaragua
+140,NE,Niger
+141,NG,Nigeria
+142,NU,Niue
+143,NF,Norfolk Island
+144,MP,Northern Mariana Islands
+145,NO,Norway
+146,OM,Oman
+147,OK,Pakistan
+148,PW,Palau
+149,PA,Panama
+150,PG,Papua New Guinea
+151,PY,Paraguay
+152,PE,Peru
+153,PH,Philippines
+154,PN,Pitcairn Island
+155,PL,Poland
+156,PT,Portugal
+157,PR,Puerto Rico
+158,QA,Quatar
+159,RE,Reunion
+160,RO,Romania
+161,RW,Rwanda
+162,SH,St. Helena
+163,KN,St. Kitts and Nevis
+164,LC,Sainttucia
+165,PM,St. Pierre and Miquelon
+166,VC,St. Vincent and the Grenadines
+167,WS,Samoa
+168,SM,San Marino
+169,ST,Sao Tome and Principe
+170,SA,Saudi Arabia
+171,SN,Senegal
+172,SC,Seychelles
+173,SL,Siarra Leone
+174,SG,Singapore
+175,SB,Solomon Islands
+176,SO,Somalia
+177,ZA,South Africa
+178,ES,Spain
+179,LK,Sri Lanka
+180,SD,Sudan
+181,SR,Suriname
+182,SJ,Svalbard and Ian Mayen Islands
+183,SZ,Swaziland
+184,SE,Sweden
+185,CH,Switzerland
+186,SY,Syria
+187,TW,Taiwan
+188,TZ,Tanzania
+189,TH,Thailand
+190,TG,Togo
+191,TK,Tokelau
+192,TO,Tonga
+193,TT,Trinidad and Tobago
+194,TN,Tunesia
+195,TR,Turkey
+196,TC,Turks and Calcos Islands
+197,TV,Tuvalu
+198,UG,Uganda
+199,SU,Ukraina
+200,AE,United Arab Emirates
+201,GB,United Kingdom
+202,US,United States of America
+203,UM,US Minor Outlying Islands
+204,UY,Uruguay
+205,SU,USSR
+206,VU,Vanuatu
+207,VA,Vatican City State
+208,VE,Venezuela
+209,VN,Vietnam
+210,VG,Virgin Islands (British)
+211,VI,Virgin Islands (US)
+212,WF,Wallis and Futuna Islands
+213,EH,Western Sahara
+214,YE,Yemen
+215,YU,Yugoslavia
+216,ZR,Zaire
+217,ZM,Zambia
+218,ZW,Zimbabwe
+219,RU,Russia
+220,XO,Slovakia
+221,GS,Georgia
+222,ER,Estonia
+223,LI,Lithuania
+224,LV,Latvia
+225,KZ,Kazakhstan
+226,MV,Moldova
+227,SU,Uzbekistan
+228,TK,Turkmenistan
+229,TA,Tajikistan
+230,KG,Kyrgyzstan
+231,AI,Acmenia
+232,AJ,Azerbaijan
+233,CI,Croatia
+234,XV,Slovenia
+235,BN,Bosnia-Hercegovina
+236,XN,Macedonia

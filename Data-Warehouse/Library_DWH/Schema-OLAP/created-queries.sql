@@ -126,7 +126,7 @@ CREATE TABLE olap.DIM_Ten_form (
 CREATE TABLE olap.DIM_Quoc_gia (
     ID_quoc_gia int NOT NULL, -- Mã quốc gia, khóa chính
     Ma_ISO varchar(2) NULL, -- Mã ISO quốc gia
-    Ten_nuoc_ISO varchar(30) NULL, -- Tên quốc gia theo mã ISO
+    Ten_nuoc_ISO nvarchar(30) NULL, -- Tên quốc gia theo mã ISO
     CONSTRAINT [PK_Quoc_gia] PRIMARY KEY CLUSTERED (ID_quoc_gia) -- Khóa chính dạng clustered
 );
 
