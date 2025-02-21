@@ -1,0 +1,1599 @@
+"ID_Mon","TenMon","KyHieu","FileDeCuong","ID_Khoa","ID_BoMon","ID_LoaiMon","TinhTrang"
+"120","Triết học Mác-Lênin","LLCT130105",NULL,NULL,NULL,NULL,NULL
+"121","Kinh tế chính trị Mác-Lênin","LLCT120205",NULL,NULL,NULL,NULL,NULL
+"122","Chủ nghĩa xã hội khoa học","LLCT120405",NULL,NULL,NULL,NULL,NULL
+"123","Tư tưởng Hồ Chí Minh","LLCT120314",NULL,NULL,NULL,NULL,NULL
+"124","Lịch sử Đảng Cộng sản Việt Nam","LLCT220514",NULL,NULL,NULL,NULL,NULL
+"125","Pháp luật đại cương","GELA220405",NULL,NULL,NULL,NULL,NULL
+"126","Toán kinh tế 1","MATH132701",NULL,NULL,NULL,NULL,NULL
+"127","Toán kinh tế 2","MATH132801",NULL,NULL,NULL,NULL,NULL
+"128","Xác suất thống kê ứng dụng","MATH132901",NULL,NULL,NULL,NULL,NULL
+"129","Nhập môn ngành TMĐT","ECOM130108",NULL,NULL,NULL,NULL,NULL
+"130","Giáo dục thể chất 1","PHED110513",NULL,NULL,NULL,NULL,NULL
+"131","Giáo dục thể chất 2","PHED110613",NULL,NULL,NULL,NULL,NULL
+"132","Giáo dục thể chất 3","PHED130715",NULL,NULL,NULL,NULL,NULL
+"133","Quản trị học căn bản","FUMA230806",NULL,NULL,NULL,NULL,NULL
+"134","Kinh tế học","ECON240206",NULL,NULL,NULL,NULL,NULL
+"135","Nguyên lý kế toán","PRAC230407",NULL,NULL,NULL,NULL,NULL
+"136","Luật kinh tế","BLAW220308",NULL,NULL,NULL,NULL,NULL
+"137","Phương pháp nghiên cứu","RMET220406",NULL,NULL,NULL,NULL,NULL
+"138","Tối ưu hóa","MAOP230706",NULL,NULL,NULL,NULL,NULL
+"139"," Thương mại điện tử","ECOM431308",NULL,NULL,NULL,NULL,NULL
+"140"," Mạng giao tiếp dữ liệu","DNET332208",NULL,NULL,NULL,NULL,NULL
+"141","Lập trình căn bản Python","FUBY333808",NULL,NULL,NULL,NULL,NULL
+"142","Tin học văn phòng","MIOF130207",NULL,NULL,NULL,NULL,NULL
+"143","Cơ sở dữ liệu","DMSY233208",NULL,NULL,NULL,NULL,NULL
+"144"," Phân tích và thiết kế hệ thống","ANDE333408",NULL,NULL,NULL,NULL,NULL
+"145","Quản trị ngoại thương","FTMA430908",NULL,NULL,NULL,NULL,NULL
+"146","Quản trị bán hàng","SAMA332008",NULL,NULL,NULL,NULL,NULL
+"147","Quản trị tài chính","FIMA430807",NULL,NULL,NULL,NULL,NULL
+"148","Quản trị chuỗi cung ứng","SCMA430706",NULL,NULL,NULL,NULL,NULL
+"149","Machine learning (máy học)","MALE433908",NULL,NULL,NULL,NULL,NULL
+"150","Thiết kế WEB","WEDE333308",NULL,NULL,NULL,NULL,NULL
+"151","Phầm mềm ứng dụng (ERP)","ERPS431208",NULL,NULL,NULL,NULL,NULL
+"152","Thanh toán điện tử","EPAY431408",NULL,NULL,NULL,NULL,NULL
+"153","Bảo mật thương mại điện tử","ECOS431508",NULL,NULL,NULL,NULL,NULL
+"154","Marketing điện tử","EMAR431108",NULL,NULL,NULL,NULL,NULL
+"155","Quản trị nguồn nhân lực quốc tế","IHRM232708",NULL,NULL,NULL,NULL,NULL
+"156","Quản trị chiến lược","STMA430406",NULL,NULL,NULL,NULL,NULL
+"157","Quản trị chất lượng dịch vụ","SQMA322208",NULL,NULL,NULL,NULL,NULL
+"158","Ứng dụng phân tích dữ liệu lớn trong kinh doanh (Big Data)","ABDA433708",NULL,NULL,NULL,NULL,NULL
+"159","Chuyên đề thực hành","PRAC321908",NULL,NULL,NULL,NULL,NULL
+"160","Chuyên đề doanh nghiệp (TMĐT)","ESYM223008",NULL,NULL,NULL,NULL,NULL
+"161","Thực tập tốt nghiệp (TĐT)","INTE421608",NULL,NULL,NULL,NULL,NULL
+"162","Khóa luận tốt nghiệp (TĐT)","ECGR451708",NULL,NULL,NULL,NULL,NULL
+"163","Kế hoạch kinh doanh","BPLA420606",NULL,NULL,NULL,NULL,NULL
+"164","Kỹ năng thuyết trình","PRSK320705",NULL,NULL,NULL,NULL,NULL
+"165","Kế hoạch khởi nghiệp","BPLA121808",NULL,NULL,NULL,NULL,NULL
+"166","Giao tiếp trong kinh doanh","BCOM320106",NULL,NULL,NULL,NULL,NULL
+"167","Hành vi tổ chức","ORBE320106",NULL,NULL,NULL,NULL,NULL
+"168","Thị trường chứng khoán","SEMA320907",NULL,NULL,NULL,NULL,NULL
+"169","Quản trị quan hệ khách hàng","CUSM321006",NULL,NULL,NULL,NULL,NULL
+"170","Thanh toán quốc tế","INPA421008",NULL,NULL,NULL,NULL,NULL
+"171","Tâm lý học kinh doanh","PSBU220408",NULL,NULL,NULL,NULL,NULL
+"172","Kinh doanh quốc tế","INBU220508",NULL,NULL,NULL,NULL,NULL
+"173","Mua hàng","PROC320109",NULL,NULL,NULL,NULL,NULL
+"174","Quản trị kho bãi","DEMA431609",NULL,NULL,NULL,NULL,NULL
+"175","Kỹ thuật xếp dỡ và đóng gói","LOPA431409",NULL,NULL,NULL,NULL,NULL
+"176","Hệ thống thông tin quản lý (MIS)","MAIS430306",NULL,NULL,NULL,NULL,NULL
+"177","Lập trình hướng đối tượng","ORPR333508",NULL,NULL,NULL,NULL,NULL
+"178","Bảo mật cơ sở dữ liệu","DSEC433608",NULL,NULL,NULL,NULL,NULL
+"179","Chính sách thuế","TAPO330407",NULL,NULL,NULL,NULL,NULL
+"180","Anh văn thương mại","BENG330708",NULL,NULL,NULL,NULL,NULL
+"181","Quản trị dự án công nghiệp","PROM430506",NULL,NULL,NULL,NULL,NULL
+"182","Quản trị vận tải","TMAN431509",NULL,NULL,NULL,NULL,NULL
+"183","Pháp luật đại cương"," GELA220405",NULL,NULL,NULL,NULL,NULL
+"184","Anh văn 1","ENGL130137",NULL,NULL,NULL,NULL,NULL
+"185","Anh văn 2","ENGL230237",NULL,NULL,NULL,NULL,NULL
+"186","Anh văn 3","ENGL330337",NULL,NULL,NULL,NULL,NULL
+"187","Anh văn 4","ENGL430437",NULL,NULL,NULL,NULL,NULL
+"188","Toán 1","MATH132401",NULL,NULL,NULL,NULL,NULL
+"189","Toán 2","MATH132501",NULL,NULL,NULL,NULL,NULL
+"190","Đại số và cấu trúc đại số","MATH143001",NULL,NULL,NULL,NULL,NULL
+"191","Vật lý 1","PHYS130902",NULL,NULL,NULL,NULL,NULL
+"192","Thí nghiệm vật lý  1","PHYS 111202",NULL,NULL,NULL,NULL,NULL
+"193","Điện tử căn bản","EEEN234162",NULL,NULL,NULL,NULL,NULL
+"194","Thực tập điện tử căn bản","PRBE214262",NULL,NULL,NULL,NULL,NULL
+"195","Nhập môn ngành ATTT","INIT130185",NULL,NULL,NULL,NULL,NULL
+"196","Nhập môn lập trình","INPR130285",NULL,NULL,NULL,NULL,NULL
+"197","Kỹ thuật lập trình","PRTE230385",NULL,NULL,NULL,NULL,NULL
+"198","Giáo dục quốc phòng","GDQP008031",NULL,NULL,NULL,NULL,NULL
+"199","Toán rời rạc và lý thuyết đồ thị","DIGR230485",NULL,NULL,NULL,NULL,NULL
+"200","Cấu trúc dữ liệu và giải thuật","DASA230179",NULL,NULL,NULL,NULL,NULL
+"201","Lập trình hướng đối tượng","OOPR230279",NULL,NULL,NULL,NULL,NULL
+"202","Kiến trúc máy tính và hợp ngữ","CAAL230180",NULL,NULL,NULL,NULL,NULL
+"203","Hệ điều hành","OPSY330280",NULL,NULL,NULL,NULL,NULL
+"204","Mạng máy tính căn bản","NEES330380",NULL,NULL,NULL,NULL,NULL
+"205","Cơ sở dữ liệu","DBSY230184",NULL,NULL,NULL,NULL,NULL
+"206","Học máy","MALE431984",NULL,NULL,NULL,NULL,NULL
+"207","Lập trình Web","WEPR330479",NULL,NULL,NULL,NULL,NULL
+"208","Lập trình Python (CĐ)","IPPA233277",NULL,NULL,NULL,NULL,NULL
+"209","An toàn thông tin ","INSE330380",NULL,NULL,NULL,NULL,NULL
+"210","Lập trình di động","MOPR331279",NULL,NULL,NULL,NULL,NULL
+"211","Lập trình mạng","NPRO430980",NULL,NULL,NULL,NULL,NULL
+"212","Mật mã ứng dụng","CRYP331980",NULL,NULL,NULL,NULL,NULL
+"213","Tấn công mạng và phòng thủ","ETHA332080",NULL,NULL,NULL,NULL,NULL
+"214","An ninh Mạng ","NSEC430880",NULL,NULL,NULL,NULL,NULL
+"215","Lập trình hệ thống","SYPR432780",NULL,NULL,NULL,NULL,NULL
+"216","Mạng máy tính nâng cao","ADNT330580",NULL,NULL,NULL,NULL,NULL
+"217","Thiết kế mạng","CNDE430780",NULL,NULL,NULL,NULL,NULL
+"218","An toàn ứng dụng web","WASE432680",NULL,NULL,NULL,NULL,NULL
+"219","Hệ thống giám sát an toàn mạng","NSMS432280",NULL,NULL,NULL,NULL,NULL
+"220","An toàn mạng không dây và di động","WISE432380",NULL,NULL,NULL,NULL,NULL
+"221","Pháp lý kỹ thuật số","DIFO432180",NULL,NULL,NULL,NULL,NULL
+"222","Tiểu luận chuyên ngành ATTT ","POIS431479",NULL,NULL,NULL,NULL,NULL
+"223","Chuyên đề doanh nghiệp","INTE202879",NULL,NULL,NULL,NULL,NULL
+"224","Thực tập Tốt Nghiệp (ATTT)","ITIN441085",NULL,NULL,NULL,NULL,NULL
+"225","Lãnh đạo và kinh doanh trong kỹ thuật","LEBU202979",NULL,NULL,NULL,NULL,NULL
+"226","Khóa luận tốt nghiệp","GRPR474377",NULL,NULL,NULL,NULL,NULL
+"227","Kinh tế học đại cương","GEFC220105",NULL,NULL,NULL,NULL,NULL
+"228","Nhập môn quản trị chất lượng","IQMA220205",NULL,NULL,NULL,NULL,NULL
+"229","Nhập môn Quản trị học","INMA220305",NULL,NULL,NULL,NULL,NULL
+"230","Nhập môn Logic học ","INLO220405",NULL,NULL,NULL,NULL,NULL
+"231","Cơ sở văn hoá Việt Nam","IVNC320905",NULL,NULL,NULL,NULL,NULL
+"232","Nhập môn Xã hội học","INSO321005",NULL,NULL,NULL,NULL,NULL
+"233","Tâm lý học kỹ sư","ENPS220591",NULL,NULL,NULL,NULL,NULL
+"234","Tư duy hệ thống","SYTH220491",NULL,NULL,NULL,NULL,NULL
+"235","Kỹ năng học tập đại học","LESK120190",NULL,NULL,NULL,NULL,NULL
+"236","Kỹ năng xây dựng kế hoạch","PLSK120290",NULL,NULL,NULL,NULL,NULL
+"237","Kỹ năng làm việc trong môi trường KT","WOPS120390",NULL,NULL,NULL,NULL,NULL
+"238","Phương pháp nghiên cứu khoa học","REME320690",NULL,NULL,NULL,NULL,NULL
+"239","Quản trị trên môi trường cloud","CLAD432480",NULL,NULL,NULL,NULL,NULL
+"240","Công nghệ Internet of Things và bảo mật","IOTS431780",NULL,NULL,NULL,NULL,NULL
+"241","Phân tích mã độc","ANMA432880",NULL,NULL,NULL,NULL,NULL
+"242","Hệ thống nhúng","ESYS431080",NULL,NULL,NULL,NULL,NULL
+"243","Nhập môn ngành Logistics","LOSU130109",NULL,NULL,NULL,NULL,NULL
+"244","Toán kinh tế 1","MATH130801",NULL,NULL,NULL,NULL,NULL
+"245","Toán kinh tế 2","MATH130901",NULL,NULL,NULL,NULL,NULL
+"246","Xác suất thống kê ứng dụng","MATH130401",NULL,NULL,NULL,NULL,NULL
+"247","Phương pháp nghiên cứu","RMET220306",NULL,NULL,NULL,NULL,NULL
+"248","Phân tích dữ liệu","DANA230606",NULL,NULL,NULL,NULL,NULL
+"249","Giao tiếp trong kinh doanh","BCOM321906",NULL,NULL,NULL,NULL,NULL
+"250","Hệ thống CIM","CIMS330709",NULL,NULL,NULL,NULL,NULL
+"251","Pháp luật về Logistics","TLAW322209",NULL,NULL,NULL,NULL,NULL
+"252","Bảo hiểm hàng hóa","CAIN320209",NULL,NULL,NULL,NULL,NULL
+"253","Marketing Căn bản","BAMA231209",NULL,NULL,NULL,NULL,NULL
+"254","Quản trị Logistics","LOMA322509",NULL,NULL,NULL,NULL,NULL
+"255","Mua hàng","PROC330109",NULL,NULL,NULL,NULL,NULL
+"256","Quản trị chuỗi cung ứng","SCMA430709",NULL,NULL,NULL,NULL,NULL
+"257","Khai báo Hải quan","CUST432109",NULL,NULL,NULL,NULL,NULL
+"258","Nghiệp vụ ngoại thương","FTRO432109",NULL,NULL,NULL,NULL,NULL
+"259","Quản trị vận hành","OPMA431909",NULL,NULL,NULL,NULL,NULL
+"260","Marketing dịch vụ","SERM332009",NULL,NULL,NULL,NULL,NULL
+"261","Hàng hóa trong Logistics","CALO432309",NULL,NULL,NULL,NULL,NULL
+"262","Chuyên đề thực hành","PRAT421809",NULL,NULL,NULL,NULL,NULL
+"263","Chuyên đề hội nhập doanh nghiệp ngành Logistics","SSEN321809",NULL,NULL,NULL,NULL,NULL
+"264","Thực tập tốt nghiệp","INTE421109",NULL,NULL,NULL,NULL,NULL
+"265","Khóa luận tốt nghiệp/Thi TN","LSCM451409",NULL,NULL,NULL,NULL,NULL
+"266","Lịch sử các học thuyết kinh tế","ETHE221506",NULL,NULL,NULL,NULL,NULL
+"267","Văn hóa doanh nghiệp","BCUL320506",NULL,NULL,NULL,NULL,NULL
+"268","Lập và phân tích dự án","PRAN321106",NULL,NULL,NULL,NULL,NULL
+"269","Tin học ứng dụng","APCM230307",NULL,NULL,NULL,NULL,NULL
+"270","Quản trị chiến lược Logistics","LSTR322109",NULL,NULL,NULL,NULL,NULL
+"271","Kế toán quản trị","MAAC430507",NULL,NULL,NULL,NULL,NULL
+"272","Nhập môn ngành Kế toán","INAC130107",NULL,NULL,NULL,NULL,NULL
+"273","Phương pháp nghiên cứu","RMET230306",NULL,NULL,NULL,NULL,NULL
+"274","Tin học ứng dụng","APCM220307",NULL,NULL,NULL,NULL,NULL
+"275","Luật kinh tế","BLAW230308",NULL,NULL,NULL,NULL,NULL
+"276","Quản trị Marketing","MAMA331706",NULL,NULL,NULL,NULL,NULL
+"277","Chuyên đề thực hành (Kiến tập)","PRAC420607",NULL,NULL,NULL,NULL,NULL
+"278","Chuyên đề doanh nghiệp ngành kế toán","SSEN321807",NULL,NULL,NULL,NULL,NULL
+"279","Kế toán chi phí","COAC331607",NULL,NULL,NULL,NULL,NULL
+"280","Kế toán quản trị","MAAC440507",NULL,NULL,NULL,NULL,NULL
+"281","Kế toán quốc tế","INAC331007",NULL,NULL,NULL,NULL,NULL
+"282","Kế toán tài chính 1","FIAC330207",NULL,NULL,NULL,NULL,NULL
+"283","Kế toán tài chính 2","FIAC330907",NULL,NULL,NULL,NULL,NULL
+"284","Lập báo cáo tài chính","FIAC430807",NULL,NULL,NULL,NULL,NULL
+"285","Kế toán tài chính nâng cao","ADFA431807",NULL,NULL,NULL,NULL,NULL
+"286","Kiểm toán 1","AUDI430207",NULL,NULL,NULL,NULL,NULL
+"287","Kiểm toán 2","ADAU430907",NULL,NULL,NULL,NULL,NULL
+"288","Phần mềm kế toán","ACSO430407",NULL,NULL,NULL,NULL,NULL
+"289","Phân tích hoạt động kinh doanh","BUAN331107",NULL,NULL,NULL,NULL,NULL
+"290","Nghiệp vụ ngân hàng thương mại","COBA330507",NULL,NULL,NULL,NULL,NULL
+"291","Tài chính doanh nghiệp 1","COFI330307",NULL,NULL,NULL,NULL,NULL
+"292","Tài chính doanh nghiệp 2","ADCF430307",NULL,NULL,NULL,NULL,NULL
+"293","Thực tập tốt nghiệp","INTE421007",NULL,NULL,NULL,NULL,NULL
+"294","Khóa luận tốt nghiệp","GRAT452107",NULL,NULL,NULL,NULL,NULL
+"295","Đầu tư quốc tế","ININ220608",NULL,NULL,NULL,NULL,NULL
+"296","Thị trường chứng khoán","SEMA430807",NULL,NULL,NULL,NULL,NULL
+"297","Anh văn chuyên ngành KT (Business English)","ACBU331507",NULL,NULL,NULL,NULL,NULL
+"298","Kế toán hành chính sự nghiệp","APAC330607",NULL,NULL,NULL,NULL,NULL
+"299","Kế toán ngân hàng","BAAC331407",NULL,NULL,NULL,NULL,NULL
+"300","Lập sổ sách kế toán trên Access","REAC321307",NULL,NULL,NULL,NULL,NULL
+"301","Lập sổ sách kế toán trên Excel","REEX321207",NULL,NULL,NULL,NULL,NULL
+"302","Quản trị sản xuất","PRMA330806",NULL,NULL,NULL,NULL,NULL
+"303","Lập và phân tích dự án","PRAN331106",NULL,NULL,NULL,NULL,NULL
+"304","Quản trị marketing","MAMA31706",NULL,NULL,NULL,NULL,NULL
+"305","Nhập môn ngành Quản lý CN","INMA130106",NULL,NULL,NULL,NULL,NULL
+"306","Vẽ kỹ thuật","TEDG130120",NULL,NULL,NULL,NULL,NULL
+"307","Thống kê trong kinh doanh ","BSTA231006",NULL,NULL,NULL,NULL,NULL
+"308","Phân tích dữ liệu","DANA230706",NULL,NULL,NULL,NULL,NULL
+"309","Quản trị sản xuất 2","PRMA331506",NULL,NULL,NULL,NULL,NULL
+"310","Thực hành Quản trị sản xuất","PRMP330806",NULL,NULL,NULL,NULL,NULL
+"311","Sản xuất tinh gọn","LEAN420806",NULL,NULL,NULL,NULL,NULL
+"312","Quản trị chất lượng","QMAN331606",NULL,NULL,NULL,NULL,NULL
+"313","6 Sigma căn bản","SSFU420906",NULL,NULL,NULL,NULL,NULL
+"314","Quản lý bảo trì công nghiệp","MAIM330406",NULL,NULL,NULL,NULL,NULL
+"315","Quản trị nguồn nhân lực","HRMA331206",NULL,NULL,NULL,NULL,NULL
+"316","An toàn lao động và môi trường công nghiệp","WSIE320425",NULL,NULL,NULL,NULL,NULL
+"317","Văn hóa doanh nghiệp","BCUL330506",NULL,NULL,NULL,NULL,NULL
+"318","Hành vi tổ chức","ORBE330306",NULL,NULL,NULL,NULL,NULL
+"319","Quản trị marketing","MAMA330906",NULL,NULL,NULL,NULL,NULL
+"320","Kế hoạch kinh doanh","BPLA430606",NULL,NULL,NULL,NULL,NULL
+"321","Chuyên đề doanh nghiệp (QLCN)","ENPR221106",NULL,NULL,NULL,NULL,NULL
+"322","Thực tập tốt nghiệp","INTE421106",NULL,NULL,NULL,NULL,NULL
+"323","Khóa luận tốt nghiệp","IMGR461206",NULL,NULL,NULL,NULL,NULL
+"324","Đồ hoạ kỹ thuật trên máy tính (CAD)Auto Cad căn bản","CADM230320",NULL,NULL,NULL,NULL,NULL
+"325","Tự động hóa quá trình sản xuất","AMAP432225",NULL,NULL,NULL,NULL,NULL
+"326","Kỹ thuật điện","ELEN232044",NULL,NULL,NULL,NULL,NULL
+"327","Thiết kế WEB","WEDE330484",NULL,NULL,NULL,NULL,NULL
+"328","Quản trị công nghệ","TEMA331406",NULL,NULL,NULL,NULL,NULL
+"329","Kế toán quản trị","MAAC331307",NULL,NULL,NULL,NULL,NULL
+"330","Cơ khí đại cương","GMEN134025",NULL,NULL,NULL,NULL,NULL
+"331","Kỹ thuật số","DITE334029",NULL,NULL,NULL,NULL,NULL
+"332","Toán 3","MATH132601",NULL,NULL,NULL,NULL,NULL
+"333","Toán ứng dụng trong cơ khí","AMME131529",NULL,NULL,NULL,NULL,NULL
+"334","Tin học trong kỹ thuật","COPR134529",NULL,NULL,NULL,NULL,NULL
+"335","Cơ kỹ thuật","ENME130620",NULL,NULL,NULL,NULL,NULL
+"336","Hóa đại cương","GCHE130603",NULL,NULL,NULL,NULL,NULL
+"337","Vật lý 2","PHYS131002",NULL,NULL,NULL,NULL,NULL
+"338","Thí nghiệm vật liệu học","MATE210330",NULL,NULL,NULL,NULL,NULL
+"339","Anh văn chuyên ngành cơ khí","ENME320124",NULL,NULL,NULL,NULL,NULL
+"340","Đồ án Công nghệ chế tạo máy","PMMT113625",NULL,NULL,NULL,NULL,NULL
+"341","Chuyên đề Doanh nghiệp (CNKTCK)","SEMI322824",NULL,NULL,NULL,NULL,NULL
+"342","Thiết kế, chế tạo khuôn mẫu","MOLD331224",NULL,NULL,NULL,NULL,NULL
+"343","CAD/CAM-CNC nâng cao","ACCC330525",NULL,NULL,NULL,NULL,NULL
+"344","Tự động hoá quá trình sản xuất (CKM)","AUMP323525",NULL,NULL,NULL,NULL,NULL
+"345","TN Tự động hoá quá trình sản xuất (CKM)","EMPA313625",NULL,NULL,NULL,NULL,NULL
+"346","Công nghệ thủy lực và khí nén","PNHY230529",NULL,NULL,NULL,NULL,NULL
+"347","TN Công nghệ thuỷ lực và khí nén","EPHT310629",NULL,NULL,NULL,NULL,NULL
+"348","Thực tập thiết kế, chế tạo khuôn mẫu","PMDM321324",NULL,NULL,NULL,NULL,NULL
+"349","Thực tập Công nghệ nhựa","PLAP322224",NULL,NULL,NULL,NULL,NULL
+"350","Thực tập CAD/CAM-CNC nâng cao","PACC320624",NULL,NULL,NULL,NULL,NULL
+"351","Khóa luận tốt nghiệp","GRAT472424",NULL,NULL,NULL,NULL,NULL
+"352","Chuyên đề tốt nghiệp 1 (CNKTCK)","STOG432524",NULL,NULL,NULL,NULL,NULL
+"353","Chuyên đề tốt nghiệp 2 (CNKTCK)","STOG422624",NULL,NULL,NULL,NULL,NULL
+"354","Chuyên đề tốt nghiệp 3 (CNKTCK)","STOG422724",NULL,NULL,NULL,NULL,NULL
+"355","Viết tài liệu kỹ thuật dành cho kỹ sư","TEWR123525",NULL,NULL,NULL,NULL,NULL
+"356","Kinh tế học đại cương (Ngành ngoài k.tế)","GEEC220105",NULL,NULL,NULL,NULL,NULL
+"357","Dao động kỹ thuật","MEVI220820",NULL,NULL,NULL,NULL,NULL
+"358","Cơ học lưu chất ứng dụng (CKM)","FLUI220132",NULL,NULL,NULL,NULL,NULL
+"359","Tối ưu hóa trong kỹ thuật","OPTE322925",NULL,NULL,NULL,NULL,NULL
+"360","Trí tuệ nhân tạo","AIAP324029",NULL,NULL,NULL,NULL,NULL
+"361","Thiết kế kỹ thuật cơ bản","BAED133925",NULL,NULL,NULL,NULL,NULL
+"362","Kỹ thuật nhiệt","THER222932",NULL,NULL,NULL,NULL,NULL
+"363","Quản trị sản xuất và chất lượng","MQMA331326",NULL,NULL,NULL,NULL,NULL
+"364","Thiết kế sản phẩm công nghiệp","DEIP331225",NULL,NULL,NULL,NULL,NULL
+"365","Kỹ thuật Robot","ROBO331129",NULL,NULL,NULL,NULL,NULL
+"366","Ứng dụng CAE trong thiết kế","CAED321024",NULL,NULL,NULL,NULL,NULL
+"367","Thí nghiệm CAE","ECAE311124",NULL,NULL,NULL,NULL,NULL
+"368","Mô hình hóa và phân tích hệ thống cơ khí","MAMS333625",NULL,NULL,NULL,NULL,NULL
+"369","Hệ thống truyền động servo","SERV334029",NULL,NULL,NULL,NULL,NULL
+"370","Công nghệ nano","NATE322625",NULL,NULL,NULL,NULL,NULL
+"371","Phương pháp Phần tử hữu hạn - Căn bản","IFEM230220",NULL,NULL,NULL,NULL,NULL
+"372","Công nghệ tạo mẫu nhanh & Thiết kế ngược","RAPT330724",NULL,NULL,NULL,NULL,NULL
+"373","Thí nghiệm Công nghệ tạo mẫu nhanh & Thiết kế ngược","ERED314125",NULL,NULL,NULL,NULL,NULL
+"374","Các phương pháp gia công đặc biệt","NTMP320725",NULL,NULL,NULL,NULL,NULL
+"375","Thí nghiệm đo lường nâng cao","AEMM214025",NULL,NULL,NULL,NULL,NULL
+"376","Điều khiển tự động","AUCO330329",NULL,NULL,NULL,NULL,NULL
+"377","Thí nghiệm Bảo trì và bảo dưỡng công nghiệp","EIMA310625",NULL,NULL,NULL,NULL,NULL
+"378","Quản trị sản xuất theo Lean và JIT","LJIT321126",NULL,NULL,NULL,NULL,NULL
+"379","Cảm biến và cơ cấu chấp hành","ENMA225929",NULL,NULL,NULL,NULL,NULL
+"380","Bảo trì và bảo dưỡng công nghiệp","IMAS320525",NULL,NULL,NULL,NULL,NULL
+"381","Năng lượng và quản lý năng lượng","ERMA321025",NULL,NULL,NULL,NULL,NULL
+"382","Trang bị điện - Điện tử trong máy công nghiệp","EEEI321925",NULL,NULL,NULL,NULL,NULL
+"383","Nhập môn Kỹ thuật Cơ khí","INME130125",NULL,NULL,NULL,NULL,NULL
+"384","Thí nghiệm vật lý 1","PHYS111202",NULL,NULL,NULL,NULL,NULL
+"385","Vẽ kỹ thuật cơ khí","MEDR141123",NULL,NULL,NULL,NULL,NULL
+"386","Vẽ kỹ thuật cơ khí nâng cao","AMDR221223",NULL,NULL,NULL,NULL,NULL
+"387","Sức bền vật liệu (Cơ khí)","MEMA230720",NULL,NULL,NULL,NULL,NULL
+"388","Nguyên lý - Chi tiết máy ","MMCD230323",NULL,NULL,NULL,NULL,NULL
+"389","Đồ án Thiết kế máy","MDPR310423",NULL,NULL,NULL,NULL,NULL
+"390","Dung sai - Kỹ thuật đo","TOMT220225",NULL,NULL,NULL,NULL,NULL
+"391","Thí nghiệm đo lường cơ khí","EXMM210325",NULL,NULL,NULL,NULL,NULL
+"392","Vật liệu học","ENMA220230",NULL,NULL,NULL,NULL,NULL
+"393","Cơ sở công nghệ chế tạo máy","FMMT330825",NULL,NULL,NULL,NULL,NULL
+"394","Công nghệ kim loại","METE224230",NULL,NULL,NULL,NULL,NULL
+"395","TN Công nghệ thuỷ lực và khí nén","EPHT210629",NULL,NULL,NULL,NULL,NULL
+"396","Máy và hệ thống điều khiển số","MTNC330925",NULL,NULL,NULL,NULL,NULL
+"397","Công nghệ chế tạo máy","MMAT344225",NULL,NULL,NULL,NULL,NULL
+"398","Đồ án Công nghệ chế tạo máy","PMMT311625",NULL,NULL,NULL,NULL,NULL
+"399","TN Trang bị điện - Điện tử trong máy công nghiệp","ELDR312025",NULL,NULL,NULL,NULL,NULL
+"400","Công nghệ CAD/CAM-CNC","CCCT331725",NULL,NULL,NULL,NULL,NULL
+"401","Chuyên đề Doanh nghiệp (CNCTM)","SEMI323525",NULL,NULL,NULL,NULL,NULL
+"402","Thiết kế, chế tạo khuôn mẫu","MOLD331225",NULL,NULL,NULL,NULL,NULL
+"403","Thực tập nguội","MHAP110127",NULL,NULL,NULL,NULL,NULL
+"404","Thực tập Kỹ thuật Hàn","WEPR210430",NULL,NULL,NULL,NULL,NULL
+"405","Thực tập Cơ khí 1","MEPR240227",NULL,NULL,NULL,NULL,NULL
+"406","Thực tập Cơ khí 2","MEPR330327",NULL,NULL,NULL,NULL,NULL
+"407","Thực tập CNC","PCNC322125",NULL,NULL,NULL,NULL,NULL
+"408","Thực tập Công nghệ CAD/CAM-CNC","PCCC321825",NULL,NULL,NULL,NULL,NULL
+"409","Thực tập Tốt nghiệp (CNCTM)","FAIN443825",NULL,NULL,NULL,NULL,NULL
+"410","Khóa luận tốt nghiệp (CNCTM)","GRAT473125",NULL,NULL,NULL,NULL,NULL
+"411","Chuyên đề tốt nghiệp 1 (CNCTM)","STOG433225",NULL,NULL,NULL,NULL,NULL
+"412","Chuyên đề tốt nghiệp 2 (CNCTM)","STOG423325",NULL,NULL,NULL,NULL,NULL
+"413","Chuyên đề tốt nghiệp 3 (CNCTM)","STOG423425",NULL,NULL,NULL,NULL,NULL
+"414","Các phương pháp đo lường cơ khí hiện đại","MMMM323725",NULL,NULL,NULL,NULL,NULL
+"415","Trí tuệ nhân tạo","ARIN337629",NULL,NULL,NULL,NULL,NULL
+"416","Thí nghiệm Công nghệ tạo mẫu nhanh & Thiết kế ngược","ERED314124",NULL,NULL,NULL,NULL,NULL
+"417","Lập trình ứng dụng trong kỹ thuật","COPR231329",NULL,NULL,NULL,NULL,NULL
+"418","Cảm biến và cơ cấu chấp hành","SEAC225929",NULL,NULL,NULL,NULL,NULL
+"419","Nhập môn Công nghệ Kỹ thuật Cơ Điện Tử","INME130129",NULL,NULL,NULL,NULL,NULL
+"420","Đồ án Truyền động cơ khí"," MDDP310523",NULL,NULL,NULL,NULL,NULL
+"421","Điều khiển tự động","AUCO230329",NULL,NULL,NULL,NULL,NULL
+"422","Kỹ thuật điện – điện tử","EEEN230129",NULL,NULL,NULL,NULL,NULL
+"423","Kỹ thuật số","DITE226829",NULL,NULL,NULL,NULL,NULL
+"424","Kỹ thuật gia công vật liệu","MAPE230430",NULL,NULL,NULL,NULL,NULL
+"425","Tự động hóa quá trình sản xuất","MPAU220729",NULL,NULL,NULL,NULL,NULL
+"426","Điều khiển quá trình","PCTR421929",NULL,NULL,NULL,NULL,NULL
+"427","Vi xử lý","MICO236929",NULL,NULL,NULL,NULL,NULL
+"428","Đồ án Cơ điện tử","PRME315129",NULL,NULL,NULL,NULL,NULL
+"429","Điện tử công suất","POEL326729",NULL,NULL,NULL,NULL,NULL
+"430","Chuyên đề doanh nghiệp","SEMI325929",NULL,NULL,NULL,NULL,NULL
+"431","Thực tập Cơ khí cơ bản","BMPR230527",NULL,NULL,NULL,NULL,NULL
+"432","Thực tập tự động hóa","PMPA326629",NULL,NULL,NULL,NULL,NULL
+"433","Thực tập cảm biến và robot","PSEA311429",NULL,NULL,NULL,NULL,NULL
+"434","Thực tập kỹ thuật điều khiển tự động","PACT310429",NULL,NULL,NULL,NULL,NULL
+"435","Thực tập thiết kế mạch","PEEE210229",NULL,NULL,NULL,NULL,NULL
+"436","Thực tập Vi xử lý","PDTM311029",NULL,NULL,NULL,NULL,NULL
+"437","Thực tập Servo","PESD314129",NULL,NULL,NULL,NULL,NULL
+"438","Thực tập tốt nghiệp (CĐT)","FAIN442029",NULL,NULL,NULL,NULL,NULL
+"439","Đồ án tốt nghiệp","UGRA475529",NULL,NULL,NULL,NULL,NULL
+"440","Mỹ thuật Công nghiệp","AEST220224",NULL,NULL,NULL,NULL,NULL
+"441","Kỹ thuật vẽ phác","SCDR130324",NULL,NULL,NULL,NULL,NULL
+"442","Hệ thống SCADA","SCDA331629",NULL,NULL,NULL,NULL,NULL
+"443","Thị giác máy","MAVI332529",NULL,NULL,NULL,NULL,NULL
+"444","Xử lý tín hiệu số","DIPR337529",NULL,NULL,NULL,NULL,NULL
+"445","Hệ thống nhúng","EMSY337329",NULL,NULL,NULL,NULL,NULL
+"446","IoT trong lĩnh vực Cơ điện tử","IoTM337629",NULL,NULL,NULL,NULL,NULL
+"447","Ứng dụng CAE trong thiết kế"," CAED321024",NULL,NULL,NULL,NULL,NULL
+"448","Nhập môn dữ liệu lớn (Big Data Essentials)","BDES333877",NULL,NULL,NULL,NULL,NULL
+"449","Calculus I","MATH132401E",NULL,NULL,NULL,NULL,NULL
+"450","Calculus II","MATH132501E",NULL,NULL,NULL,NULL,NULL
+"451","Calculus III","MATH132601E",NULL,NULL,NULL,NULL,NULL
+"452","Mathematical Statistics for Engineers","MATH132901E",NULL,NULL,NULL,NULL,NULL
+"453","Applied Mathematics in Engineering","AMME131529E",NULL,NULL,NULL,NULL,NULL
+"454","Physics 1","PHYS130902E",NULL,NULL,NULL,NULL,NULL
+"455","Physics 2","PHYS131002E",NULL,NULL,NULL,NULL,NULL
+"456","Physics - Laboratory 1","PHYS111202E",NULL,NULL,NULL,NULL,NULL
+"457","General Chemistry for Engineers","GCHE130603E",NULL,NULL,NULL,NULL,NULL
+"458","Introduction to Robotics and Artificial Intelligence Engineering","INME130229E",NULL,NULL,NULL,NULL,NULL
+"459","Computer Programming 1","COPR134529E",NULL,NULL,NULL,NULL,NULL
+"460","Digital Techniques","DITE226829E",NULL,NULL,NULL,NULL,NULL
+"461","Mechanical engineering drawing","MEDR141123E",NULL,NULL,NULL,NULL,NULL
+"462","Engineering Mechanics","ENME130620E",NULL,NULL,NULL,NULL,NULL
+"463","Mechanics of materials (mechanical engineering)","MEMA230720E",NULL,NULL,NULL,NULL,NULL
+"464","Mechanisms and machine components design","MMCD230323E",NULL,NULL,NULL,NULL,NULL
+"465","Microcontroller","MICO336929E",NULL,NULL,NULL,NULL,NULL
+"466","Sensors and Actuators","ENMA225929E",NULL,NULL,NULL,NULL,NULL
+"467","Automatic Control","AUCO330329E",NULL,NULL,NULL,NULL,NULL
+"468","Computer Programming 2","COPR231329E",NULL,NULL,NULL,NULL,NULL
+"469","Electrical and Electronics Engineering","EEEN230129E",NULL,NULL,NULL,NULL,NULL
+"470","Optimal Design of Robots","OPDE330120E",NULL,NULL,NULL,NULL,NULL
+"471","Big Data","BIDA330729E",NULL,NULL,NULL,NULL,NULL
+"472","Human Robot Interaction, VR and VA","HROI330829E",NULL,NULL,NULL,NULL,NULL
+"473","Visual Geometry and Vision Machine","MAVI332529E",NULL,NULL,NULL,NULL,NULL
+"474","Artificial intelligence","ARIN331029E",NULL,NULL,NULL,NULL,NULL
+"475","Seminar on Industrial Demands (Robotics)","SEMI322729E",NULL,NULL,NULL,NULL,NULL
+"476","Practice of Automatic Control Systems","PACS323729E",NULL,NULL,NULL,NULL,NULL
+"477","Basic Mechanical Practice","BMPR230527E",NULL,NULL,NULL,NULL,NULL
+"478","Practice of Micro-Processors and Embedded Systems","PMEM313929E",NULL,NULL,NULL,NULL,NULL
+"479","Practice of Robotics and Sensors","PIRS314029E",NULL,NULL,NULL,NULL,NULL
+"480","Practice of Artificial Intelligence","PAIN324129E",NULL,NULL,NULL,NULL,NULL
+"481","Practice of Manufacturing Process Automation","PAUT324229E",NULL,NULL,NULL,NULL,NULL
+"482","Graduation Internship (ROBOT)","FAIN444429E",NULL,NULL,NULL,NULL,NULL
+"483","Project of Robot Mechanical Design","PRME212329E",NULL,NULL,NULL,NULL,NULL
+"484","Project of Robot Electronics - Control","PREE212429E",NULL,NULL,NULL,NULL,NULL
+"485","Project of Robotics and AI","PRRO312529E",NULL,NULL,NULL,NULL,NULL
+"486","Capstone Project","CAPR472629E",NULL,NULL,NULL,NULL,NULL
+"487","Industrial Fine Arts","AEST220224E",NULL,NULL,NULL,NULL,NULL
+"488","Sketch","SCDR130324E",NULL,NULL,NULL,NULL,NULL
+"489","Fluid Mechanics and CFD","FLUI230120E",NULL,NULL,NULL,NULL,NULL
+"490","Manufacturing Process Automation","MPAU330729E",NULL,NULL,NULL,NULL,NULL
+"491","Materials Processing Engineering","MAPE230530E",NULL,NULL,NULL,NULL,NULL
+"492","Dynamics of multi-body systems","DYNA330429E",NULL,NULL,NULL,NULL,NULL
+"493","Introduction to Finite Element Method","IFEM230220E",NULL,NULL,NULL,NULL,NULL
+"494","Digital Signal Processing","DIPR337529E",NULL,NULL,NULL,NULL,NULL
+"495","Embedded Systems","EMPR337329E",NULL,NULL,NULL,NULL,NULL
+"496","Real-Time Systems","RETI130929E",NULL,NULL,NULL,NULL,NULL
+"497","Autonomous Vehicles and Mobile Robots","AVMR330929E",NULL,NULL,NULL,NULL,NULL
+"498","Advanced Robot Programming","ADRO331329E",NULL,NULL,NULL,NULL,NULL
+"499","Software architectures for robotics and AI","SARO331429E",NULL,NULL,NULL,NULL,NULL
+"500","IoT (Internet of Things)","IOTS331529E",NULL,NULL,NULL,NULL,NULL
+"501","Walking and Humanoid Robots","HURO331629E ",NULL,NULL,NULL,NULL,NULL
+"502","Nonlinear and Multi-Variable Control","NOCO331729E",NULL,NULL,NULL,NULL,NULL
+"503","Artificial Neural Network","NNET331829E",NULL,NULL,NULL,NULL,NULL
+"504","Modelling and control of industrial manipulators","MOCO331929E",NULL,NULL,NULL,NULL,NULL
+"505","Telerobotics/ Haptics Robot","HARO332029E",NULL,NULL,NULL,NULL,NULL
+"506","BioMimetics/BioRobotics","BIRO332129E",NULL,NULL,NULL,NULL,NULL
+"507","Cooperative Robotics/Distributive Robotics/Modular Robotics","MORO332229E",NULL,NULL,NULL,NULL,NULL
+"508","Nhập môn Kỹ thuật Công nghiệp","INME130126",NULL,NULL,NULL,NULL,NULL
+"509","Đồ án Kỹ thuật Công nghiệp 1","PRIE311126",NULL,NULL,NULL,NULL,NULL
+"510","Vận trù học ","OPRE230726",NULL,NULL,NULL,NULL,NULL
+"511","Kỹ thuật điều khiển","COEN245926",NULL,NULL,NULL,NULL,NULL
+"512","Quản trị sản xuất","PRMA230326",NULL,NULL,NULL,NULL,NULL
+"513","Kinh tế kỹ thuật ","ENEC222126",NULL,NULL,NULL,NULL,NULL
+"514","Lập kế hoạch và điều độ sản xuất","PLSC331126",NULL,NULL,NULL,NULL,NULL
+"515","Tự động hóa quá trình sản xuất (KCN)","MPAU220726",NULL,NULL,NULL,NULL,NULL
+"516","Logistics và Quản trị chuỗi cung ứng","SCMA331226",NULL,NULL,NULL,NULL,NULL
+"517","Mô hình hóa và mô phỏng hệ thống công nghiệp","MSIS321026",NULL,NULL,NULL,NULL,NULL
+"518","Kỹ thuật Robot (KCN)","ROBO331126",NULL,NULL,NULL,NULL,NULL
+"519","Thí nghiệm Kỹ thuật Robot (KCN)","EXRO311126",NULL,NULL,NULL,NULL,NULL
+"520","Đồ án Kỹ thuật Công nghiệp 2","PRIE411226",NULL,NULL,NULL,NULL,NULL
+"521","Quản trị dự án ","PROM330326",NULL,NULL,NULL,NULL,NULL
+"522","Quản trị chất lượng","QUMA331326",NULL,NULL,NULL,NULL,NULL
+"523","Chuyên đề doanh nghiệp (KCN)","SEMI421626",NULL,NULL,NULL,NULL,NULL
+"524","Thiết kế hệ thống công việc và Ergonomics","WDER231726",NULL,NULL,NULL,NULL,NULL
+"525","Thực tập Hệ thống sản xuất tự động","PRPS321526",NULL,NULL,NULL,NULL,NULL
+"526","Thực tập Mô phỏng trong Kỹ thuật công nghiệp","PRMS321626",NULL,NULL,NULL,NULL,NULL
+"527","Thực tập tốt nghiệp (KCN)","FAIN440626",NULL,NULL,NULL,NULL,NULL
+"528","Đồ án tốt nghiệp","GRAT470626",NULL,NULL,NULL,NULL,NULL
+"529","Kỹ thuật chế tạo","MATE230430",NULL,NULL,NULL,NULL,NULL
+"530","Kỹ thuật ra quyết định đa mục tiêu","MCDM321526",NULL,NULL,NULL,NULL,NULL
+"531","Sản xuất tinh gọn","LPRO321126",NULL,NULL,NULL,NULL,NULL
+"532","Kiểm soát và quản lý tồn kho","INMC331826",NULL,NULL,NULL,NULL,NULL
+"533","Thiết kế vị trí và mặt bằng phân xưởng","FALA321626",NULL,NULL,NULL,NULL,NULL
+"534","Hệ thống thông tin quản lý","MAIS331726",NULL,NULL,NULL,NULL,NULL
+"535","Nhập môn ngành Kỹ nghệ gỗ và Nội thất","IFWT134328",NULL,NULL,NULL,NULL,NULL
+"536","Khoa học gỗ","WOSC230428",NULL,NULL,NULL,NULL,NULL
+"537","Nguyên lý cắt vật liệu gỗ","WPME222628",NULL,NULL,NULL,NULL,NULL
+"538","Máy và thiết bị chế biến gỗ","WMCP330728",NULL,NULL,NULL,NULL,NULL
+"539","Keo dán gỗ","WADH321028",NULL,NULL,NULL,NULL,NULL
+"540","Công nghệ sấy và bảo quản gỗ","WPDT331128",NULL,NULL,NULL,NULL,NULL
+"541","Công nghệ sản xuất đồ gỗ","TFUR330928",NULL,NULL,NULL,NULL,NULL
+"542","Thiết kế sản phẩm gỗ","FUDE332728",NULL,NULL,NULL,NULL,NULL
+"543","Công nghệ vật liệu gỗ","WBMT331328",NULL,NULL,NULL,NULL,NULL
+"544","Công nghệ xẻ","WSMT224128",NULL,NULL,NULL,NULL,NULL
+"545","Công nghệ trang sức vật liệu gỗ","WFTE321528",NULL,NULL,NULL,NULL,NULL
+"546","Công nghệ CAD/CAM-CNC","CCCT431725",NULL,NULL,NULL,NULL,NULL
+"547","Đồ án Thiết kế sản phẩm nội thất","PFDE414228",NULL,NULL,NULL,NULL,NULL
+"548","Thực tập khoa học gỗ","PRWS212828",NULL,NULL,NULL,NULL,NULL
+"549","Thực tập máy chế biến gỗ","PWPM322928",NULL,NULL,NULL,NULL,NULL
+"550","Thực tập sấy và bảo quản gỗ","PWPD313028",NULL,NULL,NULL,NULL,NULL
+"551","Thực tập gỗ 1","PRWW333128",NULL,NULL,NULL,NULL,NULL
+"552","Thực tập Công nghệ CAD/CAM-CNC","PCCC421825",NULL,NULL,NULL,NULL,NULL
+"553","Thực tập gỗ 2 (nâng cao)","PRWW324428",NULL,NULL,NULL,NULL,NULL
+"554","Thực tập tốt nghiệp","FAIN444528",NULL,NULL,NULL,NULL,NULL
+"555","Khóa luận tốt nghiệp","GRAT473928",NULL,NULL,NULL,NULL,NULL
+"556","Chuyên đề tốt nghiệp 1 (CNCBLS)","STOG433628",NULL,NULL,NULL,NULL,NULL
+"557","Chuyên đề tốt nghiệp 2 (CNCBLS)","STOG423728",NULL,NULL,NULL,NULL,NULL
+"558","Chuyên đề tốt nghiệp 3 (CNCBLS)","STOG423829",NULL,NULL,NULL,NULL,NULL
+"559","Nguyên lý thiết kế nội thất","PFID220828",NULL,NULL,NULL,NULL,NULL
+"560","Ergonomics trong thiết kế nội thất","EIID220528",NULL,NULL,NULL,NULL,NULL
+"561","Thiết kế nội thất nhà ở và biệt thự","HVID433428",NULL,NULL,NULL,NULL,NULL
+"562","Thiết kế nội thất công trình công cộng","OFID433528",NULL,NULL,NULL,NULL,NULL
+"563","Công nghệ thủy lực và khí nén","PNHY330529",NULL,NULL,NULL,NULL,NULL
+"564","Tự động hóa quá trình sản xuất","MPAU320729",NULL,NULL,NULL,NULL,NULL
+"565","Lập trình ứng dụng trong kỹ thuật","COPR321329",NULL,NULL,NULL,NULL,NULL
+"566","Lập trình C","CCPR224064",NULL,NULL,NULL,NULL,NULL
+"567","Nhập môn ngành CNKT ô tô","INAT130130",NULL,NULL,NULL,NULL,NULL
+"568","Cơ lý thuyết","THME230721",NULL,NULL,NULL,NULL,NULL
+"569","Sức bền vật liệu","STMA230521",NULL,NULL,NULL,NULL,NULL
+"570","Kỹ thuật điện – điện tử","AEEE230833",NULL,NULL,NULL,NULL,NULL
+"571","Nguyên lý - Chi tiết máy","MEMD230323",NULL,NULL,NULL,NULL,NULL
+"572","Vi điều khiển ứng dụng","AMIC320133",NULL,NULL,NULL,NULL,NULL
+"573","Nguyên lý động cơ đốt trong","ICEP330330",NULL,NULL,NULL,NULL,NULL
+"574","Lý thuyết ô tô","THEV330131",NULL,NULL,NULL,NULL,NULL
+"575","Tính toán động cơ đốt trong","ICEC320430",NULL,NULL,NULL,NULL,NULL
+"576","Thiết kế ô tô","VEDE320231",NULL,NULL,NULL,NULL,NULL
+"577","Năng lượng mới trên ô tô","AEVE320830",NULL,NULL,NULL,NULL,NULL
+"578","Hệ thống điện - điện tử ô tô","AEES330233",NULL,NULL,NULL,NULL,NULL
+"579","Hệ thống điều khiển tự động ô tô","VACS330333",NULL,NULL,NULL,NULL,NULL
+"580","Anh văn chuyên  ngành","EFAE327031",NULL,NULL,NULL,NULL,NULL
+"581","Quản lý dịch vụ ô tô","ASMA220230",NULL,NULL,NULL,NULL,NULL
+"582","TT Động cơ đốt trong","PICE331030",NULL,NULL,NULL,NULL,NULL
+"583","TT Hệ thống điều khiển động cơ","PEMS331130",NULL,NULL,NULL,NULL,NULL
+"584","TT Hệ thống điện – điện tử ô tô","PAES321133",NULL,NULL,NULL,NULL,NULL
+"585","TT Hệ thống điện thân xe","PABE331233",NULL,NULL,NULL,NULL,NULL
+"586","TT Hệ thống truyền lực ô tô","PAPS331131",NULL,NULL,NULL,NULL,NULL
+"587","TT HT ĐK và Chuyển động ô tô","PACS321231",NULL,NULL,NULL,NULL,NULL
+"588","Thực tập Tốt nghiệp (CNKT ô tô)","PRGR442130",NULL,NULL,NULL,NULL,NULL
+"589","Khóa luận tốt nghiệp","GRTH472030",NULL,NULL,NULL,NULL,NULL
+"590","Toán cao cấp dành cho kỹ sư 1","MATH133101",NULL,NULL,NULL,NULL,NULL
+"591","Toán cao cấp dành cho kỹ sư 2","MATH133201",NULL,NULL,NULL,NULL,NULL
+"592","Vật lý 3","PHYS131102",NULL,NULL,NULL,NULL,NULL
+"593","Cơ sở công nghệ chế tạo máy","FMMT320825",NULL,NULL,NULL,NULL,NULL
+"594","Công nghệ kim loại","METE320126",NULL,NULL,NULL,NULL,NULL
+"595","Máy thủy lực và khí nén","PHEQ220332",NULL,NULL,NULL,NULL,NULL
+"596","Ứng dụng máy tính (ĐC)","CAES320530",NULL,NULL,NULL,NULL,NULL
+"597","Ứng dụng máy tính (KG)","CADS320531",NULL,NULL,NULL,NULL,NULL
+"598","Ứng dụng máy tính (ĐOT)","CAMC320533",NULL,NULL,NULL,NULL,NULL
+"599","Đồ án môn học (ĐC)","SPAE310730",NULL,NULL,NULL,NULL,NULL
+"600","Đồ án môn học (KG)","SPAC312131",NULL,NULL,NULL,NULL,NULL
+"601","Đồ án môn học (ĐOT)","SPAE310733",NULL,NULL,NULL,NULL,NULL
+"602","Công nghệ sản xuất và lắp ráp ô tô","AAMT320830",NULL,NULL,NULL,NULL,NULL
+"603","Công nghệ chẩn đoán sửa chữa ô tô","ADRT320331",NULL,NULL,NULL,NULL,NULL
+"604","Dao động và tiếng ồn","AVIN320431",NULL,NULL,NULL,NULL,NULL
+"605","Chuyên đề công nghệ mới trên động cơ","TAET420930",NULL,NULL,NULL,NULL,NULL
+"606","Chuyên đề an toàn và ổn định ô tô","TASS420931",NULL,NULL,NULL,NULL,NULL
+"607","Chuyên đề công nghệ xe điện - xe lai","THET420933",NULL,NULL,NULL,NULL,NULL
+"608","TT Chẩn đoán trên ô tô ","POAD321230",NULL,NULL,NULL,NULL,NULL
+"609","TT thân vỏ ô tô","PABP321331",NULL,NULL,NULL,NULL,NULL
+"610","TT lập trình điều khiển ô tô","PAUP321333",NULL,NULL,NULL,NULL,NULL
+"611","Năng lượng và quản lý năng lượng","ERMA326032",NULL,NULL,NULL,NULL,NULL
+"612","Nhập môn lập trình Python","INPY131685",NULL,NULL,NULL,NULL,NULL
+"613","Năng lượng và quản lý năng lượng","ERMA626032",NULL,NULL,NULL,NULL,NULL
+"614","Lý thuyết ô tô","THOV330131",NULL,NULL,NULL,NULL,NULL
+"615","Lập trình Matlab","IPRM121585",NULL,NULL,NULL,NULL,NULL
+"616","Nhập môn ngành Công nghệ Kỹ thuật Nhiệt","INTE130132",NULL,NULL,NULL,NULL,NULL
+"617","Anh văn 1","EHQT130137",NULL,NULL,NULL,NULL,NULL
+"618","Anh văn 2","EHQT230237",NULL,NULL,NULL,NULL,NULL
+"619","Anh văn 3","EHQT330337",NULL,NULL,NULL,NULL,NULL
+"620","Anh văn 4 (Anh văn chuyên ngành Nhiệt)","ENTE230432",NULL,NULL,NULL,NULL,NULL
+"621","Kỹ thuật điện – điện tử","AEEE230832",NULL,NULL,NULL,NULL,NULL
+"622","Nhiệt động lực học kỹ thuật","THER230232",NULL,NULL,NULL,NULL,NULL
+"623","Truyền nhiệt","HEAT230332",NULL,NULL,NULL,NULL,NULL
+"624","Kỹ thuật lạnh","REEN230532",NULL,NULL,NULL,NULL,NULL
+"625","Lò hơi","BOIT330632",NULL,NULL,NULL,NULL,NULL
+"626","Bơm, Quạt và Máy Nén","PFCO330232",NULL,NULL,NULL,NULL,NULL
+"627","Máy nén và thiết bị lạnh","COMP330732",NULL,NULL,NULL,NULL,NULL
+"628","Điều hòa không khí","ACSY340932",NULL,NULL,NULL,NULL,NULL
+"629","Nhà máy nhiệt điện","THPP331032",NULL,NULL,NULL,NULL,NULL
+"630","Kỹ thuật sấy và chưng cất","DRYT331132",NULL,NULL,NULL,NULL,NULL
+"631","Ứng dụng phần mềm thiết kế hệ thống ME","DSME433632",NULL,NULL,NULL,NULL,NULL
+"632","TT điện lạnh 1","RETP322132",NULL,NULL,NULL,NULL,NULL
+"633","TT điện lạnh 2","RETP332232",NULL,NULL,NULL,NULL,NULL
+"634","TT điện lạnh 3","RETP332332",NULL,NULL,NULL,NULL,NULL
+"635","TT điện lạnh 4","RETP322432",NULL,NULL,NULL,NULL,NULL
+"636","TT lò hơi","BOIP322732",NULL,NULL,NULL,NULL,NULL
+"637","TT sấy","DRYP322932",NULL,NULL,NULL,NULL,NULL
+"638","Chuyên đề Doanh Nghiệp (CNKT Nhiệt)","ENSE320932",NULL,NULL,NULL,NULL,NULL
+"639","Thực tập tốt nghiệp","UNPR443032",NULL,NULL,NULL,NULL,NULL
+"640","Khóa luận tốt nghiệp","UNTH472832",NULL,NULL,NULL,NULL,NULL
+"641","Đại số tuyến tính"," MATH133501",NULL,NULL,NULL,NULL,NULL
+"642","Vật liệu nhiệt lạnh","THMA221332",NULL,NULL,NULL,NULL,NULL
+"643","Đo lường nhiệt","THME221432",NULL,NULL,NULL,NULL,NULL
+"644","Thiết bị trao đổi nhiệt","HEEX321532",NULL,NULL,NULL,NULL,NULL
+"645","Nguyên lý tự động hóa quá trình nhiệt","PTPA321632",NULL,NULL,NULL,NULL,NULL
+"646","Kinh tế năng lượng","ENEC320832",NULL,NULL,NULL,NULL,NULL
+"647","Chuyên đề lạnh","STRT321732",NULL,NULL,NULL,NULL,NULL
+"648","Chuyên đề nhiệt","STHT321832",NULL,NULL,NULL,NULL,NULL
+"649","Chuyên đề năng lượng tái tạo","STRE321932",NULL,NULL,NULL,NULL,NULL
+"650","Đồ án lạnh","REPR310132",NULL,NULL,NULL,NULL,NULL
+"651","Đồ án nhiệt","THPR310232",NULL,NULL,NULL,NULL,NULL
+"652","Kiểm toán và tiết kiệm năng lượng","ENAE321845",NULL,NULL,NULL,NULL,NULL
+"653","Nhập môn ngành Năng lượng Tái tạo","INRE130134",NULL,NULL,NULL,NULL,NULL
+"654","Mạch điện ","ELCI140144",NULL,NULL,NULL,NULL,NULL
+"655","Hệ thống điện","POSY346645",NULL,NULL,NULL,NULL,NULL
+"656","Đo lường Năng lượng","ENME220434",NULL,NULL,NULL,NULL,NULL
+"657","Điều khiển lập trình PLC (Năng lượng tái tạo) ","PLCS330846",NULL,NULL,NULL,NULL,NULL
+"658","Nhiệt động lực học và Truyền nhiệt","TDHT230234",NULL,NULL,NULL,NULL,NULL
+"659","Vẽ thiết kế hệ thống","SYDD130834",NULL,NULL,NULL,NULL,NULL
+"660","Các nguồn Năng lượng","STRE220334",NULL,NULL,NULL,NULL,NULL
+"661","Bơm, Quạt, Máy nén","PFCO320232",NULL,NULL,NULL,NULL,NULL
+"662","Lưới điện có nguồn phân tán Micro grid (Năng lượng tái tạo)","MGDG333045",NULL,NULL,NULL,NULL,NULL
+"663","Máy điện ","ELMA240344",NULL,NULL,NULL,NULL,NULL
+"664","Điện gió và ứng dụng","WEAP331034",NULL,NULL,NULL,NULL,NULL
+"665","Điện mặt trời và ứng dụng","SEAP333245",NULL,NULL,NULL,NULL,NULL
+"666","Điện tử công suất ","POEL330262",NULL,NULL,NULL,NULL,NULL
+"667","Kiểm toán và tiết kiệm năng lượng ","ENAE320934",NULL,NULL,NULL,NULL,NULL
+"668","Năng lượng Nhiệt mặt trời và ứng dụng ","STEA220534",NULL,NULL,NULL,NULL,NULL
+"669","Đồ án môn học 1 (Năng lượng tái tạo)","REPR311234",NULL,NULL,NULL,NULL,NULL
+"670","Đồ án môn học 2 (Điều khiển hệ thống)","PLCR311146",NULL,NULL,NULL,NULL,NULL
+"671","Chuyên đề Năng lượng tái tạo","STRE431334",NULL,NULL,NULL,NULL,NULL
+"672","TT đo lường Năng lượng ","EMPR311534",NULL,NULL,NULL,NULL,NULL
+"673","TT điện và khí cụ điện ","EIPR321634",NULL,NULL,NULL,NULL,NULL
+"674","TT thiết bị chuyển đổi điện năng ","POEP331734",NULL,NULL,NULL,NULL,NULL
+"675","TT điều khiển lập trình (Năng lượng tái tạo) ","PPLC321346",NULL,NULL,NULL,NULL,NULL
+"676","TT lắp đặt hệ thống điện mặt trời","SESI331834",NULL,NULL,NULL,NULL,NULL
+"677","TT hệ thống điện gió và mặt trời","RENP331934",NULL,NULL,NULL,NULL,NULL
+"678","Chuyên đề Doanh Nghiệp (Năng lượng tái tạo)","INSE321434",NULL,NULL,NULL,NULL,NULL
+"679","Thực tập tốt nghiệp","UNPR442034",NULL,NULL,NULL,NULL,NULL
+"680","Khóa luận tốt nghiệp","UNTH472134",NULL,NULL,NULL,NULL,NULL
+"681","Năng lượng Hydro và Pin Nhiên Liệu","HEFC220734",NULL,NULL,NULL,NULL,NULL
+"682","Hệ Thống Nhiệt Lạnh","TRSY220634",NULL,NULL,NULL,NULL,NULL
+"683","Kinh tế và quản lý năng lượng","EECM322434",NULL,NULL,NULL,NULL,NULL
+"684","Năng lượng sinh khối và sinh khí (Biomass and Biogas Energy)","BMEN321134",NULL,NULL,NULL,NULL,NULL
+"685","Mô hình hoá và mô phỏng hệ thống năng lượng","ESMS322334",NULL,NULL,NULL,NULL,NULL
+"686","Quản trị CN & QLDA điện (Năng lượng tái tạo) ","IAPM 332345",NULL,NULL,NULL,NULL,NULL
+"687","Hệ thống BMS (Năng lượng tái tạo) ","BMSY332045 ",NULL,NULL,NULL,NULL,NULL
+"688","Hệ thống SCADA (Năng lượng tái tạo) ","SCDA430946",NULL,NULL,NULL,NULL,NULL
+"689","Ứng dụng Matlab trong kỹ thuật điện (Năng lượng tái tạo) ","MSET331145",NULL,NULL,NULL,NULL,NULL
+"690","Kỹ thuật điện","ELEE220144",NULL,NULL,NULL,NULL,NULL
+"691","Tin học văn phòng nâng cao","ADMO138685",NULL,NULL,NULL,NULL,NULL
+"692","Nhập môn ngành CNKT Hoá học","ICHE130703",NULL,NULL,NULL,NULL,NULL
+"693","Hoá vô cơ","ICHE231003",NULL,NULL,NULL,NULL,NULL
+"694","Kỹ thuật PTN và an toàn hoá chất","TSCL120803",NULL,NULL,NULL,NULL,NULL
+"695","Anh văn 2","ENGL130237",NULL,NULL,NULL,NULL,NULL
+"696","Anh văn 3","ENGL130337",NULL,NULL,NULL,NULL,NULL
+"697","Anh văn 4","ENGL130437",NULL,NULL,NULL,NULL,NULL
+"698","Cơ ứng dụng","APME221021",NULL,NULL,NULL,NULL,NULL
+"699","Hoá hữu cơ","OCHE231403",NULL,NULL,NULL,NULL,NULL
+"700","Hóa phân tích","ACHE231203",NULL,NULL,NULL,NULL,NULL
+"701","Các phương pháp phân tích công cụ","IANM323303",NULL,NULL,NULL,NULL,NULL
+"702","Hóa lý 1","PCHE221603",NULL,NULL,NULL,NULL,NULL
+"703","Hóa lý 2","PCHE221703",NULL,NULL,NULL,NULL,NULL
+"704","Quá trình thiết bị truyền nhiệt","HTPE231903",NULL,NULL,NULL,NULL,NULL
+"705","Qúa trình thiết bị truyền khối","MTPE232003",NULL,NULL,NULL,NULL,NULL
+"706","Quá trình và thiết bị cơ học","MPRO232103",NULL,NULL,NULL,NULL,NULL
+"707","Hóa học polymer ","POCH323103",NULL,NULL,NULL,NULL,NULL
+"708","Thống kê và quy hoạch thực nghiệm trong CNKT hoá học ","SEPC232503",NULL,NULL,NULL,NULL,NULL
+"709","Đồ án thiết kế máy thiết bị","PWPD322703",NULL,NULL,NULL,NULL,NULL
+"710","Liên hệ doanh nghiệp","ENCO326503",NULL,NULL,NULL,NULL,NULL
+"711","Chuyên đề tốt nghiệp","GRAS436603",NULL,NULL,NULL,NULL,NULL
+"712","Công nghệ sản xuất các hợp chất vô cơ","TINO322903",NULL,NULL,NULL,NULL,NULL
+"713","Đại cương về khoa học và kỹ thuật vật liệu","FMSE222803",NULL,NULL,NULL,NULL,NULL
+"714","Kỹ thuật phản ứng","CREN222203",NULL,NULL,NULL,NULL,NULL
+"715","Cơ sở thiết kế máy và nhà máy hóa chất","FDMF232603",NULL,NULL,NULL,NULL,NULL
+"716","Công nghệ điện hóa","ELET323203",NULL,NULL,NULL,NULL,NULL
+"717","Công nghệ sản xuất các hợp chất hữu cơ ","TORS323003",NULL,NULL,NULL,NULL,NULL
+"718","Thí nghiệm hoá đại cương","EGCH110903",NULL,NULL,NULL,NULL,NULL
+"719","Thí nghiệm hóa vô cơ","EICH221103",NULL,NULL,NULL,NULL,NULL
+"720","Thí nghiệm hóa phân tích","EACH221303",NULL,NULL,NULL,NULL,NULL
+"721","Thí nghiệm hóa hữu cơ ","EOCH221503",NULL,NULL,NULL,NULL,NULL
+"722","Thí nghiệm hóa lý ","EPCH221803",NULL,NULL,NULL,NULL,NULL
+"723","Thí nghiệm quá trình thiết bị","ERPD222303",NULL,NULL,NULL,NULL,NULL
+"724","Thí nghiệm các phương pháp phân tích hiện đại","EAAM416903",NULL,NULL,NULL,NULL,NULL
+"725","Thực tập tốt nghiệp","GRAP446703",NULL,NULL,NULL,NULL,NULL
+"726","Khóa luận tốt nghiệp","GRAT476803",NULL,NULL,NULL,NULL,NULL
+"727","Công  nghệ các sản phẩm tẩy rửa","TDET423503",NULL,NULL,NULL,NULL,NULL
+"728","Công nghệ chất màu hữu cơ","IORP423603",NULL,NULL,NULL,NULL,NULL
+"729","Công  nghệ hóa hương liệu","FSTE423703",NULL,NULL,NULL,NULL,NULL
+"730","Công  nghệ hóa mỹ phẩm ","TECP423803",NULL,NULL,NULL,NULL,NULL
+"731","Các phương pháp phổ nghiệm phân tích hợp chất hữu cơ","SIOC423903",NULL,NULL,NULL,NULL,NULL
+"732","Công  nghệ SX bột giấy và giấy","PSTE424003",NULL,NULL,NULL,NULL,NULL
+"733","Công nghệ các sản phẩm hóa nông ","TAGP424103",NULL,NULL,NULL,NULL,NULL
+"734","Công nghệ nhuộm","TEDY424203",NULL,NULL,NULL,NULL,NULL
+"735","Hoá dược","MCHE424803",NULL,NULL,NULL,NULL,NULL
+"736","Công nghệ phân bón","TFER424403",NULL,NULL,NULL,NULL,NULL
+"737","Công nghệ sản xuất ceramic truyền thống","TCER424503",NULL,NULL,NULL,NULL,NULL
+"738","Công nghệ sản xuất các chất kết dính vô cơ","TCEM424603",NULL,NULL,NULL,NULL,NULL
+"739","Hóa lý Silicat","PCSI424703",NULL,NULL,NULL,NULL,NULL
+"740","Các phương pháp phân tích cấu trúc vật liệu vô cơ","SCIM424903",NULL,NULL,NULL,NULL,NULL
+"741","Công nghệ khoáng sản","TMIP425003",NULL,NULL,NULL,NULL,NULL
+"742","Công nghệ chất màu vô cơ ","TPIG425103",NULL,NULL,NULL,NULL,NULL
+"743","Vật liệu vô cơ tiên tiến","AIMA425203",NULL,NULL,NULL,NULL,NULL
+"744","Công nghệ vật liệu polymer composite","TPCM425403",NULL,NULL,NULL,NULL,NULL
+"745","Công nghệ sản xuất chất dẻo","TPLA425503",NULL,NULL,NULL,NULL,NULL
+"746","Cơ sở công nghệ cao su","FRUT25603",NULL,NULL,NULL,NULL,NULL
+"747","Các phương pháp phân tích và đánh giá vật liệu polymer","MAEP425703",NULL,NULL,NULL,NULL,NULL
+"748","Kỹ thuật gia công polymer","TPOP425803",NULL,NULL,NULL,NULL,NULL
+"749","Công nghệ Polymer kết dính","TAPO425903",NULL,NULL,NULL,NULL,NULL
+"750","Công nghệ màng Polymer","TTFP426003",NULL,NULL,NULL,NULL,NULL
+"751","Vật liệu polymer tiên tiến","ADPO426103",NULL,NULL,NULL,NULL,NULL
+"752","Công nghệ sợi","TFIB426203",NULL,NULL,NULL,NULL,NULL
+"753","Công nghệ sơn","TPAI426303",NULL,NULL,NULL,NULL,NULL
+"754","Thí nghiệm chuyên ngành CNKT Hóa Hữu cơ","ESOC424303",NULL,NULL,NULL,NULL,NULL
+"755","Thí nghiệm chuyên ngành  CNKT Hóa Vô cơ","EICT425303",NULL,NULL,NULL,NULL,NULL
+"756","Thí nghiệm chuyên ngành  CNKT Hóa Polymer","ESPO426403",NULL,NULL,NULL,NULL,NULL
+"757","Sản xuất sạch hơn và Thiết kế bền vững","CPSD323110",NULL,NULL,NULL,NULL,NULL
+"758","Đánh giá tác động môi trường","EIAS323210",NULL,NULL,NULL,NULL,NULL
+"759","Công nghệ môi trường","ENTE227310",NULL,NULL,NULL,NULL,NULL
+"760","Các công nghệ chế biến thực phẩm","FOPR423650",NULL,NULL,NULL,NULL,NULL
+"761","Kỹ thuật thực phẩm","FOEN423450",NULL,NULL,NULL,NULL,NULL
+"762","Quản lý chất lượng thực phẩm","FOMA421050",NULL,NULL,NULL,NULL,NULL
+"763","Quản trị công nghệ","TEMA321406",NULL,NULL,NULL,NULL,NULL
+"764","Hóa phân tích","ACHE220303",NULL,NULL,NULL,NULL,NULL
+"765","Thí nghiệm Hóa phân tích","EACH210503",NULL,NULL,NULL,NULL,NULL
+"766","Kỹ thuật điện","ELEN220144",NULL,NULL,NULL,NULL,NULL
+"767","Nhập môn ngành CNKT Môi trường","ITET130110",NULL,NULL,NULL,NULL,NULL
+"768","Môi trường đại cương","GEEN120210",NULL,NULL,NULL,NULL,NULL
+"769","Hóa kỹ thuật môi trường","ENEC220410",NULL,NULL,NULL,NULL,NULL
+"770","Thống kê và tối ưu hóa trong hệ thống MT","ESSO231110",NULL,NULL,NULL,NULL,NULL
+"771","Cơ lưu chất","FLME230610",NULL,NULL,NULL,NULL,NULL
+"772","Quá trình cơ học","PPET220910",NULL,NULL,NULL,NULL,NULL
+"773","Quá trình thiết bị môi trường","PETE221210",NULL,NULL,NULL,NULL,NULL
+"774","Hóa phân tích môi trường","ENAC220310",NULL,NULL,NULL,NULL,NULL
+"775","Anh văn cho Kỹ sư môi trường","EENT220810",NULL,NULL,NULL,NULL,NULL
+"776","Vi sinh kỹ thuật môi trường","ENMI231010",NULL,NULL,NULL,NULL,NULL
+"777","AutoCAD trong lĩnh vực môi trường","AAES220710",NULL,NULL,NULL,NULL,NULL
+"778","Thiết kế nghiên cứu kỹ thuật môi trường","ENRD220510",NULL,NULL,NULL,NULL,NULL
+"779","Kỹ thuật xử lý nước cấp","SWTR331610",NULL,NULL,NULL,NULL,NULL
+"780","Kỹ thuật xử lý nước thải","WWTR331910",NULL,NULL,NULL,NULL,NULL
+"781","Kỹ thuật xử lý khí thải","APCT332310",NULL,NULL,NULL,NULL,NULL
+"782","Quản lý môi trường","ENMA332410",NULL,NULL,NULL,NULL,NULL
+"783","Quản lý chất thải rắn và nguy hại","SHWM331810",NULL,NULL,NULL,NULL,NULL
+"784","Quản lý an toàn và sức khỏe nghề nghiệp","OHSM322110",NULL,NULL,NULL,NULL,NULL
+"785","Ô nhiễm đất và kỹ thuật xử lý","SPRT321710",NULL,NULL,NULL,NULL,NULL
+"786","Đánh giá tác động môi trường","EIAS322510",NULL,NULL,NULL,NULL,NULL
+"787","Mạng lưới cấp thoát nước","WSDN322210",NULL,NULL,NULL,NULL,NULL
+"788","Sản xuất sạch hơn và Thiết kế bền vững","CPDS322010",NULL,NULL,NULL,NULL,NULL
+"789","Xử lý nước nâng cao","ADWT327110",NULL,NULL,NULL,NULL,NULL
+"790","Quản lý dự án môi trường","ENPM322910",NULL,NULL,NULL,NULL,NULL
+"791","Kỹ thuật thông gió và xử lý tiếng ồn","VSNC322810",NULL,NULL,NULL,NULL,NULL
+"792","Chuyên đề doanh nghiệp (Enterspise Seminar)","ENSE322610",NULL,NULL,NULL,NULL,NULL
+"793","Chuyên đề tốt nghiệp","SPPR332610",NULL,NULL,NULL,NULL,NULL
+"794","Thí nghiệm hóa phân tích môi trường","EEAC414110",NULL,NULL,NULL,NULL,NULL
+"795","Thí nghiệm hóa kỹ thuật môi trường","EEEC424210",NULL,NULL,NULL,NULL,NULL
+"796","Thực tập xử lý nước cấp","PSWT414310",NULL,NULL,NULL,NULL,NULL
+"797","Thực tập xử lý nước thải","PWWT414410",NULL,NULL,NULL,NULL,NULL
+"798","Thực tập xử lý khí thải","PAPT414510",NULL,NULL,NULL,NULL,NULL
+"799","Thực tập vi sinh kỹ thuật môi trường","PEMI414610",NULL,NULL,NULL,NULL,NULL
+"800","Thực tập mạng lưới cấp thoát nước","PWSD414710",NULL,NULL,NULL,NULL,NULL
+"801","Thực tập tham quan nhận thức","AWVI415110",NULL,NULL,NULL,NULL,NULL
+"802","Đồ án xử lý nước cấp","DSWT414810",NULL,NULL,NULL,NULL,NULL
+"803","Đồ án xử lý nước thải","DWWT414910",NULL,NULL,NULL,NULL,NULL
+"804","Đồ án xử lý khí thải","DAPT415010",NULL,NULL,NULL,NULL,NULL
+"805","Thực tập tốt nghiệp","GRPR445210",NULL,NULL,NULL,NULL,NULL
+"806","Khóa luận tốt nghiệp","GRTH374010",NULL,NULL,NULL,NULL,NULL
+"807","Quản lý chất lượng và Tư vấn giám sát","QMSC420919",NULL,NULL,NULL,NULL,NULL
+"808","Vật liệu xây dựng","COMA220717",NULL,NULL,NULL,NULL,NULL
+"809","Kết cấu công trình bê tông cốt thép","RCBS320817",NULL,NULL,NULL,NULL,NULL
+"810","Hệ thống điều khiển tự động","ACSY330346",NULL,NULL,NULL,NULL,NULL
+"811","Kỹ thuật điện công nghiệp","BAEL 340662",NULL,NULL,NULL,NULL,NULL
+"812","Kỹ thuật an toàn trong xây dựng",NULL,NULL,NULL,NULL,NULL,NULL
+"813","Kỹ thuật an toàn điện",NULL,NULL,NULL,NULL,NULL,NULL
+"814","Kỹ thuật an toàn hóa chất",NULL,NULL,NULL,NULL,NULL,NULL
+"815","Công nghệ chế tạo máy","MMAT451525",NULL,NULL,NULL,NULL,NULL
+"816","Thiết kế cơ khí","MEDI330823",NULL,NULL,NULL,NULL,NULL
+"817","Kinh tế môi trường","ENEC323310",NULL,NULL,NULL,NULL,NULL
+"818","Quan trắc môi trường","ENMO322010",NULL,NULL,NULL,NULL,NULL
+"819","An toàn và sức khỏe nghề nghiệp","SAOH322110",NULL,NULL,NULL,NULL,NULL
+"820","Hóa hữu cơ (Organic Chemistry)","OCHE220203",NULL,NULL,NULL,NULL,NULL
+"821","Thí nghiệm Hóa hữu cơ (Experiment of Organic Chemistry)","EOCH210403",NULL,NULL,NULL,NULL,NULL
+"822","Nhập môn ngành Công nghệ thực phẩm (Introduction to Food Technology)","INFT330150",NULL,NULL,NULL,NULL,NULL
+"823","Quá trình và thiết bị truyền nhiệt trong Công nghệ thực phẩm (Heat Transfer and Equipment) ","HETE330250",NULL,NULL,NULL,NULL,NULL
+"824","Quá trình và thiết bị truyền khối trong Công nghệ thực phẩm (Mass Transfer and Equipment)","MTEQ320350",NULL,NULL,NULL,NULL,NULL
+"825","Quá trình và thiết bị cơ học-thủy lực-khí nén trong Công nghệ thực phẩm (Mechanical, Hydraulic and Air-Compressed Process and Equipment)","MHAP330450",NULL,NULL,NULL,NULL,NULL
+"826","Hóa lý (Physical Chemistry of Food)","PHCF320550",NULL,NULL,NULL,NULL,NULL
+"827","Hóa học thực phẩm (Food Chemistry)","FOCH330650",NULL,NULL,NULL,NULL,NULL
+"828","Hóa sinh thực phẩm (Food Biochemistry)","FOBI320750",NULL,NULL,NULL,NULL,NULL
+"829","Vi sinh thực phẩm (Food Microbiology)","FOMI320850",NULL,NULL,NULL,NULL,NULL
+"830","Phụ gia thực phẩm (Food Additives)","FOAD420950",NULL,NULL,NULL,NULL,NULL
+"831","Dinh dưỡng và an toàn thực phẩm (Food Nutrition and Food Safety)","FNFS431150",NULL,NULL,NULL,NULL,NULL
+"832","Thiết kế công nghệ và nhà máy thực phẩm (Food Process and Plant Design)","FPPD421350",NULL,NULL,NULL,NULL,NULL
+"833","Đánh giá cảm quan thực phẩm (Food Sensory Evaluation)","FOSE421450",NULL,NULL,NULL,NULL,NULL
+"834","Phân tích thực phẩm (Food Analysis)","FONA421550",NULL,NULL,NULL,NULL,NULL
+"835","Anh văn chuyên ngành Công nghệ thực phẩm (Technical English in Food Technology)","TEFT421650",NULL,NULL,NULL,NULL,NULL
+"836","Thống kê và qui hoạch thực nghiệm trong Công nghệ thực phẩm (Statistical and Optimization in Food Technology)","SOFT431750",NULL,NULL,NULL,NULL,NULL
+"837","Công nghệ chế biến lương thực (Cereal Processing)","CEPR421850",NULL,NULL,NULL,NULL,NULL
+"838","Công nghệ sản xuất bánh kẹo (Production of Bakery and Confectionery )","PRBC421950",NULL,NULL,NULL,NULL,NULL
+"839","Công nghệ sản xuất rau quả & nước giải khát (Production of Vegetable, Fruit and Beverage)","PVFB422050",NULL,NULL,NULL,NULL,NULL
+"840","Công nghệ sản xuất sữa & các sản phẩm từ sữa (Production of Dairy and Related Dairy Products)","PDRD422150",NULL,NULL,NULL,NULL,NULL
+"841","Công nghệ sản xuất trà, cà phê, chocolate (Tea, Coffee and Cocoa)","PTCC422250",NULL,NULL,NULL,NULL,NULL
+"842","Công nghệ chế biến thịt và thủy sản (Meat and Seafood Processing)","MSPR422350",NULL,NULL,NULL,NULL,NULL
+"843","Công nghệ lên men (Fermentation Technology)","FETE424250",NULL,NULL,NULL,NULL,NULL
+"844","Đồ án Quá trình và Thiết bị trong Công nghệ thực phẩm (Project of Processes and Equipment in Food Technology)","PPEF412450",NULL,NULL,NULL,NULL,NULL
+"845","Chuyên đề doanh nghiệp (Special Topics in Food Technology)","STFT422550",NULL,NULL,NULL,NULL,NULL
+"846","Thí nghiệm Quá trình và thiết bị trong Công nghệ thực phẩm (Experiment of Processes and Equipment in Food Technology)","PPEF412650",NULL,NULL,NULL,NULL,NULL
+"847","Thí nghiệm Hóa sinh thực phẩm (Practice of Food Biochemistry)","PFCB412750",NULL,NULL,NULL,NULL,NULL
+"848","Thí nghiệm Vi sinh thực phẩm (Experiment of Food Microbiology)","PFMI422850",NULL,NULL,NULL,NULL,NULL
+"849","Thí nghiệm Phân tích thực phẩm (Practice of Food Analysis)","PRFA422950",NULL,NULL,NULL,NULL,NULL
+"850","Thí nghiệm Đánh giá cảm quan thực phẩm (Practice of Food Sensory Evaluation)","PFSE413050",NULL,NULL,NULL,NULL,NULL
+"851","Thực tập tốt nghiệp 1 (Factory Practice 1)","FAPR423150",NULL,NULL,NULL,NULL,NULL
+"852","Thực tập tốt nghiệp 2 (Factory Practice 2)","FAPR423250",NULL,NULL,NULL,NULL,NULL
+"853","Thực tập Công nghệ chế biến lương thực (Practice of Cereal Processing)","PCPR414750",NULL,NULL,NULL,NULL,NULL
+"854","Thực tập Công nghệ sản xuất bánh kẹo (Practice of Bakery and Confectionery Production)","PBCP414850",NULL,NULL,NULL,NULL,NULL
+"855","Thực tập Công nghệ sản xuất rau quả và nước giải khát  (Practice of Vegetable, Fruit and Beverage Production)","PVFB414950",NULL,NULL,NULL,NULL,NULL
+"856","Thực tập Công nghệ sản xuất sữa và các sản phẩm từ sữa (Practice of Dairy and Related Dairy Production)","PDRD415050",NULL,NULL,NULL,NULL,NULL
+"857","Thực tập Công nghệ sản xuất trà, cà phê, chocolate (Practice of Tea, Coffee and Chocolate Production)","PRTC415150",NULL,NULL,NULL,NULL,NULL
+"858","Thực tập Công nghệ chế biến thịt và thủy sản (Practice of Meat and Seafood Processing)","PMSP415250",NULL,NULL,NULL,NULL,NULL
+"859","Thí nghiệm Công nghệ lên men (Experiment of Fermentation Technology) ","PRFT415350",NULL,NULL,NULL,NULL,NULL
+"860","Chuyên đề tốt nghiệp (Graduation seminar)","GRSE435950",NULL,NULL,NULL,NULL,NULL
+"861","Khóa luận tốt nghiệp (Graduation thesis)","GRTH473350",NULL,NULL,NULL,NULL,NULL
+"862","Khoa học thực phẩm (Food Sciences)","FOSC423550",NULL,NULL,NULL,NULL,NULL
+"863","An toàn trong sản xuất thực phẩm (Safety in Food Processing)","FMQE413750",NULL,NULL,NULL,NULL,NULL
+"864","Bao bì thực phẩm (Food Packaging)","FOPA421250",NULL,NULL,NULL,NULL,NULL
+"865","Công nghệ sinh học thực phẩm (Food Biotechnology)","FOBI424350",NULL,NULL,NULL,NULL,NULL
+"866","Nghiên cứu và phát triển sản phẩm (Food Research and Development)","FORE424450",NULL,NULL,NULL,NULL,NULL
+"867","Công nghệ sấy thực phẩm (Drying Technology in Food )","DRTF424650",NULL,NULL,NULL,NULL,NULL
+"868","Công nghệ chất màu ","TOCO423603",NULL,NULL,NULL,NULL,NULL
+"869","Công  nghệ hóa hương liệu","TFCF423703",NULL,NULL,NULL,NULL,NULL
+"870","Công  nghệ hóa mỹ phẩm ","TCOS423803",NULL,NULL,NULL,NULL,NULL
+"871","Phương pháp tính","MATH121101",NULL,NULL,NULL,NULL,NULL
+"872","Kỹ thuật phân riêng","TSEP232003",NULL,NULL,NULL,NULL,NULL
+"873","An toàn sức khỏe môi trường","HSEN322110",NULL,NULL,NULL,NULL,NULL
+"874","Biochemistry Engineering","BIEN325450",NULL,NULL,NULL,NULL,NULL
+"875","Physical chemistry","PHCH325550",NULL,NULL,NULL,NULL,NULL
+"876","Introduction to Experimental Chemistry","INEC325650",NULL,NULL,NULL,NULL,NULL
+"877","Introduction to Heat transfer","INHT335750",NULL,NULL,NULL,NULL,NULL
+"878","System Microbiology","SYMI325850",NULL,NULL,NULL,NULL,NULL
+"879","Toán ứng dụng","MATH133401",NULL,NULL,NULL,NULL,NULL
+"880","Xử lý chất liệu","MAHA241452",NULL,NULL,NULL,NULL,NULL
+"881","Lịch sử trang phục 1","WCHI120252",NULL,NULL,NULL,NULL,NULL
+"882","Lịch sử trang phục 2","ECHI220352",NULL,NULL,NULL,NULL,NULL
+"883","Hình họa cơ bản","BGRA130852",NULL,NULL,NULL,NULL,NULL
+"884","Vẽ mỹ thuật căn bản","BADR140552",NULL,NULL,NULL,NULL,NULL
+"885","Vẽ Minh họa thời trang cơ bản","BAIL131052",NULL,NULL,NULL,NULL,NULL
+"886","Vật liệu thời trang","FAMA131152",NULL,NULL,NULL,NULL,NULL
+"887","Nhập môn ngành TKTT","ITFD130352",NULL,NULL,NULL,NULL,NULL
+"888","Thiết kế rập căn bản","BSPM241252",NULL,NULL,NULL,NULL,NULL
+"889","Lịch sử mỹ thuật","ARTH130152",NULL,NULL,NULL,NULL,NULL
+"890","Nguyên lý thị giác","PRVI220752",NULL,NULL,NULL,NULL,NULL
+"891","Nền tảng thiết kế thời trang","FUFA231352",NULL,NULL,NULL,NULL,NULL
+"892","Vẽ mỹ thuật nâng cao","AADR230652",NULL,NULL,NULL,NULL,NULL
+"893","Vẽ Minh họa thời trang nâng cao","ADIL331152",NULL,NULL,NULL,NULL,NULL
+"894","Vẽ kỹ thuật thiết kế thời trang","TDFF121552",NULL,NULL,NULL,NULL,NULL
+"895","Thiết kế rập nâng cao","ADPM241652",NULL,NULL,NULL,NULL,NULL
+"896","Thiết kế thời trang trên dressform","FDDF341752",NULL,NULL,NULL,NULL,NULL
+"897","Thiêt kế rập trên máy tính","CAFD341852",NULL,NULL,NULL,NULL,NULL
+"898","Thiết kế phụ trang","ACDE321952",NULL,NULL,NULL,NULL,NULL
+"899","Đồ án thiết kế thời trang nam","FAPR312052",NULL,NULL,NULL,NULL,NULL
+"900","Đồ án thiết kế thời trang nữ","FAPR312152",NULL,NULL,NULL,NULL,NULL
+"901","Đồ án thiết kế thời trang ấn tượng","FAPR412252",NULL,NULL,NULL,NULL,NULL
+"902","Đồ án trình bày Bộ sưu tập","POPR312352",NULL,NULL,NULL,NULL,NULL
+"903","Kinh doanh thời trang","FABU332752",NULL,NULL,NULL,NULL,NULL
+"904","Marketing thời trang","FMAK423652",NULL,NULL,NULL,NULL,NULL
+"905","Tổ chức show diễn","FSOR332652",NULL,NULL,NULL,NULL,NULL
+"906","Liên kết doanh nghiệp","ASEN222852",NULL,NULL,NULL,NULL,NULL
+"907","Chuyên đề ngoại khóa","SSFT322952",NULL,NULL,NULL,NULL,NULL
+"908","TH ký họa","PSKE323052",NULL,NULL,NULL,NULL,NULL
+"909","TH hình họa nâng cao","PADW223152",NULL,NULL,NULL,NULL,NULL
+"910","TH thiết kế phụ trang","PACD321652",NULL,NULL,NULL,NULL,NULL
+"911","TH may căn bản","PBSE113352",NULL,NULL,NULL,NULL,NULL
+"912","TH may trang phục căn bản","BASP233452",NULL,NULL,NULL,NULL,NULL
+"913","TH may trang phục nâng cao","AASP333552",NULL,NULL,NULL,NULL,NULL
+"914","Thực tập tốt nghiệp ","GRPR423352",NULL,NULL,NULL,NULL,NULL
+"915","Khóa luận tốt nghiệp","FPFD473752 ",NULL,NULL,NULL,NULL,NULL
+"916","Tin học ứng dụng (Adobe Illustrator)","ITAP143852",NULL,NULL,NULL,NULL,NULL
+"917","Cơ sở văn hoá Việt Nam","CSVH230338",NULL,NULL,NULL,NULL,NULL
+"918","Mỹ học","AEST220252",NULL,NULL,NULL,NULL,NULL
+"919","Nhiếp ảnh","PPHO224052",NULL,NULL,NULL,NULL,NULL
+"920","Bố cục trang trí","DRLA423752",NULL,NULL,NULL,NULL,NULL
+"921","Khoa học màu sắc","COSC224352",NULL,NULL,NULL,NULL,NULL
+"922","Đồ án thiết kế đồng phục","UNDP324652",NULL,NULL,NULL,NULL,NULL
+"923","Đồ án Thiết kế thời trang trẻ em","CWDP324752",NULL,NULL,NULL,NULL,NULL
+"924","Đồ án Thiết kế thời trang thể thao","SWFD324852",NULL,NULL,NULL,NULL,NULL
+"925","Đồ án Thiết kế thời trang lót","UWDP324952",NULL,NULL,NULL,NULL,NULL
+"926","Đồ án thiết kế áo khoác","JADE325052",NULL,NULL,NULL,NULL,NULL
+"927","Xây dựng thương hiệu","FABR325152",NULL,NULL,NULL,NULL,NULL
+"928","Nghệ thuật trưng bày sản phẩm","VIME324152",NULL,NULL,NULL,NULL,NULL
+"929","Trang điểm","MAUP314452",NULL,NULL,NULL,NULL,NULL
+"930","TH trang điểm","PMAU214952",NULL,NULL,NULL,NULL,NULL
+"931","Quản lý chất lượng trang phục","GQMA331351",NULL,NULL,NULL,NULL,NULL
+"932","Hệ thống cỡ số trang phục","SSRC220451",NULL,NULL,NULL,NULL,NULL
+"933","Thương mại Điện tử","ECOM421308",NULL,NULL,NULL,NULL,NULL
+"934","Luật sở hữu trí tuệ","SHTT224156",NULL,NULL,NULL,NULL,NULL
+"935","Phối cảnh thiết kế, quảng cáo, minh họa","PRGD323556",NULL,NULL,NULL,NULL,NULL
+"936","TT xử lý ảnh","PRIP310956",NULL,NULL,NULL,NULL,NULL
+"937","TT dàn trang","PRLT311156",NULL,NULL,NULL,NULL,NULL
+"938","Thiết kế 9 (Thiết kế lịch, thiệp)","CADE434556",NULL,NULL,NULL,NULL,NULL
+"939","Thiết kế 10 (Thiết kế quảng cáo)","ADDE434656",NULL,NULL,NULL,NULL,NULL
+"940","Nghệ thuật chữ","TYPO443956",NULL,NULL,NULL,NULL,NULL
+"941","Thiết kế 3 (ấn phẩm nhận diện thương hiệu)","BRDE434056",NULL,NULL,NULL,NULL,NULL
+"942","Xuất nhập khẩu hàng may mặc","APIE324951",NULL,NULL,NULL,NULL,NULL
+"943","Đàm phán kinh doanh hàng may mặc","IGTN426151",NULL,NULL,NULL,NULL,NULL
+"944","Tâm lý học kinh doanh","PSFD320951",NULL,NULL,NULL,NULL,NULL
+"945","Nghệ thuật trưng bày sản phẩm","DIPR324752",NULL,NULL,NULL,NULL,NULL
+"946","Anh  văn 2","ENGL230137",NULL,NULL,NULL,NULL,NULL
+"947","Anh  văn 3","ENGL330137",NULL,NULL,NULL,NULL,NULL
+"948","Anh  văn 4","ENGL430137",NULL,NULL,NULL,NULL,NULL
+"949","Đồ họa ứng dụng (CNM)","GDAP340851",NULL,NULL,NULL,NULL,NULL
+"950","Nhập môn ngành","INGT130151",NULL,NULL,NULL,NULL,NULL
+"951","Giáo dục thể chất 3","PHED130713",NULL,NULL,NULL,NULL,NULL
+"952","Thiết bị may CN & bảo trì","GEMA230651",NULL,NULL,NULL,NULL,NULL
+"953","Nguyên phụ liệu may","GMAC230551",NULL,NULL,NULL,NULL,NULL
+"954","Công nghệ SX ngành may","GMTE231451",NULL,NULL,NULL,NULL,NULL
+"955","Kỹ thuật may cơ bản","FSTE230751",NULL,NULL,NULL,NULL,NULL
+"956","Thiết kế trang phục nam CB","FMDR231051",NULL,NULL,NULL,NULL,NULL
+"957","Thiết kế trang phục nữ CB","FWDR331151",NULL,NULL,NULL,NULL,NULL
+"958","Thiết kế trang phục nữ NC","AWDR321251",NULL,NULL,NULL,NULL,NULL
+"959","Thiết kế trang phục nam NC","AMDR421351",NULL,NULL,NULL,NULL,NULL
+"960","Chuẩn bị SX ngành may","PRAP331551",NULL,NULL,NULL,NULL,NULL
+"961","Quản lý chất lượng TP","GQMA321651",NULL,NULL,NULL,NULL,NULL
+"962","Quản lý SX ngành may","AGMA321751",NULL,NULL,NULL,NULL,NULL
+"963","Quản lý đơn hàng ngành may","MEAP431851",NULL,NULL,NULL,NULL,NULL
+"964","Lập kế hoạch ngành may","PPAP421951",NULL,NULL,NULL,NULL,NULL
+"965","Công nghệ CAD ngành may","CAAP332051",NULL,NULL,NULL,NULL,NULL
+"966","Đồ án công nghệ","GTPR412151",NULL,NULL,NULL,NULL,NULL
+"967","Đồ án thiết kế","GDPR422251",NULL,NULL,NULL,NULL,NULL
+"968","Chuyên đề thực tế (CNM)","GSSS422451",NULL,NULL,NULL,NULL,NULL
+"969","TH Thiết kế trang phục nam CB","PFMD222751",NULL,NULL,NULL,NULL,NULL
+"970","TH Thiết kế trang phục nữ CB","PFWD322851",NULL,NULL,NULL,NULL,NULL
+"971","TH Thiết kế trang phục nữ NC","PAWD322951",NULL,NULL,NULL,NULL,NULL
+"972","TH Thiết kế trang phục nam NC","PAMD433051",NULL,NULL,NULL,NULL,NULL
+"973","TH chuẩn bị sx ngành may","PPAP323151",NULL,NULL,NULL,NULL,NULL
+"974","TH Công nghệ CAD ngành may","PCAP313251",NULL,NULL,NULL,NULL,NULL
+"975","Thực tập tốt nghiệp","GRPR443351",NULL,NULL,NULL,NULL,NULL
+"976","Chuyên đề tốt nghiệp","TTGT434551",NULL,NULL,NULL,NULL,NULL
+"977","Khóa luận tốt nghiệp","GRTH475651",NULL,NULL,NULL,NULL,NULL
+"978","Nguyên liệu dệt","TEMA120351",NULL,NULL,NULL,NULL,NULL
+"979","Thẩm mỹ học","AEST224851",NULL,NULL,NULL,NULL,NULL
+"980","Anh văn chuyên ngành","EGTE320951",NULL,NULL,NULL,NULL,NULL
+"981","Mỹ thuật trang phục","ARCL224651",NULL,NULL,NULL,NULL,NULL
+"982","Công nghệ hoàn tất vải","FFTE325551",NULL,NULL,NULL,NULL,NULL
+"983","Vật liệu dệt thông minh","SMTE322551",NULL,NULL,NULL,NULL,NULL
+"984","Thiết kế trang phục bảo hộ lao động","PRDR425351",NULL,NULL,NULL,NULL,NULL
+"985","Thiết kế trang phục công sở","WODR425251",NULL,NULL,NULL,NULL,NULL
+"986","Thiết kế trang phục cưới","WDDE423451 ",NULL,NULL,NULL,NULL,NULL
+"987","Thiết kế Jacket, Trench Coat","JADE422351",NULL,NULL,NULL,NULL,NULL
+"988","Thiết kế trang phục lót, áo tắm","PFUS324351",NULL,NULL,NULL,NULL,NULL
+"989","Thiết kế thời trang trên Dressform","PMOD434151",NULL,NULL,NULL,NULL,NULL
+"990","Thiết kế nón túi xách","HHDE433551",NULL,NULL,NULL,NULL,NULL
+"991","Thiết kế giày","FODE433651",NULL,NULL,NULL,NULL,NULL
+"992","Thiết kế nhà xưởng & lắp đặt thiết bị","PLIS423751",NULL,NULL,NULL,NULL,NULL
+"993","Cải tiến sản xuất ngành may","MIAP435051",NULL,NULL,NULL,NULL,NULL
+"994","Tự động hóa các QT sản xuất ngành may","AMPT320251",NULL,NULL,NULL,NULL,NULL
+"995","Quản trị thương hiệu trang phục","FABR324451",NULL,NULL,NULL,NULL,NULL
+"996","Công nghệ in – thêu","PAET422651",NULL,NULL,NULL,NULL,NULL
+"997","Công nghệ Wash sản phẩm may","WATE324551",NULL,NULL,NULL,NULL,NULL
+"998","Công nghệ sản xuất hàng dệt kim","KMTE433851",NULL,NULL,NULL,NULL,NULL
+"999","Marketing hàng may mặc","GAMA425151",NULL,NULL,NULL,NULL,NULL
+"1000","Đàm phán KD hàng may mặc","IGTN424251",NULL,NULL,NULL,NULL,NULL
+"1001","Tâm lý học kinh doanh","PGBU324751",NULL,NULL,NULL,NULL,NULL
+"1002","Thiết kế trang phục nam CB","FMDR230851",NULL,NULL,NULL,NULL,NULL
+"1003","Thiết kế trang phục nữ CB","FWDR330951",NULL,NULL,NULL,NULL,NULL
+"1004","Lập trình trên Windows","WIPR230579",NULL,NULL,NULL,NULL,NULL
+"1005","Công nghệ phần mềm","SOEN330679",NULL,NULL,NULL,NULL,NULL
+"1006","Hệ quản trị cơ sở dữ liệu","DBMS330284",NULL,NULL,NULL,NULL,NULL
+"1007","Trí tuệ nhân tạo","ARIN330585",NULL,NULL,NULL,NULL,NULL
+"1008","Bảo mật web","WESE331479",NULL,NULL,NULL,NULL,NULL
+"1009","Thiết kế phần mềm hướng đối tượng","OOSD330879",NULL,NULL,NULL,NULL,NULL
+"1010","Kiểm thử phần mềm","SOTE431079",NULL,NULL,NULL,NULL,NULL
+"1011","Các công nghệ phần mềm mới","MTSE431179",NULL,NULL,NULL,NULL,NULL
+"1012","Tiểu luận chuyên ngành CNPM ","POSE431479",NULL,NULL,NULL,NULL,NULL
+"1013","Mật mã học","INSE331980",NULL,NULL,NULL,NULL,NULL
+"1014","Tiểu luận chuyên ngành Mạng và an ninh mạng","POCN431280",NULL,NULL,NULL,NULL,NULL
+"1015","Phân tích và thiết kế hệ thống thông tin","ISAD330384",NULL,NULL,NULL,NULL,NULL
+"1016","Khai phá dữ liệu","DAMI330484",NULL,NULL,NULL,NULL,NULL
+"1017","Cơ sở dữ liệu Nâng cao","ADDB331784",NULL,NULL,NULL,NULL,NULL
+"1018","Bảo mật CSDL","DBSE431284",NULL,NULL,NULL,NULL,NULL
+"1019","Tiểu luận chuyên ngành HTTT","POIS431184",NULL,NULL,NULL,NULL,NULL
+"1020","Khóa luận tốt nghiệp","GRPR471979",NULL,NULL,NULL,NULL,NULL
+"1021","Chuyên đề TN 1","SPSU432579",NULL,NULL,NULL,NULL,NULL
+"1022","Chuyên đề TN 2","SPSU422084",NULL,NULL,NULL,NULL,NULL
+"1023","Chuyên đề TN 3","SPSU421780",NULL,NULL,NULL,NULL,NULL
+"1024","Xử lý ảnh số","DIPR430685",NULL,NULL,NULL,NULL,NULL
+"1025","Ngôn ngữ Lập trình tiên tiến ","ADPL331379",NULL,NULL,NULL,NULL,NULL
+"1026","Lý thuyết thông tin","FOIT331380",NULL,NULL,NULL,NULL,NULL
+"1027","Thương mại điện tử","ECOM430984",NULL,NULL,NULL,NULL,NULL
+"1028","Điện toán đám mây","CLCO332779",NULL,NULL,NULL,NULL,NULL
+"1029","Học sâu","DLEA432085",NULL,NULL,NULL,NULL,NULL
+"1030","Công cụ và môi trường phát triển PM","TOEN430979",NULL,NULL,NULL,NULL,NULL
+"1031","Search Engine","SEEN431579",NULL,NULL,NULL,NULL,NULL
+"1032","Quản lý dự án phần mềm","SOPM431679",NULL,NULL,NULL,NULL,NULL
+"1033","Lập trình di động nâng cao","ADMP431879",NULL,NULL,NULL,NULL,NULL
+"1034","Thiết kế phần mềm giáo dục","ESDN432079",NULL,NULL,NULL,NULL,NULL
+"1035","Phân tích dữ  liệu lớn (Big data analysis)","BDAN333977",NULL,NULL,NULL,NULL,NULL
+"1036","Kho dữ liệu","DAWH430784",NULL,NULL,NULL,NULL,NULL
+"1037","Truy tìm thông tin","INRE431084",NULL,NULL,NULL,NULL,NULL
+"1038","Kỹ thuật số","DIGI330163",NULL,NULL,NULL,NULL,NULL
+"1039","Thiết Kế Mạch Số Với HDL","DSIC330563",NULL,NULL,NULL,NULL,NULL
+"1040","Xử lý ảnh y sinh","BIIM330865  ",NULL,NULL,NULL,NULL,NULL
+"1041","Thiết kế mô hình trên máy tính","BIME331965",NULL,NULL,NULL,NULL,NULL
+"1042","Thu thập và điều khiển thiết bị với máy tính","APME332565",NULL,NULL,NULL,NULL,NULL
+"1043","Xử lý tín hiệu số","DSPR431264",NULL,NULL,NULL,NULL,NULL
+"1044","Xử lý ảnh số","DIPR330685",NULL,NULL,NULL,NULL,NULL
+"1045","Nhập môn dữ liệu lớn","BDES233877",NULL,NULL,NULL,NULL,NULL
+"1046","Quản trị mạng và hệ thống, ATTT",NULL,NULL,NULL,NULL,NULL,NULL
+"1047","Quản lý rủi ro và an toàn thông tin trong doanh nghiệp","RSMI432980",NULL,NULL,NULL,NULL,NULL
+"1048","Hệ thống tìm kiếm, phát hiện và ngăn ngừa xâm nhập","IDPS433080",NULL,NULL,NULL,NULL,NULL
+"1049","Công nghệ tường lửa và bảo vệ mạng ngoại vi","FTPS433180",NULL,NULL,NULL,NULL,NULL
+"1050","Blockchain và ứng dụng","BCAP433280",NULL,NULL,NULL,NULL,NULL
+"1051","Trusted computing","TRCO433380",NULL,NULL,NULL,NULL,NULL
+"1052","Nhập Môn Ngành KTDL","INDE131777",NULL,NULL,NULL,NULL,NULL
+"1053","Điện toán đám mây","CLCO432779",NULL,NULL,NULL,NULL,NULL
+"1054","Lập trình R cho phân tích","RPAN233577",NULL,NULL,NULL,NULL,NULL
+"1055","Tương tác dữ liệu trực quan  ","IDVI333677",NULL,NULL,NULL,NULL,NULL
+"1056","Big Data Applications: Machine Learning at Scale","BDML434077",NULL,NULL,NULL,NULL,NULL
+"1057","Big Data Applications: Real-Time Streaming","BDAS436177",NULL,NULL,NULL,NULL,NULL
+"1058","Hệ phân bố","DSYS335977",NULL,NULL,NULL,NULL,NULL
+"1059","Tiểu luận chuyên ngành  KTDL","PODE434277",NULL,NULL,NULL,NULL,NULL
+"1060","Thực tập tốt nghiệp (KTDL)","ITIN421085",NULL,NULL,NULL,NULL,NULL
+"1061","Chuyên đề TN KTDL 1","SPSU434477",NULL,NULL,NULL,NULL,NULL
+"1062","Chuyên đề TN KTDL 2","SPSU424577",NULL,NULL,NULL,NULL,NULL
+"1063","Chuyên đề TN KTDL 3","SPSU424677",NULL,NULL,NULL,NULL,NULL
+"1064","Toán 3","MATH142601",NULL,NULL,NULL,NULL,NULL
+"1065","Thí nghiệm vật lý 2","PHYS111302",NULL,NULL,NULL,NULL,NULL
+"1066","Toán nâng cao cho kỹ thuật máy tính","AMCE245164",NULL,NULL,NULL,NULL,NULL
+"1067","Ngôn ngữ lập trình C","CPRL130064",NULL,NULL,NULL,NULL,NULL
+"1068","Nhập môn ngành Hệ thống nhúng và IoT","IEIT138064",NULL,NULL,NULL,NULL,NULL
+"1069","Điện tử cơ bản - Basic Electronics","BAEL340662",NULL,NULL,NULL,NULL,NULL
+"1070","Tín hiệu và hệ thống - Signals and Systems","SISY330164",NULL,NULL,NULL,NULL,NULL
+"1071","Lập trình với Python - Programming with Python","PRPY238164",NULL,NULL,NULL,NULL,NULL
+"1072","Kiến trúc và tổ chức máy tính - Computer Architecture and Organization","COOA335364",NULL,NULL,NULL,NULL,NULL
+"1073","Mạng máy tính và Internet - Computer networks and the Internet","CNIN435464",NULL,NULL,NULL,NULL,NULL
+"1074","Giải thuật và cấu trúc dữ  liệu - Data Structures and Algorithms","ALDS335764",NULL,NULL,NULL,NULL,NULL
+"1075","Hệ thống nhúng - Embedded Systems","EMSY435664",NULL,NULL,NULL,NULL,NULL
+"1076","Kiến trúc và Giao thức IoT - IoT Architecture and Protocols","ITAP338264",NULL,NULL,NULL,NULL,NULL
+"1077","Học máy và Trí tuệ nhân tạo - Machine Learning and Artificial Intelligence","MLAI338364",NULL,NULL,NULL,NULL,NULL
+"1078","Cơ sở khoa học dữ liệu - Fundamentals of Data Science","FDSC348464",NULL,NULL,NULL,NULL,NULL
+"1079","Lập trình hướng đối tượng và kỹ thuật phần mềm - Object Oriented Programming and Software Engineering","OPEP338564",NULL,NULL,NULL,NULL,NULL
+"1080","Hệ thống CPS - Cyber-Physical Systems","CPSY348664",NULL,NULL,NULL,NULL,NULL
+"1081","Hệ thống thực tế ảo - Virtual Reality Systems","VRSY338764",NULL,NULL,NULL,NULL,NULL
+"1082","Chuyên đề Doanh nghiệp (HTN-IoT)","COOP428864",NULL,NULL,NULL,NULL,NULL
+"1083","Đồ án 1","SEPR319164",NULL,NULL,NULL,NULL,NULL
+"1084","Đồ án 2","SEPR319264",NULL,NULL,NULL,NULL,NULL
+"1085","TT Điện tử","ELPR320762",NULL,NULL,NULL,NULL,NULL
+"1086","TT Kỹ thuật số","PRDI320263",NULL,NULL,NULL,NULL,NULL
+"1087","TT Lập trình với Python","PRPL218164",NULL,NULL,NULL,NULL,NULL
+"1088","TT Mạng máy tính và Internet","CNIL415464",NULL,NULL,NULL,NULL,NULL
+"1089","TT Kiến trúc và tổ chức máy tính","COOL325364",NULL,NULL,NULL,NULL,NULL
+"1090","TT Hệ thống nhúng","EMSL415664",NULL,NULL,NULL,NULL,NULL
+"1091","TT Kiến trúc và Giao thức IoT","ITAL328264",NULL,NULL,NULL,NULL,NULL
+"1092","TT Học máy và Trí tuệ nhân tạo","MLAL318364",NULL,NULL,NULL,NULL,NULL
+"1093","TT Hệ thống thực tế ảo","VRSL318764",NULL,NULL,NULL,NULL,NULL
+"1094","TT Tốt nghiệp","INTE449364",NULL,NULL,NULL,NULL,NULL
+"1095","Lãnh đạo và kinh doanh trong kỹ thuật (HTN-IoT)","BLCE429464",NULL,NULL,NULL,NULL,NULL
+"1096","Khóa luận tốt nghiệp","CAPR479964",NULL,NULL,NULL,NULL,NULL
+"1097","Bảo mật mạng và quyền riêng tư - Network Security and Privacy","NWSP437364",NULL,NULL,NULL,NULL,NULL
+"1098","Công nghệ tương tác người - máy - Human-Computer Interface Technology","HCIT437464",NULL,NULL,NULL,NULL,NULL
+"1099","Thị giác máy tính và xử lý ảnh - Computer Vision and Image Processing","CVIP437564",NULL,NULL,NULL,NULL,NULL
+"1100","Lý thuyết học sâu và ứng dụng - Deep Learning Theory and Applications","DLTA437664",NULL,NULL,NULL,NULL,NULL
+"1101","Phân tích dữ liệu lớn - Big Data Analytics","BDAN437764",NULL,NULL,NULL,NULL,NULL
+"1102","Mạng vô tuyến và di động - Wireless and Mobile Networks","WMNW437464",NULL,NULL,NULL,NULL,NULL
+"1103"," Phát triển ứng dụng di động - Mobile Application Development","MBAD436364",NULL,NULL,NULL,NULL,NULL
+"1104","Điện toán đám mây - Cloud Computing","CLCO436664",NULL,NULL,NULL,NULL,NULL
+"1105","Cơ sơ dữ liệu và lập trình Web - Databases and Web Programming","DBWP437864",NULL,NULL,NULL,NULL,NULL
+"1106","Blockchain và ứng dụng - Blockchain and Applications","BCAP437964",NULL,NULL,NULL,NULL,NULL
+"1107","Mạng cảm biến vô tuyến - Wireless Sensor Networks","WSNW439564",NULL,NULL,NULL,NULL,NULL
+"1108","Hệ thống nhúng thời gian thực - Real-Time Embedded Systems","RTES439664",NULL,NULL,NULL,NULL,NULL
+"1109","Kỹ thuật robot","ROTE430946",NULL,NULL,NULL,NULL,NULL
+"1110","Xử lý tín hiệu và hình ảnh y sinh","BISI331863",NULL,NULL,NULL,NULL,NULL
+"1111","Xe tự hành và Robot di động","AVMR330929",NULL,NULL,NULL,NULL,NULL
+"1112","Đo lường và điều khiển bằng máy tính","MCCO 322246",NULL,NULL,NULL,NULL,NULL
+"1113","Năng lượng tái tạo","RENE321745",NULL,NULL,NULL,NULL,NULL
+"1114","Toán ứng dụng cho kỹ sư Điện - Điện Tử","AMEE142044",NULL,NULL,NULL,NULL,NULL
+"1115","Nhập môn ngành CNKT Điện - Điện tử","IEET136345",NULL,NULL,NULL,NULL,NULL
+"1116","Vi xử lý","MICR330363",NULL,NULL,NULL,NULL,NULL
+"1117","Máy điện","ELMA230344",NULL,NULL,NULL,NULL,NULL
+"1118","Truyền động điện tự động","ELDR346445",NULL,NULL,NULL,NULL,NULL
+"1119","Cung cấp điện","ELPS246545",NULL,NULL,NULL,NULL,NULL
+"1120","Điều khiển hệ thống điện công nghiệp","IPSC343045",NULL,NULL,NULL,NULL,NULL
+"1121","Năng lượng tái tạo (phần điện)","RENE346745",NULL,NULL,NULL,NULL,NULL
+"1122","Đồ án Cung cấp điện ","PRES316845",NULL,NULL,NULL,NULL,NULL
+"1123","Đồ án Truyền động điện tự động","PRED316945",NULL,NULL,NULL,NULL,NULL
+"1124","Đồ án Điều khiển hệ thống điện công nghiệp","PISC414545",NULL,NULL,NULL,NULL,NULL
+"1125","TT điện","ELPR210644",NULL,NULL,NULL,NULL,NULL
+"1126","TT máy điện","PREM310744",NULL,NULL,NULL,NULL,NULL
+"1127","TT điện tử công suất","POEP320262",NULL,NULL,NULL,NULL,NULL
+"1128","TT kỹ thuật số","PRDI310263",NULL,NULL,NULL,NULL,NULL
+"1129","TT vi xử lý","PRMI320463",NULL,NULL,NULL,NULL,NULL
+"1130","TT Năng lượng tái tạo phần điện","PREN417045",NULL,NULL,NULL,NULL,NULL
+"1131","TT cung cấp điện","PRES327145",NULL,NULL,NULL,NULL,NULL
+"1132","TT truyền động điện tự động","PELE327245",NULL,NULL,NULL,NULL,NULL
+"1133","TT điều khiển tự động hóa HTĐ CN","IPSP425245",NULL,NULL,NULL,NULL,NULL
+"1134","TT tốt nghiệp (CNKT Đ-ĐT)","ININ449045",NULL,NULL,NULL,NULL,NULL
+"1135","Chuyên đề Doanh nghiệp (CNKT Đ-ĐT)","EPTP423445",NULL,NULL,NULL,NULL,NULL
+"1136","Chuyên đề tốt nghiệp (CNKT Đ-ĐT)","SSGR439145",NULL,NULL,NULL,NULL,NULL
+"1137","Lãnh đạo và kinh doanh trong kỹ thuật (CNKT Đ-ĐT)","LSBE422545",NULL,NULL,NULL,NULL,NULL
+"1138","Khóa luận tốt nghiệp","FIPR479245",NULL,NULL,NULL,NULL,NULL
+"1139","Trường điện từ","ELFI230344",NULL,NULL,NULL,NULL,NULL
+"1140","Đo lường và cảm biến","SEME431744",NULL,NULL,NULL,NULL,NULL
+"1141","Vật liệu Điện - Điện Tử","EEMA330544",NULL,NULL,NULL,NULL,NULL
+"1142","Khí cụ điện","ELIN330444",NULL,NULL,NULL,NULL,NULL
+"1143","Ứng dụng Matlab trong KTĐ","MSET437345",NULL,NULL,NULL,NULL,NULL
+"1144","Kỹ thuật chiếu sáng dân dụng và công nghiệp","LTRI437445",NULL,NULL,NULL,NULL,NULL
+"1145","Hệ thống kiểm soát an ninh, an toàn ","SSSY437545",NULL,NULL,NULL,NULL,NULL
+"1146","Máy điện đặc biệt và sửa chữa máy điện","SPEM430744",NULL,NULL,NULL,NULL,NULL
+"1147","Các bài toán trong vận hành và thiết kế hệ thống điện","PIPS437745",NULL,NULL,NULL,NULL,NULL
+"1148","Ứng dụng điện tử công suất","APES437845",NULL,NULL,NULL,NULL,NULL
+"1149","Kiểm toán và tiết kiệm năng lượng","ENAE437945",NULL,NULL,NULL,NULL,NULL
+"1150","Nguồn dự phòng và hệ thống ATS","SSAS438045",NULL,NULL,NULL,NULL,NULL
+"1151","Quản trị công nghiệp & QLDA điện nâng cao","PJMA438145",NULL,NULL,NULL,NULL,NULL
+"1152","Bảo vệ và tự động hóa hệ thống điện công nghiệp","REPR438245",NULL,NULL,NULL,NULL,NULL
+"1153","Hệ thống BMS","BMSY438345",NULL,NULL,NULL,NULL,NULL
+"1154","Nhà máy điện và trạm biến áp","PLSU438445",NULL,NULL,NULL,NULL,NULL
+"1155","Chất lượng điện năng","POQA438545",NULL,NULL,NULL,NULL,NULL
+"1156","Cơ sở và ứng dụng AI","AIFA436864",NULL,NULL,NULL,NULL,NULL
+"1157","Xử lý ảnh","IMPR432463",NULL,NULL,NULL,NULL,NULL
+"1158","Thiết kế mạch điện tử","CIDE431163",NULL,NULL,NULL,NULL,NULL
+"1159","Thiết kế mô hình trên máy tính","BIME331665",NULL,NULL,NULL,NULL,NULL
+"1160","Kỹ năng công nghiệp","INSK331663",NULL,NULL,NULL,NULL,NULL
+"1161","Vi xử lý nâng cao","ADMI330763",NULL,NULL,NULL,NULL,NULL
+"1162","Robot công nghiệp","ROBO320246",NULL,NULL,NULL,NULL,NULL
+"1163","Điều khiển thông minh","INCO321546",NULL,NULL,NULL,NULL,NULL
+"1164","Solar Energy: Photovoltaic (PV) Energy Conversion","MOOC348645",NULL,NULL,NULL,NULL,NULL
+"1165","Understanding Nuclear Energy","MOOC348745",NULL,NULL,NULL,NULL,NULL
+"1166","Algorithm Design and Analysis","MOOC348845",NULL,NULL,NULL,NULL,NULL
+"1167","Supply Chain Design","MOOC348945",NULL,NULL,NULL,NULL,NULL
+"1168","Nhập môn ngành CNKT ĐT-VT","IECE130564",NULL,NULL,NULL,NULL,NULL
+"1169","Vật lý 1","PHYS130102",NULL,NULL,NULL,NULL,NULL
+"1170","Vật lý 2 ","PHYS120202",NULL,NULL,NULL,NULL,NULL
+"1171","Thí nghiệm vật lý 1","PHYS110302",NULL,NULL,NULL,NULL,NULL
+"1172","Thí nghiệm vật lý 2","PHYS110402",NULL,NULL,NULL,NULL,NULL
+"1173","Hoá đại cương A1","GCHE130103",NULL,NULL,NULL,NULL,NULL
+"1174","Toán ứng dụng cho kỹ sư Điện Điện Tử","AMEE341944",NULL,NULL,NULL,NULL,NULL
+"1175","Kỹ thuật truyền số liệu","DACO430664",NULL,NULL,NULL,NULL,NULL
+"1176","Hệ thống nhúng trong công nghiệp","EMIN432563",NULL,NULL,NULL,NULL,NULL
+"1177","Thiết kế hệ thống và vi mạch tích hợp","ICSD336764",NULL,NULL,NULL,NULL,NULL
+"1178","Hệ thống viễn thông","COSY330464",NULL,NULL,NULL,NULL,NULL
+"1179","Kỹ thuật siêu cao tần","MIEN330364",NULL,NULL,NULL,NULL,NULL
+"1180","Hệ thống thông tin vô tuyến","WCSY431364 ",NULL,NULL,NULL,NULL,NULL
+"1181","Thiết kế mạch tích hợp VLSI","ICDV436264 ",NULL,NULL,NULL,NULL,NULL
+"1182","Cơ sở và ứng dụng IoT","ITFA436064",NULL,NULL,NULL,NULL,NULL
+"1183","Đồ án 1","SEPR411464",NULL,NULL,NULL,NULL,NULL
+"1184","Đồ án 2","SEPR411664 ",NULL,NULL,NULL,NULL,NULL
+"1185","Chuyên đề Doanh nghiệp (ĐTVT)","COOP420864",NULL,NULL,NULL,NULL,NULL
+"1186","Công nghệ cảm biến","SETE331963",NULL,NULL,NULL,NULL,NULL
+"1187","Lập trình Android ứng dụng điều khiển","APCA331363",NULL,NULL,NULL,NULL,NULL
+"1188","Đồ án 1","ELPR310863",NULL,NULL,NULL,NULL,NULL
+"1189","Đồ án 2","ELPR310963",NULL,NULL,NULL,NULL,NULL
+"1190","Chuyên đề Doanh nghiệp (ĐTCN)","BUTO124663",NULL,NULL,NULL,NULL,NULL
+"1191","Chuyên đề tốt nghiệp","THEM435063",NULL,NULL,NULL,NULL,NULL
+"1192","TT Kỹ thuật truyền số liệu","DACL411164",NULL,NULL,NULL,NULL,NULL
+"1193","TT Cơ sở và ứng dụng IoT","ITFL416064",NULL,NULL,NULL,NULL,NULL
+"1194","TT Thiết kế mạch tích hợp VLSI","ICDL416264",NULL,NULL,NULL,NULL,NULL
+"1195","TT Hệ thống thông tin vô tuyến","WCSL411364",NULL,NULL,NULL,NULL,NULL
+"1196","TT Xử lý tín hiệu số","DSPL411264",NULL,NULL,NULL,NULL,NULL
+"1197","TT Thiết kế hệ thống và vi mạch tích hợp","ICSL316764",NULL,NULL,NULL,NULL,NULL
+"1198","TT Hệ thống viễn thông","COSL420764",NULL,NULL,NULL,NULL,NULL
+"1199","TT Tốt nghiệp","INTE443064",NULL,NULL,NULL,NULL,NULL
+"1200","TT Thiết kế mạch điện tử số","PRCD312663",NULL,NULL,NULL,NULL,NULL
+"1201","TT Hệ thống nhúng trong công nghiệp","EMSL412763",NULL,NULL,NULL,NULL,NULL
+"1202","TT Xử lý ảnh","PRIM311063",NULL,NULL,NULL,NULL,NULL
+"1203","TT Thiết kế vi mạch số với HDL","PRDS320663",NULL,NULL,NULL,NULL,NULL
+"1204","TT Tốt nghiệp","INTE344463",NULL,NULL,NULL,NULL,NULL
+"1205","Lãnh đạo và kinh doanh trong kỹ thuật (ĐTVT)","BLCE421564",NULL,NULL,NULL,NULL,NULL
+"1206","Khóa luận tốt nghiệp ","CAPR473964",NULL,NULL,NULL,NULL,NULL
+"1207","Lãnh đạo và kinh doanh trong kỹ thuật (ĐTCN)","LDBU124763",NULL,NULL,NULL,NULL,NULL
+"1208","Khóa luận tốt nghiệp","GRAD464563",NULL,NULL,NULL,NULL,NULL
+"1209","Nhập môn ngành CNKT ĐK và TĐH","ICET335064",NULL,NULL,NULL,NULL,NULL
+"1210","Kỹ thuật robot","ROBO330246",NULL,NULL,NULL,NULL,NULL
+"1211","Trang bị điện và Khí nén","EEQU333746",NULL,NULL,NULL,NULL,NULL
+"1212","Nhận dạng và điều khiển hệ thống","IASC323346",NULL,NULL,NULL,NULL,NULL
+"1213","Đồ án Kỹ thuật Robot","RBPR310846",NULL,NULL,NULL,NULL,NULL
+"1214","Đồ án Điều khiển tự động","ARPR310746",NULL,NULL,NULL,NULL,NULL
+"1215","Sáng tạo và Khởi nghiệp","Doanh nghiệp",NULL,NULL,NULL,NULL,NULL
+"1216","Lãnh đạo và kinh doanh trong kỹ thuật","Ngoại khóa",NULL,NULL,NULL,NULL,NULL
+"1217","TT Kỹ thuật số","PRDI319263",NULL,NULL,NULL,NULL,NULL
+"1218","TT Kỹ thuật robot","ROPR311246",NULL,NULL,NULL,NULL,NULL
+"1219","TT Trang bị điện và Khí nén","PMEM310846",NULL,NULL,NULL,NULL,NULL
+"1220","TT Điều khiển tự động","PACS321446",NULL,NULL,NULL,NULL,NULL
+"1221","TT Tốt nghiệp","ININ442346",NULL,NULL,NULL,NULL,NULL
+"1222","Chuyên đề tốt nghiệp ","PRET433446",NULL,NULL,NULL,NULL,NULL
+"1223","Khóa luận tốt nghiệp","FIPR472546",NULL,NULL,NULL,NULL,NULL
+"1224","Trường điện từ","ELFI 230344",NULL,NULL,NULL,NULL,NULL
+"1225","Cung cấp điện","ELPS330345",NULL,NULL,NULL,NULL,NULL
+"1226","Đo lường và thiết bị đo","EMIN330244",NULL,NULL,NULL,NULL,NULL
+"1227","Xử lý ảnh","IMPR432446",NULL,NULL,NULL,NULL,NULL
+"1228","CAD trong ĐKTĐ","CADA331646",NULL,NULL,NULL,NULL,NULL
+"1229","Điều khiển quá trình","PRCO332146",NULL,NULL,NULL,NULL,NULL
+"1230","Hệ thống sản xuất tích hợp","FMCI431746",NULL,NULL,NULL,NULL,NULL
+"1231","Đo lường và điều khiển bằng máy tính","MCCO332246",NULL,NULL,NULL,NULL,NULL
+"1232","Hệ thống cơ điện tử ","EMEC331746",NULL,NULL,NULL,NULL,NULL
+"1233","Năng lượng tái tạo","RENE331745",NULL,NULL,NULL,NULL,NULL
+"1234","Truyền động điện tự động","ELDR330545",NULL,NULL,NULL,NULL,NULL
+"1235","Cơ sở và ứng dụng IoTs","ITFA336064",NULL,NULL,NULL,NULL,NULL
+"1236","Nhập môn ngành KTYS","INBE130165",NULL,NULL,NULL,NULL,NULL
+"1237","Toán 1","MATH130101",NULL,NULL,NULL,NULL,NULL
+"1238","Toán 2","MATH130201",NULL,NULL,NULL,NULL,NULL
+"1239","Toán 3","MATH130301",NULL,NULL,NULL,NULL,NULL
+"1240","Vật lý 2 ","PHYS130202",NULL,NULL,NULL,NULL,NULL
+"1241","Sinh lý người và động vật","HUAN330265",NULL,NULL,NULL,NULL,NULL
+"1242","Thiết kế mô hình trên máy tính","BIME332265",NULL,NULL,NULL,NULL,NULL
+"1243","Hệ thống thông tin y tế","IMSY332065",NULL,NULL,NULL,NULL,NULL
+"1244","Thiết kế mạch điện tử y sinh","MEDE330465",NULL,NULL,NULL,NULL,NULL
+"1245","Thiết bị y tế","DEMD330565",NULL,NULL,NULL,NULL,NULL
+"1246","Xử lý tín hiệu y sinh ","BISI340665",NULL,NULL,NULL,NULL,NULL
+"1247","Công nghệ cảm biến y sinh","TESO330765",NULL,NULL,NULL,NULL,NULL
+"1248","An toàn và sức khỏe trong kỹ thuật y sinh","HSBE330865",NULL,NULL,NULL,NULL,NULL
+"1249","Xử lý ảnh y sinh","BIIM330965",NULL,NULL,NULL,NULL,NULL
+"1250","Hệ thống nhúng trong y sinh","MESY335565",NULL,NULL,NULL,NULL,NULL
+"1251","Đồ án điện tử số","ELPR311065",NULL,NULL,NULL,NULL,NULL
+"1252","Đồ án vi xử lý","MIPR311165",NULL,NULL,NULL,NULL,NULL
+"1253","Đề tài Capstone","CAPR411265",NULL,NULL,NULL,NULL,NULL
+"1254","Chuyên đề doanh nghiệp","BUCO121465",NULL,NULL,NULL,NULL,NULL
+"1255","Chuyên đề tốt nghiệp","THEM426265",NULL,NULL,NULL,NULL,NULL
+"1256","TT Thiết bị y tế","MEPR321565",NULL,NULL,NULL,NULL,NULL
+"1257","TT Hệ thống nhúng trong y sinh","MEPR316165",NULL,NULL,NULL,NULL,NULL
+"1258","TT Xử lý tín hiệu y sinh","BIPR311665",NULL,NULL,NULL,NULL,NULL
+"1259","TT Mạch điện tử y sinh","TSEP321765",NULL,NULL,NULL,NULL,NULL
+"1260","TT Xử lý ảnh y sinh","BIMP311865",NULL,NULL,NULL,NULL,NULL
+"1261","TT Công nghệ cảm biến y sinh","TSEP311965",NULL,NULL,NULL,NULL,NULL
+"1262","TT Hệ thống thông tin y tế","BSPR411965",NULL,NULL,NULL,NULL,NULL
+"1263","TT tốt nghiệp","GRPR442065",NULL,NULL,NULL,NULL,NULL
+"1264","Lãnh đạo và kinh doanh trong kỹ thuật ","LEBU320026",NULL,NULL,NULL,NULL,NULL
+"1265","Khóa luận tốt nghiệp","GRAD462165",NULL,NULL,NULL,NULL,NULL
+"1266","Ứng dụng AI trong y sinh","AIBM336365",NULL,NULL,NULL,NULL,NULL
+"1267","Thu thập và điều khiển thiết bị với máy tính","APME332365",NULL,NULL,NULL,NULL,NULL
+"1268","Công nghệ không dây","WITE332465",NULL,NULL,NULL,NULL,NULL
+"1269","Chuyên đề đặc biệt trong kỹ thuật y sinh","SPSU332565",NULL,NULL,NULL,NULL,NULL
+"1270","Những thách thức mang tính kỹ thuật trong Y học ","ECME332665",NULL,NULL,NULL,NULL,NULL
+"1271","Máy học","MALE331063",NULL,NULL,NULL,NULL,NULL
+"1272","Vật liệu y sinh","BIMA332765",NULL,NULL,NULL,NULL,NULL
+"1273","Công nghệ chẩn đoán hình ảnh y sinh","BITE332865",NULL,NULL,NULL,NULL,NULL
+"1274","Ứng dụng siêu âm và từ trong kỹ thuật y sinh","BIAP332965",NULL,NULL,NULL,NULL,NULL
+"1275","Cơ sở và ứng dụng IoT","IOTE436064",NULL,NULL,NULL,NULL,NULL
+"1276","Robot công nghiệp","INRO331129",NULL,NULL,NULL,NULL,NULL
+"1277","Tương tác người máy","HCIN431979",NULL,NULL,NULL,NULL,NULL
+"1278","Lập trình ứng dụng trong kỹ thuật","APEN331329",NULL,NULL,NULL,NULL,NULL
+"1279","Lịch sử mỹ thuật Thế Giới và Việt Nam","HWVF120156",NULL,NULL,NULL,NULL,NULL
+"1280","Nguyên lý thị giác","PRVI120652",NULL,NULL,NULL,NULL,NULL
+"1281","Hình họa 1","DRAW150756",NULL,NULL,NULL,NULL,NULL
+"1282","Hình họa 2","DRAW130856",NULL,NULL,NULL,NULL,NULL
+"1283","Hình họa 3","DRAW130956",NULL,NULL,NULL,NULL,NULL
+"1284","Nghệ thuật ký họa","SKET221956",NULL,NULL,NULL,NULL,NULL
+"1285","Trang trí cơ bản","BADE333056",NULL,NULL,NULL,NULL,NULL
+"1286","Nhập môn ngành Thiết kế đồ họa","IGDE132556",NULL,NULL,NULL,NULL,NULL
+"1287","Anh văn chuyên ngành TKĐH","ENGD332756",NULL,NULL,NULL,NULL,NULL
+"1288","Bố cục tạo hình","LAUT342856",NULL,NULL,NULL,NULL,NULL
+"1289","Công nghệ in cho TKĐH","PRGD232055",NULL,NULL,NULL,NULL,NULL
+"1290","Ý tưởng sáng tạo","CRID343356",NULL,NULL,NULL,NULL,NULL
+"1291","Nghệ thuật nhiếp ảnh","PHTO333456",NULL,NULL,NULL,NULL,NULL
+"1292","Đồ án nhiếp ảnh","PRPH313656",NULL,NULL,NULL,NULL,NULL
+"1293","Đồ án Công nghệ in cho TKĐH","PRPT312155",NULL,NULL,NULL,NULL,NULL
+"1294","Trang trí chuyên ngành đồ họa","GRDE443756",NULL,NULL,NULL,NULL,NULL
+"1295","Ý tưởng kịch bản quảng cáo truyền thông","IMAD443856",NULL,NULL,NULL,NULL,NULL
+"1296","Quản lý thiết kế","DEMA422256",NULL,NULL,NULL,NULL,NULL
+"1297","Thiết kế 4 (Thiết kế cấu trúc bao bì)","CPDE421957",NULL,NULL,NULL,NULL,NULL
+"1298","Thiết kế 5 (Thiết kế bao bì nhãn hiệu)","PADE434156",NULL,NULL,NULL,NULL,NULL
+"1299","Thiết kế 6 (Thiết kế minh họa)","ILDE444356",NULL,NULL,NULL,NULL,NULL
+"1300","Thiết kế 7 (Thiết kế tạp chí, catalogue)","MADE434256",NULL,NULL,NULL,NULL,NULL
+"1301","Thiết kế 8 (Thiết kế Poster)","PODE434456",NULL,NULL,NULL,NULL,NULL
+"1302","Xử lý file cho TKĐH","PRGD441556",NULL,NULL,NULL,NULL,NULL
+"1303","Thực tập 2 (Thực tập đồ họa)","PRCG311056",NULL,NULL,NULL,NULL,NULL
+"1304","Thực tập 4 (Thực tập ảnh động)","INGD142456",NULL,NULL,NULL,NULL,NULL
+"1305","Thực tập 5 (Thực tập ký họa)","PRSK323156",NULL,NULL,NULL,NULL,NULL
+"1306","Thực tập tốt nghiệp","WOPR424856",NULL,NULL,NULL,NULL,NULL
+"1307","Khóa luận tốt nghiệp","THES474956",NULL,NULL,NULL,NULL,NULL
+"1308","Chuyên đề tốt nghiệp","SPTO435256",NULL,NULL,NULL,NULL,NULL
+"1309","Kỹ năng xây dựng kế hoạch","PLSK320605",NULL,NULL,NULL,NULL,NULL
+"1310","Lịch sử văn minh thế giới","INMA225056",NULL,NULL,NULL,NULL,NULL
+"1311","Tư duy hệ thống","SYTH220505",NULL,NULL,NULL,NULL,NULL
+"1312","Công nghệ chế bản","PRTE333256",NULL,NULL,NULL,NULL,NULL
+"1313","Công nghệ gia công sau in","POST332157",NULL,NULL,NULL,NULL,NULL
+"1314","Thiết kế 1 (Thiết kế 3D1)","DESI335056",NULL,NULL,NULL,NULL,NULL
+"1315","Thiết kế 2 (Thiết kế 3D2)","DEWE335156",NULL,NULL,NULL,NULL,NULL
+"1316","Quản trị màu","COMA431756",NULL,NULL,NULL,NULL,NULL
+"1317","CN TP sách và gia tăng giá trị tờ in","VAAD421057",NULL,NULL,NULL,NULL,NULL
+"1318","Thiết kế trang phục nữ","WODE231452",NULL,NULL,NULL,NULL,NULL
+"1319","Thiết kế trang phục nam","MEDE231452",NULL,NULL,NULL,NULL,NULL
+"1320","Nhập môn ngành Công nghệ Kỹ thuật In","INPR130155",NULL,NULL,NULL,NULL,NULL
+"1321","Ứng dụng Matlab trong Công nghệ in","MPRE230156 ",NULL,NULL,NULL,NULL,NULL
+"1322","Cơ điện tử trong ngành in","MEPR230455",NULL,NULL,NULL,NULL,NULL
+"1323","Đại cương về sản xuất in","GEPR230255",NULL,NULL,NULL,NULL,NULL
+"1324","LT màu và phục chế trong ngành in","CTRE230256",NULL,NULL,NULL,NULL,NULL
+"1325","An toàn lao động và QL bảo trì thiết bị","SEMM330755",NULL,NULL,NULL,NULL,NULL
+"1326","Anh văn chuyên ngành in","ENGR330356",NULL,NULL,NULL,NULL,NULL
+"1327","Vật liệu in","PRMA230257",NULL,NULL,NULL,NULL,NULL
+"1328","Thực hành - Thí nghiệm vật liệu in","LAPM210357",NULL,NULL,NULL,NULL,NULL
+"1329","Nghệ thuật trình bày ấn phẩm","GRDE330456",NULL,NULL,NULL,NULL,NULL
+"1330","ĐA Nghệ thuật trình bày ấn phẩm","PRGD310556",NULL,NULL,NULL,NULL,NULL
+"1331","Công nghệ chế bản","PRTE340756",NULL,NULL,NULL,NULL,NULL
+"1332","ĐA chế bản","PrPR310856",NULL,NULL,NULL,NULL,NULL
+"1333","Công nghệ in","PRTE340555",NULL,NULL,NULL,NULL,NULL
+"1334","ĐA Công nghệ in","PRJP310655",NULL,NULL,NULL,NULL,NULL
+"1335","Công nghệ gia công sau in","POPR340457",NULL,NULL,NULL,NULL,NULL
+"1336","ĐA Công nghệ gia công sau in","PRPO310457",NULL,NULL,NULL,NULL,NULL
+"1337","Kinh tế & Tổ chức sản xuất in","PRMA330657",NULL,NULL,NULL,NULL,NULL
+"1338","ĐA Kinh tế & Tổ chức sản xuất in","PRPM310757",NULL,NULL,NULL,NULL,NULL
+"1339","Quản lý chất lượng sản phẩm in","PRQM330855",NULL,NULL,NULL,NULL,NULL
+"1340","ĐA Quản lý chất lượng sản phẩm in","PPQM310955",NULL,NULL,NULL,NULL,NULL
+"1341","Liên kết doanh nghiệp","COOP422355",NULL,NULL,NULL,NULL,NULL
+"1342","TT Chế tạo khuôn In","PRPM311456",NULL,NULL,NULL,NULL,NULL
+"1343","TT Kiểm tra và xử lý file","PRPA311256",NULL,NULL,NULL,NULL,NULL
+"1344","TT TK cấu trúc bao bì và định hình hộp","PDPF310857",NULL,NULL,NULL,NULL,NULL
+"1345","TT Bình trang điện tử","PRDI311356",NULL,NULL,NULL,NULL,NULL
+"1346","TT In offset","PROP321055",NULL,NULL,NULL,NULL,NULL
+"1347","TT Thành phẩm","PRPP320957",NULL,NULL,NULL,NULL,NULL
+"1348","Đồ án tốt nghiệp","THES471955",NULL,NULL,NULL,NULL,NULL
+"1349","Hóa hữu cơ","OCHE226903",NULL,NULL,NULL,NULL,NULL
+"1350","Hóa lý in","PHCH130157",NULL,NULL,NULL,NULL,NULL
+"1351","Kiểm tra và xử lý dữ liệu","DPRF431556",NULL,NULL,NULL,NULL,NULL
+"1352","Công nghệ in offset","OFPR431255",NULL,NULL,NULL,NULL,NULL
+"1353","Công nghệ In bao bì","PAPR431355",NULL,NULL,NULL,NULL,NULL
+"1354","TK cấu trúc và thành phẩm bao bì","CDPF431257",NULL,NULL,NULL,NULL,NULL
+"1355","Thực tập chuyên ngành Trước In 1","MPPP431856",NULL,NULL,NULL,NULL,NULL
+"1356","Thực tập chuyên ngành Trước In 2","MPPP431956",NULL,NULL,NULL,NULL,NULL
+"1357","Thực tập tốt nghiệp Trước In","WSPP442156",NULL,NULL,NULL,NULL,NULL
+"1358","Thực tập theo chuyên ngành In 1","MPPR431555",NULL,NULL,NULL,NULL,NULL
+"1359","Thực tập theo chuyên ngành In 2","MPPR431655",NULL,NULL,NULL,NULL,NULL
+"1360","Thực tập tốt nghiệp In","WSPR441855",NULL,NULL,NULL,NULL,NULL
+"1361","Thực tập chuyên ngành Sau In 1","MPPO431357",NULL,NULL,NULL,NULL,NULL
+"1362","Thực tập chuyên ngành Sau In 2","MPPO431457",NULL,NULL,NULL,NULL,NULL
+"1363","Thực tập tốt nghiệp Sau In","WSPO441657",NULL,NULL,NULL,NULL,NULL
+"1364","Chuyên đề tốt nghiệp","SPTO432355",NULL,NULL,NULL,NULL,NULL
+"1365","Truyền động điện","ETDR336429",NULL,NULL,NULL,NULL,NULL
+"1366","Nhập môn ngành CNVL","INME130212",NULL,NULL,NULL,NULL,NULL
+"1367","Giáo dục quốc phòng 2","GDQP008032",NULL,NULL,NULL,NULL,NULL
+"1368","Giáo dục quốc phòng 3","GDQP008033",NULL,NULL,NULL,NULL,NULL
+"1369","Nhiệt động lực học vật liệu","TDMA230312",NULL,NULL,NULL,NULL,NULL
+"1370","Cơ học lượng tử và vật lý nguyên tử","QMAP234012",NULL,NULL,NULL,NULL,NULL
+"1371","Vật lý chất rắn","SLSP230512",NULL,NULL,NULL,NULL,NULL
+"1372","Thí nghiệm hóa lý","EPCH217103",NULL,NULL,NULL,NULL,NULL
+"1373","Hóa vô cơ","ICHE227003",NULL,NULL,NULL,NULL,NULL
+"1374","Thí nghiệm hóa vô cơ","EICH217103",NULL,NULL,NULL,NULL,NULL
+"1375","Cơ sở khoa học và công nghệ vật liệu","MATE220612",NULL,NULL,NULL,NULL,NULL
+"1376","Vật liệu polymer và composite","PCMA230812",NULL,NULL,NULL,NULL,NULL
+"1377","Vật liệu từ và siêu dẫn","MMSU220912",NULL,NULL,NULL,NULL,NULL
+"1378","Vật liệu ceramic","CEMA221012",NULL,NULL,NULL,NULL,NULL
+"1379","Hóa lý và hóa học polymer","PPPC335412",NULL,NULL,NULL,NULL,NULL
+"1380","Kỹ thuật chân không","VATE331112",NULL,NULL,NULL,NULL,NULL
+"1381","Kỹ thuật phân tích vật liệu","MATE336912",NULL,NULL,NULL,NULL,NULL
+"1382","Vật liệu bán dẫn","SEMA320712",NULL,NULL,NULL,NULL,NULL
+"1383","Công nghệ vi chế tạo","MIFT354312",NULL,NULL,NULL,NULL,NULL
+"1384","Công nghệ nano","NATE331712",NULL,NULL,NULL,NULL,NULL
+"1385","Thí nghiệm cơ sở ngành CNVL","FEMT336812",NULL,NULL,NULL,NULL,NULL
+"1386","Chuyên đề doanh nghiệp CNVL","SEMI325512",NULL,NULL,NULL,NULL,NULL
+"1387","Sức khỏe và An toàn lao động","OCSH115612",NULL,NULL,NULL,NULL,NULL
+"1388","Hệ vi cơ điện tử","MEMS332212",NULL,NULL,NULL,NULL,NULL
+"1389","Pin năng lượng mặt trời","SOCE331612",NULL,NULL,NULL,NULL,NULL
+"1390","Linh kiện bán dẫn","SMDE321512",NULL,NULL,NULL,NULL,NULL
+"1391","Mô phỏng linh kiện bán dẫn","SEDS325812",NULL,NULL,NULL,NULL,NULL
+"1392","Thí nghiệm chuyên ngành vật liệu bán dẫn","EXSE332312",NULL,NULL,NULL,NULL,NULL
+"1393","Kỹ thuật gia công polymer","PPTE332412",NULL,NULL,NULL,NULL,NULL
+"1394","Kỹ thuật sản xuất các chất cao phân tử","POFE331812",NULL,NULL,NULL,NULL,NULL
+"1395","Polymer sinh học và ứng dụng","BBPO323912",NULL,NULL,NULL,NULL,NULL
+"1396","Các phương pháp phân tích và đánh giá vật liệu polymer và cao su","MEPO322712",NULL,NULL,NULL,NULL,NULL
+"1397","Thí nghiệm chuyên ngành vật liệu polymer","EXPO332812",NULL,NULL,NULL,NULL,NULL
+"1398","Thực tập tốt nghiệp","APMT346712",NULL,NULL,NULL,NULL,NULL
+"1399","Vật liệu tích trữ và chuyển hóa năng lượng (chuyên ngành vật liệu điện tử bán dẫn)","MESC335312",NULL,NULL,NULL,NULL,NULL
+"1400","Công nghệ sơn và lớp phủ bề mặt (chuyên ngành vật liệu polymer composite)","TPSC335212",NULL,NULL,NULL,NULL,NULL
+"1401","Khóa luận tốt nghiệp","GRAT474912",NULL,NULL,NULL,NULL,NULL
+"1402","Chuyên đề tốt nghiệp 1","STOG436212",NULL,NULL,NULL,NULL,NULL
+"1403","Chuyên đề tốt nghiệp 2","STOG446312",NULL,NULL,NULL,NULL,NULL
+"1404","Toán cho kỹ sư","MATH143301",NULL,NULL,NULL,NULL,NULL
+"1405","Tin hoc kỹ thuật","INEP130112",NULL,NULL,NULL,NULL,NULL
+"1406","Tiếng anh chuyên ngành Công nghệ vật liệu","ENMT327012",NULL,NULL,NULL,NULL,NULL
+"1407","Pin nhiên liệu","FUCE332112",NULL,NULL,NULL,NULL,NULL
+"1408","Kỹ thuật điện – điện tử","EEEN234062",NULL,NULL,NULL,NULL,NULL
+"1409","Hóa kỹ thuật môi trường","ENEC230410",NULL,NULL,NULL,NULL,NULL
+"1410","Nhiệt động lực học","TDMA235012",NULL,NULL,NULL,NULL,NULL
+"1411","Các hiện tượng truyền dẫn cơ bản","TRPH235112",NULL,NULL,NULL,NULL,NULL
+"1412","Cơ học lượng tử","QUME235212",NULL,NULL,NULL,NULL,NULL
+"1413","Pin năng lượng mặt trời","SOCE335312",NULL,NULL,NULL,NULL,NULL
+"1414","Nano transistor","NATR335412",NULL,NULL,NULL,NULL,NULL
+"1415","Triết học Mác-Lênin","LLCT 130105",NULL,NULL,NULL,NULL,NULL
+"1416","Kinh tế chính trị Mác – Lênin","LLCT 120205",NULL,NULL,NULL,NULL,NULL
+"1417","Chủ nghĩa xã hội khoa học","LLCT 120405",NULL,NULL,NULL,NULL,NULL
+"1418","Tư tưởng Hồ Chí Minh","LLCT 120314",NULL,NULL,NULL,NULL,NULL
+"1419","Lịch sử Đảng Cộng sản Việt Nam","LLCT 220514",NULL,NULL,NULL,NULL,NULL
+"1420","Pháp luật đại cương","GELA 220405",NULL,NULL,NULL,NULL,NULL
+"1421","Tâm lý học đại cương","PSYC230191",NULL,NULL,NULL,NULL,NULL
+"1422","Quản lý nhà nước ","PSEM320391",NULL,NULL,NULL,NULL,NULL
+"1423","Nhật ngữ 1","JAPA 130138",NULL,NULL,NULL,NULL,NULL
+"1424","Nhật ngữ 2","JAPA 230238",NULL,NULL,NULL,NULL,NULL
+"1425","Nhật ngữ 3","JAPA 330338",NULL,NULL,NULL,NULL,NULL
+"1426","Nhập môn ngành Sư phạm tiếng Anh","ITTE 130138",NULL,NULL,NULL,NULL,NULL
+"1427","Pre-intermediate Listening-Speaking","LISP 240135",NULL,NULL,NULL,NULL,NULL
+"1428","Intermediate Listening-Speaking","LISP 240235",NULL,NULL,NULL,NULL,NULL
+"1429","Upper-intermediate Listening-Speaking","LISP 340335",NULL,NULL,NULL,NULL,NULL
+"1430","Advanced Listening-Speaking","LISP 430435",NULL,NULL,NULL,NULL,NULL
+"1431","Basic Writing","WRIT 230135",NULL,NULL,NULL,NULL,NULL
+"1432","Academic Writing","WRIT 330235",NULL,NULL,NULL,NULL,NULL
+"1433","Critical Writing","WRIT 330335",NULL,NULL,NULL,NULL,NULL
+"1434","Intermediate Reading","READ 230135",NULL,NULL,NULL,NULL,NULL
+"1435","Upper-intermediate Reading","READ 330235",NULL,NULL,NULL,NULL,NULL
+"1436","Phonetics & Phonology","PHON 230136",NULL,NULL,NULL,NULL,NULL
+"1437","Morphology & Syntax","MOSY 230236",NULL,NULL,NULL,NULL,NULL
+"1438","ASEAN Studies","ASST 330336",NULL,NULL,NULL,NULL,NULL
+"1439","Semantics","SEMA 230336",NULL,NULL,NULL,NULL,NULL
+"1440","British Studies","BAST 330336",NULL,NULL,NULL,NULL,NULL
+"1441","American Studies","AMST 330336",NULL,NULL,NULL,NULL,NULL
+"1442","English for Electronic & Electrical Engineering","ENEE330337 ",NULL,NULL,NULL,NULL,NULL
+"1443","English for Mechanical Engineering","ENME 330437",NULL,NULL,NULL,NULL,NULL
+"1444","English for IT","ENIT 330237",NULL,NULL,NULL,NULL,NULL
+"1445","Introduction to Teaching Methodology","ITTM 130238",NULL,NULL,NULL,NULL,NULL
+"1446","Language Skills Teaching","LASK 230338",NULL,NULL,NULL,NULL,NULL
+"1447","Teaching Practice","TEPR 330438",NULL,NULL,NULL,NULL,NULL
+"1448","Teaching English to Young Learners","TEYL 330538",NULL,NULL,NULL,NULL,NULL
+"1449","Technology Enhanced Language Learning","TELL 330638",NULL,NULL,NULL,NULL,NULL
+"1450","Material Development","MATD 430738",NULL,NULL,NULL,NULL,NULL
+"1451","Research Methodology","REME 430838",NULL,NULL,NULL,NULL,NULL
+"1452","Professional Experience","PREX 430938",NULL,NULL,NULL,NULL,NULL
+"1453","Teaching Practicum","TPRA 461038",NULL,NULL,NULL,NULL,NULL
+"1454","Khóa luận","THES 491438",NULL,NULL,NULL,NULL,NULL
+"1455","Testing and Assessment","TEST 431138",NULL,NULL,NULL,NULL,NULL
+"1456","Pragmatics","PRAG 430436",NULL,NULL,NULL,NULL,NULL
+"1457","Second Language Acquisition (Tự chọn)","LAAC 431238",NULL,NULL,NULL,NULL,NULL
+"1458","Sociolinguistics (Tự chọn)","SOCI 431338",NULL,NULL,NULL,NULL,NULL
+"1459","Cơ sở Văn hóa Việt Nam","VICB 230138",NULL,NULL,NULL,NULL,NULL
+"1460","Tiếng Việt Thực hành","VIPR 230238 ",NULL,NULL,NULL,NULL,NULL
+"1461","Lịch sử Văn minh Thế giới ","HIST 230338 ",NULL,NULL,NULL,NULL,NULL
+"1462","English for Business Communiation","EICB 330437",NULL,NULL,NULL,NULL,NULL
+"1463","English for Environmental Technology ","ENET 330137",NULL,NULL,NULL,NULL,NULL
+"1464","English for International Business Contracts","EIBC230337",NULL,NULL,NULL,NULL,NULL
+"1465","English for Finance","ENFI330437",NULL,NULL,NULL,NULL,NULL
+"1466","Nhập môn ngành CNKTCTXD","ICET130117",NULL,NULL,NULL,NULL,NULL
+"1467","Lập trình ứng dụng trong XD","APCO131621",NULL,NULL,NULL,NULL,NULL
+"1468","Toán ứng dụng trong XD ","AMCO131421",NULL,NULL,NULL,NULL,NULL
+"1469","Kinh tế xây dựng","COEC321119",NULL,NULL,NULL,NULL,NULL
+"1470","Hình họa, vẽ kỹ thuật XD","DGED12­5716",NULL,NULL,NULL,NULL,NULL
+"1471","Cơ học cơ sở","FUME130221",NULL,NULL,NULL,NULL,NULL
+"1472","Sức bền vật liệu","STMA240121",NULL,NULL,NULL,NULL,NULL
+"1473","Cơ học đất ","SOME240118",NULL,NULL,NULL,NULL,NULL
+"1474","Cơ học kết cấu","STME240517",NULL,NULL,NULL,NULL,NULL
+"1475","Kết cấu bê tông cốt thép","RCST240617",NULL,NULL,NULL,NULL,NULL
+"1476","Đồ án kết cấu BTCT","RCSP211017",NULL,NULL,NULL,NULL,NULL
+"1477","Kết cấu thép","STST240917",NULL,NULL,NULL,NULL,NULL
+"1478","Nền móng","FOEN330318",NULL,NULL,NULL,NULL,NULL
+"1479","Đồ án nền móng","FENP310418",NULL,NULL,NULL,NULL,NULL
+"1480","Kiến trúc","ARCH230216",NULL,NULL,NULL,NULL,NULL
+"1481","Đồ án kết cấu công trình BTCT","RCBP311817",NULL,NULL,NULL,NULL,NULL
+"1482","Kỹ thuật thi công","COTE340319",NULL,NULL,NULL,NULL,NULL
+"1483","Tổ chức thi công","ORCO320519",NULL,NULL,NULL,NULL,NULL
+"1484","Đồ án kỹ thuật & tổ chức thi công","TMCP310619",NULL,NULL,NULL,NULL,NULL
+"1485","Kết cấu công trình thép","SBST321617",NULL,NULL,NULL,NULL,NULL
+"1486","Đồ án kết cấu thép","SSTP311717",NULL,NULL,NULL,NULL,NULL
+"1487","Kết cấu nhà cao tầng","HRBS431217",NULL,NULL,NULL,NULL,NULL
+"1488","Chuyên đề tốt nghiệp (CNKTCTXD)","CAPR430618",NULL,NULL,NULL,NULL,NULL
+"1489","Chuyên đề Doanh nghiệp (CNKTCTXD)","SCIC424517",NULL,NULL,NULL,NULL,NULL
+"1490","Lãnh đạo và kinh doanh trong kỹ thuật (CNKTCTXD)","BLIE327017",NULL,NULL,NULL,NULL,NULL
+"1491","TT Vẽ kỹ thuật trong xây dựng","ENDP114617",NULL,NULL,NULL,NULL,NULL
+"1492","TT Trắc địa","SURP222819",NULL,NULL,NULL,NULL,NULL
+"1493","Khảo sát và Thí nghiệm đất","SOIT220218",NULL,NULL,NULL,NULL,NULL
+"1494","Thí nghiệm cơ học","METE210321",NULL,NULL,NULL,NULL,NULL
+"1495","TT Vật liệu xây dựng","COMP211117",NULL,NULL,NULL,NULL,NULL
+"1496","TT Ứng dụng tin học trong XD","ITCP421417",NULL,NULL,NULL,NULL,NULL
+"1497","TT Kiểm định công trình","COIP424717",NULL,NULL,NULL,NULL,NULL
+"1498","TT Kỹ thuật nghề xây dựng","COTP320519",NULL,NULL,NULL,NULL,NULL
+"1499","TT BIM trong xây dựng","BIMP323019",NULL,NULL,NULL,NULL,NULL
+"1500","TT Tốt nghiệp (CNKTCTXD)","ENGP442017",NULL,NULL,NULL,NULL,NULL
+"1501","Khóa luận tốt nghiệp","THES472117",NULL,NULL,NULL,NULL,NULL
+"1502","Nền móng nhà cao tầng","FHRB420718",NULL,NULL,NULL,NULL,NULL
+"1503","Công trình trên nền đất yếu","SOIM420618",NULL,NULL,NULL,NULL,NULL
+"1504","Thiết kế kết cấu BTCT theo ACI&EUROCODE","DCEA424917",NULL,NULL,NULL,NULL,NULL
+"1505","Thiết kế kết cấu bê tông cốt sợi","DFRC425017",NULL,NULL,NULL,NULL,NULL
+"1506","Kết cấu thép ứng suất trước","DPSS425117",NULL,NULL,NULL,NULL,NULL
+"1507","Tư vấn giám sát","SUCO323219",NULL,NULL,NULL,NULL,NULL
+"1508","Bảo trì công trình","BUMA421319",NULL,NULL,NULL,NULL,NULL
+"1509","Xây dựng bền vững","SUCO423917",NULL,NULL,NULL,NULL,NULL
+"1510","Cấp thoát nước","WSSE221317",NULL,NULL,NULL,NULL,NULL
+"1511","Nhập môn ngành HTKTCTXD","IMEP136717",NULL,NULL,NULL,NULL,NULL
+"1512","Dự toán HTKTCTXD","MBES324319",NULL,NULL,NULL,NULL,NULL
+"1513","Cơ học công trình","BUME234817",NULL,NULL,NULL,NULL,NULL
+"1514","Kỹ thuật điện công trình","COET232144",NULL,NULL,NULL,NULL,NULL
+"1515","Cơ lưu chất","FLME231521",NULL,NULL,NULL,NULL,NULL
+"1516","Kỹ thuật nhiệt – lạnh","TREN341032",NULL,NULL,NULL,NULL,NULL
+"1517","Kiến trúc","ATEC245616",NULL,NULL,NULL,NULL,NULL
+"1518","Kết cấu công trình","STBU245617",NULL,NULL,NULL,NULL,NULL
+"1519","ĐA Kết cấu công trình","BSTP315717",NULL,NULL,NULL,NULL,NULL
+"1520","Tổ chức và quản lý thi công HTKTCTXD","MECM334419",NULL,NULL,NULL,NULL,NULL
+"1521","Quản lý dự án","PRMA434519",NULL,NULL,NULL,NULL,NULL
+"1522","Hệ thống điện công trình","CEPE340345",NULL,NULL,NULL,NULL,NULL
+"1523","Hệ thống tự động hóa công trình","ASCT340146",NULL,NULL,NULL,NULL,NULL
+"1524","ĐA Hệ thống điện công trình","CEPP411045",NULL,NULL,NULL,NULL,NULL
+"1525","ĐA hệ thống tự động hóa công trình","ASCP410146",NULL,NULL,NULL,NULL,NULL
+"1526","Cấp thoát nước công trình","PIBU225917",NULL,NULL,NULL,NULL,NULL
+"1527","ĐA Cấp thoát nước công trình","PIBP316017",NULL,NULL,NULL,NULL,NULL
+"1528","Hệ thống cấp nước chữa cháy","WSFS326117",NULL,NULL,NULL,NULL,NULL
+"1529","Mạng lưới cấp thoát nước","WSDN326317",NULL,NULL,NULL,NULL,NULL
+"1530","Trạm bơm","PUST225817",NULL,NULL,NULL,NULL,NULL
+"1531","Hệ thống xử lý nước thải","WATS326417",NULL,NULL,NULL,NULL,NULL
+"1532","Điều hòa không khí","ACSY330932",NULL,NULL,NULL,NULL,NULL
+"1533","Chuyên đề tốt nghiệp (HTKTCTXD)","GRDS437317",NULL,NULL,NULL,NULL,NULL
+"1534","Chuyên đề Doanh nghiệp (HTKTCTXD)","SCIC427117",NULL,NULL,NULL,NULL,NULL
+"1535","Lãnh đạo và kinh doanh trong kỹ thuật (HTKTCTXD)","BLIE327217",NULL,NULL,NULL,NULL,NULL
+"1536","TT BIM trong HTKTCTXD 1","BIMP324119",NULL,NULL,NULL,NULL,NULL
+"1537","TT BIM trong HTKTCTXD 2","BIMP324219",NULL,NULL,NULL,NULL,NULL
+"1538","TT Ứng dụng tin học trong cấp thoát nước công trình","PBPS316217",NULL,NULL,NULL,NULL,NULL
+"1539","TT hệ thống điện công trình","PCEP322545",NULL,NULL,NULL,NULL,NULL
+"1540","TT Tốt nghiệp","INSH446517",NULL,NULL,NULL,NULL,NULL
+"1541","Khóa luận tốt nghiệp","THES476817",NULL,NULL,NULL,NULL,NULL
+"1542","Kỹ thuật chiếu sáng dân dụng và công nghiệp","LTRI321345",NULL,NULL,NULL,NULL,NULL
+"1543","Hệ thống kiểm soát an ninh, antoàn","SSSY321445",NULL,NULL,NULL,NULL,NULL
+"1544","Chất lượng điện năng","PQE320755",NULL,NULL,NULL,NULL,NULL
+"1545","Nguồn dự phòng và hệ thống ATS","SSAS322045",NULL,NULL,NULL,NULL,NULL
+"1546","Hệ thống BMS","BMSY322045",NULL,NULL,NULL,NULL,NULL
+"1547","Chuyên đề nhiệt","STTT321832",NULL,NULL,NULL,NULL,NULL
+"1548","Quản lý chất thải rắn và nguy hại","SHWM321810",NULL,NULL,NULL,NULL,NULL
+"1549","Nhập môn Kiến trúc","INAR130116",NULL,NULL,NULL,NULL,NULL
+"1550","Thực tập tin học chuyên ngành Kiến trúc 1: (AUTOCAD+SKETCHUP)","ACAD121216",NULL,NULL,NULL,NULL,NULL
+"1551","Thực tập tin học chuyên ngành Kiến trúc 2: (REVIT+3DMAX)","REVT122616",NULL,NULL,NULL,NULL,NULL
+"1552","Thực tập tin học chuyên ngành Kiến trúc 3: (B.I.M)","BIMA112716",NULL,NULL,NULL,NULL,NULL
+"1553","Hình học họa hình 1: giao - hình chiếu thẳng góc","DGSP120216",NULL,NULL,NULL,NULL,NULL
+"1554","Hình học họa hình 2: hình chiếu phối cảnh","DGSP120316",NULL,NULL,NULL,NULL,NULL
+"1555","Cây xanh, môi trường & Con người","TEHU122916",NULL,NULL,NULL,NULL,NULL
+"1556","Vật lý kiến trúc (Quang học-thông gió- âm học)","APHY242416",NULL,NULL,NULL,NULL,NULL
+"1557","Thực hành Hội họa 1: Hình họa (Tượng tròn, Tĩnh vật)","SASL220416",NULL,NULL,NULL,NULL,NULL
+"1558","Thực hành Hội họa 2: Phong cảnh - màu nước","WCSP220516",NULL,NULL,NULL,NULL,NULL
+"1559","ĐA Cơ sở kiến trúc 1: Đường nét- chữ số","INAP320616",NULL,NULL,NULL,NULL,NULL
+"1560","ĐA Cơ sở kiến trúc 2: Vẽ mẫu nhà","INAP320716",NULL,NULL,NULL,NULL,NULL
+"1561","ĐA Cơ sở kiến trúc 3: Diễn họa – KT nhỏ","INAP320816",NULL,NULL,NULL,NULL,NULL
+"1562","ĐA Cơ sở kiến trúc 4: Vẽ ghi","INAP320916",NULL,NULL,NULL,NULL,NULL
+"1563","Thực hành Điêu khắc: Tổ hợp hình khối kiến trúc","SCPA231116",NULL,NULL,NULL,NULL,NULL
+"1564","Cơ học công trình","MEBU244817",NULL,NULL,NULL,NULL,NULL
+"1565","Kết cấu công trình (BTCT+Thép+Gỗ)","STBU245217",NULL,NULL,NULL,NULL,NULL
+"1566","Nguyên lý bố cục tạo hình kiến trúc","LAPA221016",NULL,NULL,NULL,NULL,NULL
+"1567","ĐA bố cục tạo hình kiến trúc","LAPA221516",NULL,NULL,NULL,NULL,NULL
+"1568","ĐA kỹ thuật mô hình kiến trúc","PMTA222516",NULL,NULL,NULL,NULL,NULL
+"1569","Cấu tạo kiến trúc công trình DD& CN– BTL","PCIN341316",NULL,NULL,NULL,NULL,NULL
+"1570","Kỹ thuật hạ tầng Công trình (Điện + Nước)","TEIN423022",NULL,NULL,NULL,NULL,NULL
+"1571","Nguyên lý thiết kế kiến trúc công trình DD","PCIA341616",NULL,NULL,NULL,NULL,NULL
+"1572","Nguyên lý thiết kế kiến trúc CN","PCIA322316",NULL,NULL,NULL,NULL,NULL
+"1573","Nguyên lý Quy hoạch đô thị","UPLA323116",NULL,NULL,NULL,NULL,NULL
+"1574","Kiến trúc cảnh quan","PLAR324316",NULL,NULL,NULL,NULL,NULL
+"1575","Thiết kế đô thị","UDES324216",NULL,NULL,NULL,NULL,NULL
+"1576","Lịch sử kiến trúc phương Tây","WARH323016",NULL,NULL,NULL,NULL,NULL
+"1577","Lịch sử kiến trúc phương Đông &VN","EARH333816",NULL,NULL,NULL,NULL,NULL
+"1578","Bảo tồn & Trùng tu di sản","PREA324916",NULL,NULL,NULL,NULL,NULL
+"1579","Trang thiết bị công trình","EQUB324116",NULL,NULL,NULL,NULL,NULL
+"1580","Thiết kế Kiến trúc và Môi trường bền vững","EASU324816",NULL,NULL,NULL,NULL,NULL
+"1581","GIS trong kiến trúc & quy hoạch","GISP422922",NULL,NULL,NULL,NULL,NULL
+"1582","Chuyên đề Doanh nghiệp (Kiến trúc)","SCIC425716",NULL,NULL,NULL,NULL,NULL
+"1583","Lãnh đạo và kinh doanh trong kỹ thuật (Kiến trúc)","BLIE325816",NULL,NULL,NULL,NULL,NULL
+"1584","ĐA thiết kế kiến trúc: quán hoa, quán sách, bến xe bus, bến tàu thủy","SAPP421716",NULL,NULL,NULL,NULL,NULL
+"1585","ĐA thiết kế kiến trúc: Nhà ở riêng lẻ","APSH422016",NULL,NULL,NULL,NULL,NULL
+"1586","ĐA thiết kế kiến trúc: Nhà ở thấp tầng","APLH433316",NULL,NULL,NULL,NULL,NULL
+"1587","ĐA thiết kế kiến trúc CTCC 1: quy mô nhỏ","SAPP421816",NULL,NULL,NULL,NULL,NULL
+"1588","ĐA thiết kế kiến trúc CTCC 2: quy mô vừa","SAPP431916",NULL,NULL,NULL,NULL,NULL
+"1589","ĐA thiết kế kiến trúc CTCC 3: quy mô lớn","SAPP433716",NULL,NULL,NULL,NULL,NULL
+"1590","ĐA thiết kế kiến trúc CTCC 4: Bệnh viện, TTTM văn phòng","SAPP434516",NULL,NULL,NULL,NULL,NULL
+"1591","ĐA thiết kế kiến trúc Tổng Hợp","SYNP444616",NULL,NULL,NULL,NULL,NULL
+"1592","ĐA thiết kế kiến trúc Công nghiệp","APIA433216",NULL,NULL,NULL,NULL,NULL
+"1593","ĐA Quy hoạch chi tiết Đơn Vị Ở","PPNP433616",NULL,NULL,NULL,NULL,NULL
+"1594","ĐA thiết kế nội thất 1","APID423416",NULL,NULL,NULL,NULL,NULL
+"1595","ĐA thiết kế nội thất 2","APID423516",NULL,NULL,NULL,NULL,NULL
+"1596","ĐA thiết kế cải tạo+bảo tồn CT quy mô vừa","APID434416",NULL,NULL,NULL,NULL,NULL
+"1597","ĐA thiết kế ngoại thất: cảnh quan sân vườn, công viên","ARPE424716",NULL,NULL,NULL,NULL,NULL
+"1598","Thực tập kỹ thuật","TPRA312216",NULL,NULL,NULL,NULL,NULL
+"1599","Thực tập - Tham quan","VIST315216",NULL,NULL,NULL,NULL,NULL
+"1600","TT Tốt nghiệp (Kiến trúc)","GRAP325316",NULL,NULL,NULL,NULL,NULL
+"1601","Khóa luận tốt nghiệp","FINP495516",NULL,NULL,NULL,NULL,NULL
+"1602","Tư duy biện luận ứng dụng","ARAP125116",NULL,NULL,NULL,NULL,NULL
+"1603","Mỹ học","AEST125416",NULL,NULL,NULL,NULL,NULL
+"1604","Kiến trúc truyền thống Việt Nam","TRAV321416",NULL,NULL,NULL,NULL,NULL
+"1605","Qui hoạch hệ thống giao thông đô thị","UTSP322116",NULL,NULL,NULL,NULL,NULL
+"1606","Kỹ thuật thi công","COTE323219",NULL,NULL,NULL,NULL,NULL
+"1607","Quản lý dự án","PRMA420819",NULL,NULL,NULL,NULL,NULL
+"1608","Lịch sử đô thị","UHIS322816",NULL,NULL,NULL,NULL,NULL
+"1609","Chuyên đề kiến trúc Nhà Ở","THEH323916",NULL,NULL,NULL,NULL,NULL
+"1610","Chuyên đề kiến trúc CTCC","THEP324016",NULL,NULL,NULL,NULL,NULL
+"1611","Chuyên đề kiến trúc CTCN","THED325016",NULL,NULL,NULL,NULL,NULL
+"1612","Nhập môn Kiến trúc Nội thất","INAR130216",NULL,NULL,NULL,NULL,NULL
+"1613","Hình họa 1: Tượng + Người","SASL120116",NULL,NULL,NULL,NULL,NULL
+"1614","Hình họa 2: Phong cảnh hẹp","WCSP120416",NULL,NULL,NULL,NULL,NULL
+"1615","Hình họa 3 : Tĩnh vật màu","STIL220116",NULL,NULL,NULL,NULL,NULL
+"1616","Hình họa 4: Đặc tả chất liệu","MATE220316",NULL,NULL,NULL,NULL,NULL
+"1617","Trang trí cơ bản","DECO220416",NULL,NULL,NULL,NULL,NULL
+"1618","Trang trí chuyên ngành 1","DECO320116",NULL,NULL,NULL,NULL,NULL
+"1619","Trang trí chuyên ngành 2","DECO320516",NULL,NULL,NULL,NULL,NULL
+"1620","Nguyên lý thị giác","VISI220216",NULL,NULL,NULL,NULL,NULL
+"1621","Lịch sử nghệ thuật","ARTH120316",NULL,NULL,NULL,NULL,NULL
+"1622","Nguyên lý thiết kế Nội Ngoại thất","PCII220516",NULL,NULL,NULL,NULL,NULL
+"1623","Thiết kế và triển khai cấu tạo các sản phẩm nội thất","DESI320216",NULL,NULL,NULL,NULL,NULL
+"1624","Chất liệu nội ngoại thất","MATE320416",NULL,NULL,NULL,NULL,NULL
+"1625","Chuyên đề Doanh nghiệp (Kiến trúc nội thất)","SCIC421516",NULL,NULL,NULL,NULL,NULL
+"1626","Lãnh đạo và kinh doanh trong kỹ thuật (Kiến trúc nội thất)","BLIE425816",NULL,NULL,NULL,NULL,NULL
+"1627","Đồ án thiết kế Nội thất nhà ở 1","APID220616",NULL,NULL,NULL,NULL,NULL
+"1628","Đồ án thiết kế Nội thất nhà ở 2","APID320316",NULL,NULL,NULL,NULL,NULL
+"1629","Đồ án thiết kế Nội thất nhà ở 3","APID320716",NULL,NULL,NULL,NULL,NULL
+"1630","Đồ án thiết kế Nội thất công trình công cộng 1","APID320816",NULL,NULL,NULL,NULL,NULL
+"1631","Đồ án thiết kế Nội thất công trình công cộng 2","APID420116",NULL,NULL,NULL,NULL,NULL
+"1632","Đồ án thiết kế Nội thất công trình công cộng 3","APID420216",NULL,NULL,NULL,NULL,NULL
+"1633","Đồ án sản xuất và thi công các sản phẩm nội ngoại thất","MANU320616",NULL,NULL,NULL,NULL,NULL
+"1634","Đồ án thiết kế Nội thất công trình thông minh","APID420416",NULL,NULL,NULL,NULL,NULL
+"1635","Đồ án thiết kế Nội Ngoại thất tổng hợp","APID430516",NULL,NULL,NULL,NULL,NULL
+"1636","Đồ án cải tạo nhà ở","RENO420316",NULL,NULL,NULL,NULL,NULL
+"1637","Thực tập - Tham quan","VIST410716",NULL,NULL,NULL,NULL,NULL
+"1638","Thực tập tốt nghiệp (Kiến trúc nội thất)","GRAP420616",NULL,NULL,NULL,NULL,NULL
+"1639","Khóa luận tốt nghiệp Kiến trúc nội thất","FIND490816",NULL,NULL,NULL,NULL,NULL
+"1640","Nghệ thuật nhiếp ảnh","PHOT420816",NULL,NULL,NULL,NULL,NULL
+"1641","Tranh chất liệu","PAIN420916",NULL,NULL,NULL,NULL,NULL
+"1642","Tạo dáng công nghiệp","SHAP421016",NULL,NULL,NULL,NULL,NULL
+"1643","Các xu hướng nội thất ","TEND421216",NULL,NULL,NULL,NULL,NULL
+"1644","Nội thất các công trình cải tạo bảo tồn","FUCO421316",NULL,NULL,NULL,NULL,NULL
+"1645","Công nghệ và vật liệu nội thất mới","TEMA421416",NULL,NULL,NULL,NULL,NULL
+"1646","Nhập môn ngành KTXDCTGT","INTE130122",NULL,NULL,NULL,NULL,NULL
+"1647","Thủy lực và thủy văn","HYDR230222",NULL,NULL,NULL,NULL,NULL
+"1648","Thiết kế đường 1","ROAD330322",NULL,NULL,NULL,NULL,NULL
+"1649","Thiết kế đường 2","ROAD330422",NULL,NULL,NULL,NULL,NULL
+"1650","Đồ án thiết kế đường","ROAP310622",NULL,NULL,NULL,NULL,NULL
+"1651","Thiết kế cầu BTCT","CBRI330522",NULL,NULL,NULL,NULL,NULL
+"1652","Đồ án thiết kế cầu BTCT","CBRP310722",NULL,NULL,NULL,NULL,NULL
+"1653","Thi công cầu","BRIE320922",NULL,NULL,NULL,NULL,NULL
+"1654","Thi công đường","ROAE320822",NULL,NULL,NULL,NULL,NULL
+"1655","Đồ án thi công đường","CORP312822",NULL,NULL,NULL,NULL,NULL
+"1656","Thiết kế cầu thép","SBRI331022",NULL,NULL,NULL,NULL,NULL
+"1657","Đồ án thiết kế cầu thép","SBRP311222",NULL,NULL,NULL,NULL,NULL
+"1658","Mố trụ và nền móng cầu","ABUT331322",NULL,NULL,NULL,NULL,NULL
+"1659","Đồ án mố trụ và nền móng cầu","SUBP311822",NULL,NULL,NULL,NULL,NULL
+"1660","Chuyên đề tốt nghiệp (KTXDCTGT)","GRDS433522",NULL,NULL,NULL,NULL,NULL
+"1661","Chuyên đề Doanh nghiệp (KTXDCTGT)","SCIC423222",NULL,NULL,NULL,NULL,NULL
+"1662","Lãnh đạo và kinh doanh trong kỹ thuật (KTXDCTGT)","BLIE323322",NULL,NULL,NULL,NULL,NULL
+"1663","TT Ứng dụng tin học trong thiết kế đường","ITRP311622",NULL,NULL,NULL,NULL,NULL
+"1664","TT ứng dụng tin học trong thiết kế cầu","ITBP311722",NULL,NULL,NULL,NULL,NULL
+"1665","Thí nghiệm cầu đường","ROAT311122",NULL,NULL,NULL,NULL,NULL
+"1666","TT Tốt nghiệp (KTXDCTGT)","ENGP441922",NULL,NULL,NULL,NULL,NULL
+"1667","Khóa luận tốt nghiệp","THES471522",NULL,NULL,NULL,NULL,NULL
+"1668","Nền đường trên đất yếu","ROWS422122",NULL,NULL,NULL,NULL,NULL
+"1669","Vật liệu xây dựng tiên tiến ","AMAT422222",NULL,NULL,NULL,NULL,NULL
+"1670","Đô thị xanh và thông minh","GICI422322",NULL,NULL,NULL,NULL,NULL
+"1671","Kiến trúc – cảnh quan cầu đường","ARCT422422",NULL,NULL,NULL,NULL,NULL
+"1672","Quy hoạch và quản lý GT","TRAN422522",NULL,NULL,NULL,NULL,NULL
+"1673","Đường mêtrô – đường sắt ","METR421422",NULL,NULL,NULL,NULL,NULL
+"1674","Đường hầm ô tô","TUNN422722",NULL,NULL,NULL,NULL,NULL
+"1675","Kiểm định và khai thác cầu đường","OPEB422022",NULL,NULL,NULL,NULL,NULL
+"1676","Nhập môn ngành QLXD","ITCM131419",NULL,NULL,NULL,NULL,NULL
+"1677","Cơ học đất","SOME240318",NULL,NULL,NULL,NULL,NULL
+"1678","Đồ án kỹ thuật thi công","COMP312019",NULL,NULL,NULL,NULL,NULL
+"1679","Tổ chức và quản lý xây dựng","COMA331719",NULL,NULL,NULL,NULL,NULL
+"1680","Đồ án tổ chức và QLXD","COMP312119",NULL,NULL,NULL,NULL,NULL
+"1681","Quản trị tài nguyên và ATLĐ","CMSM321519",NULL,NULL,NULL,NULL,NULL
+"1682","Quản lý hệ thống MEP","MEPM422219",NULL,NULL,NULL,NULL,NULL
+"1683","Lập và thẩm định dự án đầu tư xây dựng","FACP421919",NULL,NULL,NULL,NULL,NULL
+"1684","Đồ án lập dự án đầu tư xây dựng","PCPF412619",NULL,NULL,NULL,NULL,NULL
+"1685","Dự toán và định giá xây dựng","BEAE322419",NULL,NULL,NULL,NULL,NULL
+"1686","Đồ án lập dự toán công trình xây dựng","PBEE412719",NULL,NULL,NULL,NULL,NULL
+"1687","Chuyên đề tốt nghiệp (QLXD)","GRDS433719",NULL,NULL,NULL,NULL,NULL
+"1688","Chuyên đề Doanh nghiệp (QLXD)","SCIC424119",NULL,NULL,NULL,NULL,NULL
+"1689","Lãnh đạo và kinh doanh trong kỹ thuật (QLXD)","BLIE324019",NULL,NULL,NULL,NULL,NULL
+"1690","TT Phân tích thống kê","STAP212819",NULL,NULL,NULL,NULL,NULL
+"1691","TT Đấu thầu","PETP412919",NULL,NULL,NULL,NULL,NULL
+"1692","Khóa luận tốt nghiệp","THES473819",NULL,NULL,NULL,NULL,NULL
+"1693","Pháp luật xây dựng","COLA322519",NULL,NULL,NULL,NULL,NULL
+"1694","Marketing trong xây dựng","COMA323119",NULL,NULL,NULL,NULL,NULL
+"1695","Quản lý vận hành công trình","PMAO423319",NULL,NULL,NULL,NULL,NULL
+"1696","Hệ thống thông tin địa lý - GIS","GEIS223419",NULL,NULL,NULL,NULL,NULL
+"1697","Quản lý chất lượng trong xây dựng","QCCE423519",NULL,NULL,NULL,NULL,NULL
+"1698","Kế toán quản trị","MAAC323619",NULL,NULL,NULL,NULL,NULL
+"1699","Phân tích hoạt động sản xuất kinh doanh trong DNXD","COBA323719",NULL,NULL,NULL,NULL,NULL
+"1700","Tổ chức và quản lý sàn giao dịch bất động sản","OMRE423819",NULL,NULL,NULL,NULL,NULL
+"1701","Nhập môn ngành QLVHHT","IIEM130122",NULL,NULL,NULL,NULL,NULL
+"1702","Dự toán xây dựng hạ tầng","CEOI420922",NULL,NULL,NULL,NULL,NULL
+"1703","Cơ sở hạ tầng ","INEN340222",NULL,NULL,NULL,NULL,NULL
+"1704","ĐA cơ sở hạ tầng ","POIE310322",NULL,NULL,NULL,NULL,NULL
+"1705","Quy hoạch hệ thống giao thông đô thị","UTSP421122",NULL,NULL,NULL,NULL,NULL
+"1706","Quản lý dự án đầu tư xây dựng hạ tầng","IPMA330422",NULL,NULL,NULL,NULL,NULL
+"1707","ĐA quản lý dự án đầu tư xây dựng hạ tầng","PIPM310522",NULL,NULL,NULL,NULL,NULL
+"1708","Tổ chức và quản lý thi công hạ tầng","OMIC330822",NULL,NULL,NULL,NULL,NULL
+"1709","ĐA tổ chức và quản lý thi công hạ tầng","POMI310922",NULL,NULL,NULL,NULL,NULL
+"1710","ITS trong quản lý giao thông","ITSM420722",NULL,NULL,NULL,NULL,NULL
+"1711","Duy tu và bảo dưỡng hạ tầng","INMA420622",NULL,NULL,NULL,NULL,NULL
+"1712","Hệ thống kiểm soát an ninh an toàn","SSSY337545",NULL,NULL,NULL,NULL,NULL
+"1713","Hệ thống cấp nước và xử lý nước thải","WSWT341022",NULL,NULL,NULL,NULL,NULL
+"1714","Chuyên đề Doanh nghiệp (QLVHHT)","SCIC421422",NULL,NULL,NULL,NULL,NULL
+"1715","TT Tốt nghiệp (QLVHHT)","ENPR441522",NULL,NULL,NULL,NULL,NULL
+"1716","Khóa luận tốt nghiệp","THSI471622",NULL,NULL,NULL,NULL,NULL
+"1717","Hệ thống Logistics","LOSY421722",NULL,NULL,NULL,NULL,NULL

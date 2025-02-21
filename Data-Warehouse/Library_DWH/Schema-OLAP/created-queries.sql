@@ -90,7 +90,7 @@ CREATE TABLE olap.DIM_Ban_doc (
     ID_nhom_nghanh_nghe int, -- FK đến nhóm ngành nghề
     Gioi_tinh bit, -- Giới tính
     Tinh_trang int, -- Tình trạng
-    Ghi_chu nvarchar, -- Ghi chú
+    Ghi_chu nvarchar(MAXMAX), -- Ghi chú
     Mat_khau varchar(50), -- Mật khẩu
     -- Khóa chính clustered
     CONSTRAINT [PK_Ban_doc] PRIMARY KEY CLUSTERED (ID_ban_doc), -- Khóa chính clustered
@@ -224,7 +224,7 @@ CREATE TABLE olap.DIM_Thu_vien (
 -- TẠO BẢNG DIM_Kho
 CREATE TABLE olap.DIM_Kho (
     ID_kho int NOT NULL, -- Mã kho, khóa chính
-    Kho varchar(80) NULL, -- Tên kho
+    Kho nvarchar(80) NULL, -- Tên kho
     MaxID int NULL, -- Mã tối đa
     Mo bit NULL, -- Trạng thái kho (mở/đóng)
     CONSTRAINT [PK_Kho] PRIMARY KEY CLUSTERED (ID_kho), -- Khóa chính dạng clustered
