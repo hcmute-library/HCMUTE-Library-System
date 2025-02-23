@@ -188,11 +188,11 @@ default_args = {
 }
 
 with DAG(
-    'etl_xep_gia',
+    'ETL-Xep_gia',
     default_args=default_args,
-    description='DAG xử lý và tải dữ liệu xếp giá',
+    description='DAG xử lý DIM xếp giá',
     schedule_interval='@once',  # Chạy thủ công
-    start_date=datetime(2024, 11, 28, 17, 35),
+    start_date=datetime(2025, 2, 24, 3, 35),
     catchup=False,
     tags=['etl'],
 ) as dag:
