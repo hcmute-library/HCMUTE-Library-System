@@ -17,7 +17,7 @@ def fetch_data_and_process():
         'PWD=spkt@2025;')
 
     # Đọc data từ SQL Server
-    query_phieumuon = """SELECT TOP (100) PMS.ID_phieu_muon, PMS.ID_ban_doc, PMS.ID_tai_lieu, Ma_xep_gia, Ngay_muon 
+    query_phieumuon = """SELECT PMS.ID_phieu_muon, PMS.ID_ban_doc, PMS.ID_tai_lieu, Ma_xep_gia, Ngay_muon 
                             FROM oltp.Phieu_muon_sach PMS
                             JOIN olap.DIM_Ban_doc BD ON BD.ID_ban_doc = PMS.ID_ban_doc
                             JOIN olap.DIM_Xep_gia XG ON XG.ID_xep_gia = PMS.ID_xep_gia"""
@@ -60,7 +60,7 @@ with DAG(
     default_args=default_args,
     description='Load data vào bảng Thống Kê Mượn',
     schedule_interval='@once',
-    start_date=datetime(2024, 3, 1, 17, 0),
+    start_date=datetime(2024, 3, 1, 16, 15),
     catchup=False,
     tags=['etl'],
 ) as dag:
