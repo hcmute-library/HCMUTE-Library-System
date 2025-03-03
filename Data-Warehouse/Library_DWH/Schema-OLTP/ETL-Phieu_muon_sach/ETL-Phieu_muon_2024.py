@@ -14,14 +14,14 @@ def fetch_data_and_process():
         'SERVER=192.168.150.6;'  # Địa chỉ IP của SQL Server
         'DATABASE=libol;'         # Tên cơ sở dữ liệu
         'UID=itc;'                # Tên đăng nhập
-        'PWD=spkt@2024;'
+        'PWD=spkt@2025;'
     )
     conn_dwh_library = pyodbc.connect(
         'DRIVER={ODBC Driver 17 for SQL Server};'
         'SERVER=192.168.150.6;' # Địa chỉ IP của SQL Server
-        'DATABASE=dwh_library;' # Tên cơ sở dữ liệu
+        'DATABASE=Library_DWH;' # Tên cơ sở dữ liệu
         'UID=itc;'              # Tên đăng nhập
-        'PWD=spkt@2024;'
+        'PWD=spkt@2025;'
     )
     # Đọc data
     # Hàm đọc dữ liệu từng phần và xử lý lỗi
@@ -56,7 +56,7 @@ def fetch_data_and_process():
                                 So_luot_gia_han,
                                 Note
                             FROM An_pham_cho_muon
-                            WHERE YEAR(Ngay_muon) = 2011
+                            WHERE YEAR(Ngay_muon) = 2024
                             """
     df_apcm = fetch_data_in_batches(query_Anphamchomuon, conn_libol, batch_size=100) # Gọi hàm để lấy dữ liệu
 
@@ -70,7 +70,7 @@ def fetch_data_and_process():
                                 So_ngay_qua_han,
                                 Tien_phat
                             FROM Lich_su_muon_sach
-                            WHERE YEAR(Ngay_muon) = 2011
+                            WHERE YEAR(Ngay_muon) = 2024
                             """
     df_lscm = fetch_data_in_batches(query_Lichsumuonsach, conn_libol, batch_size=100) # Gọi hàm để lấy dữ liệu
 
@@ -85,7 +85,7 @@ def fetch_data_and_process():
     ## Gộp 2 bảng lại
     df_phieumuon = pd.concat([df_lscm, df_apcm], ignore_index=True)
     df_phieumuon = df_phieumuon.sort_values(by='Ngay_muon', ascending=True).reset_index(drop=True) # sắp xếp lại cho dễ nhìn
-    query_MaxID = "SELECT MAX(ID_phieu_muon) AS MaxID FROM DIM_Phieu_muon_sach" # Lấy giá trị MaxID từ bảng FACT_Phieu_muon_sach
+    query_MaxID = "SELECT MAX(ID_phieu_muon) AS MaxID FROM oltp.Phieu_muon_sach" # Lấy giá trị MaxID từ bảng FACT_Phieu_muon_sach
     df_MaxID = pd.read_sql(query_MaxID, conn_dwh_library)
     max_id = int(df_MaxID['MaxID'].iloc[0]) if not df_MaxID.empty else 0 # Giá trị khởi tạo ID mới, bắt đầu từ MaxID + 1
     start_id = max_id + 1
@@ -97,7 +97,7 @@ def fetch_data_and_process():
     df_phieumuon = df_phieumuon.replace(np.nan, None)
 
     ## Xử lý kiểu Date
-    query_date = "SELECT Date_key FROM DIM_Date"
+    query_date = "SELECT Date_key FROM olap.DIM_Date"
     df_date = pd.read_sql(query_date, conn_dwh_library)
     date_ids = set(df_date['Date_key'])
     # chuyển date về dang int 
@@ -108,7 +108,7 @@ def fetch_data_and_process():
     df_phieumuon['Ngay_tra'] = df_phieumuon['Ngay_tra'].apply(lambda x: int(x.strftime('%Y%m%d')) if pd.notna(x) and int(x.strftime('%Y%m%d')) in date_ids else 0)
 
     ## Xử lý ID_tai_lieu
-    query_Tailieu = "SELECT ID_tai_lieu FROM DIM_Tai_lieu"
+    query_Tailieu = "SELECT ID_tai_lieu FROM olap.DIM_Tai_lieu"
     df_tailieu = pd.read_sql(query_Tailieu, conn_dwh_library)
     tailieu_ids = set(df_tailieu['ID_tai_lieu'])
     # chuyển date về dang int 
@@ -116,7 +116,7 @@ def fetch_data_and_process():
     df_phieumuon['ID_tai_lieu'] = df_phieumuon['ID_tai_lieu'].apply(lambda x: x if pd.notna(x) and x in tailieu_ids else 0)
 
     ## Xử lý ID_xep_gia
-    query_Xepgia = "SELECT ID_xep_gia, ID_tai_lieu, Ma_xep_gia FROM DIM_Xep_gia"
+    query_Xepgia = "SELECT ID_xep_gia, ID_tai_lieu, Ma_xep_gia FROM olap.DIM_Xep_gia"
     df_xepgia = pd.read_sql(query_Xepgia, conn_dwh_library)
     # Gán ID_xep_gia từ df_xep_gia vào df_phieu_muon_sach
     df_phieumuon['ID_xep_gia'] = None
@@ -142,7 +142,7 @@ def fetch_data_and_process():
                                                                 if not df_bandoc[df_bandoc['ID'] == x].empty else 0)
 
     ### Kiểm tra lại so db dwh_lib
-    query_Bandoc = "SELECT ID_ban_doc FROM DIM_Ban_doc"
+    query_Bandoc = "SELECT ID_ban_doc FROM olap.DIM_Ban_doc"
     df_bandoc = pd.read_sql(query_Bandoc, conn_dwh_library)
     bandoc_ids = set(df_bandoc['ID_ban_doc'])
     # chuyển date về dang int 
@@ -153,7 +153,7 @@ def fetch_data_and_process():
     # Load data
     cursor_dwh = conn_dwh_library.cursor()
     insert_query = """
-                    INSERT INTO DIM_Phieu_muon_sach (
+                    INSERT INTO oltp.Phieu_muon_sach (
                         ID_phieu_muon, 
                         ID_tai_lieu, ID_xep_gia,
                         ID_ban_doc,
@@ -189,11 +189,11 @@ default_args = {
 }
 
 with DAG(
-    'etl_dim_pms_2011',
+    'etl_pms_2024',
     default_args=default_args,
     description='etl dữ liệu phiếu mượn sách',
     schedule_interval='@once',
-    start_date=datetime(2024, 12, 1, 15, 0),
+    start_date=datetime(2025, 3, 3, 12, 30),
     catchup=False,
     tags=['etl'],
 ) as dag:
