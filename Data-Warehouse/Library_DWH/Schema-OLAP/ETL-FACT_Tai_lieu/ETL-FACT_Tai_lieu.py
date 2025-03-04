@@ -57,7 +57,7 @@ with DAG(
     default_args=default_args,
     description='Load data vào bảng Thống Kê Tài Liệu',
     schedule_interval='@once',
-    start_date=datetime(2024, 3, 1, 16, 0),
+    start_date=datetime(2024, 3, 4, 13, 0),
     catchup=False,
     tags=['etl'],
 ) as dag:

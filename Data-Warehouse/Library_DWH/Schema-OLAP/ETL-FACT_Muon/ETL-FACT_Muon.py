@@ -60,7 +60,7 @@ with DAG(
     default_args=default_args,
     description='Load data vào bảng Thống Kê Mượn',
     schedule_interval='@once',
-    start_date=datetime(2024, 3, 1, 16, 15),
+    start_date=datetime(2024, 3, 4, 14, 30),
     catchup=False,
     tags=['etl'],
 ) as dag:
