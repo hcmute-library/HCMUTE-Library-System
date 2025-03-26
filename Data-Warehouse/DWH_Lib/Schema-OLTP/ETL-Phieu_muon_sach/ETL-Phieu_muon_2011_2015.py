@@ -56,7 +56,7 @@ def fetch_data_and_process():
                                 So_luot_gia_han,
                                 Note
                             FROM An_pham_cho_muon
-                            WHERE YEAR(Ngay_muon) <= 2002
+                            WHERE YEAR(Ngay_muon) >= 2011 AND YEAR(Ngay_muon) <= 2015
                             """
     df_apcm = fetch_data_in_batches(query_Anphamchomuon, conn_libol, batch_size=100) # Gọi hàm để lấy dữ liệu
 
@@ -70,7 +70,7 @@ def fetch_data_and_process():
                                 So_ngay_qua_han,
                                 Tien_phat
                             FROM Lich_su_muon_sach
-                            WHERE YEAR(Ngay_muon) <= 2002
+                            WHERE YEAR(Ngay_muon) >= 2011 AND YEAR(Ngay_muon) <= 2015
                             """
     df_lscm = fetch_data_in_batches(query_Lichsumuonsach, conn_libol, batch_size=100) # Gọi hàm để lấy dữ liệu
 
@@ -189,11 +189,11 @@ default_args = {
 }
 
 with DAG(
-    'oltp_pms_2002',
+    'oltp_pms_2011_2015',
     default_args=default_args,
     description='etl phiếu mượn sách',
     schedule_interval='@once',
-    start_date=datetime(2025, 3, 27, 3, 30),
+    start_date=datetime(2025, 3, 28, 12, 0),
     catchup=False,
     tags=['etl'],
 ) as dag:
