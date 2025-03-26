@@ -1,0 +1,1819 @@
+ID_Mon,TenMon,KyHieu,TinhTrang
+120,Triết học Mác-Lênin,LLCT130105,5
+121,Kinh tế chính trị Mác-Lênin,LLCT120205,5
+122,Chủ nghĩa xã hội khoa học,LLCT120405,5
+123,Tư tưởng Hồ Chí Minh,LLCT120314,14
+124,Lịch sử Đảng Cộng sản Việt Nam,LLCT220514,14
+125,Pháp luật đại cương,GELA220405,5
+126,Toán kinh tế 1,MATH132701,1
+127,Toán kinh tế 2,MATH132801,1
+128,Xác suất thống kê ứng dụng,MATH132901,1
+129,Nhập môn ngành TMĐT,ECOM130108,8
+130,Giáo dục thể chất 1,PHED110513,13
+131,Giáo dục thể chất 2,PHED110613,13
+132,Giáo dục thể chất 3,PHED130715,15
+133,Quản trị học căn bản,FUMA230806,6
+134,Kinh tế học,ECON240206,6
+135,Nguyên lý kế toán,PRAC230407,7
+136,Luật kinh tế,BLAW220308,8
+137,Phương pháp nghiên cứu,RMET220406,6
+138,Tối ưu hóa,MAOP230706,6
+139, Thương mại điện tử,ECOM431308,8
+140, Mạng giao tiếp dữ liệu,DNET332208,8
+141,Lập trình căn bản Python,FUBY333808,8
+142,Tin học văn phòng,MIOF130207,7
+143,Cơ sở dữ liệu,DMSY233208,8
+144, Phân tích và thiết kế hệ thống,ANDE333408,8
+145,Quản trị ngoại thương,FTMA430908,8
+146,Quản trị bán hàng,SAMA332008,8
+147,Quản trị tài chính,FIMA430807,7
+148,Quản trị chuỗi cung ứng,SCMA430706,6
+149,Machine learning (máy học),MALE433908,8
+150,Thiết kế WEB,WEDE333308,8
+151,Phầm mềm ứng dụng (ERP),ERPS431208,8
+152,Thanh toán điện tử,EPAY431408,8
+153,Bảo mật thương mại điện tử,ECOS431508,8
+154,Marketing điện tử,EMAR431108,8
+155,Quản trị nguồn nhân lực quốc tế,IHRM232708,8
+156,Quản trị chiến lược,STMA430406,6
+157,Quản trị chất lượng dịch vụ,SQMA322208,8
+158,Ứng dụng phân tích dữ liệu lớn trong kinh doanh (Big Data),ABDA433708,8
+159,Chuyên đề thực hành,PRAC321908,8
+160,Chuyên đề doanh nghiệp (TMĐT),ESYM223008,8
+161,Thực tập tốt nghiệp (TĐT),INTE421608,8
+162,Khóa luận tốt nghiệp (TĐT),ECGR451708,8
+163,Kế hoạch kinh doanh,BPLA420606,6
+164,Kỹ năng thuyết trình,PRSK320705,5
+165,Kế hoạch khởi nghiệp,BPLA121808,8
+166,Giao tiếp trong kinh doanh,BCOM320106,6
+167,Hành vi tổ chức,ORBE320106,6
+168,Thị trường chứng khoán,SEMA320907,7
+169,Quản trị quan hệ khách hàng,CUSM321006,6
+170,Thanh toán quốc tế,INPA421008,8
+171,Tâm lý học kinh doanh,PSBU220408,8
+172,Kinh doanh quốc tế,INBU220508,8
+173,Mua hàng,PROC320109,9
+174,Quản trị kho bãi,DEMA431609,9
+175,Kỹ thuật xếp dỡ và đóng gói,LOPA431409,9
+176,Hệ thống thông tin quản lý (MIS),MAIS430306,6
+177,Lập trình hướng đối tượng,ORPR333508,8
+178,Bảo mật cơ sở dữ liệu,DSEC433608,8
+179,Chính sách thuế,TAPO330407,7
+180,Anh văn thương mại,BENG330708,8
+181,Quản trị dự án công nghiệp,PROM430506,6
+182,Quản trị vận tải,TMAN431509,9
+183,Pháp luật đại cương,GELA220405,5
+184,Anh văn 1,ENGL130137,37
+185,Anh văn 2,ENGL230237,37
+186,Anh văn 3,ENGL330337,37
+187,Anh văn 4,ENGL430437,37
+188,Toán 1,MATH132401,1
+189,Toán 2,MATH132501,1
+190,Đại số và cấu trúc đại số,MATH143001,1
+191,Vật lý 1,PHYS130902,2
+192,Thí nghiệm vật lý  1,PHYS111202,2
+193,Điện tử căn bản,EEEN234162,62
+194,Thực tập điện tử căn bản,PRBE214262,62
+195,Nhập môn ngành ATTT,INIT130185,85
+196,Nhập môn lập trình,INPR130285,85
+197,Kỹ thuật lập trình,PRTE230385,85
+198,Giáo dục quốc phòng,GDQP008031,31
+199,Toán rời rạc và lý thuyết đồ thị,DIGR230485,85
+200,Cấu trúc dữ liệu và giải thuật,DASA230179,79
+201,Lập trình hướng đối tượng,OOPR230279,79
+202,Kiến trúc máy tính và hợp ngữ,CAAL230180,80
+203,Hệ điều hành,OPSY330280,80
+204,Mạng máy tính căn bản,NEES330380,80
+205,Cơ sở dữ liệu,DBSY230184,84
+206,Học máy,MALE431984,84
+207,Lập trình Web,WEPR330479,79
+208,Lập trình Python (CĐ),IPPA233277,77
+209,An toàn thông tin ,INSE330380,80
+210,Lập trình di động,MOPR331279,79
+211,Lập trình mạng,NPRO430980,80
+212,Mật mã ứng dụng,CRYP331980,80
+213,Tấn công mạng và phòng thủ,ETHA332080,80
+214,An ninh Mạng ,NSEC430880,80
+215,Lập trình hệ thống,SYPR432780,80
+216,Mạng máy tính nâng cao,ADNT330580,80
+217,Thiết kế mạng,CNDE430780,80
+218,An toàn ứng dụng web,WASE432680,80
+219,Hệ thống giám sát an toàn mạng,NSMS432280,80
+220,An toàn mạng không dây và di động,WISE432380,80
+221,Pháp lý kỹ thuật số,DIFO432180,80
+222,Tiểu luận chuyên ngành ATTT ,POIS431479,79
+223,Chuyên đề doanh nghiệp,INTE202879,79
+224,Thực tập Tốt Nghiệp (ATTT),ITIN441085,85
+225,Lãnh đạo và kinh doanh trong kỹ thuật,LEBU202979,79
+226,Khóa luận tốt nghiệp,GRPR474377,77
+227,Kinh tế học đại cương,GEFC220105,5
+228,Nhập môn quản trị chất lượng,IQMA220205,5
+229,Nhập môn Quản trị học,INMA220305,5
+230,Nhập môn Logic học ,INLO220405,5
+231,Cơ sở văn hoá Việt Nam,IVNC320905,5
+232,Nhập môn Xã hội học,INSO321005,5
+233,Tâm lý học kỹ sư,ENPS220591,91
+234,Tư duy hệ thống,SYTH220491,91
+235,Kỹ năng học tập đại học,LESK120190,90
+236,Kỹ năng xây dựng kế hoạch,PLSK120290,90
+237,Kỹ năng làm việc trong môi trường KT,WOPS120390,90
+238,Phương pháp nghiên cứu khoa học,REME320690,90
+239,Quản trị trên môi trường cloud,CLAD432480,80
+240,Công nghệ Internet of Things và bảo mật,IOTS431780,80
+241,Phân tích mã độc,ANMA432880,80
+242,Hệ thống nhúng,ESYS431080,80
+243,Nhập môn ngành Logistics,LOSU130109,9
+244,Toán kinh tế 1,MATH130801,1
+245,Toán kinh tế 2,MATH130901,1
+246,Xác suất thống kê ứng dụng,MATH130401,1
+247,Phương pháp nghiên cứu,RMET220306,6
+248,Phân tích dữ liệu,DANA230606,6
+249,Giao tiếp trong kinh doanh,BCOM321906,6
+250,Hệ thống CIM,CIMS330709,9
+251,Pháp luật về Logistics,TLAW322209,9
+252,Bảo hiểm hàng hóa,CAIN320209,9
+253,Marketing Căn bản,BAMA231209,9
+254,Quản trị Logistics,LOMA322509,9
+255,Mua hàng,PROC330109,9
+256,Quản trị chuỗi cung ứng,SCMA430709,9
+257,Khai báo Hải quan,CUST432109,9
+258,Nghiệp vụ ngoại thương,FTRO432109,9
+259,Quản trị vận hành,OPMA431909,9
+260,Marketing dịch vụ,SERM332009,9
+261,Hàng hóa trong Logistics,CALO432309,9
+262,Chuyên đề thực hành,PRAT421809,9
+263,Chuyên đề hội nhập doanh nghiệp ngành Logistics,SSEN321809,9
+264,Thực tập tốt nghiệp,INTE421109,9
+265,Khóa luận tốt nghiệp/Thi TN,LSCM451409,9
+266,Lịch sử các học thuyết kinh tế,ETHE221506,6
+267,Văn hóa doanh nghiệp,BCUL320506,6
+268,Lập và phân tích dự án,PRAN321106,6
+269,Tin học ứng dụng,APCM230307,7
+270,Quản trị chiến lược Logistics,LSTR322109,9
+271,Kế toán quản trị,MAAC430507,7
+272,Nhập môn ngành Kế toán,INAC130107,7
+273,Phương pháp nghiên cứu,RMET230306,6
+274,Tin học ứng dụng,APCM220307,7
+275,Luật kinh tế,BLAW230308,8
+276,Quản trị Marketing,MAMA331706,6
+277,Chuyên đề thực hành (Kiến tập),PRAC420607,7
+278,Chuyên đề doanh nghiệp ngành kế toán,SSEN321807,7
+279,Kế toán chi phí,COAC331607,7
+280,Kế toán quản trị,MAAC440507,7
+281,Kế toán quốc tế,INAC331007,7
+282,Kế toán tài chính 1,FIAC330207,7
+283,Kế toán tài chính 2,FIAC330907,7
+284,Lập báo cáo tài chính,FIAC430807,7
+285,Kế toán tài chính nâng cao,ADFA431807,7
+286,Kiểm toán 1,AUDI430207,7
+287,Kiểm toán 2,ADAU430907,7
+288,Phần mềm kế toán,ACSO430407,7
+289,Phân tích hoạt động kinh doanh,BUAN331107,7
+290,Nghiệp vụ ngân hàng thương mại,COBA330507,7
+291,Tài chính doanh nghiệp 1,COFI330307,7
+292,Tài chính doanh nghiệp 2,ADCF430307,7
+293,Thực tập tốt nghiệp,INTE421007,7
+294,Khóa luận tốt nghiệp,GRAT452107,7
+295,Đầu tư quốc tế,ININ220608,8
+296,Thị trường chứng khoán,SEMA430807,7
+297,Anh văn chuyên ngành KT (Business English),ACBU331507,7
+298,Kế toán hành chính sự nghiệp,APAC330607,7
+299,Kế toán ngân hàng,BAAC331407,7
+300,Lập sổ sách kế toán trên Access,REAC321307,7
+301,Lập sổ sách kế toán trên Excel,REEX321207,7
+302,Quản trị sản xuất,PRMA330806,6
+303,Lập và phân tích dự án,PRAN331106,6
+304,Quản trị marketing,MAMA31706,6
+305,Nhập môn ngành Quản lý CN,INMA130106,6
+306,Vẽ kỹ thuật,TEDG130120,20
+307,Thống kê trong kinh doanh ,BSTA231006,6
+308,Phân tích dữ liệu,DANA230706,6
+309,Quản trị sản xuất 2,PRMA331506,6
+310,Thực hành Quản trị sản xuất,PRMP330806,6
+311,Sản xuất tinh gọn,LEAN420806,6
+312,Quản trị chất lượng,QMAN331606,6
+313,6 Sigma căn bản,SSFU420906,6
+314,Quản lý bảo trì công nghiệp,MAIM330406,6
+315,Quản trị nguồn nhân lực,HRMA331206,6
+316,An toàn lao động và môi trường công nghiệp,WSIE320425,25
+317,Văn hóa doanh nghiệp,BCUL330506,6
+318,Hành vi tổ chức,ORBE330306,6
+319,Quản trị marketing,MAMA330906,6
+320,Kế hoạch kinh doanh,BPLA430606,6
+321,Chuyên đề doanh nghiệp (QLCN),ENPR221106,6
+322,Thực tập tốt nghiệp,INTE421106,6
+323,Khóa luận tốt nghiệp,IMGR461206,6
+324,Đồ hoạ kỹ thuật trên máy tính (CAD)Auto Cad căn bản,CADM230320,20
+325,Tự động hóa quá trình sản xuất,AMAP432225,25
+326,Kỹ thuật điện,ELEN232044,44
+327,Thiết kế WEB,WEDE330484,84
+328,Quản trị công nghệ,TEMA331406,6
+329,Kế toán quản trị,MAAC331307,7
+330,Cơ khí đại cương,GMEN134025,25
+331,Kỹ thuật số,DITE334029,29
+332,Toán 3,MATH132601,1
+333,Toán ứng dụng trong cơ khí,AMME131529,29
+334,Tin học trong kỹ thuật,COPR134529,29
+335,Cơ kỹ thuật,ENME130620,20
+336,Hóa đại cương,GCHE130603,3
+337,Vật lý 2,PHYS131002,2
+338,Thí nghiệm vật liệu học,MATE210330,30
+339,Anh văn chuyên ngành cơ khí,ENME320124,24
+340,Đồ án Công nghệ chế tạo máy,PMMT113625,25
+341,Chuyên đề Doanh nghiệp (CNKTCK),SEMI322824,24
+342,"Thiết kế, chế tạo khuôn mẫu",MOLD331224,24
+343,CAD/CAM-CNC nâng cao,ACCC330525,25
+344,Tự động hoá quá trình sản xuất (CKM),AUMP323525,25
+345,TN Tự động hoá quá trình sản xuất (CKM),EMPA313625,25
+346,Công nghệ thủy lực và khí nén,PNHY230529,29
+347,TN Công nghệ thuỷ lực và khí nén,EPHT310629,29
+348,"Thực tập thiết kế, chế tạo khuôn mẫu",PMDM321324,24
+349,Thực tập Công nghệ nhựa,PLAP322224,24
+350,Thực tập CAD/CAM-CNC nâng cao,PACC320624,24
+351,Khóa luận tốt nghiệp,GRAT472424,24
+352,Chuyên đề tốt nghiệp 1 (CNKTCK),STOG432524,24
+353,Chuyên đề tốt nghiệp 2 (CNKTCK),STOG422624,24
+354,Chuyên đề tốt nghiệp 3 (CNKTCK),STOG422724,24
+355,Viết tài liệu kỹ thuật dành cho kỹ sư,TEWR123525,25
+356,Kinh tế học đại cương (Ngành ngoài k.tế),GEEC220105,5
+357,Dao động kỹ thuật,MEVI220820,20
+358,Cơ học lưu chất ứng dụng (CKM),FLUI220132,32
+359,Tối ưu hóa trong kỹ thuật,OPTE322925,25
+360,Trí tuệ nhân tạo,AIAP324029,29
+361,Thiết kế kỹ thuật cơ bản,BAED133925,25
+362,Kỹ thuật nhiệt,THER222932,32
+363,Quản trị sản xuất và chất lượng,MQMA331326,26
+364,Thiết kế sản phẩm công nghiệp,DEIP331225,25
+365,Kỹ thuật Robot,ROBO331129,29
+366,Ứng dụng CAE trong thiết kế,CAED321024,24
+367,Thí nghiệm CAE,ECAE311124,24
+368,Mô hình hóa và phân tích hệ thống cơ khí,MAMS333625,25
+369,Hệ thống truyền động servo,SERV334029,29
+370,Công nghệ nano,NATE322625,25
+371,Phương pháp Phần tử hữu hạn - Căn bản,IFEM230220,20
+372,Công nghệ tạo mẫu nhanh & Thiết kế ngược,RAPT330724,24
+373,Thí nghiệm Công nghệ tạo mẫu nhanh & Thiết kế ngược,ERED314125,25
+374,Các phương pháp gia công đặc biệt,NTMP320725,25
+375,Thí nghiệm đo lường nâng cao,AEMM214025,25
+376,Điều khiển tự động,AUCO330329,29
+377,Thí nghiệm Bảo trì và bảo dưỡng công nghiệp,EIMA310625,25
+378,Quản trị sản xuất theo Lean và JIT,LJIT321126,26
+379,Cảm biến và cơ cấu chấp hành,ENMA225929,29
+380,Bảo trì và bảo dưỡng công nghiệp,IMAS320525,25
+381,Năng lượng và quản lý năng lượng,ERMA321025,25
+382,Trang bị điện - Điện tử trong máy công nghiệp,EEEI321925,25
+383,Nhập môn Kỹ thuật Cơ khí,INME130125,25
+384,Thí nghiệm vật lý 1,PHYS111202,2
+385,Vẽ kỹ thuật cơ khí,MEDR141123,23
+386,Vẽ kỹ thuật cơ khí nâng cao,AMDR221223,23
+387,Sức bền vật liệu (Cơ khí),MEMA230720,20
+388,Nguyên lý - Chi tiết máy ,MMCD230323,23
+389,Đồ án Thiết kế máy,MDPR310423,23
+390,Dung sai - Kỹ thuật đo,TOMT220225,25
+391,Thí nghiệm đo lường cơ khí,EXMM210325,25
+392,Vật liệu học,ENMA220230,30
+393,Cơ sở công nghệ chế tạo máy,FMMT330825,25
+394,Công nghệ kim loại,METE224230,30
+395,TN Công nghệ thuỷ lực và khí nén,EPHT210629,29
+396,Máy và hệ thống điều khiển số,MTNC330925,25
+397,Công nghệ chế tạo máy,MMAT344225,25
+398,Đồ án Công nghệ chế tạo máy,PMMT311625,25
+399,TN Trang bị điện - Điện tử trong máy công nghiệp,ELDR312025,25
+400,Công nghệ CAD/CAM-CNC,CCCT331725,25
+401,Chuyên đề Doanh nghiệp (CNCTM),SEMI323525,25
+402,"Thiết kế, chế tạo khuôn mẫu",MOLD331225,25
+403,Thực tập nguội,MHAP110127,27
+404,Thực tập Kỹ thuật Hàn,WEPR210430,30
+405,Thực tập Cơ khí 1,MEPR240227,27
+406,Thực tập Cơ khí 2,MEPR330327,27
+407,Thực tập CNC,PCNC322125,25
+408,Thực tập Công nghệ CAD/CAM-CNC,PCCC321825,25
+409,Thực tập Tốt nghiệp (CNCTM),FAIN443825,25
+410,Khóa luận tốt nghiệp (CNCTM),GRAT473125,25
+411,Chuyên đề tốt nghiệp 1 (CNCTM),STOG433225,25
+412,Chuyên đề tốt nghiệp 2 (CNCTM),STOG423325,25
+413,Chuyên đề tốt nghiệp 3 (CNCTM),STOG423425,25
+414,Các phương pháp đo lường cơ khí hiện đại,MMMM323725,25
+415,Trí tuệ nhân tạo,ARIN337629,29
+416,Thí nghiệm Công nghệ tạo mẫu nhanh & Thiết kế ngược,ERED314124,24
+417,Lập trình ứng dụng trong kỹ thuật,COPR231329,29
+418,Cảm biến và cơ cấu chấp hành,SEAC225929,29
+419,Nhập môn Công nghệ Kỹ thuật Cơ Điện Tử,INME130129,29
+420,Đồ án Truyền động cơ khí,MDDP310523,23
+421,Điều khiển tự động,AUCO230329,29
+422,Kỹ thuật điện – điện tử,EEEN230129,29
+423,Kỹ thuật số,DITE226829,29
+424,Kỹ thuật gia công vật liệu,MAPE230430,30
+425,Tự động hóa quá trình sản xuất,MPAU220729,29
+426,Điều khiển quá trình,PCTR421929,29
+427,Vi xử lý,MICO236929,29
+428,Đồ án Cơ điện tử,PRME315129,29
+429,Điện tử công suất,POEL326729,29
+430,Chuyên đề doanh nghiệp,SEMI325929,29
+431,Thực tập Cơ khí cơ bản,BMPR230527,27
+432,Thực tập tự động hóa,PMPA326629,29
+433,Thực tập cảm biến và robot,PSEA311429,29
+434,Thực tập kỹ thuật điều khiển tự động,PACT310429,29
+435,Thực tập thiết kế mạch,PEEE210229,29
+436,Thực tập Vi xử lý,PDTM311029,29
+437,Thực tập Servo,PESD314129,29
+438,Thực tập tốt nghiệp (CĐT),FAIN442029,29
+439,Đồ án tốt nghiệp,UGRA475529,29
+440,Mỹ thuật Công nghiệp,AEST220224,24
+441,Kỹ thuật vẽ phác,SCDR130324,24
+442,Hệ thống SCADA,SCDA331629,29
+443,Thị giác máy,MAVI332529,29
+444,Xử lý tín hiệu số,DIPR337529,29
+445,Hệ thống nhúng,EMSY337329,29
+446,IoT trong lĩnh vực Cơ điện tử,IoTM337629,29
+447,Ứng dụng CAE trong thiết kế,CAED321024,24
+448,Nhập môn dữ liệu lớn (Big Data Essentials),BDES333877,77
+449,Calculus I,MATH132401E,1
+450,Calculus II,MATH132501E,1
+451,Calculus III,MATH132601E,1
+452,Mathematical Statistics for Engineers,MATH132901E,1
+453,Applied Mathematics in Engineering,AMME131529E,29
+454,Physics 1,PHYS130902E,2
+455,Physics 2,PHYS131002E,2
+456,Physics - Laboratory 1,PHYS111202E,2
+457,General Chemistry for Engineers,GCHE130603E,3
+458,Introduction to Robotics and Artificial Intelligence Engineering,INME130229E,29
+459,Computer Programming 1,COPR134529E,29
+460,Digital Techniques,DITE226829E,29
+461,Mechanical engineering drawing,MEDR141123E,23
+462,Engineering Mechanics,ENME130620E,20
+463,Mechanics of materials (mechanical engineering),MEMA230720E,20
+464,Mechanisms and machine components design,MMCD230323E,23
+465,Microcontroller,MICO336929E,29
+466,Sensors and Actuators,ENMA225929E,29
+467,Automatic Control,AUCO330329E,29
+468,Computer Programming 2,COPR231329E,29
+469,Electrical and Electronics Engineering,EEEN230129E,29
+470,Optimal Design of Robots,OPDE330120E,20
+471,Big Data,BIDA330729E,29
+472,"Human Robot Interaction, VR and VA",HROI330829E,29
+473,Visual Geometry and Vision Machine,MAVI332529E,29
+474,Artificial intelligence,ARIN331029E,29
+475,Seminar on Industrial Demands (Robotics),SEMI322729E,29
+476,Practice of Automatic Control Systems,PACS323729E,29
+477,Basic Mechanical Practice,BMPR230527E,27
+478,Practice of Micro-Processors and Embedded Systems,PMEM313929E,29
+479,Practice of Robotics and Sensors,PIRS314029E,29
+480,Practice of Artificial Intelligence,PAIN324129E,29
+481,Practice of Manufacturing Process Automation,PAUT324229E,29
+482,Graduation Internship (ROBOT),FAIN444429E,29
+483,Project of Robot Mechanical Design,PRME212329E,29
+484,Project of Robot Electronics - Control,PREE212429E,29
+485,Project of Robotics and AI,PRRO312529E,29
+486,Capstone Project,CAPR472629E,29
+487,Industrial Fine Arts,AEST220224E,24
+488,Sketch,SCDR130324E,24
+489,Fluid Mechanics and CFD,FLUI230120E,20
+490,Manufacturing Process Automation,MPAU330729E,29
+491,Materials Processing Engineering,MAPE230530E,30
+492,Dynamics of multi-body systems,DYNA330429E,29
+493,Introduction to Finite Element Method,IFEM230220E,20
+494,Digital Signal Processing,DIPR337529E,29
+495,Embedded Systems,EMPR337329E,29
+496,Real-Time Systems,RETI130929E,29
+497,Autonomous Vehicles and Mobile Robots,AVMR330929E,29
+498,Advanced Robot Programming,ADRO331329E,29
+499,Software architectures for robotics and AI,SARO331429E,29
+500,IoT (Internet of Things),IOTS331529E,29
+501,Walking and Humanoid Robots,HURO331629E,29
+502,Nonlinear and Multi-Variable Control,NOCO331729E,29
+503,Artificial Neural Network,NNET331829E,29
+504,Modelling and control of industrial manipulators,MOCO331929E,29
+505,Telerobotics/ Haptics Robot,HARO332029E,29
+506,BioMimetics/BioRobotics,BIRO332129E,29
+507,Cooperative Robotics/Distributive Robotics/Modular Robotics,MORO332229E,29
+508,Nhập môn Kỹ thuật Công nghiệp,INME130126,26
+509,Đồ án Kỹ thuật Công nghiệp 1,PRIE311126,26
+510,Vận trù học ,OPRE230726,26
+511,Kỹ thuật điều khiển,COEN245926,26
+512,Quản trị sản xuất,PRMA230326,26
+513,Kinh tế kỹ thuật ,ENEC222126,26
+514,Lập kế hoạch và điều độ sản xuất,PLSC331126,26
+515,Tự động hóa quá trình sản xuất (KCN),MPAU220726,26
+516,Logistics và Quản trị chuỗi cung ứng,SCMA331226,26
+517,Mô hình hóa và mô phỏng hệ thống công nghiệp,MSIS321026,26
+518,Kỹ thuật Robot (KCN),ROBO331126,26
+519,Thí nghiệm Kỹ thuật Robot (KCN),EXRO311126,26
+520,Đồ án Kỹ thuật Công nghiệp 2,PRIE411226,26
+521,Quản trị dự án ,PROM330326,26
+522,Quản trị chất lượng,QUMA331326,26
+523,Chuyên đề doanh nghiệp (KCN),SEMI421626,26
+524,Thiết kế hệ thống công việc và Ergonomics,WDER231726,26
+525,Thực tập Hệ thống sản xuất tự động,PRPS321526,26
+526,Thực tập Mô phỏng trong Kỹ thuật công nghiệp,PRMS321626,26
+527,Thực tập tốt nghiệp (KCN),FAIN440626,26
+528,Đồ án tốt nghiệp,GRAT470626,26
+529,Kỹ thuật chế tạo,MATE230430,30
+530,Kỹ thuật ra quyết định đa mục tiêu,MCDM321526,26
+531,Sản xuất tinh gọn,LPRO321126,26
+532,Kiểm soát và quản lý tồn kho,INMC331826,26
+533,Thiết kế vị trí và mặt bằng phân xưởng,FALA321626,26
+534,Hệ thống thông tin quản lý,MAIS331726,26
+535,Nhập môn ngành Kỹ nghệ gỗ và Nội thất,IFWT134328,28
+536,Khoa học gỗ,WOSC230428,28
+537,Nguyên lý cắt vật liệu gỗ,WPME222628,28
+538,Máy và thiết bị chế biến gỗ,WMCP330728,28
+539,Keo dán gỗ,WADH321028,28
+540,Công nghệ sấy và bảo quản gỗ,WPDT331128,28
+541,Công nghệ sản xuất đồ gỗ,TFUR330928,28
+542,Thiết kế sản phẩm gỗ,FUDE332728,28
+543,Công nghệ vật liệu gỗ,WBMT331328,28
+544,Công nghệ xẻ,WSMT224128,28
+545,Công nghệ trang sức vật liệu gỗ,WFTE321528,28
+546,Công nghệ CAD/CAM-CNC,CCCT431725,25
+547,Đồ án Thiết kế sản phẩm nội thất,PFDE414228,28
+548,Thực tập khoa học gỗ,PRWS212828,28
+549,Thực tập máy chế biến gỗ,PWPM322928,28
+550,Thực tập sấy và bảo quản gỗ,PWPD313028,28
+551,Thực tập gỗ 1,PRWW333128,28
+552,Thực tập Công nghệ CAD/CAM-CNC,PCCC421825,25
+553,Thực tập gỗ 2 (nâng cao),PRWW324428,28
+554,Thực tập tốt nghiệp,FAIN444528,28
+555,Khóa luận tốt nghiệp,GRAT473928,28
+556,Chuyên đề tốt nghiệp 1 (CNCBLS),STOG433628,28
+557,Chuyên đề tốt nghiệp 2 (CNCBLS),STOG423728,28
+558,Chuyên đề tốt nghiệp 3 (CNCBLS),STOG423829,29
+559,Nguyên lý thiết kế nội thất,PFID220828,28
+560,Ergonomics trong thiết kế nội thất,EIID220528,28
+561,Thiết kế nội thất nhà ở và biệt thự,HVID433428,28
+562,Thiết kế nội thất công trình công cộng,OFID433528,28
+563,Công nghệ thủy lực và khí nén,PNHY330529,29
+564,Tự động hóa quá trình sản xuất,MPAU320729,29
+565,Lập trình ứng dụng trong kỹ thuật,COPR321329,29
+566,Lập trình C,CCPR224064,64
+567,Nhập môn ngành CNKT ô tô,INAT130130,30
+568,Cơ lý thuyết,THME230721,21
+569,Sức bền vật liệu,STMA230521,21
+570,Kỹ thuật điện – điện tử,AEEE230833,33
+571,Nguyên lý - Chi tiết máy,MEMD230323,23
+572,Vi điều khiển ứng dụng,AMIC320133,33
+573,Nguyên lý động cơ đốt trong,ICEP330330,30
+574,Lý thuyết ô tô,THEV330131,31
+575,Tính toán động cơ đốt trong,ICEC320430,30
+576,Thiết kế ô tô,VEDE320231,31
+577,Năng lượng mới trên ô tô,AEVE320830,30
+578,Hệ thống điện - điện tử ô tô,AEES330233,33
+579,Hệ thống điều khiển tự động ô tô,VACS330333,33
+580,Anh văn chuyên  ngành,EFAE327031,31
+581,Quản lý dịch vụ ô tô,ASMA220230,30
+582,TT Động cơ đốt trong,PICE331030,30
+583,TT Hệ thống điều khiển động cơ,PEMS331130,30
+584,TT Hệ thống điện – điện tử ô tô,PAES321133,33
+585,TT Hệ thống điện thân xe,PABE331233,33
+586,TT Hệ thống truyền lực ô tô,PAPS331131,31
+587,TT HT ĐK và Chuyển động ô tô,PACS321231,31
+588,Thực tập Tốt nghiệp (CNKT ô tô),PRGR442130,30
+589,Khóa luận tốt nghiệp,GRTH472030,30
+590,Toán cao cấp dành cho kỹ sư 1,MATH133101,1
+591,Toán cao cấp dành cho kỹ sư 2,MATH133201,1
+592,Vật lý 3,PHYS131102,2
+593,Cơ sở công nghệ chế tạo máy,FMMT320825,25
+594,Công nghệ kim loại,METE320126,26
+595,Máy thủy lực và khí nén,PHEQ220332,32
+596,Ứng dụng máy tính (ĐC),CAES320530,30
+597,Ứng dụng máy tính (KG),CADS320531,31
+598,Ứng dụng máy tính (ĐOT),CAMC320533,33
+599,Đồ án môn học (ĐC),SPAE310730,30
+600,Đồ án môn học (KG),SPAC312131,31
+601,Đồ án môn học (ĐOT),SPAE310733,33
+602,Công nghệ sản xuất và lắp ráp ô tô,AAMT320830,30
+603,Công nghệ chẩn đoán sửa chữa ô tô,ADRT320331,31
+604,Dao động và tiếng ồn,AVIN320431,31
+605,Chuyên đề công nghệ mới trên động cơ,TAET420930,30
+606,Chuyên đề an toàn và ổn định ô tô,TASS420931,31
+607,Chuyên đề công nghệ xe điện - xe lai,THET420933,33
+608,TT Chẩn đoán trên ô tô ,POAD321230,30
+609,TT thân vỏ ô tô,PABP321331,31
+610,TT lập trình điều khiển ô tô,PAUP321333,33
+611,Năng lượng và quản lý năng lượng,ERMA326032,32
+612,Nhập môn lập trình Python,INPY131685,85
+613,Năng lượng và quản lý năng lượng,ERMA626032,32
+614,Lý thuyết ô tô,THOV330131,31
+615,Lập trình Matlab,IPRM121585,85
+616,Nhập môn ngành Công nghệ Kỹ thuật Nhiệt,INTE130132,32
+617,Anh văn 1,EHQT130137,37
+618,Anh văn 2,EHQT230237,37
+619,Anh văn 3,EHQT330337,37
+620,Anh văn 4 (Anh văn chuyên ngành Nhiệt),ENTE230432,32
+621,Kỹ thuật điện – điện tử,AEEE230832,32
+622,Nhiệt động lực học kỹ thuật,THER230232,32
+623,Truyền nhiệt,HEAT230332,32
+624,Kỹ thuật lạnh,REEN230532,32
+625,Lò hơi,BOIT330632,32
+626,"Bơm, Quạt và Máy Nén",PFCO330232,32
+627,Máy nén và thiết bị lạnh,COMP330732,32
+628,Điều hòa không khí,ACSY340932,32
+629,Nhà máy nhiệt điện,THPP331032,32
+630,Kỹ thuật sấy và chưng cất,DRYT331132,32
+631,Ứng dụng phần mềm thiết kế hệ thống ME,DSME433632,32
+632,TT điện lạnh 1,RETP322132,32
+633,TT điện lạnh 2,RETP332232,32
+634,TT điện lạnh 3,RETP332332,32
+635,TT điện lạnh 4,RETP322432,32
+636,TT lò hơi,BOIP322732,32
+637,TT sấy,DRYP322932,32
+638,Chuyên đề Doanh Nghiệp (CNKT Nhiệt),ENSE320932,32
+639,Thực tập tốt nghiệp,UNPR443032,32
+640,Khóa luận tốt nghiệp,UNTH472832,32
+641,Đại số tuyến tính,MATH133501,1
+642,Vật liệu nhiệt lạnh,THMA221332,32
+643,Đo lường nhiệt,THME221432,32
+644,Thiết bị trao đổi nhiệt,HEEX321532,32
+645,Nguyên lý tự động hóa quá trình nhiệt,PTPA321632,32
+646,Kinh tế năng lượng,ENEC320832,32
+647,Chuyên đề lạnh,STRT321732,32
+648,Chuyên đề nhiệt,STHT321832,32
+649,Chuyên đề năng lượng tái tạo,STRE321932,32
+650,Đồ án lạnh,REPR310132,32
+651,Đồ án nhiệt,THPR310232,32
+652,Kiểm toán và tiết kiệm năng lượng,ENAE321845,45
+653,Nhập môn ngành Năng lượng Tái tạo,INRE130134,34
+654,Mạch điện ,ELCI140144,44
+655,Hệ thống điện,POSY346645,45
+656,Đo lường Năng lượng,ENME220434,34
+657,Điều khiển lập trình PLC (Năng lượng tái tạo) ,PLCS330846,46
+658,Nhiệt động lực học và Truyền nhiệt,TDHT230234,34
+659,Vẽ thiết kế hệ thống,SYDD130834,34
+660,Các nguồn Năng lượng,STRE220334,34
+661,"Bơm, Quạt, Máy nén",PFCO320232,32
+662,Lưới điện có nguồn phân tán Micro grid (Năng lượng tái tạo),MGDG333045,45
+663,Máy điện ,ELMA240344,44
+664,Điện gió và ứng dụng,WEAP331034,34
+665,Điện mặt trời và ứng dụng,SEAP333245,45
+666,Điện tử công suất ,POEL330262,62
+667,Kiểm toán và tiết kiệm năng lượng ,ENAE320934,34
+668,Năng lượng Nhiệt mặt trời và ứng dụng ,STEA220534,34
+669,Đồ án môn học 1 (Năng lượng tái tạo),REPR311234,34
+670,Đồ án môn học 2 (Điều khiển hệ thống),PLCR311146,46
+671,Chuyên đề Năng lượng tái tạo,STRE431334,34
+672,TT đo lường Năng lượng ,EMPR311534,34
+673,TT điện và khí cụ điện ,EIPR321634,34
+674,TT thiết bị chuyển đổi điện năng ,POEP331734,34
+675,TT điều khiển lập trình (Năng lượng tái tạo) ,PPLC321346,46
+676,TT lắp đặt hệ thống điện mặt trời,SESI331834,34
+677,TT hệ thống điện gió và mặt trời,RENP331934,34
+678,Chuyên đề Doanh Nghiệp (Năng lượng tái tạo),INSE321434,34
+679,Thực tập tốt nghiệp,UNPR442034,34
+680,Khóa luận tốt nghiệp,UNTH472134,34
+681,Năng lượng Hydro và Pin Nhiên Liệu,HEFC220734,34
+682,Hệ Thống Nhiệt Lạnh,TRSY220634,34
+683,Kinh tế và quản lý năng lượng,EECM322434,34
+684,Năng lượng sinh khối và sinh khí (Biomass and Biogas Energy),BMEN321134,34
+685,Mô hình hoá và mô phỏng hệ thống năng lượng,ESMS322334,34
+686,Quản trị CN & QLDA điện (Năng lượng tái tạo) ,IAPM332345,45
+687,Hệ thống BMS (Năng lượng tái tạo) ,BMSY332045,45
+688,Hệ thống SCADA (Năng lượng tái tạo) ,SCDA430946,46
+689,Ứng dụng Matlab trong kỹ thuật điện (Năng lượng tái tạo) ,MSET331145,45
+690,Kỹ thuật điện,ELEE220144,44
+691,Tin học văn phòng nâng cao,ADMO138685,85
+692,Nhập môn ngành CNKT Hoá học,ICHE130703,3
+693,Hoá vô cơ,ICHE231003,3
+694,Kỹ thuật PTN và an toàn hoá chất,TSCL120803,3
+695,Anh văn 2,ENGL130237,37
+696,Anh văn 3,ENGL130337,37
+697,Anh văn 4,ENGL130437,37
+698,Cơ ứng dụng,APME221021,21
+699,Hoá hữu cơ,OCHE231403,3
+700,Hóa phân tích,ACHE231203,3
+701,Các phương pháp phân tích công cụ,IANM323303,3
+702,Hóa lý 1,PCHE221603,3
+703,Hóa lý 2,PCHE221703,3
+704,Quá trình thiết bị truyền nhiệt,HTPE231903,3
+705,Qúa trình thiết bị truyền khối,MTPE232003,3
+706,Quá trình và thiết bị cơ học,MPRO232103,3
+707,Hóa học polymer ,POCH323103,3
+708,Thống kê và quy hoạch thực nghiệm trong CNKT hoá học ,SEPC232503,3
+709,Đồ án thiết kế máy thiết bị,PWPD322703,3
+710,Liên hệ doanh nghiệp,ENCO326503,3
+711,Chuyên đề tốt nghiệp,GRAS436603,3
+712,Công nghệ sản xuất các hợp chất vô cơ,TINO322903,3
+713,Đại cương về khoa học và kỹ thuật vật liệu,FMSE222803,3
+714,Kỹ thuật phản ứng,CREN222203,3
+715,Cơ sở thiết kế máy và nhà máy hóa chất,FDMF232603,3
+716,Công nghệ điện hóa,ELET323203,3
+717,Công nghệ sản xuất các hợp chất hữu cơ ,TORS323003,3
+718,Thí nghiệm hoá đại cương,EGCH110903,3
+719,Thí nghiệm hóa vô cơ,EICH221103,3
+720,Thí nghiệm hóa phân tích,EACH221303,3
+721,Thí nghiệm hóa hữu cơ ,EOCH221503,3
+722,Thí nghiệm hóa lý ,EPCH221803,3
+723,Thí nghiệm quá trình thiết bị,ERPD222303,3
+724,Thí nghiệm các phương pháp phân tích hiện đại,EAAM416903,3
+725,Thực tập tốt nghiệp,GRAP446703,3
+726,Khóa luận tốt nghiệp,GRAT476803,3
+727,Công  nghệ các sản phẩm tẩy rửa,TDET423503,3
+728,Công nghệ chất màu hữu cơ,IORP423603,3
+729,Công  nghệ hóa hương liệu,FSTE423703,3
+730,Công  nghệ hóa mỹ phẩm ,TECP423803,3
+731,Các phương pháp phổ nghiệm phân tích hợp chất hữu cơ,SIOC423903,3
+732,Công  nghệ SX bột giấy và giấy,PSTE424003,3
+733,Công nghệ các sản phẩm hóa nông ,TAGP424103,3
+734,Công nghệ nhuộm,TEDY424203,3
+735,Hoá dược,MCHE424803,3
+736,Công nghệ phân bón,TFER424403,3
+737,Công nghệ sản xuất ceramic truyền thống,TCER424503,3
+738,Công nghệ sản xuất các chất kết dính vô cơ,TCEM424603,3
+739,Hóa lý Silicat,PCSI424703,3
+740,Các phương pháp phân tích cấu trúc vật liệu vô cơ,SCIM424903,3
+741,Công nghệ khoáng sản,TMIP425003,3
+742,Công nghệ chất màu vô cơ ,TPIG425103,3
+743,Vật liệu vô cơ tiên tiến,AIMA425203,3
+744,Công nghệ vật liệu polymer composite,TPCM425403,3
+745,Công nghệ sản xuất chất dẻo,TPLA425503,3
+746,Cơ sở công nghệ cao su,FRUT25603,3
+747,Các phương pháp phân tích và đánh giá vật liệu polymer,MAEP425703,3
+748,Kỹ thuật gia công polymer,TPOP425803,3
+749,Công nghệ Polymer kết dính,TAPO425903,3
+750,Công nghệ màng Polymer,TTFP426003,3
+751,Vật liệu polymer tiên tiến,ADPO426103,3
+752,Công nghệ sợi,TFIB426203,3
+753,Công nghệ sơn,TPAI426303,3
+754,Thí nghiệm chuyên ngành CNKT Hóa Hữu cơ,ESOC424303,3
+755,Thí nghiệm chuyên ngành  CNKT Hóa Vô cơ,EICT425303,3
+756,Thí nghiệm chuyên ngành  CNKT Hóa Polymer,ESPO426403,3
+757,Sản xuất sạch hơn và Thiết kế bền vững,CPSD323110,10
+758,Đánh giá tác động môi trường,EIAS323210,10
+759,Công nghệ môi trường,ENTE227310,10
+760,Các công nghệ chế biến thực phẩm,FOPR423650,50
+761,Kỹ thuật thực phẩm,FOEN423450,50
+762,Quản lý chất lượng thực phẩm,FOMA421050,50
+763,Quản trị công nghệ,TEMA321406,6
+764,Hóa phân tích,ACHE220303,3
+765,Thí nghiệm Hóa phân tích,EACH210503,3
+766,Kỹ thuật điện,ELEN220144,44
+767,Nhập môn ngành CNKT Môi trường,ITET130110,10
+768,Môi trường đại cương,GEEN120210,10
+769,Hóa kỹ thuật môi trường,ENEC220410,10
+770,Thống kê và tối ưu hóa trong hệ thống MT,ESSO231110,10
+771,Cơ lưu chất,FLME230610,10
+772,Quá trình cơ học,PPET220910,10
+773,Quá trình thiết bị môi trường,PETE221210,10
+774,Hóa phân tích môi trường,ENAC220310,10
+775,Anh văn cho Kỹ sư môi trường,EENT220810,10
+776,Vi sinh kỹ thuật môi trường,ENMI231010,10
+777,AutoCAD trong lĩnh vực môi trường,AAES220710,10
+778,Thiết kế nghiên cứu kỹ thuật môi trường,ENRD220510,10
+779,Kỹ thuật xử lý nước cấp,SWTR331610,10
+780,Kỹ thuật xử lý nước thải,WWTR331910,10
+781,Kỹ thuật xử lý khí thải,APCT332310,10
+782,Quản lý môi trường,ENMA332410,10
+783,Quản lý chất thải rắn và nguy hại,SHWM331810,10
+784,Quản lý an toàn và sức khỏe nghề nghiệp,OHSM322110,10
+785,Ô nhiễm đất và kỹ thuật xử lý,SPRT321710,10
+786,Đánh giá tác động môi trường,EIAS322510,10
+787,Mạng lưới cấp thoát nước,WSDN322210,10
+788,Sản xuất sạch hơn và Thiết kế bền vững,CPDS322010,10
+789,Xử lý nước nâng cao,ADWT327110,10
+790,Quản lý dự án môi trường,ENPM322910,10
+791,Kỹ thuật thông gió và xử lý tiếng ồn,VSNC322810,10
+792,Chuyên đề doanh nghiệp (Enterspise Seminar),ENSE322610,10
+793,Chuyên đề tốt nghiệp,SPPR332610,10
+794,Thí nghiệm hóa phân tích môi trường,EEAC414110,10
+795,Thí nghiệm hóa kỹ thuật môi trường,EEEC424210,10
+796,Thực tập xử lý nước cấp,PSWT414310,10
+797,Thực tập xử lý nước thải,PWWT414410,10
+798,Thực tập xử lý khí thải,PAPT414510,10
+799,Thực tập vi sinh kỹ thuật môi trường,PEMI414610,10
+800,Thực tập mạng lưới cấp thoát nước,PWSD414710,10
+801,Thực tập tham quan nhận thức,AWVI415110,10
+802,Đồ án xử lý nước cấp,DSWT414810,10
+803,Đồ án xử lý nước thải,DWWT414910,10
+804,Đồ án xử lý khí thải,DAPT415010,10
+805,Thực tập tốt nghiệp,GRPR445210,10
+806,Khóa luận tốt nghiệp,GRTH374010,10
+807,Quản lý chất lượng và Tư vấn giám sát,QMSC420919,19
+808,Vật liệu xây dựng,COMA220717,17
+809,Kết cấu công trình bê tông cốt thép,RCBS320817,17
+810,Hệ thống điều khiển tự động,ACSY330346,46
+811,Kỹ thuật điện công nghiệp,BAEL340662,62
+812,Kỹ thuật an toàn trong xây dựng,NULL,NULL
+813,Kỹ thuật an toàn điện,NULL,NULL
+814,Kỹ thuật an toàn hóa chất,NULL,NULL
+815,Công nghệ chế tạo máy,MMAT451525,25
+816,Thiết kế cơ khí,MEDI330823,23
+817,Kinh tế môi trường,ENEC323310,10
+818,Quan trắc môi trường,ENMO322010,10
+819,An toàn và sức khỏe nghề nghiệp,SAOH322110,10
+820,Hóa hữu cơ (Organic Chemistry),OCHE220203,3
+821,Thí nghiệm Hóa hữu cơ (Experiment of Organic Chemistry),EOCH210403,3
+822,Nhập môn ngành Công nghệ thực phẩm (Introduction to Food Technology),INFT330150,50
+823,Quá trình và thiết bị truyền nhiệt trong Công nghệ thực phẩm (Heat Transfer and Equipment) ,HETE330250,50
+824,Quá trình và thiết bị truyền khối trong Công nghệ thực phẩm (Mass Transfer and Equipment),MTEQ320350,50
+825,"Quá trình và thiết bị cơ học-thủy lực-khí nén trong Công nghệ thực phẩm (Mechanical, Hydraulic and Air-Compressed Process and Equipment)",MHAP330450,50
+826,Hóa lý (Physical Chemistry of Food),PHCF320550,50
+827,Hóa học thực phẩm (Food Chemistry),FOCH330650,50
+828,Hóa sinh thực phẩm (Food Biochemistry),FOBI320750,50
+829,Vi sinh thực phẩm (Food Microbiology),FOMI320850,50
+830,Phụ gia thực phẩm (Food Additives),FOAD420950,50
+831,Dinh dưỡng và an toàn thực phẩm (Food Nutrition and Food Safety),FNFS431150,50
+832,Thiết kế công nghệ và nhà máy thực phẩm (Food Process and Plant Design),FPPD421350,50
+833,Đánh giá cảm quan thực phẩm (Food Sensory Evaluation),FOSE421450,50
+834,Phân tích thực phẩm (Food Analysis),FONA421550,50
+835,Anh văn chuyên ngành Công nghệ thực phẩm (Technical English in Food Technology),TEFT421650,50
+836,Thống kê và qui hoạch thực nghiệm trong Công nghệ thực phẩm (Statistical and Optimization in Food Technology),SOFT431750,50
+837,Công nghệ chế biến lương thực (Cereal Processing),CEPR421850,50
+838,Công nghệ sản xuất bánh kẹo (Production of Bakery and Confectionery ),PRBC421950,50
+839,"Công nghệ sản xuất rau quả & nước giải khát (Production of Vegetable, Fruit and Beverage)",PVFB422050,50
+840,Công nghệ sản xuất sữa & các sản phẩm từ sữa (Production of Dairy and Related Dairy Products),PDRD422150,50
+841,"Công nghệ sản xuất trà, cà phê, chocolate (Tea, Coffee and Cocoa)",PTCC422250,50
+842,Công nghệ chế biến thịt và thủy sản (Meat and Seafood Processing),MSPR422350,50
+843,Công nghệ lên men (Fermentation Technology),FETE424250,50
+844,Đồ án Quá trình và Thiết bị trong Công nghệ thực phẩm (Project of Processes and Equipment in Food Technology),PPEF412450,50
+845,Chuyên đề doanh nghiệp (Special Topics in Food Technology),STFT422550,50
+846,Thí nghiệm Quá trình và thiết bị trong Công nghệ thực phẩm (Experiment of Processes and Equipment in Food Technology),PPEF412650,50
+847,Thí nghiệm Hóa sinh thực phẩm (Practice of Food Biochemistry),PFCB412750,50
+848,Thí nghiệm Vi sinh thực phẩm (Experiment of Food Microbiology),PFMI422850,50
+849,Thí nghiệm Phân tích thực phẩm (Practice of Food Analysis),PRFA422950,50
+850,Thí nghiệm Đánh giá cảm quan thực phẩm (Practice of Food Sensory Evaluation),PFSE413050,50
+851,Thực tập tốt nghiệp 1 (Factory Practice 1),FAPR423150,50
+852,Thực tập tốt nghiệp 2 (Factory Practice 2),FAPR423250,50
+853,Thực tập Công nghệ chế biến lương thực (Practice of Cereal Processing),PCPR414750,50
+854,Thực tập Công nghệ sản xuất bánh kẹo (Practice of Bakery and Confectionery Production),PBCP414850,50
+855,"Thực tập Công nghệ sản xuất rau quả và nước giải khát  (Practice of Vegetable, Fruit and Beverage Production)",PVFB414950,50
+856,Thực tập Công nghệ sản xuất sữa và các sản phẩm từ sữa (Practice of Dairy and Related Dairy Production),PDRD415050,50
+857,"Thực tập Công nghệ sản xuất trà, cà phê, chocolate (Practice of Tea, Coffee and Chocolate Production)",PRTC415150,50
+858,Thực tập Công nghệ chế biến thịt và thủy sản (Practice of Meat and Seafood Processing),PMSP415250,50
+859,Thí nghiệm Công nghệ lên men (Experiment of Fermentation Technology) ,PRFT415350,50
+860,Chuyên đề tốt nghiệp (Graduation seminar),GRSE435950,50
+861,Khóa luận tốt nghiệp (Graduation thesis),GRTH473350,50
+862,Khoa học thực phẩm (Food Sciences),FOSC423550,50
+863,An toàn trong sản xuất thực phẩm (Safety in Food Processing),FMQE413750,50
+864,Bao bì thực phẩm (Food Packaging),FOPA421250,50
+865,Công nghệ sinh học thực phẩm (Food Biotechnology),FOBI424350,50
+866,Nghiên cứu và phát triển sản phẩm (Food Research and Development),FORE424450,50
+867,Công nghệ sấy thực phẩm (Drying Technology in Food ),DRTF424650,50
+868,Công nghệ chất màu ,TOCO423603,3
+869,Công  nghệ hóa hương liệu,TFCF423703,3
+870,Công  nghệ hóa mỹ phẩm ,TCOS423803,3
+871,Phương pháp tính,MATH121101,1
+872,Kỹ thuật phân riêng,TSEP232003,3
+873,An toàn sức khỏe môi trường,HSEN322110,10
+874,Biochemistry Engineering,BIEN325450,50
+875,Physical chemistry,PHCH325550,50
+876,Introduction to Experimental Chemistry,INEC325650,50
+877,Introduction to Heat transfer,INHT335750,50
+878,System Microbiology,SYMI325850,50
+879,Toán ứng dụng,MATH133401,1
+880,Xử lý chất liệu,MAHA241452,52
+881,Lịch sử trang phục 1,WCHI120252,52
+882,Lịch sử trang phục 2,ECHI220352,52
+883,Hình họa cơ bản,BGRA130852,52
+884,Vẽ mỹ thuật căn bản,BADR140552,52
+885,Vẽ Minh họa thời trang cơ bản,BAIL131052,52
+886,Vật liệu thời trang,FAMA131152,52
+887,Nhập môn ngành TKTT,ITFD130352,52
+888,Thiết kế rập căn bản,BSPM241252,52
+889,Lịch sử mỹ thuật,ARTH130152,52
+890,Nguyên lý thị giác,PRVI220752,52
+891,Nền tảng thiết kế thời trang,FUFA231352,52
+892,Vẽ mỹ thuật nâng cao,AADR230652,52
+893,Vẽ Minh họa thời trang nâng cao,ADIL331152,52
+894,Vẽ kỹ thuật thiết kế thời trang,TDFF121552,52
+895,Thiết kế rập nâng cao,ADPM241652,52
+896,Thiết kế thời trang trên dressform,FDDF341752,52
+897,Thiêt kế rập trên máy tính,CAFD341852,52
+898,Thiết kế phụ trang,ACDE321952,52
+899,Đồ án thiết kế thời trang nam,FAPR312052,52
+900,Đồ án thiết kế thời trang nữ,FAPR312152,52
+901,Đồ án thiết kế thời trang ấn tượng,FAPR412252,52
+902,Đồ án trình bày Bộ sưu tập,POPR312352,52
+903,Kinh doanh thời trang,FABU332752,52
+904,Marketing thời trang,FMAK423652,52
+905,Tổ chức show diễn,FSOR332652,52
+906,Liên kết doanh nghiệp,ASEN222852,52
+907,Chuyên đề ngoại khóa,SSFT322952,52
+908,TH ký họa,PSKE323052,52
+909,TH hình họa nâng cao,PADW223152,52
+910,TH thiết kế phụ trang,PACD321652,52
+911,TH may căn bản,PBSE113352,52
+912,TH may trang phục căn bản,BASP233452,52
+913,TH may trang phục nâng cao,AASP333552,52
+914,Thực tập tốt nghiệp ,GRPR423352,52
+915,Khóa luận tốt nghiệp,FPFD473752,52
+916,Tin học ứng dụng (Adobe Illustrator),ITAP143852,52
+917,Cơ sở văn hoá Việt Nam,CSVH230338,38
+918,Mỹ học,AEST220252,52
+919,Nhiếp ảnh,PPHO224052,52
+920,Bố cục trang trí,DRLA423752,52
+921,Khoa học màu sắc,COSC224352,52
+922,Đồ án thiết kế đồng phục,UNDP324652,52
+923,Đồ án Thiết kế thời trang trẻ em,CWDP324752,52
+924,Đồ án Thiết kế thời trang thể thao,SWFD324852,52
+925,Đồ án Thiết kế thời trang lót,UWDP324952,52
+926,Đồ án thiết kế áo khoác,JADE325052,52
+927,Xây dựng thương hiệu,FABR325152,52
+928,Nghệ thuật trưng bày sản phẩm,VIME324152,52
+929,Trang điểm,MAUP314452,52
+930,TH trang điểm,PMAU214952,52
+931,Quản lý chất lượng trang phục,GQMA331351,51
+932,Hệ thống cỡ số trang phục,SSRC220451,51
+933,Thương mại Điện tử,ECOM421308,8
+934,Luật sở hữu trí tuệ,SHTT224156,56
+935,"Phối cảnh thiết kế, quảng cáo, minh họa",PRGD323556,56
+936,TT xử lý ảnh,PRIP310956,56
+937,TT dàn trang,PRLT311156,56
+938,"Thiết kế 9 (Thiết kế lịch, thiệp)",CADE434556,56
+939,Thiết kế 10 (Thiết kế quảng cáo),ADDE434656,56
+940,Nghệ thuật chữ,TYPO443956,56
+941,Thiết kế 3 (ấn phẩm nhận diện thương hiệu),BRDE434056,56
+942,Xuất nhập khẩu hàng may mặc,APIE324951,51
+943,Đàm phán kinh doanh hàng may mặc,IGTN426151,51
+944,Tâm lý học kinh doanh,PSFD320951,51
+945,Nghệ thuật trưng bày sản phẩm,DIPR324752,52
+946,Anh  văn 2,ENGL230137,37
+947,Anh  văn 3,ENGL330137,37
+948,Anh  văn 4,ENGL430137,37
+949,Đồ họa ứng dụng (CNM),GDAP340851,51
+950,Nhập môn ngành,INGT130151,51
+951,Giáo dục thể chất 3,PHED130713,13
+952,Thiết bị may CN & bảo trì,GEMA230651,51
+953,Nguyên phụ liệu may,GMAC230551,51
+954,Công nghệ SX ngành may,GMTE231451,51
+955,Kỹ thuật may cơ bản,FSTE230751,51
+956,Thiết kế trang phục nam CB,FMDR231051,51
+957,Thiết kế trang phục nữ CB,FWDR331151,51
+958,Thiết kế trang phục nữ NC,AWDR321251,51
+959,Thiết kế trang phục nam NC,AMDR421351,51
+960,Chuẩn bị SX ngành may,PRAP331551,51
+961,Quản lý chất lượng TP,GQMA321651,51
+962,Quản lý SX ngành may,AGMA321751,51
+963,Quản lý đơn hàng ngành may,MEAP431851,51
+964,Lập kế hoạch ngành may,PPAP421951,51
+965,Công nghệ CAD ngành may,CAAP332051,51
+966,Đồ án công nghệ,GTPR412151,51
+967,Đồ án thiết kế,GDPR422251,51
+968,Chuyên đề thực tế (CNM),GSSS422451,51
+969,TH Thiết kế trang phục nam CB,PFMD222751,51
+970,TH Thiết kế trang phục nữ CB,PFWD322851,51
+971,TH Thiết kế trang phục nữ NC,PAWD322951,51
+972,TH Thiết kế trang phục nam NC,PAMD433051,51
+973,TH chuẩn bị sx ngành may,PPAP323151,51
+974,TH Công nghệ CAD ngành may,PCAP313251,51
+975,Thực tập tốt nghiệp,GRPR443351,51
+976,Chuyên đề tốt nghiệp,TTGT434551,51
+977,Khóa luận tốt nghiệp,GRTH475651,51
+978,Nguyên liệu dệt,TEMA120351,51
+979,Thẩm mỹ học,AEST224851,51
+980,Anh văn chuyên ngành,EGTE320951,51
+981,Mỹ thuật trang phục,ARCL224651,51
+982,Công nghệ hoàn tất vải,FFTE325551,51
+983,Vật liệu dệt thông minh,SMTE322551,51
+984,Thiết kế trang phục bảo hộ lao động,PRDR425351,51
+985,Thiết kế trang phục công sở,WODR425251,51
+986,Thiết kế trang phục cưới,WDDE423451,51
+987,"Thiết kế Jacket, Trench Coat",JADE422351,51
+988,"Thiết kế trang phục lót, áo tắm",PFUS324351,51
+989,Thiết kế thời trang trên Dressform,PMOD434151,51
+990,Thiết kế nón túi xách,HHDE433551,51
+991,Thiết kế giày,FODE433651,51
+992,Thiết kế nhà xưởng & lắp đặt thiết bị,PLIS423751,51
+993,Cải tiến sản xuất ngành may,MIAP435051,51
+994,Tự động hóa các QT sản xuất ngành may,AMPT320251,51
+995,Quản trị thương hiệu trang phục,FABR324451,51
+996,Công nghệ in – thêu,PAET422651,51
+997,Công nghệ Wash sản phẩm may,WATE324551,51
+998,Công nghệ sản xuất hàng dệt kim,KMTE433851,51
+999,Marketing hàng may mặc,GAMA425151,51
+1000,Đàm phán KD hàng may mặc,IGTN424251,51
+1001,Tâm lý học kinh doanh,PGBU324751,51
+1002,Thiết kế trang phục nam CB,FMDR230851,51
+1003,Thiết kế trang phục nữ CB,FWDR330951,51
+1004,Lập trình trên Windows,WIPR230579,79
+1005,Công nghệ phần mềm,SOEN330679,79
+1006,Hệ quản trị cơ sở dữ liệu,DBMS330284,84
+1007,Trí tuệ nhân tạo,ARIN330585,85
+1008,Bảo mật web,WESE331479,79
+1009,Thiết kế phần mềm hướng đối tượng,OOSD330879,79
+1010,Kiểm thử phần mềm,SOTE431079,79
+1011,Các công nghệ phần mềm mới,MTSE431179,79
+1012,Tiểu luận chuyên ngành CNPM ,POSE431479,79
+1013,Mật mã học,INSE331980,80
+1014,Tiểu luận chuyên ngành Mạng và an ninh mạng,POCN431280,80
+1015,Phân tích và thiết kế hệ thống thông tin,ISAD330384,84
+1016,Khai phá dữ liệu,DAMI330484,84
+1017,Cơ sở dữ liệu Nâng cao,ADDB331784,84
+1018,Bảo mật CSDL,DBSE431284,84
+1019,Tiểu luận chuyên ngành HTTT,POIS431184,84
+1020,Khóa luận tốt nghiệp,GRPR471979,79
+1021,Chuyên đề TN 1,SPSU432579,79
+1022,Chuyên đề TN 2,SPSU422084,84
+1023,Chuyên đề TN 3,SPSU421780,80
+1024,Xử lý ảnh số,DIPR430685,85
+1025,Ngôn ngữ Lập trình tiên tiến ,ADPL331379,79
+1026,Lý thuyết thông tin,FOIT331380,80
+1027,Thương mại điện tử,ECOM430984,84
+1028,Điện toán đám mây,CLCO332779,79
+1029,Học sâu,DLEA432085,85
+1030,Công cụ và môi trường phát triển PM,TOEN430979,79
+1031,Search Engine,SEEN431579,79
+1032,Quản lý dự án phần mềm,SOPM431679,79
+1033,Lập trình di động nâng cao,ADMP431879,79
+1034,Thiết kế phần mềm giáo dục,ESDN432079,79
+1035,Phân tích dữ  liệu lớn (Big data analysis),BDAN333977,77
+1036,Kho dữ liệu,DAWH430784,84
+1037,Truy tìm thông tin,INRE431084,84
+1038,Kỹ thuật số,DIGI330163,63
+1039,Thiết Kế Mạch Số Với HDL,DSIC330563,63
+1040,Xử lý ảnh y sinh,BIIM330865,65
+1041,Thiết kế mô hình trên máy tính,BIME331965,65
+1042,Thu thập và điều khiển thiết bị với máy tính,APME332565,65
+1043,Xử lý tín hiệu số,DSPR431264,64
+1044,Xử lý ảnh số,DIPR330685,85
+1045,Nhập môn dữ liệu lớn,BDES233877,77
+1046,"Quản trị mạng và hệ thống, ATTT",NULL,NULL
+1047,Quản lý rủi ro và an toàn thông tin trong doanh nghiệp,RSMI432980,80
+1048,"Hệ thống tìm kiếm, phát hiện và ngăn ngừa xâm nhập",IDPS433080,80
+1049,Công nghệ tường lửa và bảo vệ mạng ngoại vi,FTPS433180,80
+1050,Blockchain và ứng dụng,BCAP433280,80
+1051,Trusted computing,TRCO433380,80
+1052,Nhập Môn Ngành KTDL,INDE131777,77
+1053,Điện toán đám mây,CLCO432779,79
+1054,Lập trình R cho phân tích,RPAN233577,77
+1055,Tương tác dữ liệu trực quan  ,IDVI333677,77
+1056,Big Data Applications: Machine Learning at Scale,BDML434077,77
+1057,Big Data Applications: Real-Time Streaming,BDAS436177,77
+1058,Hệ phân bố,DSYS335977,77
+1059,Tiểu luận chuyên ngành  KTDL,PODE434277,77
+1060,Thực tập tốt nghiệp (KTDL),ITIN421085,85
+1061,Chuyên đề TN KTDL 1,SPSU434477,77
+1062,Chuyên đề TN KTDL 2,SPSU424577,77
+1063,Chuyên đề TN KTDL 3,SPSU424677,77
+1064,Toán 3,MATH142601,1
+1065,Thí nghiệm vật lý 2,PHYS111302,2
+1066,Toán nâng cao cho kỹ thuật máy tính,AMCE245164,64
+1067,Ngôn ngữ lập trình C,CPRL130064,64
+1068,Nhập môn ngành Hệ thống nhúng và IoT,IEIT138064,64
+1069,Điện tử cơ bản - Basic Electronics,BAEL340662,62
+1070,Tín hiệu và hệ thống - Signals and Systems,SISY330164,64
+1071,Lập trình với Python - Programming with Python,PRPY238164,64
+1072,Kiến trúc và tổ chức máy tính - Computer Architecture and Organization,COOA335364,64
+1073,Mạng máy tính và Internet - Computer networks and the Internet,CNIN435464,64
+1074,Giải thuật và cấu trúc dữ  liệu - Data Structures and Algorithms,ALDS335764,64
+1075,Hệ thống nhúng - Embedded Systems,EMSY435664,64
+1076,Kiến trúc và Giao thức IoT - IoT Architecture and Protocols,ITAP338264,64
+1077,Học máy và Trí tuệ nhân tạo - Machine Learning and Artificial Intelligence,MLAI338364,64
+1078,Cơ sở khoa học dữ liệu - Fundamentals of Data Science,FDSC348464,64
+1079,Lập trình hướng đối tượng và kỹ thuật phần mềm - Object Oriented Programming and Software Engineering,OPEP338564,64
+1080,Hệ thống CPS - Cyber-Physical Systems,CPSY348664,64
+1081,Hệ thống thực tế ảo - Virtual Reality Systems,VRSY338764,64
+1082,Chuyên đề Doanh nghiệp (HTN-IoT),COOP428864,64
+1083,Đồ án 1,SEPR319164,64
+1084,Đồ án 2,SEPR319264,64
+1085,TT Điện tử,ELPR320762,62
+1086,TT Kỹ thuật số,PRDI320263,63
+1087,TT Lập trình với Python,PRPL218164,64
+1088,TT Mạng máy tính và Internet,CNIL415464,64
+1089,TT Kiến trúc và tổ chức máy tính,COOL325364,64
+1090,TT Hệ thống nhúng,EMSL415664,64
+1091,TT Kiến trúc và Giao thức IoT,ITAL328264,64
+1092,TT Học máy và Trí tuệ nhân tạo,MLAL318364,64
+1093,TT Hệ thống thực tế ảo,VRSL318764,64
+1094,TT Tốt nghiệp,INTE449364,64
+1095,Lãnh đạo và kinh doanh trong kỹ thuật (HTN-IoT),BLCE429464,64
+1096,Khóa luận tốt nghiệp,CAPR479964,64
+1097,Bảo mật mạng và quyền riêng tư - Network Security and Privacy,NWSP437364,64
+1098,Công nghệ tương tác người - máy - Human-Computer Interface Technology,HCIT437464,64
+1099,Thị giác máy tính và xử lý ảnh - Computer Vision and Image Processing,CVIP437564,64
+1100,Lý thuyết học sâu và ứng dụng - Deep Learning Theory and Applications,DLTA437664,64
+1101,Phân tích dữ liệu lớn - Big Data Analytics,BDAN437764,64
+1102,Mạng vô tuyến và di động - Wireless and Mobile Networks,WMNW437464,64
+1103, Phát triển ứng dụng di động - Mobile Application Development,MBAD436364,64
+1104,Điện toán đám mây - Cloud Computing,CLCO436664,64
+1105,Cơ sơ dữ liệu và lập trình Web - Databases and Web Programming,DBWP437864,64
+1106,Blockchain và ứng dụng - Blockchain and Applications,BCAP437964,64
+1107,Mạng cảm biến vô tuyến - Wireless Sensor Networks,WSNW439564,64
+1108,Hệ thống nhúng thời gian thực - Real-Time Embedded Systems,RTES439664,64
+1109,Kỹ thuật robot,ROTE430946,46
+1110,Xử lý tín hiệu và hình ảnh y sinh,BISI331863,63
+1111,Xe tự hành và Robot di động,AVMR330929,29
+1112,Đo lường và điều khiển bằng máy tính,MCCO322246,46
+1113,Năng lượng tái tạo,RENE321745,45
+1114,Toán ứng dụng cho kỹ sư Điện - Điện Tử,AMEE142044,44
+1115,Nhập môn ngành CNKT Điện - Điện tử,IEET136345,45
+1116,Vi xử lý,MICR330363,63
+1117,Máy điện,ELMA230344,44
+1118,Truyền động điện tự động,ELDR346445,45
+1119,Cung cấp điện,ELPS246545,45
+1120,Điều khiển hệ thống điện công nghiệp,IPSC343045,45
+1121,Năng lượng tái tạo (phần điện),RENE346745,45
+1122,Đồ án Cung cấp điện ,PRES316845,45
+1123,Đồ án Truyền động điện tự động,PRED316945,45
+1124,Đồ án Điều khiển hệ thống điện công nghiệp,PISC414545,45
+1125,TT điện,ELPR210644,44
+1126,TT máy điện,PREM310744,44
+1127,TT điện tử công suất,POEP320262,62
+1128,TT kỹ thuật số,PRDI310263,63
+1129,TT vi xử lý,PRMI320463,63
+1130,TT Năng lượng tái tạo phần điện,PREN417045,45
+1131,TT cung cấp điện,PRES327145,45
+1132,TT truyền động điện tự động,PELE327245,45
+1133,TT điều khiển tự động hóa HTĐ CN,IPSP425245,45
+1134,TT tốt nghiệp (CNKT Đ-ĐT),ININ449045,45
+1135,Chuyên đề Doanh nghiệp (CNKT Đ-ĐT),EPTP423445,45
+1136,Chuyên đề tốt nghiệp (CNKT Đ-ĐT),SSGR439145,45
+1137,Lãnh đạo và kinh doanh trong kỹ thuật (CNKT Đ-ĐT),LSBE422545,45
+1138,Khóa luận tốt nghiệp,FIPR479245,45
+1139,Trường điện từ,ELFI230344,44
+1140,Đo lường và cảm biến,SEME431744,44
+1141,Vật liệu Điện - Điện Tử,EEMA330544,44
+1142,Khí cụ điện,ELIN330444,44
+1143,Ứng dụng Matlab trong KTĐ,MSET437345,45
+1144,Kỹ thuật chiếu sáng dân dụng và công nghiệp,LTRI437445,45
+1145,"Hệ thống kiểm soát an ninh, an toàn ",SSSY437545,45
+1146,Máy điện đặc biệt và sửa chữa máy điện,SPEM430744,44
+1147,Các bài toán trong vận hành và thiết kế hệ thống điện,PIPS437745,45
+1148,Ứng dụng điện tử công suất,APES437845,45
+1149,Kiểm toán và tiết kiệm năng lượng,ENAE437945,45
+1150,Nguồn dự phòng và hệ thống ATS,SSAS438045,45
+1151,Quản trị công nghiệp & QLDA điện nâng cao,PJMA438145,45
+1152,Bảo vệ và tự động hóa hệ thống điện công nghiệp,REPR438245,45
+1153,Hệ thống BMS,BMSY438345,45
+1154,Nhà máy điện và trạm biến áp,PLSU438445,45
+1155,Chất lượng điện năng,POQA438545,45
+1156,Cơ sở và ứng dụng AI,AIFA436864,64
+1157,Xử lý ảnh,IMPR432463,63
+1158,Thiết kế mạch điện tử,CIDE431163,63
+1159,Thiết kế mô hình trên máy tính,BIME331665,65
+1160,Kỹ năng công nghiệp,INSK331663,63
+1161,Vi xử lý nâng cao,ADMI330763,63
+1162,Robot công nghiệp,ROBO320246,46
+1163,Điều khiển thông minh,INCO321546,46
+1164,Solar Energy: Photovoltaic (PV) Energy Conversion,MOOC348645,45
+1165,Understanding Nuclear Energy,MOOC348745,45
+1166,Algorithm Design and Analysis,MOOC348845,45
+1167,Supply Chain Design,MOOC348945,45
+1168,Nhập môn ngành CNKT ĐT-VT,IECE130564,64
+1169,Vật lý 1,PHYS130102,2
+1170,Vật lý 2 ,PHYS120202,2
+1171,Thí nghiệm vật lý 1,PHYS110302,2
+1172,Thí nghiệm vật lý 2,PHYS110402,2
+1173,Hoá đại cương A1,GCHE130103,3
+1174,Toán ứng dụng cho kỹ sư Điện Điện Tử,AMEE341944,44
+1175,Kỹ thuật truyền số liệu,DACO430664,64
+1176,Hệ thống nhúng trong công nghiệp,EMIN432563,63
+1177,Thiết kế hệ thống và vi mạch tích hợp,ICSD336764,64
+1178,Hệ thống viễn thông,COSY330464,64
+1179,Kỹ thuật siêu cao tần,MIEN330364,64
+1180,Hệ thống thông tin vô tuyến,WCSY431364,64
+1181,Thiết kế mạch tích hợp VLSI,ICDV436264,64
+1182,Cơ sở và ứng dụng IoT,ITFA436064,64
+1183,Đồ án 1,SEPR411464,64
+1184,Đồ án 2,SEPR411664,64
+1185,Chuyên đề Doanh nghiệp (ĐTVT),COOP420864,64
+1186,Công nghệ cảm biến,SETE331963,63
+1187,Lập trình Android ứng dụng điều khiển,APCA331363,63
+1188,Đồ án 1,ELPR310863,63
+1189,Đồ án 2,ELPR310963,63
+1190,Chuyên đề Doanh nghiệp (ĐTCN),BUTO124663,63
+1191,Chuyên đề tốt nghiệp,THEM435063,63
+1192,TT Kỹ thuật truyền số liệu,DACL411164,64
+1193,TT Cơ sở và ứng dụng IoT,ITFL416064,64
+1194,TT Thiết kế mạch tích hợp VLSI,ICDL416264,64
+1195,TT Hệ thống thông tin vô tuyến,WCSL411364,64
+1196,TT Xử lý tín hiệu số,DSPL411264,64
+1197,TT Thiết kế hệ thống và vi mạch tích hợp,ICSL316764,64
+1198,TT Hệ thống viễn thông,COSL420764,64
+1199,TT Tốt nghiệp,INTE443064,64
+1200,TT Thiết kế mạch điện tử số,PRCD312663,63
+1201,TT Hệ thống nhúng trong công nghiệp,EMSL412763,63
+1202,TT Xử lý ảnh,PRIM311063,63
+1203,TT Thiết kế vi mạch số với HDL,PRDS320663,63
+1204,TT Tốt nghiệp,INTE344463,63
+1205,Lãnh đạo và kinh doanh trong kỹ thuật (ĐTVT),BLCE421564,64
+1206,Khóa luận tốt nghiệp ,CAPR473964,64
+1207,Lãnh đạo và kinh doanh trong kỹ thuật (ĐTCN),LDBU124763,63
+1208,Khóa luận tốt nghiệp,GRAD464563,63
+1209,Nhập môn ngành CNKT ĐK và TĐH,ICET335064,64
+1210,Kỹ thuật robot,ROBO330246,46
+1211,Trang bị điện và Khí nén,EEQU333746,46
+1212,Nhận dạng và điều khiển hệ thống,IASC323346,46
+1213,Đồ án Kỹ thuật Robot,RBPR310846,46
+1214,Đồ án Điều khiển tự động,ARPR310746,46
+1215,Sáng tạo và Khởi nghiệp,Doanhnghiệp,iệ
+1216,Lãnh đạo và kinh doanh trong kỹ thuật,Ngoạikhóa,a
+1217,TT Kỹ thuật số,PRDI319263,63
+1218,TT Kỹ thuật robot,ROPR311246,46
+1219,TT Trang bị điện và Khí nén,PMEM310846,46
+1220,TT Điều khiển tự động,PACS321446,46
+1221,TT Tốt nghiệp,ININ442346,46
+1222,Chuyên đề tốt nghiệp ,PRET433446,46
+1223,Khóa luận tốt nghiệp,FIPR472546,46
+1224,Trường điện từ,ELFI230344,44
+1225,Cung cấp điện,ELPS330345,45
+1226,Đo lường và thiết bị đo,EMIN330244,44
+1227,Xử lý ảnh,IMPR432446,46
+1228,CAD trong ĐKTĐ,CADA331646,46
+1229,Điều khiển quá trình,PRCO332146,46
+1230,Hệ thống sản xuất tích hợp,FMCI431746,46
+1231,Đo lường và điều khiển bằng máy tính,MCCO332246,46
+1232,Hệ thống cơ điện tử ,EMEC331746,46
+1233,Năng lượng tái tạo,RENE331745,45
+1234,Truyền động điện tự động,ELDR330545,45
+1235,Cơ sở và ứng dụng IoTs,ITFA336064,64
+1236,Nhập môn ngành KTYS,INBE130165,65
+1237,Toán 1,MATH130101,1
+1238,Toán 2,MATH130201,1
+1239,Toán 3,MATH130301,1
+1240,Vật lý 2 ,PHYS130202,2
+1241,Sinh lý người và động vật,HUAN330265,65
+1242,Thiết kế mô hình trên máy tính,BIME332265,65
+1243,Hệ thống thông tin y tế,IMSY332065,65
+1244,Thiết kế mạch điện tử y sinh,MEDE330465,65
+1245,Thiết bị y tế,DEMD330565,65
+1246,Xử lý tín hiệu y sinh ,BISI340665,65
+1247,Công nghệ cảm biến y sinh,TESO330765,65
+1248,An toàn và sức khỏe trong kỹ thuật y sinh,HSBE330865,65
+1249,Xử lý ảnh y sinh,BIIM330965,65
+1250,Hệ thống nhúng trong y sinh,MESY335565,65
+1251,Đồ án điện tử số,ELPR311065,65
+1252,Đồ án vi xử lý,MIPR311165,65
+1253,Đề tài Capstone,CAPR411265,65
+1254,Chuyên đề doanh nghiệp,BUCO121465,65
+1255,Chuyên đề tốt nghiệp,THEM426265,65
+1256,TT Thiết bị y tế,MEPR321565,65
+1257,TT Hệ thống nhúng trong y sinh,MEPR316165,65
+1258,TT Xử lý tín hiệu y sinh,BIPR311665,65
+1259,TT Mạch điện tử y sinh,TSEP321765,65
+1260,TT Xử lý ảnh y sinh,BIMP311865,65
+1261,TT Công nghệ cảm biến y sinh,TSEP311965,65
+1262,TT Hệ thống thông tin y tế,BSPR411965,65
+1263,TT tốt nghiệp,GRPR442065,65
+1264,Lãnh đạo và kinh doanh trong kỹ thuật ,LEBU320026,26
+1265,Khóa luận tốt nghiệp,GRAD462165,65
+1266,Ứng dụng AI trong y sinh,AIBM336365,65
+1267,Thu thập và điều khiển thiết bị với máy tính,APME332365,65
+1268,Công nghệ không dây,WITE332465,65
+1269,Chuyên đề đặc biệt trong kỹ thuật y sinh,SPSU332565,65
+1270,Những thách thức mang tính kỹ thuật trong Y học ,ECME332665,65
+1271,Máy học,MALE331063,63
+1272,Vật liệu y sinh,BIMA332765,65
+1273,Công nghệ chẩn đoán hình ảnh y sinh,BITE332865,65
+1274,Ứng dụng siêu âm và từ trong kỹ thuật y sinh,BIAP332965,65
+1275,Cơ sở và ứng dụng IoT,IOTE436064,64
+1276,Robot công nghiệp,INRO331129,29
+1277,Tương tác người máy,HCIN431979,79
+1278,Lập trình ứng dụng trong kỹ thuật,APEN331329,29
+1279,Lịch sử mỹ thuật Thế Giới và Việt Nam,HWVF120156,56
+1280,Nguyên lý thị giác,PRVI120652,52
+1281,Hình họa 1,DRAW150756,56
+1282,Hình họa 2,DRAW130856,56
+1283,Hình họa 3,DRAW130956,56
+1284,Nghệ thuật ký họa,SKET221956,56
+1285,Trang trí cơ bản,BADE333056,56
+1286,Nhập môn ngành Thiết kế đồ họa,IGDE132556,56
+1287,Anh văn chuyên ngành TKĐH,ENGD332756,56
+1288,Bố cục tạo hình,LAUT342856,56
+1289,Công nghệ in cho TKĐH,PRGD232055,55
+1290,Ý tưởng sáng tạo,CRID343356,56
+1291,Nghệ thuật nhiếp ảnh,PHTO333456,56
+1292,Đồ án nhiếp ảnh,PRPH313656,56
+1293,Đồ án Công nghệ in cho TKĐH,PRPT312155,55
+1294,Trang trí chuyên ngành đồ họa,GRDE443756,56
+1295,Ý tưởng kịch bản quảng cáo truyền thông,IMAD443856,56
+1296,Quản lý thiết kế,DEMA422256,56
+1297,Thiết kế 4 (Thiết kế cấu trúc bao bì),CPDE421957,57
+1298,Thiết kế 5 (Thiết kế bao bì nhãn hiệu),PADE434156,56
+1299,Thiết kế 6 (Thiết kế minh họa),ILDE444356,56
+1300,"Thiết kế 7 (Thiết kế tạp chí, catalogue)",MADE434256,56
+1301,Thiết kế 8 (Thiết kế Poster),PODE434456,56
+1302,Xử lý file cho TKĐH,PRGD441556,56
+1303,Thực tập 2 (Thực tập đồ họa),PRCG311056,56
+1304,Thực tập 4 (Thực tập ảnh động),INGD142456,56
+1305,Thực tập 5 (Thực tập ký họa),PRSK323156,56
+1306,Thực tập tốt nghiệp,WOPR424856,56
+1307,Khóa luận tốt nghiệp,THES474956,56
+1308,Chuyên đề tốt nghiệp,SPTO435256,56
+1309,Kỹ năng xây dựng kế hoạch,PLSK320605,5
+1310,Lịch sử văn minh thế giới,INMA225056,56
+1311,Tư duy hệ thống,SYTH220505,5
+1312,Công nghệ chế bản,PRTE333256,56
+1313,Công nghệ gia công sau in,POST332157,57
+1314,Thiết kế 1 (Thiết kế 3D1),DESI335056,56
+1315,Thiết kế 2 (Thiết kế 3D2),DEWE335156,56
+1316,Quản trị màu,COMA431756,56
+1317,CN TP sách và gia tăng giá trị tờ in,VAAD421057,57
+1318,Thiết kế trang phục nữ,WODE231452,52
+1319,Thiết kế trang phục nam,MEDE231452,52
+1320,Nhập môn ngành Công nghệ Kỹ thuật In,INPR130155,55
+1321,Ứng dụng Matlab trong Công nghệ in,MPRE230156,56
+1322,Cơ điện tử trong ngành in,MEPR230455,55
+1323,Đại cương về sản xuất in,GEPR230255,55
+1324,LT màu và phục chế trong ngành in,CTRE230256,56
+1325,An toàn lao động và QL bảo trì thiết bị,SEMM330755,55
+1326,Anh văn chuyên ngành in,ENGR330356,56
+1327,Vật liệu in,PRMA230257,57
+1328,Thực hành - Thí nghiệm vật liệu in,LAPM210357,57
+1329,Nghệ thuật trình bày ấn phẩm,GRDE330456,56
+1330,ĐA Nghệ thuật trình bày ấn phẩm,PRGD310556,56
+1331,Công nghệ chế bản,PRTE340756,56
+1332,ĐA chế bản,PrPR310856,56
+1333,Công nghệ in,PRTE340555,55
+1334,ĐA Công nghệ in,PRJP310655,55
+1335,Công nghệ gia công sau in,POPR340457,57
+1336,ĐA Công nghệ gia công sau in,PRPO310457,57
+1337,Kinh tế & Tổ chức sản xuất in,PRMA330657,57
+1338,ĐA Kinh tế & Tổ chức sản xuất in,PRPM310757,57
+1339,Quản lý chất lượng sản phẩm in,PRQM330855,55
+1340,ĐA Quản lý chất lượng sản phẩm in,PPQM310955,55
+1341,Liên kết doanh nghiệp,COOP422355,55
+1342,TT Chế tạo khuôn In,PRPM311456,56
+1343,TT Kiểm tra và xử lý file,PRPA311256,56
+1344,TT TK cấu trúc bao bì và định hình hộp,PDPF310857,57
+1345,TT Bình trang điện tử,PRDI311356,56
+1346,TT In offset,PROP321055,55
+1347,TT Thành phẩm,PRPP320957,57
+1348,Đồ án tốt nghiệp,THES471955,55
+1349,Hóa hữu cơ,OCHE226903,3
+1350,Hóa lý in,PHCH130157,57
+1351,Kiểm tra và xử lý dữ liệu,DPRF431556,56
+1352,Công nghệ in offset,OFPR431255,55
+1353,Công nghệ In bao bì,PAPR431355,55
+1354,TK cấu trúc và thành phẩm bao bì,CDPF431257,57
+1355,Thực tập chuyên ngành Trước In 1,MPPP431856,56
+1356,Thực tập chuyên ngành Trước In 2,MPPP431956,56
+1357,Thực tập tốt nghiệp Trước In,WSPP442156,56
+1358,Thực tập theo chuyên ngành In 1,MPPR431555,55
+1359,Thực tập theo chuyên ngành In 2,MPPR431655,55
+1360,Thực tập tốt nghiệp In,WSPR441855,55
+1361,Thực tập chuyên ngành Sau In 1,MPPO431357,57
+1362,Thực tập chuyên ngành Sau In 2,MPPO431457,57
+1363,Thực tập tốt nghiệp Sau In,WSPO441657,57
+1364,Chuyên đề tốt nghiệp,SPTO432355,55
+1365,Truyền động điện,ETDR336429,29
+1366,Nhập môn ngành CNVL,INME130212,12
+1367,Giáo dục quốc phòng 2,GDQP008032,32
+1368,Giáo dục quốc phòng 3,GDQP008033,33
+1369,Nhiệt động lực học vật liệu,TDMA230312,12
+1370,Cơ học lượng tử và vật lý nguyên tử,QMAP234012,12
+1371,Vật lý chất rắn,SLSP230512,12
+1372,Thí nghiệm hóa lý,EPCH217103,3
+1373,Hóa vô cơ,ICHE227003,3
+1374,Thí nghiệm hóa vô cơ,EICH217103,3
+1375,Cơ sở khoa học và công nghệ vật liệu,MATE220612,12
+1376,Vật liệu polymer và composite,PCMA230812,12
+1377,Vật liệu từ và siêu dẫn,MMSU220912,12
+1378,Vật liệu ceramic,CEMA221012,12
+1379,Hóa lý và hóa học polymer,PPPC335412,12
+1380,Kỹ thuật chân không,VATE331112,12
+1381,Kỹ thuật phân tích vật liệu,MATE336912,12
+1382,Vật liệu bán dẫn,SEMA320712,12
+1383,Công nghệ vi chế tạo,MIFT354312,12
+1384,Công nghệ nano,NATE331712,12
+1385,Thí nghiệm cơ sở ngành CNVL,FEMT336812,12
+1386,Chuyên đề doanh nghiệp CNVL,SEMI325512,12
+1387,Sức khỏe và An toàn lao động,OCSH115612,12
+1388,Hệ vi cơ điện tử,MEMS332212,12
+1389,Pin năng lượng mặt trời,SOCE331612,12
+1390,Linh kiện bán dẫn,SMDE321512,12
+1391,Mô phỏng linh kiện bán dẫn,SEDS325812,12
+1392,Thí nghiệm chuyên ngành vật liệu bán dẫn,EXSE332312,12
+1393,Kỹ thuật gia công polymer,PPTE332412,12
+1394,Kỹ thuật sản xuất các chất cao phân tử,POFE331812,12
+1395,Polymer sinh học và ứng dụng,BBPO323912,12
+1396,Các phương pháp phân tích và đánh giá vật liệu polymer và cao su,MEPO322712,12
+1397,Thí nghiệm chuyên ngành vật liệu polymer,EXPO332812,12
+1398,Thực tập tốt nghiệp,APMT346712,12
+1399,Vật liệu tích trữ và chuyển hóa năng lượng (chuyên ngành vật liệu điện tử bán dẫn),MESC335312,12
+1400,Công nghệ sơn và lớp phủ bề mặt (chuyên ngành vật liệu polymer composite),TPSC335212,12
+1401,Khóa luận tốt nghiệp,GRAT474912,12
+1402,Chuyên đề tốt nghiệp 1,STOG436212,12
+1403,Chuyên đề tốt nghiệp 2,STOG446312,12
+1404,Toán cho kỹ sư,MATH143301,1
+1405,Tin hoc kỹ thuật,INEP130112,12
+1406,Tiếng anh chuyên ngành Công nghệ vật liệu,ENMT327012,12
+1407,Pin nhiên liệu,FUCE332112,12
+1408,Kỹ thuật điện – điện tử,EEEN234062,62
+1409,Hóa kỹ thuật môi trường,ENEC230410,10
+1410,Nhiệt động lực học,TDMA235012,12
+1411,Các hiện tượng truyền dẫn cơ bản,TRPH235112,12
+1412,Cơ học lượng tử,QUME235212,12
+1413,Pin năng lượng mặt trời,SOCE335312,12
+1414,Nano transistor,NATR335412,12
+1420,Pháp luật đại cương,GELA220405,5
+1421,Tâm lý học đại cương,PSYC230191,91
+1422,Quản lý nhà nước ,PSEM320391,91
+1423,Nhật ngữ 1,JAPA130138,38
+1424,Nhật ngữ 2,JAPA230238,38
+1425,Nhật ngữ 3,JAPA330338,38
+1426,Nhập môn ngành Sư phạm tiếng Anh,ITTE130138,38
+1427,Pre-intermediate Listening-Speaking,LISP240135,35
+1428,Intermediate Listening-Speaking,LISP240235,35
+1429,Upper-intermediate Listening-Speaking,LISP340335,35
+1430,Advanced Listening-Speaking,LISP430435,35
+1431,Basic Writing,WRIT230135,35
+1432,Academic Writing,WRIT330235,35
+1433,Critical Writing,WRIT330335,35
+1434,Intermediate Reading,READ230135,35
+1435,Upper-intermediate Reading,READ330235,35
+1436,Phonetics & Phonology,PHON230136,36
+1437,Morphology & Syntax,MOSY230236,36
+1438,ASEAN Studies,ASST330336,36
+1439,Semantics,SEMA230336,36
+1440,British Studies,BAST330336,36
+1441,American Studies,AMST330336,36
+1442,English for Electronic & Electrical Engineering,ENEE330337,37
+1443,English for Mechanical Engineering,ENME330437,37
+1444,English for IT,ENIT330237,37
+1445,Introduction to Teaching Methodology,ITTM130238,38
+1446,Language Skills Teaching,LASK230338,38
+1447,Teaching Practice,TEPR330438,38
+1448,Teaching English to Young Learners,TEYL330538,38
+1449,Technology Enhanced Language Learning,TELL330638,38
+1450,Material Development,MATD430738,38
+1451,Research Methodology,REME430838,38
+1452,Professional Experience,PREX430938,38
+1453,Teaching Practicum,TPRA461038,38
+1454,Khóa luận,THES491438,38
+1455,Testing and Assessment,TEST431138,38
+1456,Pragmatics,PRAG430436,36
+1457,Second Language Acquisition (Tự chọn),LAAC431238,38
+1458,Sociolinguistics (Tự chọn),SOCI431338,38
+1459,Cơ sở Văn hóa Việt Nam,VICB230138,38
+1460,Tiếng Việt Thực hành,VIPR230238,38
+1461,Lịch sử Văn minh Thế giới ,HIST230338,38
+1462,English for Business Communiation,EICB330437,37
+1463,English for Environmental Technology ,ENET330137,37
+1464,English for International Business Contracts,EIBC230337,37
+1465,English for Finance,ENFI330437,37
+1466,Nhập môn ngành CNKTCTXD,ICET130117,17
+1467,Lập trình ứng dụng trong XD,APCO131621,21
+1468,Toán ứng dụng trong XD ,AMCO131421,21
+1469,Kinh tế xây dựng,COEC321119,19
+1470,"Hình họa, vẽ kỹ thuật XD",DGED12­5716,71
+1471,Cơ học cơ sở,FUME130221,21
+1472,Sức bền vật liệu,STMA240121,21
+1473,Cơ học đất ,SOME240118,18
+1474,Cơ học kết cấu,STME240517,17
+1475,Kết cấu bê tông cốt thép,RCST240617,17
+1476,Đồ án kết cấu BTCT,RCSP211017,17
+1477,Kết cấu thép,STST240917,17
+1478,Nền móng,FOEN330318,18
+1479,Đồ án nền móng,FENP310418,18
+1480,Kiến trúc,ARCH230216,16
+1481,Đồ án kết cấu công trình BTCT,RCBP311817,17
+1482,Kỹ thuật thi công,COTE340319,19
+1483,Tổ chức thi công,ORCO320519,19
+1484,Đồ án kỹ thuật & tổ chức thi công,TMCP310619,19
+1485,Kết cấu công trình thép,SBST321617,17
+1486,Đồ án kết cấu thép,SSTP311717,17
+1487,Kết cấu nhà cao tầng,HRBS431217,17
+1488,Chuyên đề tốt nghiệp (CNKTCTXD),CAPR430618,18
+1489,Chuyên đề Doanh nghiệp (CNKTCTXD),SCIC424517,17
+1490,Lãnh đạo và kinh doanh trong kỹ thuật (CNKTCTXD),BLIE327017,17
+1491,TT Vẽ kỹ thuật trong xây dựng,ENDP114617,17
+1492,TT Trắc địa,SURP222819,19
+1493,Khảo sát và Thí nghiệm đất,SOIT220218,18
+1494,Thí nghiệm cơ học,METE210321,21
+1495,TT Vật liệu xây dựng,COMP211117,17
+1496,TT Ứng dụng tin học trong XD,ITCP421417,17
+1497,TT Kiểm định công trình,COIP424717,17
+1498,TT Kỹ thuật nghề xây dựng,COTP320519,19
+1499,TT BIM trong xây dựng,BIMP323019,19
+1500,TT Tốt nghiệp (CNKTCTXD),ENGP442017,17
+1501,Khóa luận tốt nghiệp,THES472117,17
+1502,Nền móng nhà cao tầng,FHRB420718,18
+1503,Công trình trên nền đất yếu,SOIM420618,18
+1504,Thiết kế kết cấu BTCT theo ACI&EUROCODE,DCEA424917,17
+1505,Thiết kế kết cấu bê tông cốt sợi,DFRC425017,17
+1506,Kết cấu thép ứng suất trước,DPSS425117,17
+1507,Tư vấn giám sát,SUCO323219,19
+1508,Bảo trì công trình,BUMA421319,19
+1509,Xây dựng bền vững,SUCO423917,17
+1510,Cấp thoát nước,WSSE221317,17
+1511,Nhập môn ngành HTKTCTXD,IMEP136717,17
+1512,Dự toán HTKTCTXD,MBES324319,19
+1513,Cơ học công trình,BUME234817,17
+1514,Kỹ thuật điện công trình,COET232144,44
+1515,Cơ lưu chất,FLME231521,21
+1516,Kỹ thuật nhiệt – lạnh,TREN341032,32
+1517,Kiến trúc,ATEC245616,16
+1518,Kết cấu công trình,STBU245617,17
+1519,ĐA Kết cấu công trình,BSTP315717,17
+1520,Tổ chức và quản lý thi công HTKTCTXD,MECM334419,19
+1521,Quản lý dự án,PRMA434519,19
+1522,Hệ thống điện công trình,CEPE340345,45
+1523,Hệ thống tự động hóa công trình,ASCT340146,46
+1524,ĐA Hệ thống điện công trình,CEPP411045,45
+1525,ĐA hệ thống tự động hóa công trình,ASCP410146,46
+1526,Cấp thoát nước công trình,PIBU225917,17
+1527,ĐA Cấp thoát nước công trình,PIBP316017,17
+1528,Hệ thống cấp nước chữa cháy,WSFS326117,17
+1529,Mạng lưới cấp thoát nước,WSDN326317,17
+1530,Trạm bơm,PUST225817,17
+1531,Hệ thống xử lý nước thải,WATS326417,17
+1532,Điều hòa không khí,ACSY330932,32
+1533,Chuyên đề tốt nghiệp (HTKTCTXD),GRDS437317,17
+1534,Chuyên đề Doanh nghiệp (HTKTCTXD),SCIC427117,17
+1535,Lãnh đạo và kinh doanh trong kỹ thuật (HTKTCTXD),BLIE327217,17
+1536,TT BIM trong HTKTCTXD 1,BIMP324119,19
+1537,TT BIM trong HTKTCTXD 2,BIMP324219,19
+1538,TT Ứng dụng tin học trong cấp thoát nước công trình,PBPS316217,17
+1539,TT hệ thống điện công trình,PCEP322545,45
+1540,TT Tốt nghiệp,INSH446517,17
+1541,Khóa luận tốt nghiệp,THES476817,17
+1542,Kỹ thuật chiếu sáng dân dụng và công nghiệp,LTRI321345,45
+1543,"Hệ thống kiểm soát an ninh, antoàn",SSSY321445,45
+1544,Chất lượng điện năng,PQE320755,5
+1545,Nguồn dự phòng và hệ thống ATS,SSAS322045,45
+1546,Hệ thống BMS,BMSY322045,45
+1547,Chuyên đề nhiệt,STTT321832,32
+1548,Quản lý chất thải rắn và nguy hại,SHWM321810,10
+1549,Nhập môn Kiến trúc,INAR130116,16
+1550,Thực tập tin học chuyên ngành Kiến trúc 1: (AUTOCAD+SKETCHUP),ACAD121216,16
+1551,Thực tập tin học chuyên ngành Kiến trúc 2: (REVIT+3DMAX),REVT122616,16
+1552,Thực tập tin học chuyên ngành Kiến trúc 3: (B.I.M),BIMA112716,16
+1553,Hình học họa hình 1: giao - hình chiếu thẳng góc,DGSP120216,16
+1554,Hình học họa hình 2: hình chiếu phối cảnh,DGSP120316,16
+1555,"Cây xanh, môi trường & Con người",TEHU122916,16
+1556,Vật lý kiến trúc (Quang học-thông gió- âm học),APHY242416,16
+1557,"Thực hành Hội họa 1: Hình họa (Tượng tròn, Tĩnh vật)",SASL220416,16
+1558,Thực hành Hội họa 2: Phong cảnh - màu nước,WCSP220516,16
+1559,ĐA Cơ sở kiến trúc 1: Đường nét- chữ số,INAP320616,16
+1560,ĐA Cơ sở kiến trúc 2: Vẽ mẫu nhà,INAP320716,16
+1561,ĐA Cơ sở kiến trúc 3: Diễn họa – KT nhỏ,INAP320816,16
+1562,ĐA Cơ sở kiến trúc 4: Vẽ ghi,INAP320916,16
+1563,Thực hành Điêu khắc: Tổ hợp hình khối kiến trúc,SCPA231116,16
+1564,Cơ học công trình,MEBU244817,17
+1565,Kết cấu công trình (BTCT+Thép+Gỗ),STBU245217,17
+1566,Nguyên lý bố cục tạo hình kiến trúc,LAPA221016,16
+1567,ĐA bố cục tạo hình kiến trúc,LAPA221516,16
+1568,ĐA kỹ thuật mô hình kiến trúc,PMTA222516,16
+1569,Cấu tạo kiến trúc công trình DD& CN– BTL,PCIN341316,16
+1570,Kỹ thuật hạ tầng Công trình (Điện + Nước),TEIN423022,22
+1571,Nguyên lý thiết kế kiến trúc công trình DD,PCIA341616,16
+1572,Nguyên lý thiết kế kiến trúc CN,PCIA322316,16
+1573,Nguyên lý Quy hoạch đô thị,UPLA323116,16
+1574,Kiến trúc cảnh quan,PLAR324316,16
+1575,Thiết kế đô thị,UDES324216,16
+1576,Lịch sử kiến trúc phương Tây,WARH323016,16
+1577,Lịch sử kiến trúc phương Đông &VN,EARH333816,16
+1578,Bảo tồn & Trùng tu di sản,PREA324916,16
+1579,Trang thiết bị công trình,EQUB324116,16
+1580,Thiết kế Kiến trúc và Môi trường bền vững,EASU324816,16
+1581,GIS trong kiến trúc & quy hoạch,GISP422922,22
+1582,Chuyên đề Doanh nghiệp (Kiến trúc),SCIC425716,16
+1583,Lãnh đạo và kinh doanh trong kỹ thuật (Kiến trúc),BLIE325816,16
+1584,"ĐA thiết kế kiến trúc: quán hoa, quán sách, bến xe bus, bến tàu thủy",SAPP421716,16
+1585,ĐA thiết kế kiến trúc: Nhà ở riêng lẻ,APSH422016,16
+1586,ĐA thiết kế kiến trúc: Nhà ở thấp tầng,APLH433316,16
+1587,ĐA thiết kế kiến trúc CTCC 1: quy mô nhỏ,SAPP421816,16
+1588,ĐA thiết kế kiến trúc CTCC 2: quy mô vừa,SAPP431916,16
+1589,ĐA thiết kế kiến trúc CTCC 3: quy mô lớn,SAPP433716,16
+1590,"ĐA thiết kế kiến trúc CTCC 4: Bệnh viện, TTTM văn phòng",SAPP434516,16
+1591,ĐA thiết kế kiến trúc Tổng Hợp,SYNP444616,16
+1592,ĐA thiết kế kiến trúc Công nghiệp,APIA433216,16
+1593,ĐA Quy hoạch chi tiết Đơn Vị Ở,PPNP433616,16
+1594,ĐA thiết kế nội thất 1,APID423416,16
+1595,ĐA thiết kế nội thất 2,APID423516,16
+1596,ĐA thiết kế cải tạo+bảo tồn CT quy mô vừa,APID434416,16
+1597,"ĐA thiết kế ngoại thất: cảnh quan sân vườn, công viên",ARPE424716,16
+1598,Thực tập kỹ thuật,TPRA312216,16
+1599,Thực tập - Tham quan,VIST315216,16
+1600,TT Tốt nghiệp (Kiến trúc),GRAP325316,16
+1601,Khóa luận tốt nghiệp,FINP495516,16
+1602,Tư duy biện luận ứng dụng,ARAP125116,16
+1603,Mỹ học,AEST125416,16
+1604,Kiến trúc truyền thống Việt Nam,TRAV321416,16
+1605,Qui hoạch hệ thống giao thông đô thị,UTSP322116,16
+1606,Kỹ thuật thi công,COTE323219,19
+1607,Quản lý dự án,PRMA420819,19
+1608,Lịch sử đô thị,UHIS322816,16
+1609,Chuyên đề kiến trúc Nhà Ở,THEH323916,16
+1610,Chuyên đề kiến trúc CTCC,THEP324016,16
+1611,Chuyên đề kiến trúc CTCN,THED325016,16
+1612,Nhập môn Kiến trúc Nội thất,INAR130216,16
+1613,Hình họa 1: Tượng + Người,SASL120116,16
+1614,Hình họa 2: Phong cảnh hẹp,WCSP120416,16
+1615,Hình họa 3 : Tĩnh vật màu,STIL220116,16
+1616,Hình họa 4: Đặc tả chất liệu,MATE220316,16
+1617,Trang trí cơ bản,DECO220416,16
+1618,Trang trí chuyên ngành 1,DECO320116,16
+1619,Trang trí chuyên ngành 2,DECO320516,16
+1620,Nguyên lý thị giác,VISI220216,16
+1621,Lịch sử nghệ thuật,ARTH120316,16
+1622,Nguyên lý thiết kế Nội Ngoại thất,PCII220516,16
+1623,Thiết kế và triển khai cấu tạo các sản phẩm nội thất,DESI320216,16
+1624,Chất liệu nội ngoại thất,MATE320416,16
+1625,Chuyên đề Doanh nghiệp (Kiến trúc nội thất),SCIC421516,16
+1626,Lãnh đạo và kinh doanh trong kỹ thuật (Kiến trúc nội thất),BLIE425816,16
+1627,Đồ án thiết kế Nội thất nhà ở 1,APID220616,16
+1628,Đồ án thiết kế Nội thất nhà ở 2,APID320316,16
+1629,Đồ án thiết kế Nội thất nhà ở 3,APID320716,16
+1630,Đồ án thiết kế Nội thất công trình công cộng 1,APID320816,16
+1631,Đồ án thiết kế Nội thất công trình công cộng 2,APID420116,16
+1632,Đồ án thiết kế Nội thất công trình công cộng 3,APID420216,16
+1633,Đồ án sản xuất và thi công các sản phẩm nội ngoại thất,MANU320616,16
+1634,Đồ án thiết kế Nội thất công trình thông minh,APID420416,16
+1635,Đồ án thiết kế Nội Ngoại thất tổng hợp,APID430516,16
+1636,Đồ án cải tạo nhà ở,RENO420316,16
+1637,Thực tập - Tham quan,VIST410716,16
+1638,Thực tập tốt nghiệp (Kiến trúc nội thất),GRAP420616,16
+1639,Khóa luận tốt nghiệp Kiến trúc nội thất,FIND490816,16
+1640,Nghệ thuật nhiếp ảnh,PHOT420816,16
+1641,Tranh chất liệu,PAIN420916,16
+1642,Tạo dáng công nghiệp,SHAP421016,16
+1643,Các xu hướng nội thất ,TEND421216,16
+1644,Nội thất các công trình cải tạo bảo tồn,FUCO421316,16
+1645,Công nghệ và vật liệu nội thất mới,TEMA421416,16
+1646,Nhập môn ngành KTXDCTGT,INTE130122,22
+1647,Thủy lực và thủy văn,HYDR230222,22
+1648,Thiết kế đường 1,ROAD330322,22
+1649,Thiết kế đường 2,ROAD330422,22
+1650,Đồ án thiết kế đường,ROAP310622,22
+1651,Thiết kế cầu BTCT,CBRI330522,22
+1652,Đồ án thiết kế cầu BTCT,CBRP310722,22
+1653,Thi công cầu,BRIE320922,22
+1654,Thi công đường,ROAE320822,22
+1655,Đồ án thi công đường,CORP312822,22
+1656,Thiết kế cầu thép,SBRI331022,22
+1657,Đồ án thiết kế cầu thép,SBRP311222,22
+1658,Mố trụ và nền móng cầu,ABUT331322,22
+1659,Đồ án mố trụ và nền móng cầu,SUBP311822,22
+1660,Chuyên đề tốt nghiệp (KTXDCTGT),GRDS433522,22
+1661,Chuyên đề Doanh nghiệp (KTXDCTGT),SCIC423222,22
+1662,Lãnh đạo và kinh doanh trong kỹ thuật (KTXDCTGT),BLIE323322,22
+1663,TT Ứng dụng tin học trong thiết kế đường,ITRP311622,22
+1664,TT ứng dụng tin học trong thiết kế cầu,ITBP311722,22
+1665,Thí nghiệm cầu đường,ROAT311122,22
+1666,TT Tốt nghiệp (KTXDCTGT),ENGP441922,22
+1667,Khóa luận tốt nghiệp,THES471522,22
+1668,Nền đường trên đất yếu,ROWS422122,22
+1669,Vật liệu xây dựng tiên tiến ,AMAT422222,22
+1670,Đô thị xanh và thông minh,GICI422322,22
+1671,Kiến trúc – cảnh quan cầu đường,ARCT422422,22
+1672,Quy hoạch và quản lý GT,TRAN422522,22
+1673,Đường mêtrô – đường sắt ,METR421422,22
+1674,Đường hầm ô tô,TUNN422722,22
+1675,Kiểm định và khai thác cầu đường,OPEB422022,22
+1676,Nhập môn ngành QLXD,ITCM131419,19
+1677,Cơ học đất,SOME240318,18
+1678,Đồ án kỹ thuật thi công,COMP312019,19
+1679,Tổ chức và quản lý xây dựng,COMA331719,19
+1680,Đồ án tổ chức và QLXD,COMP312119,19
+1681,Quản trị tài nguyên và ATLĐ,CMSM321519,19
+1682,Quản lý hệ thống MEP,MEPM422219,19
+1683,Lập và thẩm định dự án đầu tư xây dựng,FACP421919,19
+1684,Đồ án lập dự án đầu tư xây dựng,PCPF412619,19
+1685,Dự toán và định giá xây dựng,BEAE322419,19
+1686,Đồ án lập dự toán công trình xây dựng,PBEE412719,19
+1687,Chuyên đề tốt nghiệp (QLXD),GRDS433719,19
+1688,Chuyên đề Doanh nghiệp (QLXD),SCIC424119,19
+1689,Lãnh đạo và kinh doanh trong kỹ thuật (QLXD),BLIE324019,19
+1690,TT Phân tích thống kê,STAP212819,19
+1691,TT Đấu thầu,PETP412919,19
+1692,Khóa luận tốt nghiệp,THES473819,19
+1693,Pháp luật xây dựng,COLA322519,19
+1694,Marketing trong xây dựng,COMA323119,19
+1695,Quản lý vận hành công trình,PMAO423319,19
+1696,Hệ thống thông tin địa lý - GIS,GEIS223419,19
+1697,Quản lý chất lượng trong xây dựng,QCCE423519,19
+1698,Kế toán quản trị,MAAC323619,19
+1699,Phân tích hoạt động sản xuất kinh doanh trong DNXD,COBA323719,19
+1700,Tổ chức và quản lý sàn giao dịch bất động sản,OMRE423819,19
+1701,Nhập môn ngành QLVHHT,IIEM130122,22
+1702,Dự toán xây dựng hạ tầng,CEOI420922,22
+1703,Cơ sở hạ tầng ,INEN340222,22
+1704,ĐA cơ sở hạ tầng ,POIE310322,22
+1705,Quy hoạch hệ thống giao thông đô thị,UTSP421122,22
+1706,Quản lý dự án đầu tư xây dựng hạ tầng,IPMA330422,22
+1707,ĐA quản lý dự án đầu tư xây dựng hạ tầng,PIPM310522,22
+1708,Tổ chức và quản lý thi công hạ tầng,OMIC330822,22
+1709,ĐA tổ chức và quản lý thi công hạ tầng,POMI310922,22
+1710,ITS trong quản lý giao thông,ITSM420722,22
+1711,Duy tu và bảo dưỡng hạ tầng,INMA420622,22
+1712,Hệ thống kiểm soát an ninh an toàn,SSSY337545,45
+1713,Hệ thống cấp nước và xử lý nước thải,WSWT341022,22
+1714,Chuyên đề Doanh nghiệp (QLVHHT),SCIC421422,22
+1715,TT Tốt nghiệp (QLVHHT),ENPR441522,22
+1716,Khóa luận tốt nghiệp,THSI471622,22
+1717,Hệ thống Logistics,LOSY421722,22
+1950,Anh văn chuyên ngành Luật 1,LEEL222339,39
+1951,Anh văn chuyên ngành Luật 2,LEEL232439,39
+1952,Chuyên đề Nghề Luật (chuyên đề doanh nghiệp),SLCA426839,39
+1953,Công pháp quốc tế,IPUB333039,39
+1954,Kinh tế đại cương,GEEC22010,0
+1955,Kỹ năng giải quyết vụ việc dân sự,SCCS436039,39
+1956,Kỹ năng nghiên cứu và phân tích án lệ,CASE436139,39
+1957,Kỹ năng soạn thảo văn bản pháp luật,DRAF223639,39
+1958,Kỹ năng tư vấn - đàm phán và soạn thảo hợp đồng thương mại.,CNDS436339,39
+1959,Kỹ năng tư vấn- giải quyết tranh chấp kinh doanh-thương mại,CBTS436439,39
+1960,Kỹ năng tư vấn pháp lý trong lĩnh vực dân sự,SLCC435939,39
+1961,Kỹ năng tư vấn trong lĩnh vực sở hữu trí tuệ,SCIN436239,39
+1962,Lịch sử Nhà nước và pháp luật,HOSL121439,39
+1963,Lịch sử văn minh thế giới,HOWC225139,39
+1964,Logic học ,LOGI130739,39
+1965,Luật cạnh tranh,COMP324839,39
+1966,Luật dân sự 1,CIVI231939,39
+1967,Luật dân sự 2,CIVI332039,39
+1968,Luật đất đai ,LAND333439,39
+1969,Luật hành chính ,ADMI231639,39
+1970,Luật Hiến pháp,CONS221539,39
+1971,Luật hình sự 1,CRIM231739,39
+1972,Luật hình sự 2,CRIM321839,39
+1973,Luật hôn nhân và gia đình,MAFA323539,39
+1974,Luật lao động,LABO333339,39
+1975,Luật môi trường,ENVI325539,39
+1976,Luật ngân hàng,BANK334539,39
+1977,Luật nhà ở,HOUS334339,39
+1978,Luật sở hữu trí tuệ,INTE233739,39
+1979,Luật so sánh,COMP222139,39
+1980,Luật Tài chính ,FINA334439,39
+1981,Luật thi hành án dân sự,LECJ334139,39
+1982,Luật thương mại 1,COME232839,39
+1983,Luật thương mại 2,COME332939,39
+1984,Luật thương mại quốc tế,ICOM333239,39
+1985,Luật tố tụng dân sự,CIVP322739,39
+1986,Luật tố tụng hành chính,AMDP322639,39
+1987,Luật tố tụng hình sự,CRIP322539,39
+1988,Lý luận Nhà nước và pháp luật 1,TOSL121239,39
+1989,Lý luận Nhà nước và pháp luật 2,TOSL231339,39
+1990,Nhập môn ngành Luật,INTL130639,39
+1991,Pháp luật chuyên sâu về bảo đảm thực hiện nghĩa vụ dân sự,LECO334039,39
+1992,Pháp luật chuyên sâu về hợp đồng,CONT334239,39
+1993,Pháp luật chuyên sâu về trách nhiệm bồi thường thiệt hại ngoài hợp đồng ,LDOC333939,39
+1994,Pháp luật về chứng khoán và thị trường chứng khoán,LSSI436739,39
+1995,"Pháp luật về công chứng, thừa phát lại và luật sư",LNBL325739,39
+1996,Pháp luật về kinh doanh bất động sản,REAL436639,39
+1997,Pháp luật về logistic,LOGI334639,39
+1998,Pháp luật về nhượng quyền thương mại,FRAN334739,39
+1999,Pháp luật về quyền con người,HUMA223839,39
+2000,Pháp luật về thương mại điện tử,ECOM436539,39
+2001,Phương pháp nghiên cứu khoa học Luật,RMFL225339,39
+2002,Quản trị hành chính văn phòng,MANA325839,39
+2003,Tâm lý học,PSYC120939,39
+2004,Thực tập tốt nghiệp ,INTE424939,39
+2005,Tiếng Việt thực hành,VIET225239,39
+2006,Tư duy hệ thống,SYTH221139,39
+2007,Tư pháp quốc tế,IPRI333139,39
+2008,Ứng dụng CNTT,ITAP121139,39
+2009,Xã hội học pháp luật,LSOC234639,39
+2010,Administrative Document Translation,ADDT330336,36
+2011,Advanced Listening-Speaking,LISP430435,35
+2012,American Studies,AMST330336,36
+2013,ASEAN Studies,ASST330336,36
+2014,Banking Operations,BAOP431737,37
+2015,Basic Writing,WRIT230135,35
+2016,British Studies,BRST330336,36
+2017,Business Psychology,BUPS230137,37
+2018,Consecutive Interpretation,COIN330436,36
+2019,Electronic Commerce,ELCO431337,37
+2020,English for Business Communication,ENBC330137,37
+2021,English for Business Correspondence,ENBC330537,37
+2022,English for Business Negotiations and Persuasion,EBNP330337,37
+2023,English for International Business Contracts,EIBC330237,37
+2024,Entrepreneurship,ENTR430537,37
+2025,Human Resource Management,HURM430637,37
+2026,Intercultural Communication in Business,INCB431237,37
+2027,Intermediate Listening-Speaking,LISP240235,35
+2028,Intermediate Reading,READ230135,35
+2029,International Logistics,INLO431037,37
+2030,Internship,INTE470937,37
+2031,Introduction to English Applied Linguistics,IEAL230137,37
+2032,Investment Analysis,INAN431137,37
+2033,Lịch sử văn minh thế giới,HIST230338,38
+2034,Marketing Research,MARE431637,37
+2035,Morphology and Syntax,MOSY230236,36
+2036,Nhật ngữ 1,JAPA130138,38
+2037,Nhật ngữ 2,JAPA230238,38
+2038,Nhật ngữ 3,JAPA330338,38
+2039,Phonetics and Phonology,PHONE130136,13
+2040,Pragmatics,PRAG430436,36
+2041,Pre-inter Listening-Speaking,LISP240135,35
+2042,Principles of Accounting,PRAC330337,37
+2043,Principles of Economics,PREC330237,37
+2044,Principles of Marketing,PRMA330437,37
+2045,Project,PROJ461537,37
+2046,Research Methodology,REME430737,37
+2047,Semantics,SEMA230236,36
+2048,Seminar Series in Business,SSBU320837,37
+2049,Thesis,THES491437,37
+2050,Tiếng Trung 1,CHIN130138,38
+2051,Tiếng Trung 2,CHIN230238,38
+2052,Tiếng Trung 3,CHIN330338,38
+2053,Upper-inter Listening-Speaking,LISP340335,35
+2054,Cấu trúc rời rạc,DSCC235864,64
+2055,Chuyên đề Doanh nghiệp (KTMT),COOP427164,64
+2056,Điện tử 1,ELEC330262,62
+2057,Điện tử 2,ELEC430362,62
+2058,Đồ án 1,SEPR415564,64
+2059,Đồ án 2,SEPR415964,64
+2060,Hệ điều hành thời gian thực,RTOS345264,64
+2061,Khóa luận tốt nghiệp,CAPR408964,64
+2062,Mạch điện ,ELCI240144,44
+2063,Nhập môn ngành CNKT máy tính,ICET135064,64
+2064,Thiết kế hệ thống và vi mạch số,DDCS336764,64
+2065,Thiết kế kết hợp HW/SW ,HSCD446164,64
+2066,Thiết kế vi mạch tích hợp số,DICD436264,64
+2067,TT Kỹ thuật số ,DIPR310263,63
+2068,TT Thiết kế hệ thống và vi mạch số,DDCL316764,64
+2069,TT Thiết kế vi mạch tích hợp số,DICL416264,64
+2070,TT Tốt nghiệp,INTE427464,64
+2071,Pragmatics,PRAG430436,36
+2072,Thực hành Bếp Âu Á,AECP222553,53
+2073,Thực hành Bánh Á,ASPP213053,53
+2074,Quản trị tiệc,BAMA223453,53
+2075,Quản lý thương hiệu,BRMA323753,53
+2076,Giao tiếp trong kinh doanh,BUCO232353,53
+2077,Chuyên đề doanh nghiệp,BUSI425153,53
+2078,Kế toán nhà hàng,CARE344153,53
+2079,Anh văn chuyên ngành bếp,COEN222853,53
+2080,Hành vi khách hàng,CUBE222253,53
+2081,Văn hóa ẩm thực,CUCU232053,53
+2082,Nghiệp vụ bếp,CUTH131753,53
+2083,Quản trị bar,DRPM333853,53
+2084,TH Pha chế thức uống,DRPP323953,53
+2085,Kỹ năng giao tiếp tiếng Anh 1,ENCS140026,26
+2086,Kỹ năng giao tiếp tiếng Anh 2,ENCS240026,26
+2087,TH Quản trị tiệc,ESMP324953,53
+2088,TH Dự án ẩm thực,ESPP314253,53
+2089,Quản lý chất lượng dịch vụ ăn uống,ESQM324453,53
+2090,Thực hành Bánh Âu,EUPP223153,53
+2091,Tổ chức sự kiện,EVMA333353,53
+2092,Tin học chuyên ngành,FBSO436053,53
+2093,Quản trị tài chính,FIMA324753,53
+2094,Trang trí hoa,FLAR425653,53
+2095,Hóa học thực phẩm,FOCH130753,53
+2096,Vệ sinh an toàn thực phẩm,FOHY121853,53
+2097,Nguyên liệu thực phẩm,FOMA121653,53
+2098,Dinh dưỡng thực phẩm,FONU130953,53
+2099,Thực hành trang trí món ăn và tiệc,FPDP224253,53
+2100,Đồ họa ứng dụng,GDAP231253,53
+2101,Tổng quan du lịch,GETO130653,53
+2102,Thực tập tốt nghiệp,GRPR424353,53
+2103,Khóa luận tốt nghiệp,GRTH475453,53
+2104,Quản trị nguồn nhân lực,HRMA222753,53
+2105,Quản trị suất ăn Công nghiệp,ICSM332653,53
+2106,Ứng dụng CNTT,ITAP138785,85
+2107,Quản lý Bếp,KIMA332653,53
+2108,Trang điểm,MAUP425853,53
+2109,Quản trị du lịch và sự kiện,MICE426253,53
+2110,Quản trị hành chánh văn phòng,OFMA130853,53
+2111,Nghiệp vụ bánh,PATH222453,53
+2112,Đồ án xây dựng ý tưởng,PRBI325253,53
+2113,Đồ án quản trị nhà hàng,PRRM425353,53
+2114,Lễ tân,RECE336953,53
+2115,Anh văn chuyên ngành Nhà hàng,REEN323653,53
+2116,Quản trị nhà hàng và chất lượng dịch vụ,RQSM333253,53
+2117,Quản trị bán hàng,SAMA426153,53
+2118,Quản trị chuỗi cung ứng,SCMA324553,53
+2119,Nghệ thuật trang trí món ăn,STFO224653,53
+2120,Quản trị chiến lược,STMA223553,53
+2121,Quản trị khởi nghiệp,STMA324053,53
+2122,Nghiệp vụ Bàn,TASE332453,53
+2123,Thực hành Bếp Việt,VCPR121953,53
+2124,Thực hành Bánh Việt,VCPR224053,53
+2125,Mạch điện tử 1,ELEC230262,NULL
+2126,Mạch điện tử 2,ELEC330362,NULL
+2127,Thực tập tốt nghiệp,INTE429364,NULL
+2128,Khóa Luận Tốt Nghiệp,CAPR409964,NULL
+2129,Lập trình Android trong ứng dụng điều khiển, APCA331363,NULL
+2130,Hệ thống thông minh,ITSY124763,NULL
+2131,AI và ứng dụng,AIAP124863,NULL
+2132,TT AI và ứng dụng,PRAI124163,NULL
+2133,Máy học,MALE330863,NULL
+2134,Truyển hình số và đa phương tiện,TVMU331563.,NULL
+2135,Toán cao cấp cho kỹ sư 1,MATH 133101,NULL
+2136,Xác suất – thống kê ứng dụng,MATH 132901,NULL
+2137,Toán ứng dụng,MATH 133401,NULL
+2138,Toán cao cấp cho kỹ sư,MATH 143301,NULL
+2139,Mạch điện tử 1,BAEL230262,NULL
+2140,Pragmatics,PRAG430436,NULL
+2141,Toán ứng dụng trong xây dựng ,AMCO331421,NULL
+2142,Đồ án cơ sở hạ tầng,POIE320322,NULL
+2143,Hệ thống kiểm soát an ninh an toàn,SSSY427545,NULL
+2144,Đồ án Hệ thống điện công trình ,CEPP421045,NULL
+2145,Đồ án Hệ thống tự động hóa công trình,ASCP420146,NULL
+2146,Thiết kế trang phục cưới,WDDE433451,NULL
+2147,Mỹ thuật trang phục,ARCL224561,NULL
+2148, Công nghệ CAD ngành may,CAAP345751,NULL
+2149,Kỹ thuật cảm biến và xử lý tín hiệu,SASC430546,NULL
+2150,Robot Nâng Cao,AROB434046,NULL
+2151,IoT và Ứng dụng,ITAA433946,NULL
+2152,Hệ thống điều khiển tự động nâng cao,AACS 320546,NULL
+2153,"An toàn, Sức khỏe và Môi trường trong Xây dựng",HSEC324019,NULL
+2154,Nguồn Dự Phòng Và Hệ Thống ATS,SSAS428045,NULL
+2155,Hệ thống BMS, BMSY428345,NULL
+2156,Kỹ thuật xử lý nước cấp,SWTR341610,NULL
+2157,Kỹ thuật xử lý nước thải,WWTR341910,NULL
+2158,Kỹ thuật xử lý khí thải,APCT342310,NULL
+2159,Quản lý và Xử Lý Chất Thải Rắn và Nguy Hại,SHWM341810,NULL
+2160,ĐỒ ÁN TỐT NGHIỆP ,THSI401622,NULL
+2161,Anh văn chuyên ngành thiết kế thời trang,ENFD325252,NULL
+2162,Chuyên đề doanh nghiệp,TAWE422852,NULL
+2163,Công nghiệp thời trang,FAIN421352,NULL
+2164,Đồ án thiết kế thời trang ấn tượng,CRFA422652,NULL
+2165,Hình hoạ màu ,CODW330952,NULL
+2166,Kỹ thuật dàn trang,PALT32455,NULL
+2167,Lịch sử trang phục dân tộc,HICL120252,NULL
+2168,Minh họa thời trang kỹ thuật số 2D,DFIL333852,NULL
+2169,Nghiên cứu phát triển ý tưởng thiết kế thời trang,IDDE221252,NULL
+2170,Thiết kế đồng phục,UNID324652,NULL
+2171,Thiết kế thời trang kỹ thuật số 3D,DIFD343952,NULL
+2172,Thiết kế thời trang trên Dress Form,FDDF331952,NULL
+2173,Xây dựng phong cách,FAST422452,NULL
+2174,Xử lý hình ảnh thời trang,FAPP322552,NULL
