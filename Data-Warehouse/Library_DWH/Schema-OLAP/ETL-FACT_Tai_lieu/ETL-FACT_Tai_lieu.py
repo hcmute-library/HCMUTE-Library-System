@@ -12,7 +12,7 @@ def fetch_data_and_process():
     conn_dwh_library = pyodbc.connect(
         'DRIVER={ODBC Driver 17 for SQL Server};'
         'SERVER=192.168.150.6;' # Địa chỉ IP của SQL Server
-        'DATABASE=Library_DWH;' # Tên cơ sở dữ liệu
+        'DATABASE=DWH_Lib;' # Tên cơ sở dữ liệu
         'UID=itc;'              # Tên đăng nhập
         'PWD=spkt@2025;')
 
@@ -57,7 +57,7 @@ with DAG(
     default_args=default_args,
     description='Load data vào bảng Thống Kê Tài Liệu',
     schedule_interval='@once',
-    start_date=datetime(2024, 3, 4, 13, 0),
+    start_date=datetime(2025, 3, 27, 14, 40),
     catchup=False,
     tags=['etl'],
 ) as dag:
