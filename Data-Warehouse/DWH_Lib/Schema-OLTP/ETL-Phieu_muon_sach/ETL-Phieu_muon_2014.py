@@ -19,7 +19,7 @@ def fetch_data_and_process():
     conn_dwh_library = pyodbc.connect(
         'DRIVER={ODBC Driver 17 for SQL Server};'
         'SERVER=192.168.150.6;' # Địa chỉ IP của SQL Server
-        'DATABASE=Library_DWH;' # Tên cơ sở dữ liệu
+        'DATABASE=DWH_Lib;' # Tên cơ sở dữ liệu
         'UID=itc;'              # Tên đăng nhập
         'PWD=spkt@2025;'
     )
@@ -56,7 +56,7 @@ def fetch_data_and_process():
                                 So_luot_gia_han,
                                 Note
                             FROM An_pham_cho_muon
-                            WHERE YEAR(Ngay_muon) = 2024
+                            WHERE YEAR(Ngay_muon) = 2014
                             """
     df_apcm = fetch_data_in_batches(query_Anphamchomuon, conn_libol, batch_size=100) # Gọi hàm để lấy dữ liệu
 
@@ -70,7 +70,7 @@ def fetch_data_and_process():
                                 So_ngay_qua_han,
                                 Tien_phat
                             FROM Lich_su_muon_sach
-                            WHERE YEAR(Ngay_muon) = 2024
+                            WHERE YEAR(Ngay_muon) = 2014
                             """
     df_lscm = fetch_data_in_batches(query_Lichsumuonsach, conn_libol, batch_size=100) # Gọi hàm để lấy dữ liệu
 
@@ -189,11 +189,11 @@ default_args = {
 }
 
 with DAG(
-    'etl_pms_2024',
+    'oltp_pms_2014',
     default_args=default_args,
-    description='etl dữ liệu phiếu mượn sách',
+    description='etl phiếu mượn sách',
     schedule_interval='@once',
-    start_date=datetime(2025, 3, 3, 12, 30),
+    start_date=datetime(2025, 3, 30, 18, 0),
     catchup=False,
     tags=['etl'],
 ) as dag:
