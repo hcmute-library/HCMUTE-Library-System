@@ -193,7 +193,7 @@ with DAG(
     default_args=default_args,
     description='etl phiếu mượn sách',
     schedule_interval='@once',
-    start_date=datetime(2025, 3, 30, 15, 0),
+    start_date=datetime(2025, 4, 1, 9, 0),
     catchup=False,
     tags=['etl'],
 ) as dag:
