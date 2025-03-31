@@ -21,7 +21,7 @@ def fetch_data_and_process():
                         FROM olap.DIM_Tai_lieu TL
                         JOIN olap.DIM_Xep_gia XG ON TL.ID_tai_lieu = XG.ID_tai_lieu"""
     df_phieumuon = pd.read_sql(query_phieumuon, conn_dwh_library)
-    
+    x
     # Xử lý data
     so_ban_sach = df_phieumuon.groupby(['ID_tai_lieu', 'Ma_tai_lieu', 'Ngay_giao_dich'])['ID_xep_gia'].count().reset_index()
     so_ban_sach = so_ban_sach.rename(columns={'ID_xep_gia': 'So_ban_sach'})
