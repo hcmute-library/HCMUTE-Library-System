@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Bitstream } from '../../core/shared/bitstream.model';
+import { Item } from '../../core/shared/item.model';
 
 @Component({
   selector: 'ds-file-download-link',
@@ -10,7 +11,9 @@ export class FileDownloadLinkComponent implements OnInit {
   @Input() bitstream: Bitstream;
   @Input() cssClasses = '';
   @Input() isBlank = false;
-
+  @Input() item: Item;
+  @Input() enableRequestACopy = true;
+  
   bitstreamHref: string;
 
   ngOnInit() {
