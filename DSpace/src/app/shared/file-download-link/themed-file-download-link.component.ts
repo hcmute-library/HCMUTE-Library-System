@@ -13,17 +13,15 @@ export class ThemedFileDownloadLinkComponent extends ThemedComponent<FileDownloa
 
   @Input() bitstream: Bitstream;
 
-  //@Input() item: Item;
+  @Input() item: Item;
 
   @Input() cssClasses: string;
 
-  //@Input() isBlank: boolean;
+  @Input() isBlank: boolean;
 
   @Input() enableRequestACopy: boolean;
 
-  /**protected inAndOutputNames: (keyof FileDownloadLinkComponent & keyof this)[] = ['bitstream', 'item', 'cssClasses', 'isBlank', 'enableRequestACopy'];
-   */
-  protected inAndOutputNames: (keyof FileDownloadLinkComponent & keyof this)[] = ['bitstream', 'cssClasses', 'isBlank'];
+  protected inAndOutputNames: (keyof FileDownloadLinkComponent & keyof this)[] = ['bitstream', 'item', 'cssClasses', 'isBlank', 'enableRequestACopy'];
 
   protected getComponentName(): string {
     return 'FileDownloadLinkComponent';
