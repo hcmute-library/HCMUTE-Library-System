@@ -10,7 +10,7 @@ import { Item } from '../../core/shared/item.model';
 export class FileDownloadLinkComponent implements OnInit {
   @Input() bitstream: Bitstream;
   @Input() cssClasses = '';
-  @Input() isBlank = false;
+  @Input() isBlank = true;
   @Input() item: Item;
   @Input() enableRequestACopy = true;
   
