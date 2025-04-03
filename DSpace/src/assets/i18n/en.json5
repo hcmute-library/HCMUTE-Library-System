@@ -1938,7 +1938,7 @@
 
   "item.edit.bitstreams.discard-button": "Discard",
 
-  "item.edit.bitstreams.edit.buttons.download": "Download",
+  "item.edit.bitstreams.edit.buttons.download": "Read file",
 
   "item.edit.bitstreams.edit.buttons.drag": "Drag",
 
@@ -2396,8 +2396,10 @@
 
   "item.page.filesection.description": "Description:",
 
-  "item.page.filesection.download": "Download",
-
+  //"item.page.filesection.download": "Download",
+  
+  "item.page.filesection.download": "Read file",
+  
   "item.page.filesection.format": "Format:",
 
   "item.page.filesection.name": "Name:",
