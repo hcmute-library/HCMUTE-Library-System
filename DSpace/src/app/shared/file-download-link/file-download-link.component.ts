@@ -20,4 +20,24 @@ export class FileDownloadLinkComponent implements OnInit {
     // Lấy link trực tiếp tới nội dung file (PDF, image, v.v.)
     this.bitstreamHref = this.bitstream?._links?.content?.href || '';
   }
+  openPDFWithoutToolbar(): void {
+    if (!this.bitstreamHref) return;
+
+    const url = this.bitstreamHref + '#toolbar=0&navpanes=0&scrollbar=0';
+
+    const newWindow = window.open('', '_blank');
+    if (newWindow) {
+      newWindow.document.write(`
+        <html>
+          <head><title>Xem PDF</title></head>
+          <body style="margin:0">
+            <iframe src="${url}" style="width:100vw; height:100vh; border:none;"></iframe>
+          </body>
+        </html>
+      `);
+      newWindow.document.close();
+    }
+  }
 }
+
+
