@@ -20,11 +20,23 @@ export class FileDownloadLinkComponent implements OnInit {
     // Lấy link trực tiếp tới nội dung file (PDF, image, v.v.)
     this.bitstreamHref = this.bitstream?._links?.content?.href || '';
   }
-  openPDFWithoutToolbar(): void {
+  /***openPDFWithoutToolbar(): void {
     if (!this.bitstreamHref) return;
 
     const url = this.bitstreamHref + '#toolbar=0&navpanes=0&scrollbar=0';
     window.open(url, '_blank');
+  }**/
+  openPDFWithoutToolbar(): void {
+    if (!this.bitstreamHref) return;
+
+    const url = this.bitstreamHref + '#toolbar=0&navpanes=0&scrollbar=0';
+
+    // Mở bằng cửa sổ popup thay vì tab mới
+    window.open(
+      url,
+      '_blank',
+      'toolbar=0,location=0,menubar=0,scrollbars=0,status=0,resizable=0,width=1000,height=700'
+    );
   }
 }
 
