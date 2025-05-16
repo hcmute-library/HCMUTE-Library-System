@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import { Bitstream } from '../../core/shared/bitstream.model';
 import { Item } from '../../core/shared/item.model';
 
@@ -13,19 +14,22 @@ export class FileDownloadLinkComponent implements OnInit {
   @Input() isBlank = true;
   @Input() item: Item;
   @Input() enableRequestACopy = true;
-  
-  bitstreamHref: string;
 
-  ngOnInit() {
-    // Lấy link trực tiếp tới nội dung file (PDF, image, v.v.)
+  bitstreamHref: string;
+  safePdfSrc: SafeResourceUrl;
+  isViewerVisible = false;
+
+  constructor(private sanitizer: DomSanitizer) {}
+
+  ngOnInit(): void {
     this.bitstreamHref = this.bitstream?._links?.content?.href || '';
   }
-  openPDFWithoutToolbar(): void {
-    if (!this.bitstreamHref) return;
 
-    const url = this.bitstreamHref + '#toolbar=0&navpanes=0&scrollbar=0';
-    window.open(url, '_blank');
+  showPdfViewer(event: Event): void {
+    event.preventDefault();
+    if (this.bitstreamHref) {
+      this.safePdfSrc = this.sanitizer.bypassSecurityTrustResourceUrl(this.bitstreamHref);
+      this.isViewerVisible = true;
+    }
   }
 }
-
-

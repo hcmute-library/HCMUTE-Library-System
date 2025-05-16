@@ -35,13 +35,33 @@
    [target]="isBlank ? '_blank' : '_self'"
    [ngClass]="cssClasses">
   <ng-container *ngTemplateOutlet="content"></ng-container>
-</a>-->
+</a>
 
 <a href="#" (click)="openPDFWithoutToolbar()"
    class="dont-break-out"
    [ngClass]="cssClasses">
   <ng-container *ngTemplateOutlet="content"></ng-container>
+</a>-->
+
+<!-- Link giả để người dùng click mở PDF -->
+<a href="#" (click)="showPdfViewer($event)"
+   class="dont-break-out"
+   [ngClass]="cssClasses">
+  <ng-container *ngTemplateOutlet="content"></ng-container>
 </a>
+
+<!-- Component PDF viewer -->
+<div *ngIf="isViewerVisible" class="pdf-viewer-wrapper">
+  <pdf-js-viewer
+    [pdfSrc]="safePdfSrc"
+    viewerId="viewer1"
+    [showAll]="true"
+    [disablePrint]="true"
+    [disableDownload]="true"
+    [useBrowserLocale]="true"
+    style="display: block; height: 90vh;">
+  </pdf-js-viewer>
+</div>
 
 <ng-template #content>
   <ng-content></ng-content>

@@ -30,7 +30,7 @@ import { EagerThemesModule } from '../themes/eager-themes.module';
 import { APP_CONFIG, AppConfig } from '../config/app-config.interface';
 import { StoreDevModules } from '../config/store/devtools';
 import { RootModule } from './root.module';
-
+import { PdfJsViewerModule } from 'ng2-pdfjs-viewer';
 export function getConfig() {
   return environment;
 }
@@ -61,6 +61,7 @@ const IMPORTS = [
   StoreDevModules,
   EagerThemesModule,
   RootModule,
+  PdfJsViewerModule,
 ];
 
 const PROVIDERS = [
