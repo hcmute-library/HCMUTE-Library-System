@@ -1,4 +1,5 @@
-import { NgModule } from '@angular/core';
+//import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -285,7 +286,6 @@ import { NgxPaginationModule } from 'ngx-pagination';
 import { ThemedLangSwitchComponent } from './lang-switch/themed-lang-switch.component';
 import {ThemedUserMenuComponent} from './auth-nav-menu/user-menu/themed-user-menu.component';
 import { PdfJsViewerModule } from 'ng2-pdfjs-viewer';
-import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 
 
 const MODULES = [
