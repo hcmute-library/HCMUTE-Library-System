@@ -58,6 +58,7 @@ import { LogInComponent } from './app/shared/log-in/log-in.component';
 import { BrowseEntryListElementComponent } from './app/shared/object-list/browse-entry-list-element/browse-entry-list-element.component';
 import { PersonComponent } from './app/entity-groups/research-entities/item-pages/person/person.component';
 import { LangSwitchComponent } from './app/shared/lang-switch/lang-switch.component';
+import { SharedModule } from '../../app/shared/shared.module';
 
 
 /**
@@ -99,6 +100,7 @@ const DECLARATIONS = [
   EditItemSelectorComponent,
   LogInComponent,
   LangSwitchComponent,
+  FileDownloadLinkComponent,
 ];
 
 @NgModule({
@@ -112,6 +114,7 @@ const DECLARATIONS = [
     ItemPageModule,
     ItemSharedModule,
     DsoPageModule,
+    SharedModule,
   ],
   declarations: DECLARATIONS,
   providers: [
