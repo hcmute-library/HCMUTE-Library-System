@@ -2,6 +2,8 @@ import { Component, Input, OnInit } from '@angular/core';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import { Bitstream } from '../../core/shared/bitstream.model';
 import { Item } from '../../core/shared/item.model';
+import { PdfJsViewerModule } from 'ng2-pdfjs-viewer';
+
 
 @Component({
   selector: 'ds-file-download-link',

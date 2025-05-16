@@ -284,6 +284,9 @@ import { BitstreamListItemComponent } from './object-list/bitstream-list-item/bi
 import { NgxPaginationModule } from 'ngx-pagination';
 import { ThemedLangSwitchComponent } from './lang-switch/themed-lang-switch.component';
 import {ThemedUserMenuComponent} from './auth-nav-menu/user-menu/themed-user-menu.component';
+import { PdfJsViewerModule } from 'ng2-pdfjs-viewer';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
+
 
 const MODULES = [
   CommonModule,
@@ -299,7 +302,8 @@ const MODULES = [
   DragDropModule,
   GoogleRecaptchaModule,
   MenuModule,
-  NgxPaginationModule
+  NgxPaginationModule,
+  PdfJsViewerModule
 ];
 
 const ROOT_MODULES = [

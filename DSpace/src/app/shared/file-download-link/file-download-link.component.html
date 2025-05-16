@@ -50,12 +50,10 @@
   <ng-container *ngTemplateOutlet="content"></ng-container>
 </a>
 
-<!-- Component PDF viewer -->
 <div *ngIf="isViewerVisible" class="pdf-viewer-wrapper">
   <pdf-js-viewer
     [pdfSrc]="safePdfSrc"
     viewerId="viewer1"
-    [showAll]="true"
     style="display: block; height: 90vh;">
   </pdf-js-viewer>
 </div>
