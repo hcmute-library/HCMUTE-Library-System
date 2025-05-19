@@ -26,7 +26,8 @@
    [ngClass]="cssClasses">
   <ng-container *ngTemplateOutlet="content"></ng-container>
 </a>-->
-<a href="#" (click)="openPDFWithoutToolbar()"
+
+<a href="#" (click)="openPDFWithoutToolbar($event)"
    class="dont-break-out"
    [ngClass]="cssClasses">
   <ng-container *ngTemplateOutlet="content"></ng-container>
