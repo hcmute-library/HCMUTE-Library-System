@@ -1,0 +1,36 @@
+<!--<a [routerLink]="(bitstreamPath$| async)?.routerLink" class="dont-break-out" [queryParams]="(bitstreamPath$| async)?.queryParams" [target]="isBlank ? '_blank': '_self'" [ngClass]="cssClasses">
+  <span *ngIf="!(canDownload$ |async)" class="pr-1"><i class="fas fa-lock"></i></span>
+  <ng-container *ngTemplateOutlet="content"></ng-container>
+</a>-->
+
+<!--<a *ngIf="false" [routerLink]="(bitstreamPath$ | async)?.routerLink" 
+   class="dont-break-out"
+   [queryParams]="(bitstreamPath$ | async)?.queryParams"
+   [target]="isBlank ? '_blank': '_self'"
+   [ngClass]="cssClasses">
+  <span *ngIf="!(canDownload$ | async)" class="pr-1"><i class="fas fa-lock"></i></span>
+  <ng-container *ngTemplateOutlet="content"></ng-container>
+</a>-->
+
+<!--a [href]="(bitstreamPath$ | async)?.href"
+   class="dont-break-out"
+   [target]="isBlank ? '_blank' : '_self'"
+   [ngClass]="cssClasses">
+  <span *ngIf="!(canDownload$ | async)" class="pr-1"><i class="fas fa-lock"></i></span>
+  <ng-container *ngTemplateOutlet="content"></ng-container>
+</a>-->
+
+<!--<a [href]="bitstreamHref"
+   class="dont-break-out"
+   [target]="isBlank ? '_blank' : '_self'"
+   [ngClass]="cssClasses">
+  <ng-container *ngTemplateOutlet="content"></ng-container>
+</a>-->
+<a href="#" (click)="openPDFWithoutToolbar()"
+   class="dont-break-out"
+   [ngClass]="cssClasses">
+  <ng-container *ngTemplateOutlet="content"></ng-container>
+</a>
+<ng-template #content>
+  <ng-content></ng-content>
+</ng-template>
