@@ -106,7 +106,7 @@ default_args = {
 }
 
 with DAG(
-    'ETL_Fact_muon_172',
+    'etl_fact_muon',
     default_args=default_args,
     description='Load data vào bảng Thống Kê Mượn',
     schedule_interval='@once',
