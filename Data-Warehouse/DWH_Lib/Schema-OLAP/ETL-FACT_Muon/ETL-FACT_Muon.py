@@ -18,7 +18,7 @@ def fetch_data_and_process():
     )   
 
     # Đọc data từ SQL Server
-    query_phieumuon = """SELECT TOP (100) PMS.ID_phieu_muon, 
+    query_phieumuon = """SELECT PMS.ID_phieu_muon, 
 				                    PMS.ID_ban_doc, 
 				                    PMS.ID_tai_lieu, 
 				                    Ma_xep_gia, 
