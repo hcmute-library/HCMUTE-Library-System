@@ -4,6 +4,7 @@ from datetime import datetime
 import pyodbc
 import pandas as pd
 import numpy as np
+from datetime import datetime
 
 
 # Hàm kết nối và xử lý dữ liệu
@@ -62,7 +63,7 @@ with DAG(
     default_args=default_args,
     description='Load data vào bảng Thống Kê Thư Viện',
     schedule_interval='@daily',
-    start_date=datetime(2024, 6, 10, 22, 10),
+    start_date=datetime(2024, 6, 10, 22, 00),
     catchup=False,
     tags=['etl_daily'],
 ) as dag:
