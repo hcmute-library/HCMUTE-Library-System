@@ -26,7 +26,7 @@ def fetch_data_and_process():
                             WHERE PMS.Ngay_muon = {date_key}"""
     df_phieumuon = pd.read_sql(query_phieumuon, conn_dwh_library)
     
-    if df_phieumuon.empty
+    if df_phieumuon.empty:
         return
         
     # Xử lý data
