@@ -20,7 +20,7 @@ def fetch_data_and_process():
     today = datetime.now()
     date_key = int(today.strftime('%Y%m%d'))
     # Đọc data từ SQL Server
-    query_phieumuon = """SELECT PMS.ID_phieu_muon, PMS.ID_ban_doc, PMS.ID_xep_gia, PMS.Ngay_muon
+    query_phieumuon = f"""SELECT PMS.ID_phieu_muon, PMS.ID_ban_doc, PMS.ID_xep_gia, PMS.Ngay_muon
                         FROM oltp.Phieu_muon_sach PMS
                             JOIN olap.DIM_Ban_doc BD ON PMS.ID_ban_doc = BD.ID_ban_doc
                             JOIN olap.DIM_Xep_gia XG ON PMS.ID_xep_gia = XG.ID_xep_gia
