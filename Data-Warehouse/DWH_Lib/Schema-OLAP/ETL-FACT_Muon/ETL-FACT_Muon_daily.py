@@ -27,7 +27,8 @@ def fetch_data_and_process():
     df_phieumuon = pd.read_sql(query_phieumuon, conn_dwh_library)
     
     if df_phieumuon.empty
-    return
+        return
+        
     # Xử lý data
     So_luot_muon = df_phieumuon.groupby(['ID_ban_doc', 'ID_tai_lieu', 'Ma_xep_gia', 'Ngay_muon'])['ID_phieu_muon'].count().reset_index()
     So_luot_muon = So_luot_muon.rename(columns={'ID_phieu_muon': 'So_luot_muon'})

@@ -84,6 +84,9 @@ def fetch_data_and_process():
                             """
     df_lscm = fetch_data_in_batches(query_Lichsumuonsach, conn_libol, batch_size=100) # Gọi hàm để lấy dữ liệu
 
+    if df_apcm.empty and df_lscm.empty:
+        return
+
     # Xử lý data
     ## Xử lý cột còn thiếu cho 2 bảng
     df_apcm['So_ngay_qua_han'] = None
@@ -91,9 +94,6 @@ def fetch_data_and_process():
     df_apcm['Ngay_tra'] = None     # chỉnh sửa cho ngày trả là None hết vì chưa trả sách
     df_lscm['So_luot_gia_han'] = None
     df_lscm['Note'] = None
-    
-    if df_apcm.empty and df_lscm.empty:
-    return
 
     ## Gộp 2 bảng lại
     df_phieumuon = pd.concat([df_lscm, df_apcm], ignore_index=True)
