@@ -206,7 +206,7 @@ with DAG(
     default_args=default_args,
     description='etl phiếu mượn sách hằng ngày',
     schedule_interval='@daily',
-    start_date=datetime(2024, 6, 1, 20, 0),
+    start_date=datetime(2024, 6, 9, 20, 0),
     catchup=False,
     tags=['etl'],
 ) as dag:
