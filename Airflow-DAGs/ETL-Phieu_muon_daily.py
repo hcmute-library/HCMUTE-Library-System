@@ -24,65 +24,36 @@ def fetch_data_and_process():
         'UID=sa;'              # Tên đăng nhập
         'PWD=spkt@2025;'
     )
-    # Đọc data
-    # Hàm đọc dữ liệu từng phần và xử lý lỗi
-    def fetch_data_in_batches(query_base, connection, batch_size=100):
-        offset = 0
-        all_data = []  # Lưu tất cả các hàng hợp lệ
-        while True:
-            query = f"""
-            {query_base}
-            ORDER BY ID
-            OFFSET {offset} ROWS FETCH NEXT {batch_size} ROWS ONLY
-            """
-            try:
-                # Đọc dữ liệu batch hiện tại
-                df_batch = pd.read_sql(query, connection)
-                if df_batch.empty:  # Nếu không còn dữ liệu, dừng vòng lặp
-                    break
-                all_data.append(df_batch)  # Lưu batch hợp lệ
-                offset += batch_size  # Tăng offset để đọc batch tiếp theo
-            except Exception as e:
-                offset += batch_size  # Bỏ qua batch bị lỗi và tiếp tục
-        # Gộp tất cả các batch thành DataFrame duy nhất
-        return pd.concat(all_data, ignore_index=True) if all_data else pd.DataFrame()
 
     today = datetime.now()
-    current_year = today.year
-    current_month = today.month
-    current_day = today.day
+    
+    # Query bảng An_pham_cho_muon
+    query_Anphamchomuon = f"""
+        SELECT Tai_lieu_ID,
+            Ma_xep_gia, 
+            So_the_ID,
+            Ngay_muon,
+            Ngay_tra,
+            So_luot_gia_han,
+            Note
+        FROM An_pham_cho_muon
+        WHERE CONVERT(DATE, Ngay_muon) = '{today}'
+    """
+    df_apcm = pd.read_sql(query_Anphamchomuon, conn_libol)
 
-    ## Đọc bảng An_pham_cho_muon
-    query_Anphamchomuon = """
-                            SELECT Tai_lieu_ID,
-                                Ma_xep_gia, 
-                                So_the_ID,
-                                Ngay_muon,
-                                Ngay_tra,
-                                So_luot_gia_han,
-                                Note
-                            FROM An_pham_cho_muon
-                            WHERE YEAR(Ngay_muon) = {current_year}
-							    AND MONTH(Ngay_muon) = {current_month}
-                                AND DAY(Ngay_muon) = {current_day}
-                            """
-    df_apcm = fetch_data_in_batches(query_Anphamchomuon, conn_libol, batch_size=100) # Gọi hàm để lấy dữ liệu
-
-    ## Đọc bảng Lich_su_muon_sach
-    query_Lichsumuonsach = """
-                            SELECT Tai_lieu_ID,
-                                Ma_xep_gia, 
-                                So_the_ID,
-                                Ngay_muon,
-                                Ngay_tra,
-                                So_ngay_qua_han,
-                                Tien_phat
-                            FROM Lich_su_muon_sach
-                            WHERE YEAR(Ngay_muon) = {current_year}
-							    AND MONTH(Ngay_muon) = {current_month}
-                                AND DAY(Ngay_muon) = {current_day}
-                            """
-    df_lscm = fetch_data_in_batches(query_Lichsumuonsach, conn_libol, batch_size=100) # Gọi hàm để lấy dữ liệu
+    # Query bảng Lich_su_muon_sach
+    query_Lichsumuonsach = f"""
+        SELECT Tai_lieu_ID,
+            Ma_xep_gia, 
+            So_the_ID,
+            Ngay_muon,
+            Ngay_tra,
+            So_ngay_qua_han,
+            Tien_phat
+        FROM Lich_su_muon_sach
+        WHERE CONVERT(DATE, Ngay_muon) = '{today}'
+    """
+    df_lscm = pd.read_sql(query_Lichsumuonsach, conn_libol)
 
     if df_apcm.empty and df_lscm.empty:
         return
@@ -206,7 +177,7 @@ with DAG(
     default_args=default_args,
     description='etl phiếu mượn sách hằng ngày',
     schedule_interval='@daily',
-    start_date=datetime(2024, 6, 9, 20, 0),
+    start_date=datetime(2024, 6, 10, 21, 0),
     catchup=False,
     tags=['etl'],
 ) as dag:
